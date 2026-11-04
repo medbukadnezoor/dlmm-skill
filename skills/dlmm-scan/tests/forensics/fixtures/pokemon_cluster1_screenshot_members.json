@@ -1,0 +1,96 @@
+{
+ "note": "Cluster 1 (11 wallets, 12.33%) as the owner's screenshot of the expanded map shows it on 2026-10-20 (the 01:56 UTC snapshot): 8 holders and 3 linking wallets that hold none; written in bubblemaps_map.py's member-row format",
+ "cluster": 1,
+ "wallets": 11,
+ "supply_pct": 12.33,
+ "members": [
+  {
+   "rank": 4,
+   "shown": "DuARUp...c6s6",
+   "label": null,
+   "share_pct": 2.59,
+   "kind": "holder",
+   "share_shown": "2.59%"
+  },
+  {
+   "rank": 5,
+   "shown": null,
+   "label": "pump.fun Creator (JAf1)",
+   "share_pct": 2.52,
+   "kind": "holder",
+   "share_shown": "2.52%"
+  },
+  {
+   "rank": 6,
+   "shown": "6DQAGJ...QqqP",
+   "label": null,
+   "share_pct": 2.47,
+   "kind": "holder",
+   "share_shown": "2.47%"
+  },
+  {
+   "rank": 7,
+   "shown": "79nMjs...CDV3",
+   "label": null,
+   "share_pct": 2.15,
+   "kind": "holder",
+   "share_shown": "2.15%"
+  },
+  {
+   "rank": 14,
+   "shown": "5ppcc7...z2kP",
+   "label": null,
+   "share_pct": 1.32,
+   "kind": "holder",
+   "share_shown": "1.32%"
+  },
+  {
+   "rank": 31,
+   "shown": "5DbP2R...91AJ",
+   "label": null,
+   "share_pct": 0.62,
+   "kind": "holder",
+   "share_shown": "0.62%"
+  },
+  {
+   "rank": 36,
+   "shown": "3aQVh4...Cvq4",
+   "label": null,
+   "share_pct": 0.55,
+   "kind": "holder",
+   "share_shown": "0.55%"
+  },
+  {
+   "rank": 142,
+   "shown": "EqBQho...4qvv",
+   "label": null,
+   "share_pct": 0.1,
+   "kind": "holder",
+   "share_shown": "0.10%"
+  },
+  {
+   "rank": null,
+   "shown": null,
+   "label": "pump.fun Creator (u5VZ)",
+   "share_pct": null,
+   "kind": "linking",
+   "linking_icon": "wand"
+  },
+  {
+   "rank": null,
+   "shown": null,
+   "label": "pump.fun Creator (ACdP)",
+   "share_pct": null,
+   "kind": "linking",
+   "linking_icon": "wand"
+  },
+  {
+   "rank": null,
+   "shown": "8AxB8y...b3wD",
+   "label": null,
+   "share_pct": null,
+   "kind": "linking",
+   "linking_icon": "wand"
+  }
+ ]
+}

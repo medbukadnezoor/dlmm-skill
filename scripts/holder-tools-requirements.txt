@@ -1,0 +1,6 @@
+# Pins for the browser environment ("the holder-tools Python") used by the free Bubblemaps map and the Fomo browser fallback.
+# Camoufox must be 0.5.x. Example, from the repository root:
+#   python3 -m venv .venv-browser && .venv-browser/bin/pip install -r scripts/holder-tools-requirements.txt && .venv-browser/bin/python -m camoufox fetch
+#   then: HOLDER_PYTHON=.venv-browser/bin/python bash scripts/run-bubblemaps-map.sh <MINT>
+camoufox==0.5.8
+playwright==1.62.0

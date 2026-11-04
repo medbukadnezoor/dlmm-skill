@@ -1,0 +1,90 @@
+{
+ "schema": "holder-scan-lpagent-pools/1",
+ "collector": "lpagent_pools",
+ "provider": "LP Agent",
+ "mint": "AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C",
+ "status": "ok",
+ "reason": null,
+ "fetched_at": "2026-10-26T03:31:44Z",
+ "http_status": 200,
+ "request": {
+  "method": "GET",
+  "host": "api.lpagent.io",
+  "path": "/open-api/v1/pools/discover?search=<MINT>&platform=meteora&pageSize=20&min_liquidity=1000&sortBy=tvl",
+  "auth_header_names": [
+   "x-api-key"
+  ],
+  "requests_per_scan": 1,
+  "max_requests": 2,
+  "retry_only_after_429_waiting_at_least_s": 12.5,
+  "rate_limit_per_minute": 5,
+  "requests_sent": 1,
+  "waited_s": 0.0
+ },
+ "docs": "provider-docs current/lpagentio/fulldocs.pages/api-reference/pools/discover-pools.md",
+ "answer": {
+  "rows_in_answer": 4,
+  "other_token_rows_dropped": 0,
+  "unreadable_rows": 0,
+  "total_count": 4
+ },
+ "pools": [
+  {
+   "pool": "FZWxV7C4JKKe3wX54MM6QpcVAHtyGrtnPFmihysWfiDB",
+   "token0": "AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C",
+   "token1": "So11111111111111111111111111111111111111112",
+   "protocol": "meteora",
+   "tvl": 84763.10680215669,
+   "fee_24h": 48766.07278663212,
+   "fee_tvl_ratio_24h": 57.53219133467548,
+   "vol_24h": 1575241.266290579,
+   "bin_step": 100,
+   "created_at": "2026-10-25T17:08:42Z",
+   "first_pool_created_at": "2026-10-25T11:34:19Z"
+  },
+  {
+   "pool": "2H2TNJuqivWWM87oZF3pgBa7KhH3ugo6qea5rjkFey2b",
+   "token0": "AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C",
+   "token1": "So11111111111111111111111111111111111111112",
+   "protocol": "meteora",
+   "tvl": 63598.18790640144,
+   "fee_24h": 30068.1106816917,
+   "fee_tvl_ratio_24h": 47.27825064126585,
+   "vol_24h": 1558655.529740977,
+   "bin_step": 100,
+   "created_at": "2026-10-25T17:51:50Z",
+   "first_pool_created_at": "2026-10-25T11:34:19Z"
+  },
+  {
+   "pool": "5Ey2p65wMh1KMBB1MkiUGenRegei9mAKvFm9urShnpuU",
+   "token0": "AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C",
+   "token1": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+   "protocol": "meteora",
+   "tvl": 23379.09560028656,
+   "fee_24h": 27506.32955403468,
+   "fee_tvl_ratio_24h": 117.6535227209453,
+   "vol_24h": 1831340.910351644,
+   "bin_step": 80,
+   "created_at": "2026-10-25T17:18:47Z",
+   "first_pool_created_at": "2026-10-25T11:34:19Z"
+  },
+  {
+   "pool": "HGJWK4PUjjPCGHJ9cxWPDUFWBaCgFr2n3boFGsk8WVoF",
+   "token0": "AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C",
+   "token1": "So11111111111111111111111111111111111111112",
+   "protocol": "meteora",
+   "tvl": 7619.705158838369,
+   "fee_24h": 10685.68311352656,
+   "fee_tvl_ratio_24h": 140.237488075662,
+   "vol_24h": 279037.5950116331,
+   "bin_step": 200,
+   "created_at": "2026-10-25T12:25:37Z",
+   "first_pool_created_at": "2026-10-25T11:34:19Z"
+  }
+ ],
+ "stale": false,
+ "last_updated_at": "2026-10-26T03:30:04Z",
+ "presentation_only": true,
+ "note": "presentation only: a cross-check of Meteora's numbers; never an engine input, never passed to assess, never counted toward NO_ALARM; it never changes a FLAG, verdict or threshold",
+ "cannot_see": "LP Agent's own indexer numbers at one moment; its fee/TVL is always the 24h one; pools under $1,000 of liquidity are not listed (min_liquidity); one call, so a 429 from the shared 5 requests-a-minute key reads not read"
+}

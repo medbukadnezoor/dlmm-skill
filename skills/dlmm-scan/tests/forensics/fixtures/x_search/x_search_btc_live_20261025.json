@@ -1,0 +1,3887 @@
+{
+ "note": "GetXAPI advanced-search and Dexscreener token-pairs response BODIES saved live on 2026-10-25 by the x_search collector (DS-X-LORE-T1); no request or response headers",
+ "mint": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+ "read_at": "2026-10-25T09:47:42Z",
+ "dexscreener": [
+  {
+   "chainId": "solana",
+   "dexId": "pumpswap",
+   "url": "https://dexscreener.com/solana/3m9svgl4u6atkaiexf3xhqqnfmb6ijvzk3memcqaen1w",
+   "pairAddress": "3M9sVgL4u6ATKaiExf3XhQqNfMB6ijvzk3meMcQaen1w",
+   "baseToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "quoteToken": {
+    "address": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+    "name": "Wrapped BTC (Wormhole)",
+    "symbol": "WBTC"
+   },
+   "priceNative": "0.0000001633",
+   "priceUsd": "0.01309",
+   "txns": {
+    "m5": {
+     "buys": 20,
+     "sells": 32
+    },
+    "h1": {
+     "buys": 426,
+     "sells": 411
+    },
+    "h6": {
+     "buys": 2856,
+     "sells": 3290
+    },
+    "h24": {
+     "buys": 8181,
+     "sells": 7874
+    }
+   },
+   "volume": {
+    "h24": 685979.15,
+    "h6": 298619.08,
+    "h1": 25571.63,
+    "m5": 820.84
+   },
+   "priceChange": {
+    "m5": 7.96,
+    "h1": 12.71,
+    "h6": 43.33,
+    "h24": 360
+   },
+   "liquidity": {
+    "usd": 423207.67,
+    "base": 16529127,
+    "quote": 2.5802
+   },
+   "fdv": 12976194,
+   "marketCap": 12976194,
+   "pairCreatedAt": 1789330218000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/NISe7k6pm95eP1fB?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/1xQCrzBy09XXoWZY?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump?timestamp=1792921500000",
+    "websites": [
+     {
+      "url": "https://www.bigtittycoin.fun/",
+      "label": "Website"
+     }
+    ],
+    "socials": []
+   },
+   "boosts": {
+    "active": 100
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "meteora",
+   "url": "https://dexscreener.com/solana/2tfyctqyj2pyrb7cea824o2ybq3jq7agvr3qpv2uvdml",
+   "pairAddress": "2tFYCTqYJ2pyrb7CeA824o2Ybq3jq7agvr3Qpv2uVDmL",
+   "labels": [
+    "DLMM"
+   ],
+   "baseToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "quoteToken": {
+    "address": "So11111111111111111111111111111111111111112",
+    "name": "Wrapped SOL",
+    "symbol": "SOL"
+   },
+   "priceNative": "0.0001249",
+   "priceUsd": "0.01256",
+   "txns": {
+    "m5": {
+     "buys": 27,
+     "sells": 100
+    },
+    "h1": {
+     "buys": 515,
+     "sells": 1114
+    },
+    "h6": {
+     "buys": 4435,
+     "sells": 7745
+    },
+    "h24": {
+     "buys": 13517,
+     "sells": 23491
+    }
+   },
+   "volume": {
+    "h24": 2284275.13,
+    "h6": 1041052.39,
+    "h1": 120974.69,
+    "m5": 9157.82
+   },
+   "priceChange": {
+    "m5": -1.52,
+    "h1": 12.12,
+    "h6": 32.39,
+    "h24": 324
+   },
+   "liquidity": {
+    "usd": 312343.58,
+    "base": 1289509,
+    "quote": 2944.2864
+   },
+   "fdv": 12473687,
+   "marketCap": 12473687,
+   "pairCreatedAt": 1789331109000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/NISe7k6pm95eP1fB?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/1xQCrzBy09XXoWZY?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump?timestamp=1792921500000",
+    "websites": [
+     {
+      "url": "https://www.bigtittycoin.fun/",
+      "label": "Website"
+     }
+    ],
+    "socials": []
+   },
+   "boosts": {
+    "active": 100
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "meteora",
+   "url": "https://dexscreener.com/solana/bbne6tsmvsksc58cehprnh1pnkwhektrykascacutduj",
+   "pairAddress": "BBNe6tSmvsKSc58CEHpRnH1PnkWhekTryKascaCUtDuJ",
+   "labels": [
+    "DLMM"
+   ],
+   "baseToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "quoteToken": {
+    "address": "So11111111111111111111111111111111111111112",
+    "name": "Wrapped SOL",
+    "symbol": "SOL"
+   },
+   "priceNative": "0.0001261",
+   "priceUsd": "0.01269",
+   "txns": {
+    "m5": {
+     "buys": 78,
+     "sells": 80
+    },
+    "h1": {
+     "buys": 1412,
+     "sells": 1362
+    },
+    "h6": {
+     "buys": 6633,
+     "sells": 6161
+    },
+    "h24": {
+     "buys": 6633,
+     "sells": 6161
+    }
+   },
+   "volume": {
+    "h24": 530440.46,
+    "h6": 530440.46,
+    "h1": 128584.31,
+    "m5": 9768.48
+   },
+   "priceChange": {
+    "m5": 0.37,
+    "h1": 13.87,
+    "h6": 35.89,
+    "h24": 35.89
+   },
+   "liquidity": {
+    "usd": 35104.35,
+    "base": 344737,
+    "quote": 305.514
+   },
+   "fdv": 12597165,
+   "marketCap": 12597165,
+   "pairCreatedAt": 1792901042000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/NISe7k6pm95eP1fB?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/1xQCrzBy09XXoWZY?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump?timestamp=1792921500000",
+    "websites": [
+     {
+      "url": "https://www.bigtittycoin.fun/",
+      "label": "Website"
+     }
+    ],
+    "socials": []
+   },
+   "boosts": {
+    "active": 100
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "meteora",
+   "url": "https://dexscreener.com/solana/cgniflf5vyckzqphuxwwgucbhjcpfxirlztgvezo7ysr",
+   "pairAddress": "CGnifLF5vYCkzQPHuxWWGUcBHjCpFXirLZTGVEzo7ysR",
+   "labels": [
+    "DLMM"
+   ],
+   "baseToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "quoteToken": {
+    "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "name": "USDT",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.01279",
+   "priceUsd": "0.01279",
+   "txns": {
+    "m5": {
+     "buys": 6,
+     "sells": 3
+    },
+    "h1": {
+     "buys": 288,
+     "sells": 116
+    },
+    "h6": {
+     "buys": 1396,
+     "sells": 1316
+    },
+    "h24": {
+     "buys": 1396,
+     "sells": 1316
+    }
+   },
+   "volume": {
+    "h24": 109221.89,
+    "h6": 109221.89,
+    "h1": 13857.36,
+    "m5": 12.12
+   },
+   "priceChange": {
+    "m5": 1.01,
+    "h1": 14.28,
+    "h6": 23.48,
+    "h24": 23.48
+   },
+   "liquidity": {
+    "usd": 2161.77,
+    "base": 7010.1443,
+    "quote": 2072.114
+   },
+   "fdv": 12693976,
+   "marketCap": 12693976,
+   "pairCreatedAt": 1792900926000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/NISe7k6pm95eP1fB?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/1xQCrzBy09XXoWZY?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump?timestamp=1792921500000",
+    "websites": [
+     {
+      "url": "https://www.bigtittycoin.fun/",
+      "label": "Website"
+     }
+    ],
+    "socials": []
+   },
+   "boosts": {
+    "active": 100
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "meteora",
+   "url": "https://dexscreener.com/solana/cxbfpnxwzlyybckh7npzpxqcf9dbrx5ep3di2cav2qfv",
+   "pairAddress": "CXbfPNXWzLYybcKH7NpzpxQcf9dBrX5ep3Di2cav2Qfv",
+   "labels": [
+    "DYN2"
+   ],
+   "baseToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "quoteToken": {
+    "address": "So11111111111111111111111111111111111111112",
+    "name": "Wrapped SOL",
+    "symbol": "SOL"
+   },
+   "priceNative": "0.0001232",
+   "priceUsd": "0.01241",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 33,
+     "sells": 30
+    },
+    "h6": {
+     "buys": 152,
+     "sells": 111
+    },
+    "h24": {
+     "buys": 457,
+     "sells": 296
+    }
+   },
+   "volume": {
+    "h24": 1830.14,
+    "h6": 704.67,
+    "h1": 315.9,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 8.57,
+    "h6": 31.91,
+    "h24": 305
+   },
+   "liquidity": {
+    "usd": 354.14,
+    "base": 14283,
+    "quote": 1.7566
+   },
+   "fdv": 12302849,
+   "marketCap": 12302849,
+   "pairCreatedAt": 1789330912000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/NISe7k6pm95eP1fB?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/1xQCrzBy09XXoWZY?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump?timestamp=1792921500000",
+    "websites": [
+     {
+      "url": "https://www.bigtittycoin.fun/",
+      "label": "Website"
+     }
+    ],
+    "socials": []
+   },
+   "boosts": {
+    "active": 100
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "meteora",
+   "url": "https://dexscreener.com/solana/e6cuwztuf75xiz9vsjxujp9nazjvgnjyl3wwkce2wiyw",
+   "pairAddress": "E6CUWZTuf75xiz9vsJxUjP9NazjvGNJYL3WWKcE2WiyW",
+   "labels": [
+    "DLMM"
+   ],
+   "baseToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "quoteToken": {
+    "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "name": "USD Coin",
+    "symbol": "USDC"
+   },
+   "priceNative": "0.01125",
+   "priceUsd": "0.01125",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 13,
+     "sells": 6
+    },
+    "h6": {
+     "buys": 56,
+     "sells": 72
+    },
+    "h24": {
+     "buys": 77,
+     "sells": 96
+    }
+   },
+   "volume": {
+    "h24": 273.2,
+    "h6": 198.58,
+    "h1": 21.86,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 3.17,
+    "h6": 14.97,
+    "h24": 34.85
+   },
+   "liquidity": {
+    "usd": 1211.48,
+    "base": 68.9986,
+    "quote": 1210.7044
+   },
+   "fdv": 11172077,
+   "marketCap": 11172077,
+   "pairCreatedAt": 1792898556000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/NISe7k6pm95eP1fB?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/1xQCrzBy09XXoWZY?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump?timestamp=1792921500000",
+    "websites": [
+     {
+      "url": "https://www.bigtittycoin.fun/",
+      "label": "Website"
+     }
+    ],
+    "socials": []
+   },
+   "boosts": {
+    "active": 100
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "meteora",
+   "url": "https://dexscreener.com/solana/3edk8fwjhhih5pfs8ztsmdj7gtxiy56sel3cqj9p5mfh",
+   "pairAddress": "3eDK8FwjhhiH5PfS8ZTSMdj7gTXiY56SEL3cQJ9P5mFH",
+   "labels": [
+    "DLMM"
+   ],
+   "baseToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "quoteToken": {
+    "address": "So11111111111111111111111111111111111111112",
+    "name": "Wrapped SOL",
+    "symbol": "SOL"
+   },
+   "priceNative": "0.00004126",
+   "priceUsd": "0.004166",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 5,
+     "sells": 4
+    }
+   },
+   "volume": {
+    "h24": 3.11,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h24": -0.56
+   },
+   "liquidity": {
+    "usd": 157.07,
+    "base": 583.7404,
+    "quote": 1.5318
+   },
+   "fdv": 4134570,
+   "marketCap": 4134570,
+   "pairCreatedAt": 1789330491000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/NISe7k6pm95eP1fB?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/1xQCrzBy09XXoWZY?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump?timestamp=1792921500000",
+    "websites": [
+     {
+      "url": "https://www.bigtittycoin.fun/",
+      "label": "Website"
+     }
+    ],
+    "socials": []
+   },
+   "boosts": {
+    "active": 100
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "meteora",
+   "url": "https://dexscreener.com/solana/2hn2wpgbkor65wtmngxkwym9e4xnfpwdwnz4qxws4rfr",
+   "pairAddress": "2hn2wPGbKor65wTMNGxKwyM9e4xNfpWDwNZ4qxws4rfR",
+   "labels": [
+    "DYN2"
+   ],
+   "baseToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "quoteToken": {
+    "address": "9xzmB67zWX8PJiGpQFbWuNBXTqyPpu2qV3mxQfhqUREV",
+    "name": "Celestial SOL Router",
+    "symbol": "CSR"
+   },
+   "priceNative": "467.8801",
+   "priceUsd": "0.01278",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 14,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 50,
+     "sells": 34
+    },
+    "h24": {
+     "buys": 220,
+     "sells": 111
+    }
+   },
+   "volume": {
+    "h24": 56.49,
+    "h6": 30.45,
+    "h1": 1.93,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 13.64,
+    "h6": 34.79,
+    "h24": 320
+   },
+   "liquidity": {
+    "usd": 51,
+    "base": 1982.9037,
+    "quote": 938287
+   },
+   "fdv": 12674753,
+   "marketCap": 12674753,
+   "pairCreatedAt": 1792692904000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/NISe7k6pm95eP1fB?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/1xQCrzBy09XXoWZY?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump?timestamp=1792921500000",
+    "websites": [
+     {
+      "url": "https://www.bigtittycoin.fun/",
+      "label": "Website"
+     }
+    ],
+    "socials": []
+   },
+   "boosts": {
+    "active": 100
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "meteora",
+   "url": "https://dexscreener.com/solana/4sfl1znwa41bvytdmayutsw141xerjyqng46bcngffdv",
+   "pairAddress": "4sFL1zNWA41bvyTDmAYUTsw141XErJYQNg46BCNGFfdv",
+   "labels": [
+    "DLMM"
+   ],
+   "baseToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "quoteToken": {
+    "address": "So11111111111111111111111111111111111111112",
+    "name": "Wrapped SOL",
+    "symbol": "SOL"
+   },
+   "priceNative": "0.0001289",
+   "priceUsd": "0.01297",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 17,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 51,
+     "sells": 30
+    },
+    "h24": {
+     "buys": 71,
+     "sells": 32
+    }
+   },
+   "volume": {
+    "h24": 208.21,
+    "h6": 43.49,
+    "h1": 10.09,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 19.87,
+    "h6": 67.54,
+    "h24": 63.74
+   },
+   "liquidity": {
+    "usd": 44.36,
+    "base": 2457.8193,
+    "quote": 0.124
+   },
+   "fdv": 12875941,
+   "marketCap": 12875941,
+   "pairCreatedAt": 1792892249000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/NISe7k6pm95eP1fB?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/1xQCrzBy09XXoWZY?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump?timestamp=1792921500000",
+    "websites": [
+     {
+      "url": "https://www.bigtittycoin.fun/",
+      "label": "Website"
+     }
+    ],
+    "socials": []
+   },
+   "boosts": {
+    "active": 100
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "meteora",
+   "url": "https://dexscreener.com/solana/7ir3f6wbxmdv7twjf5wghxphlyrn2duhvaig7jbys31n",
+   "pairAddress": "7ir3F6Wbxmdv7Twjf5WghxphLyRN2Duhvaig7JbyS31n",
+   "labels": [
+    "DYN2"
+   ],
+   "baseToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "quoteToken": {
+    "address": "EDTmJjr4VoV9S8ftCQFt4ZBvmDy9s1tBoiWVrmDApump",
+    "name": "HQ Solana",
+    "symbol": "HQ"
+   },
+   "priceNative": "554.1797",
+   "priceUsd": "0.01294",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 9,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 28,
+     "sells": 12
+    },
+    "h24": {
+     "buys": 34,
+     "sells": 12
+    }
+   },
+   "volume": {
+    "h24": 9.05,
+    "h6": 7.71,
+    "h1": 1.33,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 12.65,
+    "h6": 41.29,
+    "h24": 58.95
+   },
+   "liquidity": {
+    "usd": 47.82,
+    "base": 1841.5034,
+    "quote": 1026147
+   },
+   "fdv": 12833953,
+   "marketCap": 12833953,
+   "pairCreatedAt": 1792897642000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/NISe7k6pm95eP1fB?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/1xQCrzBy09XXoWZY?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump?timestamp=1792921500000",
+    "websites": [
+     {
+      "url": "https://www.bigtittycoin.fun/",
+      "label": "Website"
+     }
+    ],
+    "socials": []
+   },
+   "boosts": {
+    "active": 100
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "meteora",
+   "url": "https://dexscreener.com/solana/eealetkomynss5kp3sbuawxn5n4lx5c9mjhntpyush1h",
+   "pairAddress": "EeaLETKomynSs5kP3SbUaWxN5n4LX5C9MjHNTPYUsh1h",
+   "labels": [
+    "DYN2"
+   ],
+   "baseToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "quoteToken": {
+    "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "name": "USDT",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.007119",
+   "priceUsd": "0.007119",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 5,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 5,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 0.18,
+    "h6": 0.18,
+    "h1": 0.01,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 12.73,
+    "h6": 665,
+    "h24": 665
+   },
+   "liquidity": {
+    "usd": 0.42,
+    "base": 29.2072,
+    "quote": 0.2195
+   },
+   "fdv": 7056663,
+   "marketCap": 7056663,
+   "pairCreatedAt": 1789442294000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/NISe7k6pm95eP1fB?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/1xQCrzBy09XXoWZY?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump?timestamp=1792921500000",
+    "websites": [
+     {
+      "url": "https://www.bigtittycoin.fun/",
+      "label": "Website"
+     }
+    ],
+    "socials": []
+   },
+   "boosts": {
+    "active": 100
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "meteora",
+   "url": "https://dexscreener.com/solana/caugbb98qbzgqbbqpclqfmszjdhddpqda22wjqylpi6o",
+   "pairAddress": "CaUgbB98qBZgQBbQPcLqFMszjdHddpqdA22wJqyLpi6o",
+   "labels": [
+    "DYN2"
+   ],
+   "baseToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "quoteToken": {
+    "address": "So11111111111111111111111111111111111111112",
+    "name": "Wrapped SOL",
+    "symbol": "SOL"
+   },
+   "priceNative": "0.0001290",
+   "priceUsd": "0.01297",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 11,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 62,
+     "sells": 15
+    },
+    "h24": {
+     "buys": 152,
+     "sells": 43
+    }
+   },
+   "volume": {
+    "h24": 20.32,
+    "h6": 20.31,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 15.53,
+    "h6": 35.48,
+    "h24": 340
+   },
+   "liquidity": {
+    "usd": 0.01,
+    "base": 0.5362,
+    "quote": 6.856e-05
+   },
+   "fdv": 12863272,
+   "marketCap": 12863272,
+   "pairCreatedAt": 1789340623000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/NISe7k6pm95eP1fB?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/1xQCrzBy09XXoWZY?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump?timestamp=1792921500000",
+    "websites": [
+     {
+      "url": "https://www.bigtittycoin.fun/",
+      "label": "Website"
+     }
+    ],
+    "socials": []
+   },
+   "boosts": {
+    "active": 100
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "meteora",
+   "url": "https://dexscreener.com/solana/4k6ghwn6mxwhwvxjrlhptnswm2z3i7zmuyhqoik5gxlk",
+   "pairAddress": "4k6GHWN6MxWhWVxJRLhPTNSWm2Z3i7zMuyHqoik5GxLK",
+   "labels": [
+    "DYN2"
+   ],
+   "baseToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "quoteToken": {
+    "address": "21Dt6Ne2tQ8wQ5j6G2zahtF1tskJqRmtSaaSwXjyBJVz",
+    "name": "PEPE DIAMOND",
+    "symbol": "PEPE"
+   },
+   "priceNative": "106.3422",
+   "priceUsd": "0.01287",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 7,
+     "sells": 5
+    },
+    "h6": {
+     "buys": 27,
+     "sells": 26
+    },
+    "h24": {
+     "buys": 106,
+     "sells": 97
+    }
+   },
+   "volume": {
+    "h24": 6.68,
+    "h6": 2.23,
+    "h1": 0.37,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 15.23,
+    "h6": 35.4,
+    "h24": 333
+   },
+   "liquidity": {
+    "usd": 7.34,
+    "base": 287.07705,
+    "quote": 30168
+   },
+   "fdv": 12760604,
+   "marketCap": 12760604,
+   "pairCreatedAt": 1789430755000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/NISe7k6pm95eP1fB?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/1xQCrzBy09XXoWZY?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump?timestamp=1792921500000",
+    "websites": [
+     {
+      "url": "https://www.bigtittycoin.fun/",
+      "label": "Website"
+     }
+    ],
+    "socials": []
+   },
+   "boosts": {
+    "active": 100
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/4iu8wgxx1kvb4fb2cghcsvt7nxmxzldfhgk2arcxnkud",
+   "pairAddress": "4iu8WGXX1kvB4fb2CgHCSvt7NXMxZLDfHgk2ARcxnKuD",
+   "baseToken": {
+    "address": "AbkZJK4cNfkH5bmPPdSR7GhFAZEtWpwkLT3RTH2Hpump",
+    "name": "Hot Yoga Pants Enthusiast ",
+    "symbol": "HYPE"
+   },
+   "quoteToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "priceNative": "0.005380",
+   "txns": {
+    "m5": {
+     "buys": 2,
+     "sells": 3
+    },
+    "h1": {
+     "buys": 77,
+     "sells": 31
+    },
+    "h6": {
+     "buys": 440,
+     "sells": 264
+    },
+    "h24": {
+     "buys": 1333,
+     "sells": 846
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792829295000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/GSy-m8gJdEZXbVZR?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/3-gVchze1dIQHzf9?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/AbkZJK4cNfkH5bmPPdSR7GhFAZEtWpwkLT3RTH2Hpump?timestamp=1792921500000",
+    "websites": [],
+    "socials": []
+   },
+   "boosts": {
+    "active": 30
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/12ztsatmhycezjfvjpb5y4b3rvuchzsjekppofpmnt6w",
+   "pairAddress": "12ZtSaTMhyceZjFvjPB5y4B3rVucHZsJeKpPofPmnt6w",
+   "baseToken": {
+    "address": "5YDuCbCHVqaNym6HWHViuWxqPLnjkPCueV9hUgzHpump",
+    "name": "Gooning Made Easy",
+    "symbol": "$GME"
+   },
+   "quoteToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "priceNative": "0.0008830",
+   "txns": {
+    "m5": {
+     "buys": 13,
+     "sells": 6
+    },
+    "h1": {
+     "buys": 274,
+     "sells": 149
+    },
+    "h6": {
+     "buys": 275,
+     "sells": 149
+    },
+    "h24": {
+     "buys": 275,
+     "sells": 149
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792917134000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/_UnFeLDAzR16pPJW?width=800&height=800&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5YDuCbCHVqaNym6HWHViuWxqPLnjkPCueV9hUgzHpump?timestamp=1792921500000",
+    "websites": [
+     {
+      "url": "https://pump.fun/coin/5YDuCbCHVqaNym6HWHViuWxqPLnjkPCueV9hUgzHpump?highlight_callout=80f6d1cf-5c31-4d8b-857d-8a30bc3cf427",
+      "label": "GME"
+     }
+    ],
+    "socials": []
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/4adeagmnxceswngwbrdnwnsjgguiyppfxehvrxvbjyne",
+   "pairAddress": "4AdeAgMNxCESWngWbRdnWnSjGGUiypPfxEHVRxvbJYnE",
+   "baseToken": {
+    "address": "umXBYVG9NZsij5gWyVYRBEbVxJucEfX4B69RNZ2pump",
+    "name": "Some Large Insanely Nice Gooner",
+    "symbol": "sling"
+   },
+   "quoteToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "priceNative": "0.0006059",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 19,
+     "sells": 13
+    },
+    "h6": {
+     "buys": 429,
+     "sells": 262
+    },
+    "h24": {
+     "buys": 429,
+     "sells": 262
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792902390000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/Kx-Zq6K_mLdq37tF?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/kPc7NqF32iOkBURC?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/umXBYVG9NZsij5gWyVYRBEbVxJucEfX4B69RNZ2pump?timestamp=1792921500000",
+    "websites": [],
+    "socials": [
+     {
+      "url": "https://x.com/DaliGambol/status/2114211972237414538",
+      "type": "twitter"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/9pypueyzpsjvqkiyww4gxssxsld4toi5qw3uattp8hfg",
+   "pairAddress": "9PyPUEYZpSjVqKiyWw4gxSSxsLD4Toi5Qw3uAttp8HFg",
+   "baseToken": {
+    "address": "6BKXVdqvh4o4NmiThJtmnP1yFkNyickxWoqsM4WHpump",
+    "name": "United States Dollar Titties",
+    "symbol": "USDT"
+   },
+   "quoteToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "priceNative": "0.0004641",
+   "txns": {
+    "m5": {
+     "buys": 29,
+     "sells": 15
+    },
+    "h1": {
+     "buys": 29,
+     "sells": 15
+    },
+    "h6": {
+     "buys": 29,
+     "sells": 15
+    },
+    "h24": {
+     "buys": 29,
+     "sells": 15
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792921543000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/4px49prlsmicgmyzj3hjhq2pqgmsymsfvvth5e9qihur",
+   "pairAddress": "4px49pRLSMiCgmYZJ3hJhq2PQgMsyMSFvVtH5E9qiHuR",
+   "baseToken": {
+    "address": "6FFxgWEdntWbnDzDu9crCxUPh28j5MSL6DhYVpZEBEW3",
+    "name": "Two Really Outstanding Naturals",
+    "symbol": "TRON"
+   },
+   "quoteToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "priceNative": "0.0003648",
+   "txns": {
+    "m5": {
+     "buys": 30,
+     "sells": 20
+    },
+    "h1": {
+     "buys": 30,
+     "sells": 20
+    },
+    "h6": {
+     "buys": 30,
+     "sells": 20
+    },
+    "h24": {
+     "buys": 30,
+     "sells": 20
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792921547000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/4jdu1xfqldgu3a9vui4wlnbrntplggmq97d3te2yxswg",
+   "pairAddress": "4JDu1xFQLdgU3A9VUi4WLnBRNTpLgGMQ97D3te2YxsWg",
+   "baseToken": {
+    "address": "Fs2VD84eFCSRVPSLeZ6yyragRmj3YJE1iNt91p13ZyC1",
+    "name": "Huge Objects Of Distraction",
+    "symbol": "HOOD"
+   },
+   "quoteToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "priceNative": "0.0003016",
+   "txns": {
+    "m5": {
+     "buys": 47,
+     "sells": 43
+    },
+    "h1": {
+     "buys": 47,
+     "sells": 43
+    },
+    "h6": {
+     "buys": 47,
+     "sells": 43
+    },
+    "h24": {
+     "buys": 47,
+     "sells": 43
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792921443000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/cpdauqhmwnj3bbemnahyfs65xcjnfyxibjcndewj8gnn",
+   "pairAddress": "CPdaUQhMwnj3BBeMnAHYfs65XcjnFyXiBJcNDEwJ8gNn",
+   "baseToken": {
+    "address": "GBZcCHK8ny1vdFzTW6oqmaMAz2rHzs6f84cHPRQbpump",
+    "name": "Baby Titty Coin",
+    "symbol": "bBTC"
+   },
+   "quoteToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "priceNative": "0.0007516",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 16,
+     "sells": 8
+    },
+    "h6": {
+     "buys": 106,
+     "sells": 65
+    },
+    "h24": {
+     "buys": 389,
+     "sells": 278
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792891213000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/iUAulXF8vK1UOBlS?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/pk77oY3AOm9p1ULX?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/GBZcCHK8ny1vdFzTW6oqmaMAz2rHzs6f84cHPRQbpump?timestamp=1792921500000",
+    "websites": [],
+    "socials": []
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/da7roz5htrscvctshjzzpb21svlg923p6xssajexcgdg",
+   "pairAddress": "DA7roz5hTRSCVCTShJzZPB21SvLg923P6xsSaJexCgDG",
+   "baseToken": {
+    "address": "6MpaFHPnyuoV3NDdBT3fupyzSCWgvbchZF6cKYRWpump",
+    "name": "Milky OversIzed Naturals ",
+    "symbol": "MON"
+   },
+   "quoteToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "priceNative": "0.0009529",
+   "txns": {
+    "m5": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 1,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 37,
+     "sells": 31
+    },
+    "h24": {
+     "buys": 563,
+     "sells": 605
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792882205000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/8kUj1pHkRYOTh0sF?width=800&height=800&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/6MpaFHPnyuoV3NDdBT3fupyzSCWgvbchZF6cKYRWpump?timestamp=1792921500000",
+    "websites": [],
+    "socials": []
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/7jhjxaukuacniyumfayh4tz9awyu3sfac7suhazkvphw",
+   "pairAddress": "7jHjxaUKuAcniYumfAYh4TZ9AWyU3sFAc7suhaZKVPHw",
+   "baseToken": {
+    "address": "7GNXdW2Tb3sHsVmS2hF1or52K6Cmo5t9Dcxeyjtnpump",
+    "name": "Super Peachy Yams",
+    "symbol": "SPY"
+   },
+   "quoteToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "priceNative": "0.001341",
+   "txns": {
+    "m5": {
+     "buys": 1,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 6,
+     "sells": 5
+    },
+    "h6": {
+     "buys": 169,
+     "sells": 100
+    },
+    "h24": {
+     "buys": 1043,
+     "sells": 668
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792889240000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/8-f23Yg3BWuNjSPt?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/k1sIL9uk5LUlaENU?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/7GNXdW2Tb3sHsVmS2hF1or52K6Cmo5t9Dcxeyjtnpump?timestamp=1792921500000",
+    "websites": [
+     {
+      "url": "https://pump.fun/profile/5YRgrP3mjGzrzirYYN5HAQH19cTYREYwGxW6XRJQUzij",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/esotericpigeon/status/2114156790481113346?s=20",
+      "type": "twitter"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/65x85fgvtb6h6ox5e39ya654nc4ms4dbkzgksmqzyg5p",
+   "pairAddress": "65X85fGVTb6H6ox5e39YA654nc4MS4DbkzgksMqzYG5P",
+   "baseToken": {
+    "address": "B3icuZZxZw3QNCYd6XDcpGsbUDNxyVwRK4v65cnJpump",
+    "name": "Tits Squirting Liquid Assets",
+    "symbol": "TSLA"
+   },
+   "quoteToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "priceNative": "0.001186",
+   "txns": {
+    "m5": {
+     "buys": 22,
+     "sells": 10
+    },
+    "h1": {
+     "buys": 668,
+     "sells": 539
+    },
+    "h6": {
+     "buys": 1095,
+     "sells": 713
+    },
+    "h24": {
+     "buys": 1095,
+     "sells": 713
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792914729000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/3jurhk1j9cgcg9ayuvusdewiulcsngjnp9n8kcaxpfkr",
+   "pairAddress": "3JurHK1j9CgCg9ayuVusdewiuLCSngjnp9N8kCaxPFkr",
+   "baseToken": {
+    "address": "2pCYp67pjeQAmrp4qvkdwENwzQkcCjzdnCi54VL2pump",
+    "name": "Horny Young Perverts Everywhere",
+    "symbol": "HYPE"
+   },
+   "quoteToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "priceNative": "0.0003327",
+   "txns": {
+    "m5": {
+     "buys": 7,
+     "sells": 2
+    },
+    "h1": {
+     "buys": 28,
+     "sells": 7
+    },
+    "h6": {
+     "buys": 28,
+     "sells": 7
+    },
+    "h24": {
+     "buys": 28,
+     "sells": 7
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792920451000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/2akbr2xb1srkfbjfcvx5cgeucf6spzh8ue6or8xuctxj",
+   "pairAddress": "2AKBR2Xb1Srkfbjfcvx5CgeUcF6spZh8Ue6oR8Xuctxj",
+   "baseToken": {
+    "address": "8DYdcWGeJKLkSFVfyoPSgH3hjW3f3ZTGtLrNx2aqpump",
+    "name": "WRAPPED BIG TITTY COIN",
+    "symbol": "WBTC"
+   },
+   "quoteToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "priceNative": "0.001466",
+   "txns": {
+    "m5": {
+     "buys": 12,
+     "sells": 24
+    },
+    "h1": {
+     "buys": 616,
+     "sells": 391
+    },
+    "h6": {
+     "buys": 744,
+     "sells": 480
+    },
+    "h24": {
+     "buys": 744,
+     "sells": 480
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792913085000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/cgdaed4ugavs7hekyf4c6am94enq6w4yydeswflhjpuh",
+   "pairAddress": "CGDaEd4UgAVS7HeKyf4C6AM94enq6w4YYDESwfLHjpuH",
+   "baseToken": {
+    "address": "9jdTLmQdybwdvv3SLnagamkLMSRueLq2iP75otmBpump",
+    "name": "Fucking Incredibly Lovely",
+    "symbol": "FIL"
+   },
+   "quoteToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "priceNative": "0.001758",
+   "txns": {
+    "m5": {
+     "buys": 1,
+     "sells": 2
+    },
+    "h1": {
+     "buys": 13,
+     "sells": 18
+    },
+    "h6": {
+     "buys": 864,
+     "sells": 520
+    },
+    "h24": {
+     "buys": 864,
+     "sells": 520
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792907872000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/49l24zab7hq5rm2kaxyeyhnazegfosssbv9rc22m85vz",
+   "pairAddress": "49L24zAB7HQ5rm2kaxYEYHNaZegFosSsbV9rC22m85Vz",
+   "baseToken": {
+    "address": "3D5t5q8WMHxz5ZZ2DjECBN9BzD31BQfBHYymRo5kpump",
+    "name": "All About Perfect Lactators",
+    "symbol": "APPL"
+   },
+   "quoteToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "priceNative": "0.0004531",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 25,
+     "sells": 10
+    },
+    "h6": {
+     "buys": 31,
+     "sells": 13
+    },
+    "h24": {
+     "buys": 31,
+     "sells": 13
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792913877000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpswap",
+   "url": "https://dexscreener.com/solana/czy3kvvgktpkqyrqsznt56pknzrwsrcjzkqrryspg2bs",
+   "pairAddress": "CzY3kVvgKtpKQyRQsZnT56pKnzRWsrCjzKqRrYSPG2bS",
+   "baseToken": {
+    "address": "DffdPtAKvnP91k9Ct6QvZ8TwVvWbJ6CxRtGNGNh9pump",
+    "name": "Little Titty Coin",
+    "symbol": "LTC"
+   },
+   "quoteToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "priceNative": "0.4302",
+   "priceUsd": "0.005607",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 400,
+     "sells": 180
+    },
+    "h6": {
+     "buys": 2488,
+     "sells": 1023
+    },
+    "h24": {
+     "buys": 4304,
+     "sells": 2224
+    }
+   },
+   "volume": {
+    "h24": 339696.89,
+    "h6": 178558.01,
+    "h1": 29024.99,
+    "m5": 11.56
+   },
+   "priceChange": {
+    "m5": 3.24,
+    "h1": 19.08,
+    "h6": 36.32,
+    "h24": 332
+   },
+   "liquidity": {
+    "usd": 1287754.38,
+    "base": 121984357,
+    "quote": 46327512
+   },
+   "fdv": 5440207,
+   "marketCap": 5440207,
+   "pairCreatedAt": 1792466111000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/d15NmwfuwA_RyDlg?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/Moe9-XRbmGC3KxTB?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DffdPtAKvnP91k9Ct6QvZ8TwVvWbJ6CxRtGNGNh9pump?timestamp=1792921500000",
+    "websites": [
+     {
+      "url": "https://www.bigtittycoin.fun/",
+      "label": "Website"
+     },
+     {
+      "url": "https://pump.fun/coin/DffdPtAKvnP91k9Ct6QvZ8TwVvWbJ6CxRtGNGNh9pump",
+      "label": "Pumpfun"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/littletittycoin",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/littletittycoin",
+      "type": "telegram"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/4dwkveybeavg3tqkxuc3xprpmv21v5zbgknhua3tcl7r",
+   "pairAddress": "4dwkVeybEaVg3tQkXUc3XprpmV21v5zBgkNHua3TCL7R",
+   "baseToken": {
+    "address": "FqRGhBAkAMK8EfZH2g4Rw1JmNJSg9biZoTECnYLGpump",
+    "name": "Zesty Explicit Curves",
+    "symbol": "ZEC"
+   },
+   "quoteToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "priceNative": "0.008115",
+   "txns": {
+    "m5": {
+     "buys": 8,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 40,
+     "sells": 21
+    },
+    "h6": {
+     "buys": 209,
+     "sells": 149
+    },
+    "h24": {
+     "buys": 930,
+     "sells": 591
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792843358000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpswap",
+   "url": "https://dexscreener.com/solana/41tkwinwdfgv1spic7ogb8gfawmsekas86hcxiahdhe8",
+   "pairAddress": "41TKwiNWDfGv1SPiC7ogB8gFaWmsEkAs86hcXiahDHE8",
+   "baseToken": {
+    "address": "H5n1Csm8SSN9V4DXdWheVWqZNS8pA813FhyWsdJ6pump",
+    "name": "Strategic Underboob Investment ",
+    "symbol": "SUI"
+   },
+   "quoteToken": {
+    "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "name": "Big Titty Coin",
+    "symbol": "BTC"
+   },
+   "priceNative": "0.02680",
+   "priceUsd": "0.0003493",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 6
+    },
+    "h1": {
+     "buys": 9,
+     "sells": 14
+    },
+    "h6": {
+     "buys": 109,
+     "sells": 80
+    },
+    "h24": {
+     "buys": 383,
+     "sells": 366
+    }
+   },
+   "volume": {
+    "h24": 73634.76,
+    "h6": 29437.73,
+    "h1": 1462.66,
+    "m5": 238.66
+   },
+   "priceChange": {
+    "m5": -3.11,
+    "h1": 14.93,
+    "h6": -1.28,
+    "h24": 251
+   },
+   "liquidity": {
+    "usd": 120984.45,
+    "base": 191053869,
+    "quote": 4162141
+   },
+   "fdv": 335929,
+   "marketCap": 335929,
+   "pairCreatedAt": 1792880467000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/qi0rOe50wikLghZt?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/0IGxNAbBju8tocvz?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/H5n1Csm8SSN9V4DXdWheVWqZNS8pA813FhyWsdJ6pump?timestamp=1792921500000",
+    "websites": [],
+    "socials": [
+     {
+      "url": "https://x.com/suititty?s=11",
+      "type": "twitter"
+     }
+    ]
+   }
+  }
+ ],
+ "searches": [
+  {
+   "q": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+   "product": "Latest",
+   "at": "2026-10-25T09:47:42Z",
+   "body": {
+    "query": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "tweet_count": 20,
+    "has_more": true,
+    "next_cursor": "DAADDAABCgABHVd547LaIZoKAAIdV0wTcJZQ5gAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUdV3oeF4AnEAoABh1Xeh4Xf9jwCwAHAAAA8EVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFCUWRWMXp3SWhlQk14MVhUQjJhVzhBbkhWZE02V3VXWUR3ZFYyQW1pVmZRT3gxWFhmTGNsdUFHSFZkNXRuM1c0UzBkVjNSd1doc2dZaDFYWGIxWUZ6RU1IVmRkMGJGWElOZ2RWMHdUY0paUTVoMVhURVNzbGdEOUhWZHp5NUhiVUd3ZFYxL3loWnFoU2gxWFRHNVZGekVRSFZkZmdIcldNU1lkVjB4ZEpsYXcvUjFYWGpUcWx5RExIVmQ1NDdMYUlab2RWMVdhMU5ZaHF4MVhXQm5FMThFMgAA",
+    "tweets": [
+     {
+      "type": "tweet",
+      "id": "2114292568938914202",
+      "url": "https://x.com/Meme_insidersT/status/2114292568938914202",
+      "twitterUrl": "https://twitter.com/Meme_insidersT/status/2114292568938914202",
+      "text": "1,612.5X \ud83d\ude80\ud83d\udd25 from my $BTC call.\n\nCalled early. Momentum went CRAZY. \ud83d\udcc8\ud83d\udcb0\n\nCA: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump https://t.co/DLZ6sh816y",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 17,
+      "createdAt": "Sun Oct 25 09:46:44 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114292568938914202",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVd54XtWYAAfqB3.jpg",
+        "expanded_url": "https://x.com/Meme_insidersT/status/2114292568938914202/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Meme_insidersT",
+       "url": "https://x.com/Meme_insidersT",
+       "id": "187853768",
+       "name": "MR MEMECOIN \ud83d\udcb9",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2111851530521374720/PHpD2fwc_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/187853768/1792886054",
+       "description": "Early alpha Solana analyst || Precision entries || Entry and exit #solana || Daily 10\u2013100x \ud83d\udd4a\ufe0f on my Telegram",
+       "location": "Los Angeles, CA",
+       "followers": 2056,
+       "following": 29,
+       "createdAt": "Tue Sep 07 09:48:35 +0000 2010",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114292445290881256",
+       "text": "Watch your entry on $BTC\nGamble for entry \nCA:\n\nBTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC https://t.co/7v9prbpMfC",
+       "user": {
+        "name": "MR MEMECOIN \ud83d\udcb9",
+        "screen_name": "Meme_insidersT"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114292374775980333",
+      "url": "https://x.com/DegenFlow_/status/2114292374775980333",
+      "twitterUrl": "https://twitter.com/DegenFlow_/status/2114292374775980333",
+      "text": "1,612.5X \ud83d\ude80\ud83d\udd25 from my $BTC call.\n\nCalled early. Momentum went CRAZY. \ud83d\udcc8\ud83d\udcb0\n\nCA: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\n\n#Solana #SolanaMemecoins #Memecoin https://t.co/ZY3AOjBKIj",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 170,
+      "createdAt": "Sun Oct 25 09:45:58 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114292374775980333",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVd5tB9WsAAjvS2.jpg",
+        "expanded_url": "https://x.com/DegenFlow_/status/2114292374775980333/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "DegenFlow_",
+       "url": "https://x.com/DegenFlow_",
+       "id": "475903495",
+       "name": "Degen Flow",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2087311448724905984/EEExXBZg_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/475903495/1786488816",
+       "description": "God fearing | Spotting the next 1000x memecoin while staying grounded in faith | Charts + conviction | NFA",
+       "location": "",
+       "followers": 6088,
+       "following": 9,
+       "createdAt": "Fri Jan 27 15:23:17 +0000 2012",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114261617881854220",
+       "text": "8k to $BTC \ud83d\ude80\ud83d\udcc8\n\nCA: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\n\nKeeping an eye on this one.\ud83d\udc40\n\n#Solana #CryptoAlpha #Memecoin #Degen https://t.co/puxJT4Nwzb",
+       "user": {
+        "name": "Degen Flow",
+        "screen_name": "DegenFlow_"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114286575970623586",
+      "url": "https://x.com/1000x_Hunter_/status/2114286575970623586",
+      "twitterUrl": "https://twitter.com/1000x_Hunter_/status/2114286575970623586",
+      "text": "$BTC went bonkers \ud83d\ude80\ud83d\udd25 Snagged a smooth 472x like it was breakfast. Copy traders? Kicking back, riding the wave like pros. TG fam out here dining on wins \ud83d\ude0e\ud83c\udf7d\ufe0f What can I say\u2026 greatness just follows me \ud83d\ude0f \n\nC5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump https://t.co/Y6M0fiqu17",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 55,
+      "createdAt": "Sun Oct 25 09:22:55 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114286575970623586",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVd0Gh3bAAAlXJL.jpg",
+        "expanded_url": "https://x.com/1000x_Hunter_/status/2114286575970623586/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "1000x_Hunter_",
+       "url": "https://x.com/1000x_Hunter_",
+       "id": "335594223",
+       "name": "Meme Hunter \ud83d\udc38",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2112547553237749760/IEOvEzhC_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/335594223/1788997408",
+       "description": "Meme Hunter \ud83d\udc38 | Degenerate alpha & meme coin calls | #Solana #Crypto #BTC  Insider vibes only | Join my TG for early gems",
+       "location": "California, PA",
+       "followers": 4924,
+       "following": 52,
+       "createdAt": "Thu Jul 14 22:54:18 +0000 2011",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114285868236361836",
+       "text": "My entry on $BTC at $51K market cap\n\nShared in my tg\n\nC5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump https://t.co/G9c4c56JY4",
+       "user": {
+        "name": "Meme Hunter \ud83d\udc38",
+        "screen_name": "1000x_Hunter_"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114285868236361836",
+      "url": "https://x.com/1000x_Hunter_/status/2114285868236361836",
+      "twitterUrl": "https://twitter.com/1000x_Hunter_/status/2114285868236361836",
+      "text": "My entry on $BTC at $51K market cap\n\nShared in my tg\n\nC5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump https://t.co/G9c4c56JY4",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 1,
+      "likeCount": 1,
+      "quoteCount": 1,
+      "viewCount": 72,
+      "createdAt": "Sun Oct 25 09:20:07 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114285868236361836",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdzhsDboAEYaHK.jpg",
+        "expanded_url": "https://x.com/1000x_Hunter_/status/2114285868236361836/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "1000x_Hunter_",
+       "url": "https://x.com/1000x_Hunter_",
+       "id": "335594223",
+       "name": "Meme Hunter \ud83d\udc38",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2112547553237749760/IEOvEzhC_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/335594223/1788997408",
+       "description": "Meme Hunter \ud83d\udc38 | Degenerate alpha & meme coin calls | #Solana #Crypto #BTC  Insider vibes only | Join my TG for early gems",
+       "location": "California, PA",
+       "followers": 4924,
+       "following": 52,
+       "createdAt": "Thu Jul 14 22:54:18 +0000 2011",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114264268702994491",
+      "url": "https://x.com/BadManLeek/status/2114264268702994491",
+      "twitterUrl": "https://twitter.com/BadManLeek/status/2114264268702994491",
+      "text": "1,475X \ud83d\ude80\ud83d\udd25 from my $BTC call.\n\nCalled early. Momentum went CRAZY. \ud83d\udcc8\ud83d\udcb0\n\nCA: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\n\n#Solana #SolanaMemecoins #Memecoin https://t.co/hlUQvqkJ8l",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 57,
+      "createdAt": "Sun Oct 25 07:54:17 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114264268702994491",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdgI9vXQAAQwH1.jpg",
+        "expanded_url": "https://x.com/BadManLeek/status/2114264268702994491/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "BadManLeek",
+       "url": "https://x.com/BadManLeek",
+       "id": "162612661",
+       "name": "\ud83e\udddb",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2085436623886434304/2KE7cdKS_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/162612661/1786041824",
+       "description": "tweeting my thoughts\n| alpha circle owner | basically\ndocumenting my trades here and my tweets are not\nfinancial advice.",
+       "location": "",
+       "followers": 3099,
+       "following": 2393,
+       "createdAt": "Sun Jul 04 05:20:20 +0000 2010",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114264045301965130",
+       "text": "8k to $BTC \ud83d\ude80\ud83d\udcc8\n\nCA: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\n\nKeeping an eye on this one.\ud83d\udc40\n\n#Solana #CryptoAlpha #Memecoin #Degen https://t.co/vUc6IjZpUR",
+       "user": {
+        "name": "\ud83e\udddb",
+        "screen_name": "BadManLeek"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114264045301965130",
+      "url": "https://x.com/BadManLeek/status/2114264045301965130",
+      "twitterUrl": "https://twitter.com/BadManLeek/status/2114264045301965130",
+      "text": "8k to $BTC \ud83d\ude80\ud83d\udcc8\n\nCA: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\n\nKeeping an eye on this one.\ud83d\udc40\n\n#Solana #CryptoAlpha #Memecoin #Degen https://t.co/vUc6IjZpUR",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 1,
+      "viewCount": 88,
+      "createdAt": "Sun Oct 25 07:53:24 +0000 2026",
+      "lang": "et",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114264045301965130",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdf8DLWYAApdZS.jpg",
+        "expanded_url": "https://x.com/BadManLeek/status/2114264045301965130/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "BadManLeek",
+       "url": "https://x.com/BadManLeek",
+       "id": "162612661",
+       "name": "\ud83e\udddb",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2085436623886434304/2KE7cdKS_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/162612661/1786041824",
+       "description": "tweeting my thoughts\n| alpha circle owner | basically\ndocumenting my trades here and my tweets are not\nfinancial advice.",
+       "location": "",
+       "followers": 3099,
+       "following": 2393,
+       "createdAt": "Sun Jul 04 05:20:20 +0000 2010",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114263555495047462",
+      "url": "https://x.com/lol_last_lol/status/2114263555495047462",
+      "twitterUrl": "https://twitter.com/lol_last_lol/status/2114263555495047462",
+      "text": "$ETH same dev as $BTC at 12m now \n\n7k \n\nExtra thick hoe\nCULQUX5wW2hbwbCPSKbKiS4QmU3oxVrAzQNwtSLxpump\n\nBig titty coin \nC5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\nBig titty coin",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 1,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 95,
+      "createdAt": "Sun Oct 25 07:51:27 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114263555495047462",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "lol_last_lol",
+       "url": "https://x.com/lol_last_lol",
+       "id": "1622617428122271749",
+       "name": "last lol \ud83c\udf46",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2011547048466952193/e9JQyriA_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1622617428122271749/1787991549",
+       "description": "Wrong or just early?",
+       "location": "Mars",
+       "followers": 561,
+       "following": 624,
+       "createdAt": "Mon Feb 06 15:25:30 +0000 2023",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114262131440820427",
+      "url": "https://x.com/ChinaDegen/status/2114262131440820427",
+      "twitterUrl": "https://twitter.com/ChinaDegen/status/2114262131440820427",
+      "text": "$BTC C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\n\n\u6bcf\u4e00\u573a\u91cd\u5927\u884c\u60c5\u90fd\u6709\u5176\u8d77\u70b9\uff0c\u800c\u6709\u65f6\u6700\u4ee4\u4eba\u632f\u594b\u7684\u673a\u9047\uff0c\u6070\u6070\u8bde\u751f\u4e8e\u5e02\u573a\u6700\u6c89\u5bc2\u7684\u65f6\u523b\u3002\n\n\u5f53\u4f17\u4eba\u7684\u76ee\u5149\u6295\u5411\u522b\u5904\u65f6\uff0c\u7b79\u7801\u7684\u6084\u7136\u79ef\u805a\u4e0e\u5e02\u573a\u5174\u8da3\u7684\u6e10\u589e\uff0c\u6b63\u5728\u4e3a\u6f5c\u5728\u7684\u7a81\u7834\u5960\u5b9a\u57fa\u7840\u3002\u5173\u952e\u5728\u4e8e\u5bc6\u5207\u5173\u6ce8\u5e02\u573a\u52a8\u5411\uff0c\u987a\u5e94\u8d8b\u52bf\uff0c\u5e76\u610f\u8bc6\u5230\u8010\u5fc3\u4e0e\u628a\u63e1\u65f6\u673a\u540c\u6837\u91cd\u8981\u3002\n\n\u8fd9\u4f1a\u662f\u66f4\u5927\u884c\u60c5\u7206\u53d1\u524d\u7684\u5b81\u9759\u5417\uff1f\u968f\u7740\u5e02\u573a\u60c5\u7eea\u7684\u8f6c\u53d8\u4e0e\u52a8\u80fd\u7684\u79ef\u84c4\uff0c\u4e0b\u4e00\u9636\u6bb5\u6216\u8bb8\u4f1a\u5f15\u53d1\u622a\u7136\u4e0d\u540c\u7684\u5173\u6ce8\u5ea6\u3002\n\n\u867d\u65e0\u7edd\u5bf9\u4fdd\u8bc1\uff0c\u4f46\u8fd9\u786e\u5b9e\u662f\u4e00\u4e2a\u503c\u5f97\u5bc6\u5207\u7559\u610f\u7684\u5e03\u5c40\u3002\u65e9\u671f\u9636\u6bb5\u5f80\u5f80\u6700\u8010\u4eba\u5bfb\u5473\uff0c\u800c\u63a5\u4e0b\u6765\u7684\u8d70\u52bf\u7ec8\u5c06\u63ed\u6653\u6700\u7ec8\u7684\u7b54\u6848\u3002\n\nC5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 6,
+      "likeCount": 36,
+      "quoteCount": 0,
+      "viewCount": 5213,
+      "createdAt": "Sun Oct 25 07:45:47 +0000 2026",
+      "lang": "zh",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114262131440820427",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdd1UqWUAANWT7.jpg",
+        "expanded_url": "https://x.com/ChinaDegen/status/2114262131440820427/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "ChinaDegen",
+       "url": "https://x.com/ChinaDegen",
+       "id": "175419697",
+       "name": "DRAGON\u4e2d\u56fd\u9f99\ud83d\udc09",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2028071489837412352/I_L4yoL5_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/175419697/1738942045",
+       "description": "Building communities, developing the Asian region. | \u81ea 2017 \u5e74\u8d77\u6df1\u8015\u52a0\u5bc6\u5e02\u573a\u3002\u6bcf\u65e5\u5206\u4eab\u83b7\u5229\u6218\u679c\u3002\n\u7eb5\u4f7f\u8eab\u5904\u718a\u5e02\uff0c\u4ea6\u80fd\u6316\u6398 10 \u500d\u6f5c\u529b\u9ed1\u9a6c\u3002",
+       "location": "",
+       "followers": 117251,
+       "following": 425,
+       "createdAt": "Fri Aug 06 15:14:56 +0000 2010",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114261847738081286",
+      "url": "https://x.com/babaae_printtt/status/2114261847738081286",
+      "twitterUrl": "https://twitter.com/babaae_printtt/status/2114261847738081286",
+      "text": "Entry on $BTC \ud83c\udf43 \n\nC5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump https://t.co/YyjrLdjeXZ",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 1,
+      "viewCount": 96,
+      "createdAt": "Sun Oct 25 07:44:40 +0000 2026",
+      "lang": "et",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114261847738081286",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdd8PLWcAAy--t.jpg",
+        "expanded_url": "https://x.com/babaae_printtt/status/2114261847738081286/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "babaae_printtt",
+       "url": "https://x.com/babaae_printtt",
+       "id": "2083964793518456832",
+       "name": "BABAAE",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2099406084574232580/9fmXAP8l_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2083964793518456832/1789721165",
+       "description": "I Hunt Gems before they trend, posting early memecoin calls,repost world news. Always DYOR.\n\nHANDLER  \u2192  @babaae_printt",
+       "location": "",
+       "followers": 746,
+       "following": 93,
+       "createdAt": "Sun Aug 02 17:15:41 +0000 2026",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114261705278562520",
+      "url": "https://x.com/DegenFlow_/status/2114261705278562520",
+      "twitterUrl": "https://twitter.com/DegenFlow_/status/2114261705278562520",
+      "text": "1,475X \ud83d\ude80\ud83d\udd25 from my $BTC call.\n\nCalled early. Momentum went CRAZY. \ud83d\udcc8\ud83d\udcb0\n\nCA: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\n\n#Solana #SolanaMemecoins #Memecoin https://t.co/L8dTokXPCM",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 359,
+      "createdAt": "Sun Oct 25 07:44:06 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114261705278562520",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVddzwmWIAAPFUa.jpg",
+        "expanded_url": "https://x.com/DegenFlow_/status/2114261705278562520/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "DegenFlow_",
+       "url": "https://x.com/DegenFlow_",
+       "id": "475903495",
+       "name": "Degen Flow",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2087311448724905984/EEExXBZg_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/475903495/1786488816",
+       "description": "God fearing | Spotting the next 1000x memecoin while staying grounded in faith | Charts + conviction | NFA",
+       "location": "",
+       "followers": 6088,
+       "following": 9,
+       "createdAt": "Fri Jan 27 15:23:17 +0000 2012",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114261617881854220",
+       "text": "8k to $BTC \ud83d\ude80\ud83d\udcc8\n\nCA: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\n\nKeeping an eye on this one.\ud83d\udc40\n\n#Solana #CryptoAlpha #Memecoin #Degen https://t.co/puxJT4Nwzb",
+       "user": {
+        "name": "Degen Flow",
+        "screen_name": "DegenFlow_"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114261617881854220",
+      "url": "https://x.com/DegenFlow_/status/2114261617881854220",
+      "twitterUrl": "https://twitter.com/DegenFlow_/status/2114261617881854220",
+      "text": "8k to $BTC \ud83d\ude80\ud83d\udcc8\n\nCA: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\n\nKeeping an eye on this one.\ud83d\udc40\n\n#Solana #CryptoAlpha #Memecoin #Degen https://t.co/puxJT4Nwzb",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 1,
+      "viewCount": 476,
+      "createdAt": "Sun Oct 25 07:43:45 +0000 2026",
+      "lang": "et",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114261617881854220",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdduwvWIAASaLw.jpg",
+        "expanded_url": "https://x.com/DegenFlow_/status/2114261617881854220/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "DegenFlow_",
+       "url": "https://x.com/DegenFlow_",
+       "id": "475903495",
+       "name": "Degen Flow",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2087311448724905984/EEExXBZg_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/475903495/1786488816",
+       "description": "God fearing | Spotting the next 1000x memecoin while staying grounded in faith | Charts + conviction | NFA",
+       "location": "",
+       "followers": 6088,
+       "following": 9,
+       "createdAt": "Fri Jan 27 15:23:17 +0000 2012",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114260736507609395",
+      "url": "https://x.com/inizizi_/status/2114260736507609395",
+      "twitterUrl": "https://twitter.com/inizizi_/status/2114260736507609395",
+      "text": "$BTC \u2014 $8K MC \ud83d\ude80\ud83d\udcc8\n\n\ud83d\udc40 Eyes on this one.\n\ud83d\udd25 Don\u2019t sleep on it.\n\nCA: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\n\n#Solana #CryptoAlpha #Memecoin #Degen #bbvpicks4 https://t.co/JuvuOEVqiW",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 1,
+      "likeCount": 1,
+      "quoteCount": 1,
+      "viewCount": 103,
+      "createdAt": "Sun Oct 25 07:40:15 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114260736507609395",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdc7LbXgAAU069.jpg",
+        "expanded_url": "https://x.com/inizizi_/status/2114260736507609395/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "inizizi_",
+       "url": "https://x.com/inizizi_",
+       "id": "1537710399637712897",
+       "name": "REX \ud83d\udc38",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2093020189965094912/P9r5-xB7_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1537710399637712897/1788373228",
+       "description": "\u271d\ufe0f Faith-led Crypto & Alpha Investor | Early #Memecoin Research & Setups | Market Insights \ud83d\udcca not financial advice. \ud83d\udce5DM for Alpha TG Access \ud83d\udc49 https://t.co/4y8DgPT5jR",
+       "location": "Pump.fun",
+       "followers": 3561,
+       "following": 868,
+       "createdAt": "Fri Jun 17 08:15:23 +0000 2022",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114255417773637942",
+      "url": "https://x.com/takitone_meme_p/status/2114255417773637942",
+      "twitterUrl": "https://twitter.com/takitone_meme_p/status/2114255417773637942",
+      "text": "\u20bf\ud83d\ude80 $BTC has surged from $529K to $8M MCAP!\n\nThat\u2019s a 15.1x run! \ud83d\udd25 Another major milestone reached. DM me to join my TG for more early calls and upcoming plays.\n\n#BTC #CryptoBreakout #MarketMomentum #OnChainGems\n\nC5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump https://t.co/UlRGUayANT",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 1,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 39,
+      "createdAt": "Sun Oct 25 07:19:07 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114255417773637942",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdYFI5WIAAwXyc.jpg",
+        "expanded_url": "https://x.com/takitone_meme_p/status/2114255417773637942/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdYFxIWYAA3IJr.jpg",
+        "expanded_url": "https://x.com/takitone_meme_p/status/2114255417773637942/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "takitone_meme_p",
+       "url": "https://x.com/takitone_meme_p",
+       "id": "601812271",
+       "name": "Memecoin Prophet",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2096407348541890560/Gj_e5txO_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/601812271/1788538345",
+       "description": "I don't compete | I dominate \ud83d\udcaf.\nReal Alpha Calls \ud83d\ude80 |  Early Entries \ud83d\udcca.\nJoin my TG group Today \ud83d\udcb0\ud83d\udd25.",
+       "location": "welcome to my page",
+       "followers": 56,
+       "following": 1,
+       "createdAt": "Thu Jun 07 11:59:58 +0000 2012",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114252673557864875",
+      "url": "https://x.com/jpeg_crypt/status/2114252673557864875",
+      "twitterUrl": "https://twitter.com/jpeg_crypt/status/2114252673557864875",
+      "text": "Found alpha at 6k \n$ETH Extra Thick Hoe , same vision with big titty coin $BTC \nSame $BTC deployer (14M crime) \n\n$ETH CULQUX5wW2hbwbCPSKbKiS4QmU3oxVrAzQNwtSLxpump\n\n$BTC : C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 82,
+      "createdAt": "Sun Oct 25 07:08:12 +0000 2026",
+      "lang": "et",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114252673557864875",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "jpeg_crypt",
+       "url": "https://x.com/jpeg_crypt",
+       "id": "2107260055129063424",
+       "name": "Jpeg",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2112937045714706432/pUHPEura_normal.jpg",
+       "coverPicture": null,
+       "description": "lets win",
+       "location": "SpaceX",
+       "followers": 87,
+       "following": 58,
+       "createdAt": "Tue Oct 06 00:03:32 +0000 2026",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114243115489845308",
+      "url": "https://x.com/Kaan_Capitug0/status/2114243115489845308",
+      "twitterUrl": "https://twitter.com/Kaan_Capitug0/status/2114243115489845308",
+      "text": "\u20bf\ud83d\ude80 $BTC HITS $285K MC! \ud83d\udd25\ud83d\udc8e\n\nFrom $8K to $285K \u2014 that's 35.6X! \ud83d\udcc8\ud83d\udc40 $BTC is making moves!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\n\ud83d\udd17 Link in bio \u2014 click to join!\n\nCA: \"C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\"\n\n#BTC #Solana #Memecoin #Crypto https://t.co/HzZVfLOg0v",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 66,
+      "createdAt": "Sun Oct 25 06:30:14 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114243115489845308",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdM55nWEAEX6pz.jpg",
+        "expanded_url": "https://x.com/Kaan_Capitug0/status/2114243115489845308/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Kaan_Capitug0",
+       "url": "https://x.com/Kaan_Capitug0",
+       "id": "440713064",
+       "name": "Kaan_Capital\u26a1\ufe0f\ud83d\udc8e",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2106178977488359425/FC0dP0T0_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/440713064/1790987185",
+       "description": "Crypto Investor \ud83c\uddf9\ud83c\uddf7 | On-Chain Alpha \ud83d\udd0e\nSolana \u2022 DeFi \u2022 Early Gems \ud83d\udc8e\nSharing market research, narratives & early setups.\nFollow for daily crypto insights. \ud83d\udcc8",
+       "location": "edep y\u00e2 h\u00fb  #D\u0130VANYOLU ",
+       "followers": 860,
+       "following": 238,
+       "createdAt": "Mon Dec 19 10:00:13 +0000 2011",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114242989895680486",
+       "text": "$BTC\u20bf\ud83d\udd25 $BTC ON THE RADAR AT JUST $8K MC! \ud83d\ude80\ud83d\udc8e\n\nA fresh low-cap token catching attention \ud83d\udc40 Keep it on your watchlist, follow the moves, and always DYOR!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\n\ud83d\udd17 Link in bio \u2014 click to join!\n\nCA: https://t.co/yUWnKM3UHa",
+       "user": {
+        "name": "Kaan_Capital\u26a1\ufe0f\ud83d\udc8e",
+        "screen_name": "Kaan_Capitug0"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114242586831434000",
+      "url": "https://x.com/Sol_Ficra/status/2114242586831434000",
+      "twitterUrl": "https://twitter.com/Sol_Ficra/status/2114242586831434000",
+      "text": "\ud83d\ude80 $BTC BREAKS THROUGH TO $399K MC! \ud83d\udd25\ud83d\udc8e\n\nFrom $8K to $399K \u2014 that's 49.9X! \ud83d\udcc8\ud83d\udc40 Almost a 50X move!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\nCA: \"C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\"\n\n#BTC #Solana #Memecoin #Crypto https://t.co/n7m05QaIrQ",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 66,
+      "createdAt": "Sun Oct 25 06:28:08 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114242586831434000",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdMbGzWgAAfPPH.jpg",
+        "expanded_url": "https://x.com/Sol_Ficra/status/2114242586831434000/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Sol_Ficra",
+       "url": "https://x.com/Sol_Ficra",
+       "id": "1313746887170637824",
+       "name": "Sol Ficra",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2037551800874876928/hYiCVKub_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1313746887170637824/1784033629",
+       "description": "Faith-first crypto trader | Hunting high-conviction memecoin gems | Alpha calls & precision entries | Chasing asymmetric 10\u00d7\u2013100\u00d7 opportunities |DM for Promos",
+       "location": "Pump.fun",
+       "followers": 5532,
+       "following": 4823,
+       "createdAt": "Wed Oct 07 07:44:12 +0000 2020",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114241821782012096",
+       "text": "$BTC\u20bf\ud83d\udd25 $BTC ON THE RADAR AT JUST $8K MC! \ud83d\ude80\ud83d\udc8e\n\nA fresh low-cap token catching attention \ud83d\udc40 Keep it on your watchlist, follow the moves, and always DYOR!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\nCA: \"C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\"\n\n#BTC #Solana https://t.co/nQJLZJduIh",
+       "user": {
+        "name": "Sol Ficra",
+        "screen_name": "Sol_Ficra"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114242513032622333",
+      "url": "https://x.com/Kaan_Capitug0/status/2114242513032622333",
+      "twitterUrl": "https://twitter.com/Kaan_Capitug0/status/2114242513032622333",
+      "text": "\u20bf\ud83d\udd25 $BTC CLIMBS TO $341K MC! \ud83d\ude80\ud83d\udc8e\n\nFrom $8K to $341K \u2014 that's 42.6X! \ud83d\udcc8\ud83d\udc40 What a run for $BTC!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\n\ud83d\udd17 Link in bio \u2014 click to join!\n\nCA: \"C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\"\n\n#BTC #Solana #Memecoin #Crypto https://t.co/YxO0yBxzZw",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 46,
+      "createdAt": "Sun Oct 25 06:27:50 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114242513032622333",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdMWmqXUAA-54A.jpg",
+        "expanded_url": "https://x.com/Kaan_Capitug0/status/2114242513032622333/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Kaan_Capitug0",
+       "url": "https://x.com/Kaan_Capitug0",
+       "id": "440713064",
+       "name": "Kaan_Capital\u26a1\ufe0f\ud83d\udc8e",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2106178977488359425/FC0dP0T0_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/440713064/1790987185",
+       "description": "Crypto Investor \ud83c\uddf9\ud83c\uddf7 | On-Chain Alpha \ud83d\udd0e\nSolana \u2022 DeFi \u2022 Early Gems \ud83d\udc8e\nSharing market research, narratives & early setups.\nFollow for daily crypto insights. \ud83d\udcc8",
+       "location": "edep y\u00e2 h\u00fb  #D\u0130VANYOLU ",
+       "followers": 860,
+       "following": 238,
+       "createdAt": "Mon Dec 19 10:00:13 +0000 2011",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114242363333771599",
+       "text": "$BTC\u20bf\ud83d\udd25 $BTC ON THE RADAR AT JUST $8K MC! \ud83d\ude80\ud83d\udc8e\n\nA fresh low-cap token catching attention \ud83d\udc40 Keep it on your watchlist, follow the moves, and always DYOR!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\n\ud83d\udd17 Link in bio \u2014 click to join!\n\nCA: https://t.co/QFkdDP3wyZ",
+       "user": {
+        "name": "Kaan_Capital\u26a1\ufe0f\ud83d\udc8e",
+        "screen_name": "Kaan_Capitug0"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114242407910736125",
+      "url": "https://x.com/Sol_Ficra/status/2114242407910736125",
+      "twitterUrl": "https://twitter.com/Sol_Ficra/status/2114242407910736125",
+      "text": "\ud83d\udd25 $BTC CLIMBS TO $341K MC! \ud83d\ude80\ud83d\udc8e\n\nFrom $8K to $341K \u2014 that's 42.6X! \ud83d\udcc8\ud83d\udc40 What a run for $BTC!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\nCA: \"C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\"\n\n#BTC #Solana #Memecoin #Crypto https://t.co/yTl1lFw05e",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 74,
+      "createdAt": "Sun Oct 25 06:27:25 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114242407910736125",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdMQoIXAAAQcT7.jpg",
+        "expanded_url": "https://x.com/Sol_Ficra/status/2114242407910736125/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Sol_Ficra",
+       "url": "https://x.com/Sol_Ficra",
+       "id": "1313746887170637824",
+       "name": "Sol Ficra",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2037551800874876928/hYiCVKub_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1313746887170637824/1784033629",
+       "description": "Faith-first crypto trader | Hunting high-conviction memecoin gems | Alpha calls & precision entries | Chasing asymmetric 10\u00d7\u2013100\u00d7 opportunities |DM for Promos",
+       "location": "Pump.fun",
+       "followers": 5532,
+       "following": 4823,
+       "createdAt": "Wed Oct 07 07:44:12 +0000 2020",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114241821782012096",
+       "text": "$BTC\u20bf\ud83d\udd25 $BTC ON THE RADAR AT JUST $8K MC! \ud83d\ude80\ud83d\udc8e\n\nA fresh low-cap token catching attention \ud83d\udc40 Keep it on your watchlist, follow the moves, and always DYOR!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\nCA: \"C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\"\n\n#BTC #Solana https://t.co/nQJLZJduIh",
+       "user": {
+        "name": "Sol Ficra",
+        "screen_name": "Sol_Ficra"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114242240101204007",
+      "url": "https://x.com/Sol_Ficra/status/2114242240101204007",
+      "twitterUrl": "https://twitter.com/Sol_Ficra/status/2114242240101204007",
+      "text": "\ud83d\ude80 $BTC HITS $285K MC! \ud83d\udd25\ud83d\udc8e\n\nFrom $8K to $285K \u2014 that's 35.6X! \ud83d\udcc8\ud83d\udc40 $BTC is making moves!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\nCA: \"C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\"\n\n#BTC #Solana #Memecoin #Crypto https://t.co/lkYnQxhy7q",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 66,
+      "createdAt": "Sun Oct 25 06:26:45 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114242240101204007",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdMGzcWcAA404t.jpg",
+        "expanded_url": "https://x.com/Sol_Ficra/status/2114242240101204007/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Sol_Ficra",
+       "url": "https://x.com/Sol_Ficra",
+       "id": "1313746887170637824",
+       "name": "Sol Ficra",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2037551800874876928/hYiCVKub_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1313746887170637824/1784033629",
+       "description": "Faith-first crypto trader | Hunting high-conviction memecoin gems | Alpha calls & precision entries | Chasing asymmetric 10\u00d7\u2013100\u00d7 opportunities |DM for Promos",
+       "location": "Pump.fun",
+       "followers": 5532,
+       "following": 4823,
+       "createdAt": "Wed Oct 07 07:44:12 +0000 2020",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114241821782012096",
+       "text": "$BTC\u20bf\ud83d\udd25 $BTC ON THE RADAR AT JUST $8K MC! \ud83d\ude80\ud83d\udc8e\n\nA fresh low-cap token catching attention \ud83d\udc40 Keep it on your watchlist, follow the moves, and always DYOR!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\nCA: \"C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\"\n\n#BTC #Solana https://t.co/nQJLZJduIh",
+       "user": {
+        "name": "Sol Ficra",
+        "screen_name": "Sol_Ficra"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114242196450726118",
+      "url": "https://x.com/Kaan_Capitug0/status/2114242196450726118",
+      "twitterUrl": "https://twitter.com/Kaan_Capitug0/status/2114242196450726118",
+      "text": "\u20bf\ud83d\ude80 $BTC BREAKS THROUGH TO $399K MC! \ud83d\udd25\ud83d\udc8e\n\nFrom $8K to $399K \u2014 that's 49.9X! \ud83d\udcc8\ud83d\udc40 Almost a 50X move!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\n\ud83d\udd17 Link in bio \u2014 click to join!\n\nCA: \"C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\"\n\n#BTC #Solana #Memecoin #Crypto https://t.co/FoXgDmRR4q",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 29,
+      "createdAt": "Sun Oct 25 06:26:35 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114242196450726118",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdMEORXQAA8tVt.jpg",
+        "expanded_url": "https://x.com/Kaan_Capitug0/status/2114242196450726118/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Kaan_Capitug0",
+       "url": "https://x.com/Kaan_Capitug0",
+       "id": "440713064",
+       "name": "Kaan_Capital\u26a1\ufe0f\ud83d\udc8e",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2106178977488359425/FC0dP0T0_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/440713064/1790987185",
+       "description": "Crypto Investor \ud83c\uddf9\ud83c\uddf7 | On-Chain Alpha \ud83d\udd0e\nSolana \u2022 DeFi \u2022 Early Gems \ud83d\udc8e\nSharing market research, narratives & early setups.\nFollow for daily crypto insights. \ud83d\udcc8",
+       "location": "edep y\u00e2 h\u00fb  #D\u0130VANYOLU ",
+       "followers": 860,
+       "following": 238,
+       "createdAt": "Mon Dec 19 10:00:13 +0000 2011",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114242067425599787",
+       "text": "$BTC\u20bf\ud83d\udd25 $BTC ON THE RADAR AT JUST $8K MC! \ud83d\ude80\ud83d\udc8e\n\nA fresh low-cap token catching attention \ud83d\udc40 Keep it on your watchlist, follow the moves, and always DYOR!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\n\ud83d\udd17 Link in bio \u2014 click to join!\n\nCA: https://t.co/CWp078HHFq",
+       "user": {
+        "name": "Kaan_Capital\u26a1\ufe0f\ud83d\udc8e",
+        "screen_name": "Kaan_Capitug0"
+       }
+      },
+      "retweeted_tweet": null
+     }
+    ]
+   }
+  },
+  {
+   "q": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+   "product": "Top",
+   "at": "2026-10-25T09:47:45Z",
+   "body": {
+    "query": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+    "tweet_count": 20,
+    "has_more": true,
+    "next_cursor": "DAACCgACHVd6H__AJxAKAAMdV3of_7_Y8AgABAAAAAILAAUAAADwRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUJRZFYweGRKbGF3L1IxWFRPbHJsbUE4SFZkU2loZWJNVllkVjBkY0p0ZHh6aDFYZWJaOTF1RXRIVmRHekc4V29NWWRWMTI5V0JjeERCMVhYZEd4VnlEWUhWZEc2bXJXY2Y0ZFYwY244cFpndWgxWFRVL3FtcUYwSFZkTGFJZVhFYXdkVjAxMkhSb1FKQjFYU05MQUZzSFVIVmRNaFltV1VHZ2RWMHYxWmhjaEt4MVhlZU95MmlHYUhWZEdDU2ZhWVI4ZFYxendJaGVCTXgxWFRNd3RsNEhtCAAGAAAAAAgABwAAAAAMAAgKAAEdV0YJJ9phHwAAAA",
+    "tweets": [
+     {
+      "type": "tweet",
+      "id": "2114292374775980333",
+      "url": "https://x.com/DegenFlow_/status/2114292374775980333",
+      "twitterUrl": "https://twitter.com/DegenFlow_/status/2114292374775980333",
+      "text": "1,612.5X \ud83d\ude80\ud83d\udd25 from my $BTC call.\n\nCalled early. Momentum went CRAZY. \ud83d\udcc8\ud83d\udcb0\n\nCA: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\n\n#Solana #SolanaMemecoins #Memecoin https://t.co/ZY3AOjBKIj",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 170,
+      "createdAt": "Sun Oct 25 09:45:58 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114292374775980333",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVd5tB9WsAAjvS2.jpg",
+        "expanded_url": "https://x.com/DegenFlow_/status/2114292374775980333/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "DegenFlow_",
+       "url": "https://x.com/DegenFlow_",
+       "id": "475903495",
+       "name": "Degen Flow",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2087311448724905984/EEExXBZg_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/475903495/1786488816",
+       "description": "God fearing | Spotting the next 1000x memecoin while staying grounded in faith | Charts + conviction | NFA",
+       "location": "",
+       "followers": 6088,
+       "following": 9,
+       "createdAt": "Fri Jan 27 15:23:17 +0000 2012",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114261617881854220",
+       "text": "8k to $BTC \ud83d\ude80\ud83d\udcc8\n\nCA: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\n\nKeeping an eye on this one.\ud83d\udc40\n\n#Solana #CryptoAlpha #Memecoin #Degen https://t.co/puxJT4Nwzb",
+       "user": {
+        "name": "Degen Flow",
+        "screen_name": "DegenFlow_"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114242513032622333",
+      "url": "https://x.com/Kaan_Capitug0/status/2114242513032622333",
+      "twitterUrl": "https://twitter.com/Kaan_Capitug0/status/2114242513032622333",
+      "text": "\u20bf\ud83d\udd25 $BTC CLIMBS TO $341K MC! \ud83d\ude80\ud83d\udc8e\n\nFrom $8K to $341K \u2014 that's 42.6X! \ud83d\udcc8\ud83d\udc40 What a run for $BTC!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\n\ud83d\udd17 Link in bio \u2014 click to join!\n\nCA: \"C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\"\n\n#BTC #Solana #Memecoin #Crypto https://t.co/YxO0yBxzZw",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 46,
+      "createdAt": "Sun Oct 25 06:27:50 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114242513032622333",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdMWmqXUAA-54A.jpg",
+        "expanded_url": "https://x.com/Kaan_Capitug0/status/2114242513032622333/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Kaan_Capitug0",
+       "url": "https://x.com/Kaan_Capitug0",
+       "id": "440713064",
+       "name": "Kaan_Capital\u26a1\ufe0f\ud83d\udc8e",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2106178977488359425/FC0dP0T0_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/440713064/1790987185",
+       "description": "Crypto Investor \ud83c\uddf9\ud83c\uddf7 | On-Chain Alpha \ud83d\udd0e\nSolana \u2022 DeFi \u2022 Early Gems \ud83d\udc8e\nSharing market research, narratives & early setups.\nFollow for daily crypto insights. \ud83d\udcc8",
+       "location": "edep y\u00e2 h\u00fb  #D\u0130VANYOLU ",
+       "followers": 860,
+       "following": 238,
+       "createdAt": "Mon Dec 19 10:00:13 +0000 2011",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114242363333771599",
+       "text": "$BTC\u20bf\ud83d\udd25 $BTC ON THE RADAR AT JUST $8K MC! \ud83d\ude80\ud83d\udc8e\n\nA fresh low-cap token catching attention \ud83d\udc40 Keep it on your watchlist, follow the moves, and always DYOR!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\n\ud83d\udd17 Link in bio \u2014 click to join!\n\nCA: https://t.co/QFkdDP3wyZ",
+       "user": {
+        "name": "Kaan_Capital\u26a1\ufe0f\ud83d\udc8e",
+        "screen_name": "Kaan_Capitug0"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114236786972975290",
+      "url": "https://x.com/itsmeflow18/status/2114236786972975290",
+      "twitterUrl": "https://twitter.com/itsmeflow18/status/2114236786972975290",
+      "text": "\ud83d\udd25 $BTC CLIMBS TO $341K MC! \ud83d\ude80\ud83d\udc8e\n\nFrom $8K to $341K \u2014 that's 42.6X! \ud83d\udcc8\ud83d\udc40 What a run for $BTC!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\n\ud83d\udd17 Link in bio \u2014 click to join!\n\nCA: \"C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\"\n\n#BTC #Solana #Memecoin #Crypto https://t.co/1NeRl9UzRI",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 83,
+      "createdAt": "Sun Oct 25 06:05:05 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114236786972975290",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdHJWqXAAAMda-.jpg",
+        "expanded_url": "https://x.com/itsmeflow18/status/2114236786972975290/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "itsmeflow18",
+       "url": "https://x.com/itsmeflow18",
+       "id": "1764347830448402432",
+       "name": "1000x Gem Hunter \ud83d\udc8e\ud83d\udd0e",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2093291588566827009/e0LW9ySy_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1764347830448402432/1787914530",
+       "description": "Faith-led crypto trader | Scouting high-conviction memecoin plays | Alpha, precision entries & market insights | Targeting asymmetric 10\u00d7\u2013100\u00d7 opportunities",
+       "location": "Pump.fun",
+       "followers": 3546,
+       "following": 3019,
+       "createdAt": "Sun Mar 03 17:51:51 +0000 2024",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114236210382065867",
+       "text": "$BTC\u20bf\ud83d\udd25 $BTC ON THE RADAR AT JUST $8K MC! \ud83d\ude80\ud83d\udc8e\n\nA fresh low-cap token catching attention \ud83d\udc40 Keep it on your watchlist, follow the moves, and always DYOR!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\n\ud83d\udd17 Link in bio \u2014 click to join!\n\nCA: https://t.co/cly2Qsyrgb",
+       "user": {
+        "name": "1000x Gem Hunter \ud83d\udc8e\ud83d\udd0e",
+        "screen_name": "itsmeflow18"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114235555211010335",
+      "url": "https://x.com/SOL_ETH_TRADER/status/2114235555211010335",
+      "twitterUrl": "https://twitter.com/SOL_ETH_TRADER/status/2114235555211010335",
+      "text": "$BTC is skyrocketing \ud83d\ude80\ud83d\ude80 printing massive profits on my alpha telegram group \ud83d\ude80\ud83d\udca5\ud83d\udcb0\n\nHad you joined my TG group, your copy trading would have the same profits I currently have.\n\nCa: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump https://t.co/mBQGkhwwcp",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 84,
+      "createdAt": "Sun Oct 25 06:00:11 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114235555211010335",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdGBsRaYAA8qAI.jpg",
+        "expanded_url": "https://x.com/SOL_ETH_TRADER/status/2114235555211010335/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "SOL_ETH_TRADER",
+       "url": "https://x.com/SOL_ETH_TRADER",
+       "id": "724672694",
+       "name": "SOLANA_ETHEREUM TRADER",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2104311921713328128/3379q8cs_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/724672694/1782328659",
+       "description": "I DONT COMPETE-I DOMINATE AND DO WHAT I KNOW HOW TO DO BEST\ud83d\udccaI TRADE FOR PROFIT \ud83d\udcc8\ud83d\udcc9A TRIAL WILL CONVINCE YOU WITH EVIDENCE \ud83d\udcafjoin my TG Invest in Sol/Eth today",
+       "location": "Sol_ chain ",
+       "followers": 10139,
+       "following": 28,
+       "createdAt": "Sun Jul 29 21:31:30 +0000 2012",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114235342656294978",
+       "text": "We\u2019ve delivered a staggering 142.10x return with $BTC, and I make it look simple!\nNot in my exclusive Telegram group? You\u2019re sleeping on life-changing gains and nonstop action.\nLet this be the wake-up call you needed!\n\nCA: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump https://t.co/jHqjVkHkQR",
+       "user": {
+        "name": "SOLANA_ETHEREUM TRADER",
+        "screen_name": "SOL_ETH_TRADER"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114243555707494772",
+      "url": "https://x.com/Charlie_SOL23/status/2114243555707494772",
+      "twitterUrl": "https://twitter.com/Charlie_SOL23/status/2114243555707494772",
+      "text": "\ud83d\ude80 $BTC \u2014 $11.2M MC \ud83d\udd25 What a run from $512K! \ud83d\udc40\n\n\ud83d\udce9 DM me on Telegram for fresh early calls + VIP access. \ud83c\udfaf\n\nCA: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\n\n#BTC #Solana #Memecoin https://t.co/PDrWZFcDky",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 18,
+      "createdAt": "Sun Oct 25 06:31:59 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114243555707494772",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdNRJwbsAEX3Kv.jpg",
+        "expanded_url": "https://x.com/Charlie_SOL23/status/2114243555707494772/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Charlie_SOL23",
+       "url": "https://x.com/Charlie_SOL23",
+       "id": "842416279",
+       "name": "Early Radar",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2102426272265576449/Oxh7QNDS_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/842416279/1790092460",
+       "description": "Finding early SOL gems before the crowd \ud83d\udd0d\nCalls \u2022 Research \u2022 Real-time updates\nRisk first. DYOR | NFA\nPrivate Alpha TG \u2193",
+       "location": "Missouri, USA",
+       "followers": 1669,
+       "following": 1116,
+       "createdAt": "Sun Sep 23 21:10:50 +0000 2012",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2113344118466179117",
+       "text": "\ud83d\udc40 $BTC \u2014 $512K MC \ud83d\udd25\n\nThis one is turning heads! \ud83d\ude80 Keep it on your radar and DYOR.\n\n\ud83d\udce9 DM me on Telegram for fresh early calls + exclusive VIP access!\n\nCA: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\n\n#BTC #Solana #Memecoin https://t.co/yRMJCTe9Ao",
+       "user": {
+        "name": "Early Radar",
+        "screen_name": "Charlie_SOL23"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114249303128748374",
+      "url": "https://x.com/Alpha_calls100/status/2114249303128748374",
+      "twitterUrl": "https://twitter.com/Alpha_calls100/status/2114249303128748374",
+      "text": "$BTC Is skyrocketing printing massively on my Alpha telegram group \ud83c\udfc6\ud83d\ude80\n\nIf you\u2019re in my  tg group your copy trade would have been on same profit as I am.\n\nCa: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump https://t.co/yin8Lba9EK",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 125,
+      "createdAt": "Sun Oct 25 06:54:49 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114249303128748374",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdSh5_WgAAZNCv.jpg",
+        "expanded_url": "https://x.com/Alpha_calls100/status/2114249303128748374/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Alpha_calls100",
+       "url": "https://x.com/Alpha_calls100",
+       "id": "32913910",
+       "name": "Sol Alpha Trader",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2089647355440041984/TReQjXha_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/32913910/1783720022",
+       "description": "JOIN MY TELEGRAM GROUP FOR DAILY PROFIT\ud83c\udfc6\ud83d\udcca\ud83d\udcc8IF YOU'RE READY TO RISE YOU'RE IN THE RIGHT PLACE##",
+       "location": "Sol Chain",
+       "followers": 7125,
+       "following": 41,
+       "createdAt": "Sat Apr 18 15:28:20 +0000 2009",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114248541300281640",
+       "text": "Just banked a massive $BTC move.\nEntry: $2.3K\nNow: $10.9M\n4,739x return.\nDon't sleep on the next one \u2014 first access is in my private Telegram.\n\nCa: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump https://t.co/LMkzcL79uN",
+       "user": {
+        "name": "Sol Alpha Trader",
+        "screen_name": "Alpha_calls100"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114261705278562520",
+      "url": "https://x.com/DegenFlow_/status/2114261705278562520",
+      "twitterUrl": "https://twitter.com/DegenFlow_/status/2114261705278562520",
+      "text": "1,475X \ud83d\ude80\ud83d\udd25 from my $BTC call.\n\nCalled early. Momentum went CRAZY. \ud83d\udcc8\ud83d\udcb0\n\nCA: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\n\n#Solana #SolanaMemecoins #Memecoin https://t.co/L8dTokXPCM",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 359,
+      "createdAt": "Sun Oct 25 07:44:06 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114261705278562520",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVddzwmWIAAPFUa.jpg",
+        "expanded_url": "https://x.com/DegenFlow_/status/2114261705278562520/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "DegenFlow_",
+       "url": "https://x.com/DegenFlow_",
+       "id": "475903495",
+       "name": "Degen Flow",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2087311448724905984/EEExXBZg_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/475903495/1786488816",
+       "description": "God fearing | Spotting the next 1000x memecoin while staying grounded in faith | Charts + conviction | NFA",
+       "location": "",
+       "followers": 6088,
+       "following": 9,
+       "createdAt": "Fri Jan 27 15:23:17 +0000 2012",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114261617881854220",
+       "text": "8k to $BTC \ud83d\ude80\ud83d\udcc8\n\nCA: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\n\nKeeping an eye on this one.\ud83d\udc40\n\n#Solana #CryptoAlpha #Memecoin #Degen https://t.co/puxJT4Nwzb",
+       "user": {
+        "name": "Degen Flow",
+        "screen_name": "DegenFlow_"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114243719763464228",
+      "url": "https://x.com/Charlie_SOL23/status/2114243719763464228",
+      "twitterUrl": "https://twitter.com/Charlie_SOL23/status/2114243719763464228",
+      "text": "\ud83d\ude80 $BTC \u2014 $11.3M MC \ud83d\udd25 Still turning heads! \ud83d\udc40\n\n\ud83d\udce9 DM me on Telegram for fresh calls + VIP access. \ud83c\udfaf\n\nCA: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\n\n#BTC #Solana #Memecoin https://t.co/Rd5ITDSnWK",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 19,
+      "createdAt": "Sun Oct 25 06:32:38 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114243719763464228",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdNbXvaYAAl99l.jpg",
+        "expanded_url": "https://x.com/Charlie_SOL23/status/2114243719763464228/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Charlie_SOL23",
+       "url": "https://x.com/Charlie_SOL23",
+       "id": "842416279",
+       "name": "Early Radar",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2102426272265576449/Oxh7QNDS_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/842416279/1790092460",
+       "description": "Finding early SOL gems before the crowd \ud83d\udd0d\nCalls \u2022 Research \u2022 Real-time updates\nRisk first. DYOR | NFA\nPrivate Alpha TG \u2193",
+       "location": "Missouri, USA",
+       "followers": 1669,
+       "following": 1116,
+       "createdAt": "Sun Sep 23 21:10:50 +0000 2012",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2113344118466179117",
+       "text": "\ud83d\udc40 $BTC \u2014 $512K MC \ud83d\udd25\n\nThis one is turning heads! \ud83d\ude80 Keep it on your radar and DYOR.\n\n\ud83d\udce9 DM me on Telegram for fresh early calls + exclusive VIP access!\n\nCA: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\n\n#BTC #Solana #Memecoin https://t.co/yRMJCTe9Ao",
+       "user": {
+        "name": "Early Radar",
+        "screen_name": "Charlie_SOL23"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114242989895680486",
+      "url": "https://x.com/Kaan_Capitug0/status/2114242989895680486",
+      "twitterUrl": "https://twitter.com/Kaan_Capitug0/status/2114242989895680486",
+      "text": "$BTC\u20bf\ud83d\udd25 $BTC ON THE RADAR AT JUST $8K MC! \ud83d\ude80\ud83d\udc8e\n\nA fresh low-cap token catching attention \ud83d\udc40 Keep it on your watchlist, follow the moves, and always DYOR!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\n\ud83d\udd17 Link in bio \u2014 click to join!\n\nCA: \"C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\"\n\n#BTC #Solana #Memecoin #Crypto",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 1,
+      "viewCount": 83,
+      "createdAt": "Sun Oct 25 06:29:44 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114242989895680486",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdMyZOXAAAbUy8.jpg",
+        "expanded_url": "https://x.com/Kaan_Capitug0/status/2114242989895680486/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Kaan_Capitug0",
+       "url": "https://x.com/Kaan_Capitug0",
+       "id": "440713064",
+       "name": "Kaan_Capital\u26a1\ufe0f\ud83d\udc8e",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2106178977488359425/FC0dP0T0_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/440713064/1790987185",
+       "description": "Crypto Investor \ud83c\uddf9\ud83c\uddf7 | On-Chain Alpha \ud83d\udd0e\nSolana \u2022 DeFi \u2022 Early Gems \ud83d\udc8e\nSharing market research, narratives & early setups.\nFollow for daily crypto insights. \ud83d\udcc8",
+       "location": "edep y\u00e2 h\u00fb  #D\u0130VANYOLU ",
+       "followers": 860,
+       "following": 238,
+       "createdAt": "Mon Dec 19 10:00:13 +0000 2011",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114238620076786132",
+      "url": "https://x.com/EarlyChad_/status/2114238620076786132",
+      "twitterUrl": "https://twitter.com/EarlyChad_/status/2114238620076786132",
+      "text": "$8K \u2192 $12.3M MC = 1,537.5x \ud83d\ude80\n\nMy $BTC call.\n\nCalled early. Momentum followed. \ud83d\udd25\nKeep watching \u2014 the next move could be bigger. \ud83d\udc40\n\nCA: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\n\n#Solana #SolanaMemecoins #Memecoin https://t.co/6zuzwhikSP",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 2,
+      "quoteCount": 0,
+      "viewCount": 113,
+      "createdAt": "Sun Oct 25 06:12:22 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114238620076786132",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdI0D7WUAE8RZ9.jpg",
+        "expanded_url": "https://x.com/EarlyChad_/status/2114238620076786132/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "EarlyChad_",
+       "url": "https://x.com/EarlyChad_",
+       "id": "2394021621",
+       "name": "EarlyChad",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2103078396242563072/A8By2ujI_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2394021621/1790247949",
+       "description": "Specialized in early memecoin positioning.\nI identify high-upside setups before they move.\nPrecision entries. Controlled size. Clear edge.",
+       "location": "",
+       "followers": 5181,
+       "following": 5035,
+       "createdAt": "Sat Mar 08 14:26:28 +0000 2014",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114238217062850947",
+       "text": "$BTC \u2014 $8K MC \ud83d\ude80\ud83d\udcc8\n\n\ud83d\udc40 Eyes on this one.\n\ud83d\udd25 Don\u2019t sleep on it.\n\nCA: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\n\n#Solana #CryptoAlpha #Memecoin #Degen #bbvpicks4 https://t.co/HEGbLPN88Q",
+       "user": {
+        "name": "EarlyChad",
+        "screen_name": "EarlyChad_"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114236522702467582",
+      "url": "https://x.com/Unlimited_sol0/status/2114236522702467582",
+      "twitterUrl": "https://twitter.com/Unlimited_sol0/status/2114236522702467582",
+      "text": "Massive run $BTC SURGES TO $180K MC!\nFrom $8K to $180K \u2014 that's 22.5X!  What a move  Serious about finding gems early? DM me \u201cEARLY.\u201d\n Link in bio \u2014 click to join!\nCA: \"C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\nDm me https://t.co/uLon4SeBDG https://t.co/BXuewx5C1n",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 45,
+      "createdAt": "Sun Oct 25 06:04:02 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114236522702467582",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdG4lBW8AAYobs.jpg",
+        "expanded_url": "https://x.com/Unlimited_sol0/status/2114236522702467582/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Unlimited_sol0",
+       "url": "https://x.com/Unlimited_sol0",
+       "id": "1877601077563928576",
+       "name": "Unlimited_sol",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2113229624909926400/mA1P3PBY_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1877601077563928576/1792668179",
+       "description": "Alpha .memecoin .Solana is the goals\nshadows signals MeMecoin alphal signals",
+       "location": "United states",
+       "followers": 415,
+       "following": 354,
+       "createdAt": "Fri Jan 10 06:19:25 +0000 2025",
+       "canDm": false
+      },
+      "quoted_tweet": {
+       "id": "2114235483412643898",
+       "text": "Massive booming $BTC ON THE RADAR AT JUST $8K MC!\nA fresh low-cap token catching attention \ud83d\udc40 Keep it on your watchlist, follow the moves Serious about finding gems early? DM me \u201cEARLY.\u201d\n Link in bio \u2014 click to join\nCA: \"C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\" https://t.co/0pKpNjRV13",
+       "user": {
+        "name": "Unlimited_sol",
+        "screen_name": "Unlimited_sol0"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114237011187954126",
+      "url": "https://x.com/itsmeflow18/status/2114237011187954126",
+      "twitterUrl": "https://twitter.com/itsmeflow18/status/2114237011187954126",
+      "text": "\ud83d\ude80 $BTC BREAKS THROUGH TO $399K MC! \ud83d\udd25\ud83d\udc8e\n\nFrom $8K to $399K \u2014 that's 49.9X! \ud83d\udcc8\ud83d\udc40 Almost a 50X move!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\n\ud83d\udd17 Link in bio \u2014 click to join!\n\nCA: \"C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\"\n\n#BTC #Solana #Memecoin #Crypto https://t.co/4dEbmAB8d5",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 68,
+      "createdAt": "Sun Oct 25 06:05:58 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114237011187954126",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdHWLAWQAETIXY.jpg",
+        "expanded_url": "https://x.com/itsmeflow18/status/2114237011187954126/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "itsmeflow18",
+       "url": "https://x.com/itsmeflow18",
+       "id": "1764347830448402432",
+       "name": "1000x Gem Hunter \ud83d\udc8e\ud83d\udd0e",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2093291588566827009/e0LW9ySy_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1764347830448402432/1787914530",
+       "description": "Faith-led crypto trader | Scouting high-conviction memecoin plays | Alpha, precision entries & market insights | Targeting asymmetric 10\u00d7\u2013100\u00d7 opportunities",
+       "location": "Pump.fun",
+       "followers": 3546,
+       "following": 3019,
+       "createdAt": "Sun Mar 03 17:51:51 +0000 2024",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114236210382065867",
+       "text": "$BTC\u20bf\ud83d\udd25 $BTC ON THE RADAR AT JUST $8K MC! \ud83d\ude80\ud83d\udc8e\n\nA fresh low-cap token catching attention \ud83d\udc40 Keep it on your watchlist, follow the moves, and always DYOR!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\n\ud83d\udd17 Link in bio \u2014 click to join!\n\nCA: https://t.co/cly2Qsyrgb",
+       "user": {
+        "name": "1000x Gem Hunter \ud83d\udc8e\ud83d\udd0e",
+        "screen_name": "itsmeflow18"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114260736507609395",
+      "url": "https://x.com/inizizi_/status/2114260736507609395",
+      "twitterUrl": "https://twitter.com/inizizi_/status/2114260736507609395",
+      "text": "$BTC \u2014 $8K MC \ud83d\ude80\ud83d\udcc8\n\n\ud83d\udc40 Eyes on this one.\n\ud83d\udd25 Don\u2019t sleep on it.\n\nCA: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\n\n#Solana #CryptoAlpha #Memecoin #Degen #bbvpicks4 https://t.co/JuvuOEVqiW",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 1,
+      "likeCount": 1,
+      "quoteCount": 1,
+      "viewCount": 103,
+      "createdAt": "Sun Oct 25 07:40:15 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114260736507609395",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdc7LbXgAAU069.jpg",
+        "expanded_url": "https://x.com/inizizi_/status/2114260736507609395/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "inizizi_",
+       "url": "https://x.com/inizizi_",
+       "id": "1537710399637712897",
+       "name": "REX \ud83d\udc38",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2093020189965094912/P9r5-xB7_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1537710399637712897/1788373228",
+       "description": "\u271d\ufe0f Faith-led Crypto & Alpha Investor | Early #Memecoin Research & Setups | Market Insights \ud83d\udcca not financial advice. \ud83d\udce5DM for Alpha TG Access \ud83d\udc49 https://t.co/4y8DgPT5jR",
+       "location": "Pump.fun",
+       "followers": 3561,
+       "following": 868,
+       "createdAt": "Fri Jun 17 08:15:23 +0000 2022",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114261617881854220",
+      "url": "https://x.com/DegenFlow_/status/2114261617881854220",
+      "twitterUrl": "https://twitter.com/DegenFlow_/status/2114261617881854220",
+      "text": "8k to $BTC \ud83d\ude80\ud83d\udcc8\n\nCA: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\n\nKeeping an eye on this one.\ud83d\udc40\n\n#Solana #CryptoAlpha #Memecoin #Degen https://t.co/puxJT4Nwzb",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 1,
+      "viewCount": 476,
+      "createdAt": "Sun Oct 25 07:43:45 +0000 2026",
+      "lang": "et",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114261617881854220",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdduwvWIAASaLw.jpg",
+        "expanded_url": "https://x.com/DegenFlow_/status/2114261617881854220/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "DegenFlow_",
+       "url": "https://x.com/DegenFlow_",
+       "id": "475903495",
+       "name": "Degen Flow",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2087311448724905984/EEExXBZg_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/475903495/1786488816",
+       "description": "God fearing | Spotting the next 1000x memecoin while staying grounded in faith | Charts + conviction | NFA",
+       "location": "",
+       "followers": 6088,
+       "following": 9,
+       "createdAt": "Fri Jan 27 15:23:17 +0000 2012",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114241462397243820",
+      "url": "https://x.com/Kaan_Capitug0/status/2114241462397243820",
+      "twitterUrl": "https://twitter.com/Kaan_Capitug0/status/2114241462397243820",
+      "text": "$BTC\u20bf\ud83d\udd25 $BTC ON THE RADAR AT JUST $8K MC! \ud83d\ude80\ud83d\udc8e\n\nA fresh low-cap token catching attention \ud83d\udc40 Keep it on your watchlist, follow the moves, and always DYOR!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\n\ud83d\udd17 Link in bio \u2014 click to join!\n\nCA: \"C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\"\n\n#BTC #Solana #Memecoin #Crypto",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 1,
+      "viewCount": 60,
+      "createdAt": "Sun Oct 25 06:23:39 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114241462397243820",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdLZeVW0AAfJwf.jpg",
+        "expanded_url": "https://x.com/Kaan_Capitug0/status/2114241462397243820/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Kaan_Capitug0",
+       "url": "https://x.com/Kaan_Capitug0",
+       "id": "440713064",
+       "name": "Kaan_Capital\u26a1\ufe0f\ud83d\udc8e",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2106178977488359425/FC0dP0T0_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/440713064/1790987185",
+       "description": "Crypto Investor \ud83c\uddf9\ud83c\uddf7 | On-Chain Alpha \ud83d\udd0e\nSolana \u2022 DeFi \u2022 Early Gems \ud83d\udc8e\nSharing market research, narratives & early setups.\nFollow for daily crypto insights. \ud83d\udcc8",
+       "location": "edep y\u00e2 h\u00fb  #D\u0130VANYOLU ",
+       "followers": 860,
+       "following": 238,
+       "createdAt": "Mon Dec 19 10:00:13 +0000 2011",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114236393924763846",
+      "url": "https://x.com/itsmeflow18/status/2114236393924763846",
+      "twitterUrl": "https://twitter.com/itsmeflow18/status/2114236393924763846",
+      "text": "\ud83d\udd25 $BTC SURGES TO $180K MC! \ud83d\ude80\ud83d\udc8e\n\nFrom $8K to $180K \u2014 that's 22.5X! \ud83d\udcc8\ud83d\udc40 What a move for $BTC!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\n\ud83d\udd17 Link in bio \u2014 click to join!\n\nCA: \"C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\"\n\n#BTC #Solana #Memecoin #Crypto https://t.co/vvtSN7oKhu",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 83,
+      "createdAt": "Sun Oct 25 06:03:31 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114236393924763846",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdGyX5WAAAFcX3.jpg",
+        "expanded_url": "https://x.com/itsmeflow18/status/2114236393924763846/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "itsmeflow18",
+       "url": "https://x.com/itsmeflow18",
+       "id": "1764347830448402432",
+       "name": "1000x Gem Hunter \ud83d\udc8e\ud83d\udd0e",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2093291588566827009/e0LW9ySy_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1764347830448402432/1787914530",
+       "description": "Faith-led crypto trader | Scouting high-conviction memecoin plays | Alpha, precision entries & market insights | Targeting asymmetric 10\u00d7\u2013100\u00d7 opportunities",
+       "location": "Pump.fun",
+       "followers": 3546,
+       "following": 3019,
+       "createdAt": "Sun Mar 03 17:51:51 +0000 2024",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114236210382065867",
+       "text": "$BTC\u20bf\ud83d\udd25 $BTC ON THE RADAR AT JUST $8K MC! \ud83d\ude80\ud83d\udc8e\n\nA fresh low-cap token catching attention \ud83d\udc40 Keep it on your watchlist, follow the moves, and always DYOR!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\n\ud83d\udd17 Link in bio \u2014 click to join!\n\nCA: https://t.co/cly2Qsyrgb",
+       "user": {
+        "name": "1000x Gem Hunter \ud83d\udc8e\ud83d\udd0e",
+        "screen_name": "itsmeflow18"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114243115489845308",
+      "url": "https://x.com/Kaan_Capitug0/status/2114243115489845308",
+      "twitterUrl": "https://twitter.com/Kaan_Capitug0/status/2114243115489845308",
+      "text": "\u20bf\ud83d\ude80 $BTC HITS $285K MC! \ud83d\udd25\ud83d\udc8e\n\nFrom $8K to $285K \u2014 that's 35.6X! \ud83d\udcc8\ud83d\udc40 $BTC is making moves!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\n\ud83d\udd17 Link in bio \u2014 click to join!\n\nCA: \"C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\"\n\n#BTC #Solana #Memecoin #Crypto https://t.co/HzZVfLOg0v",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 66,
+      "createdAt": "Sun Oct 25 06:30:14 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114243115489845308",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdM55nWEAEX6pz.jpg",
+        "expanded_url": "https://x.com/Kaan_Capitug0/status/2114243115489845308/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Kaan_Capitug0",
+       "url": "https://x.com/Kaan_Capitug0",
+       "id": "440713064",
+       "name": "Kaan_Capital\u26a1\ufe0f\ud83d\udc8e",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2106178977488359425/FC0dP0T0_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/440713064/1790987185",
+       "description": "Crypto Investor \ud83c\uddf9\ud83c\uddf7 | On-Chain Alpha \ud83d\udd0e\nSolana \u2022 DeFi \u2022 Early Gems \ud83d\udc8e\nSharing market research, narratives & early setups.\nFollow for daily crypto insights. \ud83d\udcc8",
+       "location": "edep y\u00e2 h\u00fb  #D\u0130VANYOLU ",
+       "followers": 860,
+       "following": 238,
+       "createdAt": "Mon Dec 19 10:00:13 +0000 2011",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114242989895680486",
+       "text": "$BTC\u20bf\ud83d\udd25 $BTC ON THE RADAR AT JUST $8K MC! \ud83d\ude80\ud83d\udc8e\n\nA fresh low-cap token catching attention \ud83d\udc40 Keep it on your watchlist, follow the moves, and always DYOR!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\n\ud83d\udd17 Link in bio \u2014 click to join!\n\nCA: https://t.co/yUWnKM3UHa",
+       "user": {
+        "name": "Kaan_Capital\u26a1\ufe0f\ud83d\udc8e",
+        "screen_name": "Kaan_Capitug0"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114242686496428136",
+      "url": "https://x.com/Kaan_Capitug0/status/2114242686496428136",
+      "twitterUrl": "https://twitter.com/Kaan_Capitug0/status/2114242686496428136",
+      "text": "$BTC\u20bf\ud83d\udd25 $BTC ON THE RADAR AT JUST $8K MC! \ud83d\ude80\ud83d\udc8e\n\nA fresh low-cap token catching attention \ud83d\udc40 Keep it on your watchlist, follow the moves, and always DYOR!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\n\ud83d\udd17 Link in bio \u2014 click to join!\n\nCA: \"C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\"\n\n#BTC #Solana #Memecoin #Crypto",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 19,
+      "createdAt": "Sun Oct 25 06:28:31 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114242686496428136",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdMgs-XIAAzqMX.jpg",
+        "expanded_url": "https://x.com/Kaan_Capitug0/status/2114242686496428136/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Kaan_Capitug0",
+       "url": "https://x.com/Kaan_Capitug0",
+       "id": "440713064",
+       "name": "Kaan_Capital\u26a1\ufe0f\ud83d\udc8e",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2106178977488359425/FC0dP0T0_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/440713064/1790987185",
+       "description": "Crypto Investor \ud83c\uddf9\ud83c\uddf7 | On-Chain Alpha \ud83d\udd0e\nSolana \u2022 DeFi \u2022 Early Gems \ud83d\udc8e\nSharing market research, narratives & early setups.\nFollow for daily crypto insights. \ud83d\udcc8",
+       "location": "edep y\u00e2 h\u00fb  #D\u0130VANYOLU ",
+       "followers": 860,
+       "following": 238,
+       "createdAt": "Mon Dec 19 10:00:13 +0000 2011",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114292568938914202",
+      "url": "https://x.com/Meme_insidersT/status/2114292568938914202",
+      "twitterUrl": "https://twitter.com/Meme_insidersT/status/2114292568938914202",
+      "text": "1,612.5X \ud83d\ude80\ud83d\udd25 from my $BTC call.\n\nCalled early. Momentum went CRAZY. \ud83d\udcc8\ud83d\udcb0\n\nCA: C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump https://t.co/DLZ6sh816y",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 17,
+      "createdAt": "Sun Oct 25 09:46:44 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114292568938914202",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVd54XtWYAAfqB3.jpg",
+        "expanded_url": "https://x.com/Meme_insidersT/status/2114292568938914202/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Meme_insidersT",
+       "url": "https://x.com/Meme_insidersT",
+       "id": "187853768",
+       "name": "MR MEMECOIN \ud83d\udcb9",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2111851530521374720/PHpD2fwc_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/187853768/1792886054",
+       "description": "Early alpha Solana analyst || Precision entries || Entry and exit #solana || Daily 10\u2013100x \ud83d\udd4a\ufe0f on my Telegram",
+       "location": "Los Angeles, CA",
+       "followers": 2056,
+       "following": 29,
+       "createdAt": "Tue Sep 07 09:48:35 +0000 2010",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114292445290881256",
+       "text": "Watch your entry on $BTC\nGamble for entry \nCA:\n\nBTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC https://t.co/7v9prbpMfC",
+       "user": {
+        "name": "MR MEMECOIN \ud83d\udcb9",
+        "screen_name": "Meme_insidersT"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114242067425599787",
+      "url": "https://x.com/Kaan_Capitug0/status/2114242067425599787",
+      "twitterUrl": "https://twitter.com/Kaan_Capitug0/status/2114242067425599787",
+      "text": "$BTC\u20bf\ud83d\udd25 $BTC ON THE RADAR AT JUST $8K MC! \ud83d\ude80\ud83d\udc8e\n\nA fresh low-cap token catching attention \ud83d\udc40 Keep it on your watchlist, follow the moves, and always DYOR!\n\n\ud83d\udce9 Serious about finding gems early? DM me \u201cEARLY.\u201d\n\n\ud83d\udd17 Link in bio \u2014 click to join!\n\nCA: \"C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump\"\n\n#BTC #Solana #Memecoin #Crypto",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 1,
+      "viewCount": 41,
+      "createdAt": "Sun Oct 25 06:26:04 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114242067425599787",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdL8qSWYAASeUs.jpg",
+        "expanded_url": "https://x.com/Kaan_Capitug0/status/2114242067425599787/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Kaan_Capitug0",
+       "url": "https://x.com/Kaan_Capitug0",
+       "id": "440713064",
+       "name": "Kaan_Capital\u26a1\ufe0f\ud83d\udc8e",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2106178977488359425/FC0dP0T0_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/440713064/1790987185",
+       "description": "Crypto Investor \ud83c\uddf9\ud83c\uddf7 | On-Chain Alpha \ud83d\udd0e\nSolana \u2022 DeFi \u2022 Early Gems \ud83d\udc8e\nSharing market research, narratives & early setups.\nFollow for daily crypto insights. \ud83d\udcc8",
+       "location": "edep y\u00e2 h\u00fb  #D\u0130VANYOLU ",
+       "followers": 860,
+       "following": 238,
+       "createdAt": "Mon Dec 19 10:00:13 +0000 2011",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     }
+    ]
+   }
+  }
+ ]
+}

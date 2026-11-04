@@ -1,0 +1,1466 @@
+{
+ "success": true,
+ "message": "Token thesis feed retrieved successfully",
+ "responseObject": {
+  "items": [
+   {
+    "type": "thesis",
+    "id": "3e0ed1bb-b850-485f-a343-cd00a5f6aedf",
+    "tradeId": "e5945398-dc55-454d-932f-9cbedaccc9df",
+    "createdAt": "2026-09-20T11:47:51.686Z",
+    "userId": "7d4ea79e-9343-542c-9175-40f9197e3f49",
+    "displayName": "AchillesFromTroy",
+    "userHandle": "AchillesFromTroy",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "3e0ed1bb-b850-485f-a343-cd00a5f6aedf",
+     "userId": "7d4ea79e-9343-542c-9175-40f9197e3f49",
+     "tradeId": "e5945398-dc55-454d-932f-9cbedaccc9df",
+     "comment": "unfortunately same X acc was used for a rugged token called Agent Robinhood",
+     "priceUsdAtCreation": 0.000278128053288,
+     "marketCapAtCreation": 272006.7324557748,
+     "fdvAtCreation": 278128.053288,
+     "createdAt": "2026-09-20T11:47:51.686Z",
+     "parentId": null,
+     "numLikes": 2,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "unfortunately same X acc was used for a rugged token called Agent Robinhood",
+       "link": null,
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 2
+      }
+     },
+     "olderThesis": 0,
+     "newerThesis": 0
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": 0,
+     "unrealizedPnlUsd": 0,
+     "realizedPnlUsd": 245.859,
+     "percentageUnrealizedPnl": 0,
+     "percentageRealizedPnl": 17.6711,
+     "closedAt": "2026-09-20T11:47:35.888Z"
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 1637.16,
+    "isDev": false
+   },
+   {
+    "type": "thesis",
+    "id": "b9e1fe37-a3bf-40aa-bcc0-5b9b8493c979",
+    "tradeId": "8fbe1d5b-4132-478f-9826-6f6da4ecf2a5",
+    "createdAt": "2026-09-20T11:41:18.926Z",
+    "userId": "7ec48595-1822-5db2-ac5c-460aeddcde84",
+    "displayName": "frz",
+    "userHandle": "frzwins",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "b9e1fe37-a3bf-40aa-bcc0-5b9b8493c979",
+     "userId": "7ec48595-1822-5db2-ac5c-460aeddcde84",
+     "tradeId": "8fbe1d5b-4132-478f-9826-6f6da4ecf2a5",
+     "comment": "robinhood agent project devved by a respected and known CT character followed by CZ and you're selling at 300k?",
+     "priceUsdAtCreation": 0.000265244043248,
+     "marketCapAtCreation": 259406.28661625044,
+     "fdvAtCreation": 265244.043248,
+     "createdAt": "2026-09-20T11:41:18.926Z",
+     "parentId": null,
+     "numLikes": 11,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "robinhood agent project devved by a respected and known CT character followed by CZ and you're selling at 300k?",
+       "link": null,
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 11
+      }
+     },
+     "olderThesis": 3,
+     "newerThesis": 0
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": 1492.52,
+     "unrealizedPnlUsd": 1097.08,
+     "realizedPnlUsd": 0,
+     "percentageUnrealizedPnl": 277.434,
+     "percentageRealizedPnl": 0,
+     "closedAt": null
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 1492.52,
+    "isDev": false
+   },
+   {
+    "type": "thesis",
+    "id": "172ac569-e1bf-48ac-9dfb-af15c464dfcc",
+    "tradeId": "8fbe1d5b-4132-478f-9826-6f6da4ecf2a5",
+    "createdAt": "2026-09-20T11:37:09.382Z",
+    "userId": "7ec48595-1822-5db2-ac5c-460aeddcde84",
+    "displayName": "frz",
+    "userHandle": "frzwins",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "172ac569-e1bf-48ac-9dfb-af15c464dfcc",
+     "userId": "7ec48595-1822-5db2-ac5c-460aeddcde84",
+     "tradeId": "8fbe1d5b-4132-478f-9826-6f6da4ecf2a5",
+     "comment": "agent szn on robinhood",
+     "priceUsdAtCreation": 0.00022636725876,
+     "marketCapAtCreation": 221385.14134897263,
+     "fdvAtCreation": 226367.25876,
+     "createdAt": "2026-09-20T11:37:09.382Z",
+     "parentId": null,
+     "numLikes": 5,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "agent szn on robinhood",
+       "link": null,
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 5
+      }
+     },
+     "olderThesis": 2,
+     "newerThesis": 1
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": 1492.52,
+     "unrealizedPnlUsd": 1097.08,
+     "realizedPnlUsd": 0,
+     "percentageUnrealizedPnl": 277.434,
+     "percentageRealizedPnl": 0,
+     "closedAt": null
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 1492.52,
+    "isDev": false
+   },
+   {
+    "type": "thesis",
+    "id": "4f707a36-2d5c-408b-a271-8b3e9ac4920c",
+    "tradeId": "0e1bcf97-436a-46af-9cf9-705f368f3fcf",
+    "createdAt": "2026-09-20T11:36:52.937Z",
+    "userId": "e929270b-2c2b-5e50-9723-0c2f8e7199cd",
+    "displayName": "Elijah Tetilla",
+    "userHandle": "El1jahtetilla",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "4f707a36-2d5c-408b-a271-8b3e9ac4920c",
+     "userId": "e929270b-2c2b-5e50-9723-0c2f8e7199cd",
+     "tradeId": "0e1bcf97-436a-46af-9cf9-705f368f3fcf",
+     "comment": "Kevin is Dev.. idk how you fade this bruh😭 this will goo atleast 4mil \n\nhttps://x.com/kevinsvenson_/status/2101620212206313656?s=46&t=[redacted]",
+     "priceUsdAtCreation": 0.00022636725876,
+     "marketCapAtCreation": 221385.14134897263,
+     "fdvAtCreation": 226367.25876,
+     "createdAt": "2026-09-20T11:36:52.937Z",
+     "parentId": null,
+     "numLikes": 10,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "Kevin is Dev.. idk how you fade this bruh😭 this will goo atleast 4mil \n\n",
+       "link": null,
+       "provider": null
+      },
+      {
+       "text": "https://x.com/kevinsvenson_/status/2101620212206313656?s=46&t=[redacted]",
+       "link": "https://x.com/kevinsvenson_/status/2101620212206313656?s=46&t=[redacted]",
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 10
+      }
+     },
+     "olderThesis": 1,
+     "newerThesis": 0
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": 1957.13,
+     "unrealizedPnlUsd": 366.237,
+     "realizedPnlUsd": 0,
+     "percentageUnrealizedPnl": 23.0208,
+     "percentageRealizedPnl": 0,
+     "closedAt": null
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 1957.13,
+    "isDev": false
+   },
+   {
+    "type": "thesis",
+    "id": "d985950f-e801-4022-aea5-c2229caadc30",
+    "tradeId": "dfa1eb2e-495f-4c0a-b5d6-da20df8a1c25",
+    "createdAt": "2026-09-20T11:36:18.632Z",
+    "userId": "f964a044-1f5b-565a-a629-6d35b42ea947",
+    "displayName": "Aki",
+    "userHandle": "Hayakama",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "d985950f-e801-4022-aea5-c2229caadc30",
+     "userId": "f964a044-1f5b-565a-a629-6d35b42ea947",
+     "tradeId": "dfa1eb2e-495f-4c0a-b5d6-da20df8a1c25",
+     "comment": "quick flip, think this legs up to 600-1m",
+     "priceUsdAtCreation": 0.00022636725876,
+     "marketCapAtCreation": 221385.14134897263,
+     "fdvAtCreation": 226367.25876,
+     "createdAt": "2026-09-20T11:36:18.632Z",
+     "parentId": null,
+     "numLikes": 7,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "quick flip, think this legs up to 600-1m",
+       "link": null,
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 7
+      }
+     },
+     "olderThesis": 0,
+     "newerThesis": 0
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": 0,
+     "unrealizedPnlUsd": 0,
+     "realizedPnlUsd": 246.395,
+     "percentageUnrealizedPnl": 0,
+     "percentageRealizedPnl": 31.8698,
+     "closedAt": "2026-09-20T11:42:13.998Z"
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 1019.52,
+    "isDev": false
+   },
+   {
+    "type": "thesis",
+    "id": "a5caf5d5-00c7-4ec3-9a1a-143562a87cc7",
+    "tradeId": "d3a02888-66f2-4d21-bccb-223bdd53ee83",
+    "createdAt": "2026-09-20T11:30:00.664Z",
+    "userId": "72cee9af-2064-587c-acec-8d260e1af0b9",
+    "displayName": "k :)",
+    "userHandle": "kaivnee",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "a5caf5d5-00c7-4ec3-9a1a-143562a87cc7",
+     "userId": "72cee9af-2064-587c-acec-8d260e1af0b9",
+     "tradeId": "d3a02888-66f2-4d21-bccb-223bdd53ee83",
+     "comment": "$4663 is building an intelligence layer for Robinhood Chain.\n\nInstead of jumping between different tools trying to figure out what's launching, where smart money is moving, and which tokens are gaining attention, 4663 brings that information together in one dashboard.\n\nThe platform tracks:\n\n📊 Marke…",
+     "priceUsdAtCreation": 0.000256066730605,
+     "marketCapAtCreation": 250430.9574639531,
+     "fdvAtCreation": 256066.730605,
+     "createdAt": "2026-09-20T11:30:00.664Z",
+     "parentId": null,
+     "numLikes": 9,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "$4663 is building an intelligence layer for Robinhood Chain.\n\nInstead of jumping between different tools trying to figure out what's launching, where smart money is moving, and which tokens are gaining attention, 4663 brings that information together in one dashboard.\n\nThe platform tracks:\n\n📊 Marke…",
+       "link": null,
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 9
+      }
+     },
+     "olderThesis": 1,
+     "newerThesis": 0
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": 1815.16,
+     "unrealizedPnlUsd": 1095.92,
+     "realizedPnlUsd": 0,
+     "percentageUnrealizedPnl": 152.371,
+     "percentageRealizedPnl": 0,
+     "closedAt": null
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 1815.16,
+    "isDev": false
+   },
+   {
+    "type": "thesis",
+    "id": "1be9ee38-9090-4eeb-a03f-4aaed6339e6f",
+    "tradeId": "ee0800df-b9a3-4d58-a6d2-c853465922a2",
+    "createdAt": "2026-09-20T11:24:48.191Z",
+    "userId": "bdc9648e-50e3-5244-8b80-378326e3126f",
+    "displayName": "Funkai (spider arc) 🕸️",
+    "userHandle": "funkai_",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "1be9ee38-9090-4eeb-a03f-4aaed6339e6f",
+     "userId": "bdc9648e-50e3-5244-8b80-378326e3126f",
+     "tradeId": "ee0800df-b9a3-4d58-a6d2-c853465922a2",
+     "comment": "1m is enough. Will sleep on my bags. Hope to wake up to multimillions.",
+     "priceUsdAtCreation": 0.000305425948306,
+     "marketCapAtCreation": 298703.8280525221,
+     "fdvAtCreation": 305425.948306,
+     "createdAt": "2026-09-20T11:24:48.191Z",
+     "parentId": null,
+     "numLikes": 7,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "1m is enough. Will sleep on my bags. Hope to wake up to multimillions.",
+       "link": null,
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 7
+      }
+     },
+     "olderThesis": 1,
+     "newerThesis": 0
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": 547.062,
+     "unrealizedPnlUsd": 401.912,
+     "realizedPnlUsd": 1776.5,
+     "percentageUnrealizedPnl": 276.895,
+     "percentageRealizedPnl": 169.391,
+     "closedAt": null
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 2323.57,
+    "isDev": false
+   },
+   {
+    "type": "thesis",
+    "id": "aad45e8e-cf82-4c68-a5e0-6e83b3df872e",
+    "tradeId": "0e1bcf97-436a-46af-9cf9-705f368f3fcf",
+    "createdAt": "2026-09-20T11:24:35.800Z",
+    "userId": "e929270b-2c2b-5e50-9723-0c2f8e7199cd",
+    "displayName": "Elijah Tetilla",
+    "userHandle": "El1jahtetilla",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "aad45e8e-cf82-4c68-a5e0-6e83b3df872e",
+     "userId": "e929270b-2c2b-5e50-9723-0c2f8e7199cd",
+     "tradeId": "0e1bcf97-436a-46af-9cf9-705f368f3fcf",
+     "comment": "kevin is the dev wow\nhttps://x.com/kevinsvenson_/status/2101620212206313656?s=46",
+     "priceUsdAtCreation": 0.000258755314085,
+     "marketCapAtCreation": 253060.36790523675,
+     "fdvAtCreation": 258755.314085,
+     "createdAt": "2026-09-20T11:24:35.800Z",
+     "parentId": null,
+     "numLikes": 8,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "kevin is the dev wow\n",
+       "link": null,
+       "provider": null
+      },
+      {
+       "text": "https://x.com/kevinsvenson_/status/2101620212206313656?s=46",
+       "link": "https://x.com/kevinsvenson_/status/2101620212206313656?s=46",
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 8
+      }
+     },
+     "olderThesis": 0,
+     "newerThesis": 1
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": 1957.13,
+     "unrealizedPnlUsd": 366.237,
+     "realizedPnlUsd": 0,
+     "percentageUnrealizedPnl": 23.0208,
+     "percentageRealizedPnl": 0,
+     "closedAt": null
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 1957.13,
+    "isDev": false
+   },
+   {
+    "type": "thesis",
+    "id": "8e1975cc-1627-4730-8b49-12d4c773385b",
+    "tradeId": "d3a02888-66f2-4d21-bccb-223bdd53ee83",
+    "createdAt": "2026-09-20T11:16:47.524Z",
+    "userId": "72cee9af-2064-587c-acec-8d260e1af0b9",
+    "displayName": "k :)",
+    "userHandle": "kaivnee",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "8e1975cc-1627-4730-8b49-12d4c773385b",
+     "userId": "72cee9af-2064-587c-acec-8d260e1af0b9",
+     "tradeId": "d3a02888-66f2-4d21-bccb-223bdd53ee83",
+     "comment": "mostly ducksoldier putting dents in the chart",
+     "priceUsdAtCreation": 0.000336242020284,
+     "marketCapAtCreation": 328841.66904613824,
+     "fdvAtCreation": 336242.020284,
+     "createdAt": "2026-09-20T11:16:47.524Z",
+     "parentId": null,
+     "numLikes": 10,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "mostly ducksoldier putting dents in the chart",
+       "link": null,
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 10
+      }
+     },
+     "olderThesis": 0,
+     "newerThesis": 1
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": 1815.16,
+     "unrealizedPnlUsd": 1095.92,
+     "realizedPnlUsd": 0,
+     "percentageUnrealizedPnl": 152.371,
+     "percentageRealizedPnl": 0,
+     "closedAt": null
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 1815.16,
+    "isDev": false
+   },
+   {
+    "type": "thesis",
+    "id": "f7c11f36-9da2-4d5d-962c-f9f2747c73c2",
+    "tradeId": "4d6af218-1087-4aa4-b2c8-54bbc5698868",
+    "createdAt": "2026-09-20T11:11:18.836Z",
+    "userId": "ce3fc3b0-888b-5d26-b1ba-2b865931b8b7",
+    "displayName": "annihilato0r 🇩🇴",
+    "userHandle": "annicripto",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "f7c11f36-9da2-4d5d-962c-f9f2747c73c2",
+     "userId": "ce3fc3b0-888b-5d26-b1ba-2b865931b8b7",
+     "tradeId": "4d6af218-1087-4aa4-b2c8-54bbc5698868",
+     "comment": "Gogo agent",
+     "priceUsdAtCreation": 0.000183035684441,
+     "marketCapAtCreation": 179007.2517282125,
+     "fdvAtCreation": 183035.68444100002,
+     "createdAt": "2026-09-20T11:11:18.836Z",
+     "parentId": null,
+     "numLikes": 9,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "Gogo agent",
+       "link": null,
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 9
+      }
+     },
+     "olderThesis": 0,
+     "newerThesis": 0
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": 695.336,
+     "unrealizedPnlUsd": 491.898,
+     "realizedPnlUsd": 421.392,
+     "percentageUnrealizedPnl": 241.793,
+     "percentageRealizedPnl": 199.41,
+     "closedAt": null
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 1116.73,
+    "isDev": false
+   },
+   {
+    "type": "thesis",
+    "id": "76bf1e78-d86f-4cb6-a3a0-4523075530ea",
+    "tradeId": "751f7d73-f42e-47b7-93ec-fce0b60615e3",
+    "createdAt": "2026-09-20T11:11:06.909Z",
+    "userId": "d8ac5d11-fada-5600-8f62-1364493dba90",
+    "displayName": "whoami?",
+    "userHandle": "whoami",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "76bf1e78-d86f-4cb6-a3a0-4523075530ea",
+     "userId": "d8ac5d11-fada-5600-8f62-1364493dba90",
+     "tradeId": "751f7d73-f42e-47b7-93ec-fce0b60615e3",
+     "comment": "If you're not following MY ANON account here then wtf are you doing on FOMO bro?\nI am early and my hit rate is decent. \nHit rate of 6-7/10 is 🔥.",
+     "priceUsdAtCreation": 0.000183035684441,
+     "marketCapAtCreation": 179007.2517282125,
+     "fdvAtCreation": 183035.68444100002,
+     "createdAt": "2026-09-20T11:11:06.909Z",
+     "parentId": null,
+     "numLikes": 5,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "If you're not following MY ANON account here then wtf are you doing on FOMO bro?\nI am early and my hit rate is decent. \nHit rate of 6-7/10 is 🔥.",
+       "link": null,
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 5
+      }
+     },
+     "olderThesis": 3,
+     "newerThesis": 0
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": 225.357,
+     "unrealizedPnlUsd": 170.514,
+     "realizedPnlUsd": 1204.69,
+     "percentageUnrealizedPnl": 310.913,
+     "percentageRealizedPnl": 222.235,
+     "closedAt": null
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 1430.05,
+    "isDev": false
+   },
+   {
+    "type": "thesis",
+    "id": "6959524e-07c2-4b6b-ac50-18601a7d2463",
+    "tradeId": "8fbe1d5b-4132-478f-9826-6f6da4ecf2a5",
+    "createdAt": "2026-09-20T11:09:50.591Z",
+    "userId": "7ec48595-1822-5db2-ac5c-460aeddcde84",
+    "displayName": "frz",
+    "userHandle": "frzwins",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "6959524e-07c2-4b6b-ac50-18601a7d2463",
+     "userId": "7ec48595-1822-5db2-ac5c-460aeddcde84",
+     "tradeId": "8fbe1d5b-4132-478f-9826-6f6da4ecf2a5",
+     "comment": "\"autonomous market intelligence\"",
+     "priceUsdAtCreation": 0.000121809754335,
+     "marketCapAtCreation": 119128.84322961443,
+     "fdvAtCreation": 121809.75433499999,
+     "createdAt": "2026-09-20T11:09:50.591Z",
+     "parentId": null,
+     "numLikes": 10,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "\"autonomous market intelligence\"",
+       "link": null,
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 10
+      }
+     },
+     "olderThesis": 1,
+     "newerThesis": 2
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": 1492.52,
+     "unrealizedPnlUsd": 1097.08,
+     "realizedPnlUsd": 0,
+     "percentageUnrealizedPnl": 277.434,
+     "percentageRealizedPnl": 0,
+     "closedAt": null
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 1492.52,
+    "isDev": false
+   },
+   {
+    "type": "thesis",
+    "id": "7fc3b682-31f8-4b1c-9cd0-2c03d2cc0306",
+    "tradeId": "751f7d73-f42e-47b7-93ec-fce0b60615e3",
+    "createdAt": "2026-09-20T11:09:23.382Z",
+    "userId": "d8ac5d11-fada-5600-8f62-1364493dba90",
+    "displayName": "whoami?",
+    "userHandle": "whoami",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "7fc3b682-31f8-4b1c-9cd0-2c03d2cc0306",
+     "userId": "d8ac5d11-fada-5600-8f62-1364493dba90",
+     "tradeId": "751f7d73-f42e-47b7-93ec-fce0b60615e3",
+     "comment": "Gud agent. Send to 1 million with haste.",
+     "priceUsdAtCreation": 0.000121809754335,
+     "marketCapAtCreation": 119128.84322961443,
+     "fdvAtCreation": 121809.75433499999,
+     "createdAt": "2026-09-20T11:09:23.382Z",
+     "parentId": null,
+     "numLikes": 2,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "Gud agent. Send to 1 million with haste.",
+       "link": null,
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 2
+      }
+     },
+     "olderThesis": 2,
+     "newerThesis": 1
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": 225.357,
+     "unrealizedPnlUsd": 170.514,
+     "realizedPnlUsd": 1204.69,
+     "percentageUnrealizedPnl": 310.913,
+     "percentageRealizedPnl": 222.235,
+     "closedAt": null
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 1430.05,
+    "isDev": false
+   },
+   {
+    "type": "thesis",
+    "id": "8cb4fb26-07e4-4d9c-ac7b-17714a5e48e7",
+    "tradeId": "59b96a32-28ca-43b2-806b-c16bcdadb476",
+    "createdAt": "2026-09-20T11:07:08.975Z",
+    "userId": "f964a044-1f5b-565a-a629-6d35b42ea947",
+    "displayName": "Aki",
+    "userHandle": "Hayakama",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "8cb4fb26-07e4-4d9c-ac7b-17714a5e48e7",
+     "userId": "f964a044-1f5b-565a-a629-6d35b42ea947",
+     "tradeId": "59b96a32-28ca-43b2-806b-c16bcdadb476",
+     "comment": "cook",
+     "priceUsdAtCreation": 8.35325510155e-05,
+     "marketCapAtCreation": 81694.08294780525,
+     "fdvAtCreation": 83532.55101550001,
+     "createdAt": "2026-09-20T11:07:08.975Z",
+     "parentId": null,
+     "numLikes": 5,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "cook",
+       "link": null,
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 5
+      }
+     },
+     "olderThesis": 0,
+     "newerThesis": 0
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": 0,
+     "unrealizedPnlUsd": 0,
+     "realizedPnlUsd": 2189.06,
+     "percentageUnrealizedPnl": 0,
+     "percentageRealizedPnl": 330.346,
+     "closedAt": "2026-09-20T11:13:38.440Z"
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 2851.71,
+    "isDev": false
+   },
+   {
+    "type": "thesis",
+    "id": "7e49e0c0-a30d-42f6-b55a-13813e591efb",
+    "tradeId": "8fbe1d5b-4132-478f-9826-6f6da4ecf2a5",
+    "createdAt": "2026-09-20T11:06:18.779Z",
+    "userId": "7ec48595-1822-5db2-ac5c-460aeddcde84",
+    "displayName": "frz",
+    "userHandle": "frzwins",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "7e49e0c0-a30d-42f6-b55a-13813e591efb",
+     "userId": "7ec48595-1822-5db2-ac5c-460aeddcde84",
+     "tradeId": "8fbe1d5b-4132-478f-9826-6f6da4ecf2a5",
+     "comment": "not fumbling the next big robinhood agent coin",
+     "priceUsdAtCreation": 8.35325510155e-05,
+     "marketCapAtCreation": 81694.08294780525,
+     "fdvAtCreation": 83532.55101550001,
+     "createdAt": "2026-09-20T11:06:18.779Z",
+     "parentId": null,
+     "numLikes": 3,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "not fumbling the next big robinhood agent coin",
+       "link": null,
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 3
+      }
+     },
+     "olderThesis": 0,
+     "newerThesis": 3
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": 1492.52,
+     "unrealizedPnlUsd": 1097.08,
+     "realizedPnlUsd": 0,
+     "percentageUnrealizedPnl": 277.434,
+     "percentageRealizedPnl": 0,
+     "closedAt": null
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 1492.52,
+    "isDev": false
+   },
+   {
+    "type": "thesis",
+    "id": "c0016f59-fb0e-4fd8-a9dc-68c5352055c7",
+    "tradeId": "ee0800df-b9a3-4d58-a6d2-c853465922a2",
+    "createdAt": "2026-09-20T11:06:05.767Z",
+    "userId": "bdc9648e-50e3-5244-8b80-378326e3126f",
+    "displayName": "Funkai (spider arc) 🕸️",
+    "userHandle": "funkai_",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "c0016f59-fb0e-4fd8-a9dc-68c5352055c7",
+     "userId": "bdc9648e-50e3-5244-8b80-378326e3126f",
+     "tradeId": "ee0800df-b9a3-4d58-a6d2-c853465922a2",
+     "comment": "Kevin pls make me",
+     "priceUsdAtCreation": 8.35325510155e-05,
+     "marketCapAtCreation": 81694.08294780525,
+     "fdvAtCreation": 83532.55101550001,
+     "createdAt": "2026-09-20T11:06:05.767Z",
+     "parentId": null,
+     "numLikes": 12,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "Kevin pls make me",
+       "link": null,
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 12
+      }
+     },
+     "olderThesis": 0,
+     "newerThesis": 1
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": 547.062,
+     "unrealizedPnlUsd": 401.912,
+     "realizedPnlUsd": 1776.5,
+     "percentageUnrealizedPnl": 276.895,
+     "percentageRealizedPnl": 169.391,
+     "closedAt": null
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 2323.57,
+    "isDev": false
+   },
+   {
+    "type": "thesis",
+    "id": "d36d396d-bd2c-41b5-bef8-b70c3dbd37d4",
+    "tradeId": "751f7d73-f42e-47b7-93ec-fce0b60615e3",
+    "createdAt": "2026-09-20T11:05:04.756Z",
+    "userId": "d8ac5d11-fada-5600-8f62-1364493dba90",
+    "displayName": "whoami?",
+    "userHandle": "whoami",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "d36d396d-bd2c-41b5-bef8-b70c3dbd37d4",
+     "userId": "d8ac5d11-fada-5600-8f62-1364493dba90",
+     "tradeId": "751f7d73-f42e-47b7-93ec-fce0b60615e3",
+     "comment": "This might do well. \nDoxed dev (kevin) check my previous thesis.\nHe has the link in his bio too.",
+     "priceUsdAtCreation": 8.35325510155e-05,
+     "marketCapAtCreation": 81694.08294780525,
+     "fdvAtCreation": 83532.55101550001,
+     "createdAt": "2026-09-20T11:05:04.756Z",
+     "parentId": null,
+     "numLikes": 6,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "This might do well. \nDoxed dev (kevin) check my previous thesis.\nHe has the link in his bio too.",
+       "link": null,
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 6
+      }
+     },
+     "olderThesis": 1,
+     "newerThesis": 2
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": 225.357,
+     "unrealizedPnlUsd": 170.514,
+     "realizedPnlUsd": 1204.69,
+     "percentageUnrealizedPnl": 310.913,
+     "percentageRealizedPnl": 222.235,
+     "closedAt": null
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 1430.05,
+    "isDev": false
+   },
+   {
+    "type": "thesis",
+    "id": "512ba1cb-cc58-4756-9ef0-8e53b6e6edbe",
+    "tradeId": "ae83669a-4dc7-4d97-a426-b08d7dc02e63",
+    "createdAt": "2026-09-20T11:01:42.442Z",
+    "userId": "fd37b668-9530-5039-9e95-cd0d8e100dcd",
+    "displayName": "mystictiger",
+    "userHandle": "mystictiger",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "512ba1cb-cc58-4756-9ef0-8e53b6e6edbe",
+     "userId": "fd37b668-9530-5039-9e95-cd0d8e100dcd",
+     "tradeId": "ae83669a-4dc7-4d97-a426-b08d7dc02e63",
+     "comment": "Might be worth a pick as Kevin is the dev",
+     "priceUsdAtCreation": 3.26366388029e-05,
+     "marketCapAtCreation": 31918.33895994554,
+     "fdvAtCreation": 32636.638802899997,
+     "createdAt": "2026-09-20T11:01:42.442Z",
+     "parentId": null,
+     "numLikes": 6,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "Might be worth a pick as Kevin is the dev",
+       "link": null,
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 6
+      }
+     },
+     "olderThesis": 0,
+     "newerThesis": 0
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": 778.027,
+     "unrealizedPnlUsd": 628.82,
+     "realizedPnlUsd": 643.64,
+     "percentageUnrealizedPnl": 421.444,
+     "percentageRealizedPnl": 431.376,
+     "closedAt": null
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 1421.67,
+    "isDev": false
+   },
+   {
+    "type": "thesis",
+    "id": "73a3a306-ad32-4c0b-8e6a-455ebc73f858",
+    "tradeId": "751f7d73-f42e-47b7-93ec-fce0b60615e3",
+    "createdAt": "2026-09-20T11:01:09.264Z",
+    "userId": "d8ac5d11-fada-5600-8f62-1364493dba90",
+    "displayName": "whoami?",
+    "userHandle": "whoami",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "73a3a306-ad32-4c0b-8e6a-455ebc73f858",
+     "userId": "d8ac5d11-fada-5600-8f62-1364493dba90",
+     "tradeId": "751f7d73-f42e-47b7-93ec-fce0b60615e3",
+     "comment": "Yo. \nhttps://x.com/KevinSvenson_/status/2101620212206313656?s=20\n👀",
+     "priceUsdAtCreation": 3.26366388029e-05,
+     "marketCapAtCreation": 31918.33895994554,
+     "fdvAtCreation": 32636.638802899997,
+     "createdAt": "2026-09-20T11:01:09.264Z",
+     "parentId": null,
+     "numLikes": 1,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "Yo. \n",
+       "link": null,
+       "provider": null
+      },
+      {
+       "text": "https://x.com/KevinSvenson_/status/2101620212206313656?s=20",
+       "link": "https://x.com/KevinSvenson_/status/2101620212206313656?s=20",
+       "provider": null
+      },
+      {
+       "text": "\n👀",
+       "link": null,
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 1
+      }
+     },
+     "olderThesis": 0,
+     "newerThesis": 3
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": 225.357,
+     "unrealizedPnlUsd": 170.514,
+     "realizedPnlUsd": 1204.69,
+     "percentageUnrealizedPnl": 310.913,
+     "percentageRealizedPnl": 222.235,
+     "closedAt": null
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 1430.05,
+    "isDev": false
+   },
+   {
+    "type": "thesis",
+    "id": "160607f6-9939-4ae2-8fb5-fe6377670f3f",
+    "tradeId": "365ce2c3-def1-4094-adf0-b0aa79d975fb",
+    "createdAt": "2026-09-20T10:58:44.129Z",
+    "userId": "f598f1e9-80a9-50e6-bfdd-0edb8a5dac30",
+    "displayName": "DuckSoldier",
+    "userHandle": "DuckSoldier",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "160607f6-9939-4ae2-8fb5-fe6377670f3f",
+     "userId": "f598f1e9-80a9-50e6-bfdd-0edb8a5dac30",
+     "tradeId": "365ce2c3-def1-4094-adf0-b0aa79d975fb",
+     "comment": "Kevin is the dev?\nhttps://x.com/kevinsvenson_/status/2101620212206313656?s=46",
+     "priceUsdAtCreation": 4.3717916891e-05,
+     "marketCapAtCreation": 42755.72917838815,
+     "fdvAtCreation": 43717.916891,
+     "createdAt": "2026-09-20T10:58:44.129Z",
+     "parentId": null,
+     "numLikes": 7,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "Kevin is the dev?\n",
+       "link": null,
+       "provider": null
+      },
+      {
+       "text": "https://x.com/kevinsvenson_/status/2101620212206313656?s=46",
+       "link": "https://x.com/kevinsvenson_/status/2101620212206313656?s=46",
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 7
+      }
+     },
+     "olderThesis": 0,
+     "newerThesis": 2
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": 8497.93,
+     "unrealizedPnlUsd": 6039.09,
+     "realizedPnlUsd": 2235.82,
+     "percentageUnrealizedPnl": 245.607,
+     "percentageRealizedPnl": 102.194,
+     "closedAt": null
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 10733.75,
+    "isDev": false
+   },
+   {
+    "type": "thesis",
+    "id": "b7e4408a-068d-43b9-bd69-bf39c02cf298",
+    "tradeId": "026046f7-fde7-4edb-8372-63aba9bf6be9",
+    "createdAt": "2026-09-20T10:40:18.328Z",
+    "userId": "921107ae-b3e0-5d1a-9077-872158119c14",
+    "displayName": "Vasco",
+    "userHandle": "vascodicaprio",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "b7e4408a-068d-43b9-bd69-bf39c02cf298",
+     "userId": "921107ae-b3e0-5d1a-9077-872158119c14",
+     "tradeId": "026046f7-fde7-4edb-8372-63aba9bf6be9",
+     "comment": "kevin is the dev wow\nhttps://x.com/kevinsvenson_/status/2101620212206313656?s=46",
+     "priceUsdAtCreation": 3.36854964364e-05,
+     "marketCapAtCreation": 32977.79778031273,
+     "fdvAtCreation": 33685.4964364,
+     "createdAt": "2026-09-20T10:40:18.328Z",
+     "parentId": null,
+     "numLikes": 38,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "kevin is the dev wow\n",
+       "link": null,
+       "provider": null
+      },
+      {
+       "text": "https://x.com/kevinsvenson_/status/2101620212206313656?s=46",
+       "link": "https://x.com/kevinsvenson_/status/2101620212206313656?s=46",
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 38
+      }
+     },
+     "olderThesis": 1,
+     "newerThesis": 0
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": 13619.06,
+     "unrealizedPnlUsd": 13120.72,
+     "realizedPnlUsd": 0,
+     "percentageUnrealizedPnl": 2632.9,
+     "percentageRealizedPnl": 0,
+     "closedAt": null
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 13619.06,
+    "isDev": false
+   },
+   {
+    "type": "thesis",
+    "id": "0b0b97e7-9aa7-4222-a287-ed95c2aeee3d",
+    "tradeId": "7083d2d2-c3e3-4a73-8645-db63ccf7319d",
+    "createdAt": "2026-09-20T10:21:29.130Z",
+    "userId": "f295de17-e16c-5a69-96c2-c5db987cad95",
+    "displayName": "kakarotop",
+    "userHandle": "kakaratop",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "0b0b97e7-9aa7-4222-a287-ed95c2aeee3d",
+     "userId": "f295de17-e16c-5a69-96c2-c5db987cad95",
+     "tradeId": "7083d2d2-c3e3-4a73-8645-db63ccf7319d",
+     "comment": "check x its alpha",
+     "priceUsdAtCreation": 2.56485997285e-05,
+     "marketCapAtCreation": 25139.574666395667,
+     "fdvAtCreation": 25648.5997285,
+     "createdAt": "2026-09-20T10:21:29.130Z",
+     "parentId": null,
+     "numLikes": 6,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "check x its alpha",
+       "link": null,
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 6
+      }
+     },
+     "olderThesis": 0,
+     "newerThesis": 1
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": 0,
+     "unrealizedPnlUsd": 0,
+     "realizedPnlUsd": 1291.46,
+     "percentageUnrealizedPnl": 0,
+     "percentageRealizedPnl": 649.447,
+     "closedAt": "2026-09-20T11:08:42.314Z"
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 1490.32,
+    "isDev": false
+   },
+   {
+    "type": "thesis",
+    "id": "1acaf5ad-fe38-49f7-bf47-d7f7422c373c",
+    "tradeId": "47899b2a-6cac-479f-81ec-7eefee65a8b4",
+    "createdAt": "2026-09-20T10:20:16.254Z",
+    "userId": "14a4cefc-5835-597b-84ca-6cf1e9f65e4c",
+    "displayName": "kingofthehell",
+    "userHandle": "kingofthehell",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "1acaf5ad-fe38-49f7-bf47-d7f7422c373c",
+     "userId": "14a4cefc-5835-597b-84ca-6cf1e9f65e4c",
+     "tradeId": "47899b2a-6cac-479f-81ec-7eefee65a8b4",
+     "comment": "Check x nd dyor for alpha behind it",
+     "priceUsdAtCreation": 2.56485997285e-05,
+     "marketCapAtCreation": 25139.574666395667,
+     "fdvAtCreation": 25648.5997285,
+     "createdAt": "2026-09-20T10:20:16.254Z",
+     "parentId": null,
+     "numLikes": 3,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "Check x nd dyor for alpha behind it",
+       "link": null,
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 3
+      }
+     },
+     "olderThesis": 0,
+     "newerThesis": 0
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": -1.23752e-12,
+     "unrealizedPnlUsd": 0,
+     "realizedPnlUsd": 1189.75,
+     "percentageUnrealizedPnl": 0,
+     "percentageRealizedPnl": 103.558,
+     "closedAt": "2026-09-20T11:28:00.114Z"
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 2338.62,
+    "isDev": false
+   },
+   {
+    "type": "thesis",
+    "id": "958cb7a6-ec71-46f8-9427-e630dd550925",
+    "tradeId": "3d65d567-e577-4fac-95da-cac63dce4c2d",
+    "createdAt": "2026-09-20T09:43:42.889Z",
+    "userId": "17ffa852-9efd-5af6-9dc3-f7a7792bfa9a",
+    "displayName": "🫥",
+    "userHandle": "cigartypashe",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "958cb7a6-ec71-46f8-9427-e630dd550925",
+     "userId": "17ffa852-9efd-5af6-9dc3-f7a7792bfa9a",
+     "tradeId": "3d65d567-e577-4fac-95da-cac63dce4c2d",
+     "comment": "top blast szn",
+     "priceUsdAtCreation": 1.67640938125e-05,
+     "marketCapAtCreation": 16431.391677320717,
+     "fdvAtCreation": 16764.0938125,
+     "createdAt": "2026-09-20T09:43:42.889Z",
+     "parentId": null,
+     "numLikes": 2,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "top blast szn",
+       "link": null,
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 2
+      }
+     },
+     "olderThesis": 0,
+     "newerThesis": 1
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": 1436.52,
+     "unrealizedPnlUsd": 1361.98,
+     "realizedPnlUsd": 65.2362,
+     "percentageUnrealizedPnl": 1827.24,
+     "percentageRealizedPnl": 87.538,
+     "closedAt": null
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 1501.76,
+    "isDev": false
+   },
+   {
+    "type": "thesis",
+    "id": "5bf43f1c-67d0-44d6-bdcb-f2deaf0d5843",
+    "tradeId": "026046f7-fde7-4edb-8372-63aba9bf6be9",
+    "createdAt": "2026-09-20T09:33:42.798Z",
+    "userId": "921107ae-b3e0-5d1a-9077-872158119c14",
+    "displayName": "Vasco",
+    "userHandle": "vascodicaprio",
+    "profilePictureLink": null,
+    "verified": false,
+    "twitter": null,
+    "comment": {
+     "id": "5bf43f1c-67d0-44d6-bdcb-f2deaf0d5843",
+     "userId": "921107ae-b3e0-5d1a-9077-872158119c14",
+     "tradeId": "026046f7-fde7-4edb-8372-63aba9bf6be9",
+     "comment": "this acc been posting a long time now they launch it autonomous market agent for rh chain",
+     "priceUsdAtCreation": 2.12311264312e-05,
+     "marketCapAtCreation": 20809.771052560052,
+     "fdvAtCreation": 21231.1264312,
+     "createdAt": "2026-09-20T09:33:42.798Z",
+     "parentId": null,
+     "numLikes": 7,
+     "tokenAddress": "[redacted]",
+     "networkId": 4663,
+     "shortCommentSegments": [
+      {
+       "text": "this acc been posting a long time now they launch it autonomous market agent for rh chain",
+       "link": null,
+       "provider": null
+      }
+     ],
+     "reactions": {
+      "counts": {
+       "likeCount": 7
+      }
+     },
+     "olderThesis": 0,
+     "newerThesis": 1
+    },
+    "numReplies": 0,
+    "authorTrade": {
+     "humanTokenAmount": "[redacted]",
+     "usdValue": 13619.06,
+     "unrealizedPnlUsd": 13120.72,
+     "realizedPnlUsd": 0,
+     "percentageUnrealizedPnl": 2632.9,
+     "percentageRealizedPnl": 0,
+     "closedAt": null
+    },
+    "tokenAddress": "[redacted]",
+    "networkId": 4663,
+    "ticker": "4663",
+    "tokenImageUrl": null,
+    "equity": 0,
+    "threshold": 13619.06,
+    "isDev": false
+   }
+  ],
+  "hasNextPage": false,
+  "count": 262
+ },
+ "statusCode": 200
+}

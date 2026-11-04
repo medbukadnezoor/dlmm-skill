@@ -1,0 +1,318 @@
+{
+ "schema": "holder-scan-creator-fees/1",
+ "collector": "creator_fees",
+ "mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+ "status": "ok",
+ "reason": null,
+ "fetched_at": "2026-11-02T06:55:30Z",
+ "request": {
+  "keys": "none",
+  "dexscreener": {
+   "host": "api.dexscreener.com",
+   "method": "GET",
+   "path": "/token-pairs/v1/solana/<MINT>",
+   "requests_sent": 1
+  },
+  "rpc": {
+   "host": "api.mainnet-beta.solana.com",
+   "method": "POST",
+   "path": "/",
+   "rpc_methods": [
+    "getMultipleAccounts"
+   ],
+   "calls": 2,
+   "requests_sent": 2,
+   "data_slice_bytes": 1024
+  },
+  "calls_sent": 3,
+  "requests_sent": 3,
+  "max_calls": 3,
+  "max_requests": 6
+ },
+ "layouts": {
+  "pump_amm": "provider-docs current/pumpfun/idls.md (pump_amm.json: Pool discriminator and fields, create_pool seeds)",
+  "pump": "provider-docs current/pumpfun/idls.md (pump.json: migrate seeds pool-authority and pool, wsol_mint)",
+  "pump_fees": "provider-docs current/pumpfun/idls.md (pump_fees.json: SharingConfig discriminator and fields, SHARING_CONFIG_SEED)",
+  "docs": "provider-docs current/pumpfun/publicdocs.md (PUMP_SWAP_CREATOR_FEE_README, FEE_PROGRAM_README, CREATOR_FEE_SHARING, COLLECT_CREATOR_FEE, HOLDER_REWARDS_README, PUMP_CASHBACK_README)",
+  "dexscreener": "provider-docs current/dexscreener.md (GET /token-pairs/v1/{chainId}/{tokenAddress})",
+  "spl_token": "provider-docs current/spltoken/layouts.md (token interface state.rs: Mint)"
+ },
+ "dexscreener": {
+  "status": "ok",
+  "reason": null,
+  "http_status": 200,
+  "pairs_seen": 30,
+  "base_side_pairs": 7,
+  "base_side_quote_mints": [
+   "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+   "So11111111111111111111111111111111111111112",
+   "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn"
+  ],
+  "other_base_side_pairs": 6
+ },
+ "bonding_curve": {
+  "address": "12adjUWEq4DbeFbqZ1LnQjFfyCJZ6Q1yfEQgx2f8L51x",
+  "status": "identified",
+  "reason": null,
+  "data_len": 166,
+  "complete": true,
+  "quote_mint_field": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+  "pool_quote_mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+  "creator_field": "EYuk9azb6QiNAdPTgNmQYbNdfxRvjacHNrHVnXnhWtHB",
+  "canonical_pool": "HJa61kEfSAwRt3DW9p15mLh6U5MaQgZGbE51ngg7bYtT"
+ },
+ "pool_authority": "7VxpinDT3aeac8gac325fhTea8mYa7kEUGtNFVj3SNQi",
+ "sharing_config_address": "Aem24qrT9ZTWRbAT79cKEXBoxhVYdYDW74xkabLhe6ad",
+ "sharing_config_exists": false,
+ "candidates": [
+  {
+   "address": "HJa61kEfSAwRt3DW9p15mLh6U5MaQgZGbE51ngg7bYtT",
+   "quote_mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "found_by": [
+    "dexscreener",
+    "bonding_curve_quote"
+   ]
+  },
+  {
+   "address": "7EjW9FZndB1AHRhC8Mn2fF1hZvLsEJPh3q9w8SQ87fuv",
+   "quote_mint": "So11111111111111111111111111111111111111112",
+   "found_by": [
+    "derived_sol_pair"
+   ]
+  }
+ ],
+ "mint_info": {
+  "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+  "decimals": 6
+ },
+ "slot": 464402077,
+ "http_status": 200,
+ "rpc_error_code": null,
+ "pools": [
+  {
+   "address": "HJa61kEfSAwRt3DW9p15mLh6U5MaQgZGbE51ngg7bYtT",
+   "quote_mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "found_by": [
+    "dexscreener",
+    "bonding_curve_quote"
+   ],
+   "status": "identified",
+   "reason": null,
+   "base_mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+   "creator": "7VxpinDT3aeac8gac325fhTea8mYa7kEUGtNFVj3SNQi",
+   "index": 0,
+   "canonical": true,
+   "coin_creator": "EYuk9azb6QiNAdPTgNmQYbNdfxRvjacHNrHVnXnhWtHB",
+   "creator_fee_bps_field": 100,
+   "is_mayhem_mode": false,
+   "is_cashback_coin": false,
+   "can_edit_creator_fee": false,
+   "is_holder_reward": true,
+   "recipient": {
+    "status": "identified",
+    "reason": null,
+    "kind": "program_address",
+    "address": "EYuk9azb6QiNAdPTgNmQYbNdfxRvjacHNrHVnXnhWtHB",
+    "owner_program": null,
+    "detail": "no_account_off_curve"
+   }
+  },
+  {
+   "address": "7EjW9FZndB1AHRhC8Mn2fF1hZvLsEJPh3q9w8SQ87fuv",
+   "quote_mint": "So11111111111111111111111111111111111111112",
+   "found_by": [
+    "derived_sol_pair"
+   ],
+   "status": "not_found",
+   "reason": null
+  }
+ ],
+ "presentation_only": true,
+ "note": "presentation only: who receives the creator fee, shown next to the holder rows; never an engine input, never changes a FLAG, verdict or threshold and never counts toward NO_ALARM",
+ "cannot_see": "only the canonical PumpSwap pool's creator fee (the pool pump.fun's migrate creates, found from the coin's bonding curve, the SOL-pair derivation and Dexscreener's pair list; other PumpSwap pools pay no creator fee) and the fee-sharing split; not who signs the claims or cranks the payouts (that needs transaction history), not where a recipient sends the fees next, not creator fees on the pump.fun bonding curve before graduation, and no other launchpad (not supported); when the bonding curve cannot be read, a pool paired with a token Dexscreener did not list is not checked; one read at read time, no history: an admin that is not revoked can still set the shareholders once, and pump.fun's community-takeover instruction (admin_cto_sharing_config in the cached pump_fees IDL, argument new_admin) can still set a new config admin even after 'admin revoked: yes'",
+ "dexscreener_pairs": {
+  "pairs_capped": true,
+  "pairs": [
+   {
+    "pair_address": "HJa61kEfSAwRt3DW9p15mLh6U5MaQgZGbE51ngg7bYtT",
+    "dex_id": "pumpswap",
+    "quote_mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+    "volume_h24": 3249682.61
+   },
+   {
+    "pair_address": "5EqdM7FBGypHBZAm8duPxioAeJ2BTG1SvDrrPKc3fyj3",
+    "dex_id": "meteora",
+    "quote_mint": "So11111111111111111111111111111111111111112",
+    "volume_h24": 837581.73
+   },
+   {
+    "pair_address": "2ZvxeVP9UXbCS1P3wjgUGz4xKHs9T7Ng75v2BoKMN2zM",
+    "dex_id": "meteora",
+    "quote_mint": "So11111111111111111111111111111111111111112",
+    "volume_h24": 947453.01
+   },
+   {
+    "pair_address": "4yH1qg3kQzvddsnG9kftjP1HB1ouJMiCTfpvkDiN6eMY",
+    "dex_id": "meteora",
+    "quote_mint": "So11111111111111111111111111111111111111112",
+    "volume_h24": 306753.25
+   },
+   {
+    "pair_address": "5uShBrn7Gy19cHyNist6hf3LxAzrWVKNSfgVCAqKwGmZ",
+    "dex_id": "meteora",
+    "quote_mint": "So11111111111111111111111111111111111111112",
+    "volume_h24": 26629.86
+   },
+   {
+    "pair_address": "DJEKMHqP4JPmgGuKzeAppuQJZXHidKuUmRiMvGxkRXau",
+    "dex_id": "meteora",
+    "quote_mint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "volume_h24": 0.9
+   },
+   {
+    "pair_address": "HuT5xSQMhv4UyWFu1mj5icdDELeEhfLRWPT3XwJRwrMJ",
+    "dex_id": "meteora",
+    "quote_mint": "So11111111111111111111111111111111111111112",
+    "volume_h24": 59.16
+   },
+   {
+    "pair_address": "BTJiQAfoniWAHDSzNw4dxBohcgGnqggjTog74eDF5BvL",
+    "dex_id": "pumpfun",
+    "quote_mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+    "volume_h24": 0.0
+   },
+   {
+    "pair_address": "E7xsMghhPfTpu6HjxiLo1gA9xt5nZStGkminDDkVwPVT",
+    "dex_id": "pumpfun",
+    "quote_mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+    "volume_h24": 0.0
+   },
+   {
+    "pair_address": "3EzeXRLgsypEofezgakpLHXATxvRv2JYmDWn4WLYn7ok",
+    "dex_id": "pumpfun",
+    "quote_mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+    "volume_h24": 0.0
+   },
+   {
+    "pair_address": "8huvEdCUqAbAfBA1KWwBum8xo8khMJ9rfqjQQKeCPLvw",
+    "dex_id": "pumpfun",
+    "quote_mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+    "volume_h24": 0.0
+   },
+   {
+    "pair_address": "P6xwAoFMDd8fzgDTWcMmjJQHTJ5Gx4JNW2motoU6f2D",
+    "dex_id": "pumpfun",
+    "quote_mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+    "volume_h24": 0.0
+   },
+   {
+    "pair_address": "EXTj5zWpWSRkanKwkWYqBZhRE9xFZEUuNGBK8twC5ufq",
+    "dex_id": "pumpfun",
+    "quote_mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+    "volume_h24": 0.0
+   },
+   {
+    "pair_address": "4ANzRvno5nH1mfMJbW37DeNhbB4APxKiYy2KwtVkKikc",
+    "dex_id": "pumpfun",
+    "quote_mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+    "volume_h24": 0.0
+   },
+   {
+    "pair_address": "7qhr3B4GBQyoCVRitqAi4zBeoeNtrwJt3xkR1Phb4Km5",
+    "dex_id": "pumpfun",
+    "quote_mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+    "volume_h24": 0.0
+   },
+   {
+    "pair_address": "Be2SvuNSZdqQaoouub8ndYBEr5TMd7NB4eJpdjnaePLe",
+    "dex_id": "pumpfun",
+    "quote_mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+    "volume_h24": 0.0
+   },
+   {
+    "pair_address": "BdC3KWr96TyPHbsQPYSpRPmCFACU9YftNWzkCZ3F8SoK",
+    "dex_id": "pumpfun",
+    "quote_mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+    "volume_h24": 0.0
+   },
+   {
+    "pair_address": "AsBTZUyyrFR3g3FAjyBxj8jam78QSYLnqTV3df4uVqXr",
+    "dex_id": "pumpfun",
+    "quote_mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+    "volume_h24": 0.0
+   },
+   {
+    "pair_address": "8hpmjsaLzRNLmd93RZTGir6REMd2SzCJdrvJ2vkyhZwV",
+    "dex_id": "pumpfun",
+    "quote_mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+    "volume_h24": 0.0
+   },
+   {
+    "pair_address": "GDg1hTyEMjMw56bqJ3M4hsa7KVyyoymYJr17fvcHDRVu",
+    "dex_id": "pumpfun",
+    "quote_mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+    "volume_h24": 0.0
+   },
+   {
+    "pair_address": "4fGZHW7ybbdafyuDk66Pr3cf8h27kUWpv41NAoxSquKD",
+    "dex_id": "pumpfun",
+    "quote_mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+    "volume_h24": 0.0
+   },
+   {
+    "pair_address": "J2sSeHfwyqoNpqpdo5KXjUXcHxaSgg7dmTL4c6BWpAzg",
+    "dex_id": "pumpswap",
+    "quote_mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+    "volume_h24": 156.5
+   },
+   {
+    "pair_address": "Gi6ZZ7ccJarHtxs1pmFTTrtUmZCiVDPnbDhf4cqQae9K",
+    "dex_id": "pumpfun",
+    "quote_mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+    "volume_h24": 0.0
+   },
+   {
+    "pair_address": "J2GUh3d6L75zno6gY6aMW4xXLvhWtzrUZK1G5iDSZMPc",
+    "dex_id": "pumpfun",
+    "quote_mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+    "volume_h24": 0.0
+   },
+   {
+    "pair_address": "7focenNxEA5v2mqm9hWzTUxqLNCQq2qEynSTrGvUUWnQ",
+    "dex_id": "pumpfun",
+    "quote_mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+    "volume_h24": 0.0
+   },
+   {
+    "pair_address": "64AoABanUxAccTzEt71QP6VFBMi4BQivv2TtTVtTjFKv",
+    "dex_id": "pumpfun",
+    "quote_mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+    "volume_h24": 0.0
+   },
+   {
+    "pair_address": "3K1T4LZtExYJT4K6GKw5qDMgvDozDL7Z3pScsdZnSPHZ",
+    "dex_id": "pumpfun",
+    "quote_mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+    "volume_h24": 0.0
+   },
+   {
+    "pair_address": "4ABzDcb67ovsMJDCdHR7DvzAnAG9Zvdqd9LVSLqPnYDn",
+    "dex_id": "pumpfun",
+    "quote_mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+    "volume_h24": 0.0
+   },
+   {
+    "pair_address": "9MYhgUTExbCoGfz9vG2RMv3zQrECym2CU8sc39c4WcdE",
+    "dex_id": "pumpfun",
+    "quote_mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+    "volume_h24": 0.0
+   },
+   {
+    "pair_address": "9FHPmZQCPeAQzTBPn6GkKe3L6fQQccGhecQ5ND1vGcXU",
+    "dex_id": "pumpfun",
+    "quote_mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+    "volume_h24": 0.0
+   }
+  ]
+ }
+}

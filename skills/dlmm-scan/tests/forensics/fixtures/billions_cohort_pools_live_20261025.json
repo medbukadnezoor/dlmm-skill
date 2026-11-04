@@ -1,0 +1,127 @@
+{
+ "note": "HS-COHORT-POOLS-T1: trimmed public data from holder-scan run 20261025T060315Z ($BILLIONS, mint below). holders.json: pool_addresses (all 30, as saved), earliest_pair_created_at, and the top_holders rows marked infrastructure plus the one wallet of the Jupiter cohort, exactly as saved. jupiter_top100.json (fetched_at 2026-10-25T06:03:54Z): the 5 rows of the Jupiter funding-time cohort (5 wallets, 9.34% of supply; 4 of them pools or bonding curves), exactly as saved. Public on-chain addresses only; no key, no request facts.",
+ "mint": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+ "earliest_pair_created_at": 1792903373,
+ "pool_addresses": [
+  "12EfRFF3pHArkfaX1bA6TBi9J4Yg9wPCSpm895LWsQg3",
+  "3PH1oFKmzXdEQDe9y8cqXvJo3ag8sv4CS3ZXivGkqT8E",
+  "3daykMmmqP2J4d9Z3Rg1AZZJdit5vyrSZ2BSJ93aNswr",
+  "3y77iETTcFVevnW7bauuTzA33jkWSeuHTEZEQdSCzc1F",
+  "53jskYKeomTwwyD6XhTxeoZKRFCvEn8XiJDnMee32BG1",
+  "5N11CfyEG4VoXa3CV8gUAJ96Cv4WWiyZMJ3MErdJ7Kq2",
+  "66HpmwhcP5v8Sz46cc2nZKGBLTfhAGBAgzHVk32VzH6j",
+  "95ckaMvqFn91XfoSBS6pW5WaDbZaGjKspq746kBHiCRV",
+  "9JwCM8aRjWDoYTPmVG449t9QZAhDDyZaYzgPDoUtmdPa",
+  "A5P8NpxfyeuzFgCkKUbpt7hD1aRNfxMN7hkcXFpKSiYC",
+  "AFq3nk3ssHAcfhYUmn9EoiSqwzMydjLBAhFET59qsVu5",
+  "AVXz6bJTssmV4TmYiVBw25sSquKbV6wxXiFp9XXfkfpu",
+  "AYLiq4ysTa54Zcpk6dx4uzfwvLvztB125G9F8nLMYf82",
+  "B6iHwi5eGeKJW6nejM2GZqeHHFbzwnPMiYg2joyFcsgH",
+  "B9gcW5yZTVjM3x78ZHra728Vz7NhbhisYX6nHEP6qCmC",
+  "BCGyoFVbKondfKby7fkL3CtiJg75zWh5yEpEwkVoTSnF",
+  "BVQMPyYwkrAkbTf5GP6DPLhTM5DWMwVKnhnxLJtrb3vT",
+  "BcPT1qfdqE9xydpGFTwDYhJufw9oikaBKbS1fucxAoAi",
+  "DoeXpYFpmR59Qv6ru7S6N7orJBt7grXV83shPscwxWP9",
+  "ENC1PGGr9ZQiZzqz5g4CMjrJEFYKxBm8DtNaqSAZM7Lx",
+  "FSi52g3pUQHpE6inYvwiHqDQZmd18usQXXiUyp314oJb",
+  "FW6dCTyhhLpX9QCH8eL2EUmW7JRED8YjF9W597b8LMLh",
+  "Ffme6vJUCkWe84fGT4oV3opVJ5j1UtPcMQbShpx1MkyL",
+  "Fm6buEurFpXKszeCrtj6vRHBr2th4GG2KQ58NJsyQgr6",
+  "GRn69R58HkE8dDsfQimYLyyUDdMoCTZWwxYPvELFHMQx",
+  "Go3fb9aAr1a2vrvJFahdYaZao4jrbF7ecmMWu3uuqHdt",
+  "HEdEqwM4AeUU611ySNnttnfesozJ4nLj3WifYeU7FPto",
+  "emXWJDfi75HZawrCNasVNhW93bYLGJeVeCGSBDuSEbr",
+  "h49ByqNtXdEQc2rxRDXdC1GZ7AD9njttb41k7Fp2ifW",
+  "pn5qvSjF5G6zT22BmPzrubYXKchE5Yj9j4bbjBa6LyP"
+ ],
+ "top_holders": [
+  {
+   "rank": 1,
+   "wallet": "3daykMmmqP2J4d9Z3Rg1AZZJdit5vyrSZ2BSJ93aNswr",
+   "share_pct": 7.2079,
+   "infrastructure": true
+  },
+  {
+   "rank": 9,
+   "wallet": "AFq3nk3ssHAcfhYUmn9EoiSqwzMydjLBAhFET59qsVu5",
+   "share_pct": 1.2253,
+   "infrastructure": true
+  },
+  {
+   "rank": 36,
+   "wallet": "12EfRFF3pHArkfaX1bA6TBi9J4Yg9wPCSpm895LWsQg3",
+   "share_pct": 0.3535,
+   "infrastructure": true
+  },
+  {
+   "rank": 55,
+   "wallet": "B6iHwi5eGeKJW6nejM2GZqeHHFbzwnPMiYg2joyFcsgH",
+   "share_pct": 0.2802,
+   "infrastructure": true
+  },
+  {
+   "rank": 59,
+   "wallet": "EBXSJP8m4VX55jyhXDk7yoLb1AB9GMcGdfk5rc7nY8ru",
+   "share_pct": 0.2735,
+   "infrastructure": false
+  },
+  {
+   "rank": 106,
+   "wallet": "FSi52g3pUQHpE6inYvwiHqDQZmd18usQXXiUyp314oJb",
+   "share_pct": 0.1604,
+   "infrastructure": true
+  }
+ ],
+ "jupiter_rows": [
+  {
+   "address": "3daykMmmqP2J4d9Z3Rg1AZZJdit5vyrSZ2BSJ93aNswr",
+   "amount": 70002555.697948,
+   "addressInfo": {
+    "fundingAddress": "4A4gBUGTV2ZX37agZS5Ld7QiuNTmcy6cNC3V2tnxjBVF",
+    "fundingAmount": 0.0021082,
+    "fundingBlockTime": "2026-10-25T04:42:56Z"
+   },
+   "tags": []
+  },
+  {
+   "address": "AFq3nk3ssHAcfhYUmn9EoiSqwzMydjLBAhFET59qsVu5",
+   "amount": 12202062.687415,
+   "addressInfo": {
+    "fundingAddress": "D1F4pC8EcUAcfzVhpHe2EsYdHurj7s6P8VwM2JjBhbRs",
+    "fundingAmount": 0.00149352,
+    "fundingBlockTime": "2026-10-25T05:03:47Z"
+   },
+   "tags": []
+  },
+  {
+   "address": "12EfRFF3pHArkfaX1bA6TBi9J4Yg9wPCSpm895LWsQg3",
+   "amount": 3174924.394013,
+   "addressInfo": {
+    "fundingAddress": "EpTEt8zmLVuqed5AEQMWbi6eaycQht4z8UDYrAws71cq",
+    "fundingAmount": 0.00524256,
+    "fundingBlockTime": "2026-10-25T04:45:48Z"
+   },
+   "tags": []
+  },
+  {
+   "address": "B6iHwi5eGeKJW6nejM2GZqeHHFbzwnPMiYg2joyFcsgH",
+   "amount": 3113002.053042,
+   "addressInfo": {
+    "fundingAddress": "5L3hZMzRkMUVkHS61W3Dj1A2YpR4T1YLcfmG1c7H4nQ6",
+    "fundingAmount": 0.00149352,
+    "fundingBlockTime": "2026-10-25T05:54:49Z"
+   },
+   "tags": []
+  },
+  {
+   "address": "EBXSJP8m4VX55jyhXDk7yoLb1AB9GMcGdfk5rc7nY8ru",
+   "amount": 2689426.410851,
+   "addressInfo": {
+    "fundingAddress": "GK3BFWBwnMYoyU9V3gerbjXmEqggrTKP619ksoaGeoDN",
+    "fundingAmount": 1.0,
+    "fundingBlockTime": "2026-10-25T01:17:17Z"
+   },
+   "tags": []
+  }
+ ]
+}

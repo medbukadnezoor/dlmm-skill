@@ -1,0 +1,132 @@
+{
+ "schema": "holder-scan-creator-fees/1",
+ "collector": "creator_fees",
+ "mint": "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC",
+ "status": "ok",
+ "reason": null,
+ "fetched_at": "2026-10-25T10:37:19Z",
+ "request": {
+  "keys": "none",
+  "dexscreener": {
+   "host": "api.dexscreener.com",
+   "method": "GET",
+   "path": "/token-pairs/v1/solana/<MINT>",
+   "requests_sent": 1
+  },
+  "rpc": {
+   "host": "api.mainnet-beta.solana.com",
+   "method": "POST",
+   "path": "/",
+   "rpc_methods": [
+    "getMultipleAccounts"
+   ],
+   "calls": 2,
+   "requests_sent": 2,
+   "data_slice_bytes": 1024
+  },
+  "calls_sent": 3,
+  "requests_sent": 3,
+  "max_calls": 3,
+  "max_requests": 6
+ },
+ "layouts": {
+  "pump_amm": "provider-docs current/pumpfun/idls.md (pump_amm.json: Pool discriminator and fields, create_pool seeds)",
+  "pump": "provider-docs current/pumpfun/idls.md (pump.json: migrate seeds pool-authority and pool, wsol_mint)",
+  "pump_fees": "provider-docs current/pumpfun/idls.md (pump_fees.json: SharingConfig discriminator and fields, SHARING_CONFIG_SEED)",
+  "docs": "provider-docs current/pumpfun/publicdocs.md (PUMP_SWAP_CREATOR_FEE_README, FEE_PROGRAM_README, CREATOR_FEE_SHARING, COLLECT_CREATOR_FEE, HOLDER_REWARDS_README, PUMP_CASHBACK_README)",
+  "dexscreener": "provider-docs current/dexscreener.md (GET /token-pairs/v1/{chainId}/{tokenAddress})",
+  "spl_token": "provider-docs current/spltoken/layouts.md (token interface state.rs: Mint)"
+ },
+ "dexscreener": {
+  "status": "ok",
+  "reason": null,
+  "http_status": 200,
+  "pairs_seen": 30,
+  "base_side_pairs": 6,
+  "base_side_quote_mints": [
+   "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+   "So11111111111111111111111111111111111111112"
+  ],
+  "other_base_side_pairs": 5
+ },
+ "bonding_curve": {
+  "address": "6jvwz2hgtKNJmQrAUYcXMk5eu1aUBycG1RYTkyj7d3n1",
+  "status": "identified",
+  "reason": null,
+  "data_len": 166,
+  "complete": true,
+  "quote_mint_field": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+  "pool_quote_mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+  "creator_field": "Ftnt2dtQJW8fmnF7s8QzDVsPSm95CNQ7GgUgHuawGxDD",
+  "canonical_pool": "9nkE3B5zF3yCDh8YrQrhch4dGNyLYcNBqEB7feo3V9Av"
+ },
+ "pool_authority": "9y1qeNcmpCPnkEqn8NifWJJfWYPhFbx9r7X4ojdba38d",
+ "sharing_config_address": "5tjD3bNqhTQLqDUWb8VZJRv4g3B66SKrfaCwPtU2D5N4",
+ "sharing_config_exists": false,
+ "candidates": [
+  {
+   "address": "9nkE3B5zF3yCDh8YrQrhch4dGNyLYcNBqEB7feo3V9Av",
+   "quote_mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+   "found_by": [
+    "dexscreener",
+    "bonding_curve_quote"
+   ]
+  },
+  {
+   "address": "6GnRVYpBcLJQVrqFmJ2taZGv1NMBcKrzRaKpxmdAznKi",
+   "quote_mint": "So11111111111111111111111111111111111111112",
+   "found_by": [
+    "derived_sol_pair"
+   ]
+  }
+ ],
+ "mint_info": {
+  "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+  "decimals": 6
+ },
+ "slot": 461225916,
+ "http_status": 200,
+ "rpc_error_code": null,
+ "pools": [
+  {
+   "address": "9nkE3B5zF3yCDh8YrQrhch4dGNyLYcNBqEB7feo3V9Av",
+   "quote_mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+   "found_by": [
+    "dexscreener",
+    "bonding_curve_quote"
+   ],
+   "status": "identified",
+   "reason": null,
+   "base_mint": "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC",
+   "creator": "9y1qeNcmpCPnkEqn8NifWJJfWYPhFbx9r7X4ojdba38d",
+   "index": 0,
+   "canonical": true,
+   "coin_creator": "Ftnt2dtQJW8fmnF7s8QzDVsPSm95CNQ7GgUgHuawGxDD",
+   "creator_fee_bps_field": 300,
+   "is_mayhem_mode": false,
+   "is_cashback_coin": false,
+   "can_edit_creator_fee": false,
+   "is_holder_reward": true,
+   "recipient": {
+    "status": "identified",
+    "reason": null,
+    "kind": "program_address",
+    "address": "Ftnt2dtQJW8fmnF7s8QzDVsPSm95CNQ7GgUgHuawGxDD",
+    "owner_program": null,
+    "detail": "no_account_off_curve"
+   }
+  },
+  {
+   "address": "6GnRVYpBcLJQVrqFmJ2taZGv1NMBcKrzRaKpxmdAznKi",
+   "quote_mint": "So11111111111111111111111111111111111111112",
+   "found_by": [
+    "derived_sol_pair"
+   ],
+   "status": "not_found",
+   "reason": null
+  }
+ ],
+ "presentation_only": true,
+ "note": "presentation only: who receives the creator fee, shown next to the holder rows; never an engine input, never changes a FLAG, verdict or threshold and never counts toward NO_ALARM",
+ "cannot_see": "only the canonical PumpSwap pool's creator fee (the pool pump.fun's migrate creates, found from the coin's bonding curve, the SOL-pair derivation and Dexscreener's pair list; other PumpSwap pools pay no creator fee) and the fee-sharing split; not who signs the claims or cranks the payouts (that needs transaction history), not where a recipient sends the fees next, not creator fees on the pump.fun bonding curve before graduation, and no other launchpad (not supported); when the bonding curve cannot be read, a pool paired with a token Dexscreener did not list is not checked; one read at read time, no history: an admin that is not revoked can still set the shareholders once, and pump.fun's community-takeover instruction (admin_cto_sharing_config in the cached pump_fees IDL, argument new_admin) can still set a new config admin even after 'admin revoked: yes'"
+}

@@ -1,0 +1,63 @@
+{
+  "schema": "holder-scan-transfer-graph-app-wallets/1",
+  "rule": "Wallets of apps, relayers and fee accounts that touch the holders of many unrelated tokens. The transfer_graph lane (scripts/transfer_graph.py) never links holders through them and never counts them as a burst sender. Additions only, and only by a ticket: each entry needs its address, a reason and its source. Removing an entry needs a ticket too.",
+  "source_note": "HS-GRAPH-T1 prototype of 2026-10-20 (owner-requested): Helius getTransfersByAddress rows of the top 200 ordinary holders of four unrelated pump.fun tokens (DKYc DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump, 9A1V 9A1VFXY8ETKNSP2jN3rnTF99jDTnbR8j3JqVHas4pump, GezC GezCGqZBZuDffsWGFFRC4zeDVTCoxhrPdmDYrA2hpump, 78rn 78rnjstWeje4iaJUTBtQNPDfXtPXuBnLenrrHwF3pump), saved in the author's private prototype folder (not included). Counts are the holders (of the 200 read per token) whose rows show a transfer with the wallet.",
+  "entries": [
+    {
+      "address": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+      "reason": "FOMO Co-signer (Helius identity, category Authority): co-signs and pays for FOMO app trades; touched 71 DKYc, 101 9A1V and 58 GezC holders",
+      "source": "HS-GRAPH-T1 prototype 2026-10-20 (identities.json, transfers.json.gz)",
+      "added": "2026-10-20",
+      "ticket": "HS-GRAPH-T1"
+    },
+    {
+      "address": "6Mvb6rmQ3p8o954wEHndriNf7smn33XZaHTVL32ndGPH",
+      "reason": "app relayer or fee account, unlabelled by Helius: touched 64 DKYc, 61 9A1V, 13 GezC and 4 78rn holders",
+      "source": "HS-GRAPH-T1 prototype 2026-10-20 (transfers.json.gz, identities.json: no label)",
+      "added": "2026-10-20",
+      "ticket": "HS-GRAPH-T1"
+    },
+    {
+      "address": "6Dp9t57fP3RY6rZx1QAvX7Y1Ang2taez34BCyECwWCvS",
+      "reason": "app relayer or fee account, unlabelled by Helius: touched 52 DKYc, 55 9A1V, 13 GezC and 1 78rn holders",
+      "source": "HS-GRAPH-T1 prototype 2026-10-20 (transfers.json.gz, identities.json: no label)",
+      "added": "2026-10-20",
+      "ticket": "HS-GRAPH-T1"
+    },
+    {
+      "address": "ARu4n5mFdZogZAravu7CcizaojWnS6oqka37gdLT5SZn",
+      "reason": "app relayer (a program account, off the curve): touched 73 DKYc, 71 9A1V and 8 GezC holders, and sent the 9A1V token to 27 holders",
+      "source": "HS-GRAPH-T1 prototype 2026-10-20 (transfers.json.gz)",
+      "added": "2026-10-20",
+      "ticket": "HS-GRAPH-T1"
+    },
+    {
+      "address": "8FnX3xo2yYw3EUE6w3nQA4GfXGS9wpK6oj3veJpbFzLo",
+      "reason": "app relayer or fee account (a program account, off the curve): touched 99 DKYc, 123 9A1V and 58 GezC holders",
+      "source": "HS-GRAPH-T1 prototype 2026-10-20 (transfers.json.gz)",
+      "added": "2026-10-20",
+      "ticket": "HS-GRAPH-T1"
+    },
+    {
+      "address": "8ekCy2jHHUbW2yeNGFWYJT9Hm9FW7SvZcZK66dSZCDiF",
+      "reason": "app relayer or fee account (a program account, off the curve): touched 80 DKYc, 113 9A1V and 53 GezC holders",
+      "source": "HS-GRAPH-T1 prototype 2026-10-20 (transfers.json.gz)",
+      "added": "2026-10-20",
+      "ticket": "HS-GRAPH-T1"
+    },
+    {
+      "address": "2LAYGGSiF3QfyQEG1Gb3UGAsuzvD21zjHEW88v2XZ7cW",
+      "reason": "app relayer or fee account (a program account, off the curve): touched 27 DKYc and 19 9A1V holders",
+      "source": "HS-GRAPH-T1 prototype 2026-10-20 (transfers.json.gz)",
+      "added": "2026-10-20",
+      "ticket": "HS-GRAPH-T1"
+    },
+    {
+      "address": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
+      "reason": "app relayer or fee account, unlabelled by Helius: touched 3 DKYc, 19 9A1V and 1 GezC holders",
+      "source": "HS-GRAPH-T1 prototype 2026-10-20 (transfers.json.gz, identities.json: no label)",
+      "added": "2026-10-20",
+      "ticket": "HS-GRAPH-T1"
+    }
+  ]
+}

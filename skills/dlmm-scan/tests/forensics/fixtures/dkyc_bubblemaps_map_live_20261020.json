@@ -1,0 +1,485 @@
+{
+ "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+ "refreshed": true,
+ "age_label_before": "2h ago",
+ "age_min_before": 120,
+ "clusters_before": [
+  {
+   "cluster": 1,
+   "wallets": 3,
+   "supply_pct": 5.99
+  },
+  {
+   "cluster": 2,
+   "wallets": 3,
+   "supply_pct": 2.54
+  },
+  {
+   "cluster": 3,
+   "wallets": 7,
+   "supply_pct": 1.88
+  },
+  {
+   "cluster": 4,
+   "wallets": 11,
+   "supply_pct": 1.88
+  },
+  {
+   "cluster": 5,
+   "wallets": 6,
+   "supply_pct": 1.62
+  },
+  {
+   "cluster": 6,
+   "wallets": 4,
+   "supply_pct": 1.14
+  }
+ ],
+ "members_before_read": false,
+ "members_before_reason": "not needed: no pre-refresh cluster at or over 15% and clusters together under 30% (the pre-refresh line cannot print)",
+ "settle_s": 20.2,
+ "settle_list_changed_s": 5.0,
+ "settle_note": null,
+ "age_label_after": "just now",
+ "age_min_after": 0.0,
+ "clusters": [
+  {
+   "cluster": 1,
+   "wallets": 3,
+   "supply_pct": 5.99,
+   "members": [
+    {
+     "rank": 9,
+     "shown": "9keaFo...BZ83",
+     "label": null,
+     "share_pct": 1.68,
+     "kind": "holder",
+     "share_shown": "1.68%"
+    }
+   ],
+   "members_complete": false,
+   "members_note": "read 1 rows (1 holder, 0 linking, 0 hidden), the header says 3 wallets"
+  },
+  {
+   "cluster": 2,
+   "wallets": 3,
+   "supply_pct": 2.54,
+   "members": [
+    {
+     "rank": 4,
+     "shown": null,
+     "label": "pump.fun Creator (3jwV)",
+     "share_pct": 1.95,
+     "kind": "holder",
+     "share_shown": "1.95%"
+    },
+    {
+     "rank": 43,
+     "shown": "5HjFCe...zmkK",
+     "label": null,
+     "share_pct": 0.59,
+     "kind": "holder",
+     "share_shown": "0.59%"
+    },
+    {
+     "rank": null,
+     "shown": "4yGgm8...TxGz",
+     "label": null,
+     "share_pct": null,
+     "kind": "linking",
+     "linking_icon": "wand"
+    }
+   ],
+   "members_complete": true
+  },
+  {
+   "cluster": 3,
+   "wallets": 7,
+   "supply_pct": 1.88,
+   "members": [
+    {
+     "rank": 31,
+     "shown": "FUc8rj...qFDG",
+     "label": null,
+     "share_pct": 0.87,
+     "kind": "holder",
+     "share_shown": "0.87%"
+    },
+    {
+     "rank": 73,
+     "shown": "GFEiwB...8mRs",
+     "label": null,
+     "share_pct": 0.32,
+     "kind": "holder",
+     "share_shown": "0.32%"
+    },
+    {
+     "rank": 80,
+     "shown": "9EfmGo...Sg68",
+     "label": null,
+     "share_pct": 0.3,
+     "kind": "holder",
+     "share_shown": "0.30%"
+    },
+    {
+     "rank": 84,
+     "shown": "7Di42m...xgH3",
+     "label": null,
+     "share_pct": 0.27,
+     "kind": "holder",
+     "share_shown": "0.27%"
+    },
+    {
+     "rank": null,
+     "shown": "6xZNG4...eY65",
+     "label": null,
+     "share_pct": null,
+     "kind": "linking",
+     "linking_icon": "wand"
+    },
+    {
+     "rank": null,
+     "shown": null,
+     "label": "PumpSwap Pool  2026-10-20, 02:06",
+     "share_pct": null,
+     "kind": "linking",
+     "linking_icon": "clock"
+    }
+   ],
+   "members_complete": false,
+   "members_note": "read 6 rows (4 holder, 2 linking, 0 hidden), the header says 7 wallets"
+  },
+  {
+   "cluster": 4,
+   "wallets": 11,
+   "supply_pct": 1.88,
+   "members": [
+    {
+     "rank": 22,
+     "shown": "59WwRH...Ray6",
+     "label": null,
+     "share_pct": 1.04,
+     "kind": "holder",
+     "share_shown": "1.04%"
+    },
+    {
+     "rank": 85,
+     "shown": null,
+     "label": "@404flipped \"404flipped\" on Fomo",
+     "share_pct": 0.27,
+     "kind": "holder",
+     "share_shown": "0.27%"
+    },
+    {
+     "rank": 93,
+     "shown": "5aLY85...JUfG",
+     "label": null,
+     "share_pct": 0.22,
+     "kind": "holder",
+     "share_shown": "0.22%"
+    },
+    {
+     "rank": 225,
+     "shown": "4aD6u2...Lc13",
+     "label": null,
+     "share_pct": 0.05,
+     "kind": "holder",
+     "share_shown": "0.05%"
+    },
+    {
+     "rank": null,
+     "shown": "ALpUXH...VAb7",
+     "label": null,
+     "share_pct": null,
+     "kind": "linking",
+     "linking_icon": "wand"
+    },
+    {
+     "rank": null,
+     "shown": null,
+     "label": "pump.fun Creator (DhNe)",
+     "share_pct": null,
+     "kind": "linking",
+     "linking_icon": "wand"
+    },
+    {
+     "rank": null,
+     "shown": "8AhBwm...RBQp",
+     "label": null,
+     "share_pct": null,
+     "kind": "linking",
+     "linking_icon": "wand"
+    },
+    {
+     "rank": null,
+     "shown": "F4PgSY...UDKe",
+     "label": null,
+     "share_pct": null,
+     "kind": "linking",
+     "linking_icon": "wand"
+    }
+   ],
+   "members_complete": false,
+   "members_note": "read 8 rows (4 holder, 4 linking, 0 hidden), the header says 11 wallets"
+  },
+  {
+   "cluster": 5,
+   "wallets": 6,
+   "supply_pct": 1.62,
+   "members": [
+    {
+     "rank": 29,
+     "shown": "Dte6FG...bJEk",
+     "label": null,
+     "share_pct": 0.94,
+     "kind": "holder",
+     "share_shown": "0.94%"
+    },
+    {
+     "rank": 38,
+     "shown": "EJKn1C...59sE",
+     "label": null,
+     "share_pct": 0.67,
+     "kind": "holder",
+     "share_shown": "0.67%"
+    },
+    {
+     "rank": null,
+     "shown": "5smWUu...4YDd",
+     "label": null,
+     "share_pct": null,
+     "kind": "linking",
+     "linking_icon": "wand"
+    },
+    {
+     "rank": null,
+     "shown": "HqaSDo...cfD2",
+     "label": null,
+     "share_pct": null,
+     "kind": "linking",
+     "linking_icon": "wand"
+    },
+    {
+     "rank": null,
+     "shown": "1ipNTr...jpZ9",
+     "label": null,
+     "share_pct": null,
+     "kind": "linking",
+     "linking_icon": "wand"
+    },
+    {
+     "rank": null,
+     "shown": "9N64XX...jm8y",
+     "label": null,
+     "share_pct": null,
+     "kind": "linking",
+     "linking_icon": "wand"
+    }
+   ],
+   "members_complete": true
+  },
+  {
+   "cluster": 6,
+   "wallets": 4,
+   "supply_pct": 1.14,
+   "members": [
+    {
+     "rank": 135,
+     "shown": null,
+     "label": "pump.fun Creator (EzAt)",
+     "share_pct": 0.12,
+     "kind": "holder",
+     "share_shown": "0.12%"
+    },
+    {
+     "rank": 166,
+     "shown": "HvQPfA...oVwt",
+     "label": null,
+     "share_pct": 0.09,
+     "kind": "holder",
+     "share_shown": "0.09%"
+    },
+    {
+     "rank": 171,
+     "shown": "3WmEZK...E7kP",
+     "label": null,
+     "share_pct": 0.08,
+     "kind": "holder",
+     "share_shown": "0.08%"
+    },
+    {
+     "rank": 212,
+     "shown": "CwCo2t...WcGg",
+     "label": null,
+     "share_pct": 0.06,
+     "kind": "holder",
+     "share_shown": "0.06%"
+    }
+   ],
+   "members_complete": true
+  }
+ ],
+ "largest_pool_share_pct": 9.99,
+ "refresh_effective": true,
+ "parse_ok": true,
+ "members_seconds": 6.7,
+ "clusters_list_only": [
+  {
+   "cluster": 7,
+   "wallets": 3,
+   "supply_pct": 0.62,
+   "members": [
+    {
+     "rank": 75,
+     "shown": "HyXoWh...2tdR",
+     "label": null,
+     "share_pct": 0.32,
+     "kind": "holder",
+     "share_shown": "0.32%"
+    },
+    {
+     "rank": 79,
+     "shown": "GBYLyy...rdYV",
+     "label": null,
+     "share_pct": 0.3,
+     "kind": "holder",
+     "share_shown": "0.30%"
+    },
+    {
+     "rank": null,
+     "shown": "J3JwVx...uC51",
+     "label": null,
+     "share_pct": null,
+     "kind": "linking",
+     "linking_icon": "wand"
+    }
+   ],
+   "members_complete": true
+  },
+  {
+   "cluster": 8,
+   "wallets": 3,
+   "supply_pct": 0.47,
+   "members": [
+    {
+     "rank": 63,
+     "shown": "5182w9...ZvDQ",
+     "label": null,
+     "share_pct": 0.4,
+     "kind": "holder",
+     "share_shown": "0.40%"
+    },
+    {
+     "rank": 191,
+     "shown": "6bbdG6...mxdQ",
+     "label": null,
+     "share_pct": 0.07,
+     "kind": "holder",
+     "share_shown": "0.07%"
+    },
+    {
+     "rank": null,
+     "shown": "28kX8M...naj2",
+     "label": null,
+     "share_pct": null,
+     "kind": "linking",
+     "linking_icon": "wand"
+    }
+   ],
+   "members_complete": true
+  },
+  {
+   "cluster": 9,
+   "wallets": 4,
+   "supply_pct": 0.28,
+   "members": [
+    {
+     "rank": 103,
+     "shown": "5tDYyf...mLQ3",
+     "label": null,
+     "share_pct": 0.2,
+     "kind": "holder",
+     "share_shown": "0.20%"
+    },
+    {
+     "rank": 173,
+     "shown": "7xiiJE...CdTX",
+     "label": null,
+     "share_pct": 0.08,
+     "kind": "holder",
+     "share_shown": "0.08%"
+    },
+    {
+     "rank": null,
+     "shown": "Go8oJ2...3pw6",
+     "label": null,
+     "share_pct": null,
+     "kind": "linking",
+     "linking_icon": "wand"
+    },
+    {
+     "rank": null,
+     "shown": "DpV1y8...Fp2c",
+     "label": null,
+     "share_pct": null,
+     "kind": "linking",
+     "linking_icon": "wand"
+    }
+   ],
+   "members_complete": true
+  },
+  {
+   "cluster": 10,
+   "wallets": 5,
+   "supply_pct": 0.17,
+   "members": [
+    {
+     "rank": 129,
+     "shown": "2DM4p6...QPaJ",
+     "label": null,
+     "share_pct": 0.13,
+     "kind": "holder",
+     "share_shown": "0.13%"
+    },
+    {
+     "rank": 247,
+     "shown": "5HTpBu...VT2T",
+     "label": null,
+     "share_pct": 0.04,
+     "kind": "holder",
+     "share_shown": "0.04%"
+    },
+    {
+     "rank": null,
+     "shown": "99msKf...4j7x",
+     "label": null,
+     "share_pct": null,
+     "kind": "linking",
+     "linking_icon": "wand"
+    },
+    {
+     "rank": null,
+     "shown": "3s7uTH...fcTk",
+     "label": null,
+     "share_pct": null,
+     "kind": "linking",
+     "linking_icon": "wand"
+    },
+    {
+     "rank": null,
+     "shown": "4s2SRu...rNiV",
+     "label": null,
+     "share_pct": null,
+     "kind": "linking",
+     "linking_icon": "wand"
+    }
+   ],
+   "members_complete": true
+  }
+ ],
+ "members_parse_ok": true,
+ "members_reason": null,
+ "members_list_clusters": 10,
+ "members_budget_s": 45.0,
+ "_note": "live run 4 of 6, 2026-10-20 04:50 UTC, free public page: DKYc map refreshed from 2 h old; the read happened 20.2 s after the click, when (as measured) the pool share had changed but the cluster headers still showed the pre-refresh values; three clusters' member rows do not match their header counts and are marked members_complete false. Saved as written by bubblemaps_map.py before the settle fix (that version also keyed the settle wait on the pool share)."
+}

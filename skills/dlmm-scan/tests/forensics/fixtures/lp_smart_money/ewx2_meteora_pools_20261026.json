@@ -1,0 +1,121 @@
+{
+ "schema": "holder-scan-meteora-pools/1",
+ "collector": "meteora_pools",
+ "provider": "Meteora DLMM datapi",
+ "mint": "EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump",
+ "status": "ok",
+ "reason": null,
+ "fetched_at": "2026-10-26T11:13:59Z",
+ "http_status": 200,
+ "request": {
+  "method": "GET",
+  "host": "dlmm.datapi.meteora.ag",
+  "path": "/pools?query=<MINT>&sort_by=fee_tvl_ratio_24h:desc&page_size=50",
+  "keys": "none",
+  "requests_per_scan": 1,
+  "max_requests": 2,
+  "requests_sent": 1
+ },
+ "docs": "provider-docs current/meteora/fulldocs.pages/api-reference/dlmm/pools/pools.md (GET /pools; fee_tvl_ratio in percent per 30m 1h 2h 4h 12h 24h)",
+ "created_at_unit": "milliseconds",
+ "answer": {
+  "total": 4,
+  "rows_in_answer": 4,
+  "other_token_pools_dropped": 0,
+  "unreadable_rows": 0,
+  "truncated": false
+ },
+ "pools": [
+  {
+   "address": "FfE4XYQpNKXcBwUiY41TDHFgJcZnP1KfW58pEq5kK99h",
+   "this_token_side": "x",
+   "symbol": null,
+   "other_symbol": "SOL",
+   "other_mint": "So11111111111111111111111111111111111111112",
+   "bin_step": 200,
+   "base_fee_pct": 2.0,
+   "tvl": 0.000129515060818905,
+   "fees_24h": 19.097682605072933,
+   "volume_24h": 785.0827355720494,
+   "fee_tvl_ratio": {
+    "1h": 0.0,
+    "4h": 0.0,
+    "12h": 442361.04972967383,
+    "24h": 14745530.353243126
+   },
+   "windows_as_documented": true,
+   "created_at_ms": 1792879275000,
+   "created_at": "2026-10-24T22:01:15Z",
+   "blacklisted": false
+  },
+  {
+   "address": "HgEJs5LSjd3da5LTsTJXa3nXjT1oucdLemeUq6V1gbsS",
+   "this_token_side": "x",
+   "symbol": null,
+   "other_symbol": "SOL",
+   "other_mint": "So11111111111111111111111111111111111111112",
+   "bin_step": 100,
+   "base_fee_pct": 3.0,
+   "tvl": 36522.726315722226,
+   "fees_24h": 6514.80330092115,
+   "volume_24h": 196318.3650710468,
+   "fee_tvl_ratio": {
+    "1h": 0.2245115017096437,
+    "4h": 1.2579873379664634,
+    "12h": 7.62755364266429,
+    "24h": 17.837669741857887
+   },
+   "windows_as_documented": true,
+   "created_at_ms": 1792877474000,
+   "created_at": "2026-10-24T21:31:14Z",
+   "blacklisted": false
+  },
+  {
+   "address": "9ERgqVHd63pfAVvAN5yShk788BPift6DsY89a4jQBamF",
+   "this_token_side": "x",
+   "symbol": null,
+   "other_symbol": "SOL",
+   "other_mint": "So11111111111111111111111111111111111111112",
+   "bin_step": 250,
+   "base_fee_pct": 2.0,
+   "tvl": 8.12200197627e-07,
+   "fees_24h": 0.0,
+   "volume_24h": 0.0,
+   "fee_tvl_ratio": {
+    "1h": 0.0,
+    "4h": 0.0,
+    "12h": 0.0,
+    "24h": 0.0
+   },
+   "windows_as_documented": true,
+   "created_at_ms": 1792895838000,
+   "created_at": "2026-10-25T02:37:18Z",
+   "blacklisted": false
+  },
+  {
+   "address": "BBY54eF3LTdvvFLb97t6vq8FCtrF9N3Cj2AuVYboMoNX",
+   "this_token_side": "x",
+   "symbol": null,
+   "other_symbol": "SOL",
+   "other_mint": "So11111111111111111111111111111111111111112",
+   "bin_step": 100,
+   "base_fee_pct": 1.0,
+   "tvl": 0.0,
+   "fees_24h": 0.0,
+   "volume_24h": 0.0,
+   "fee_tvl_ratio": {
+    "1h": 0.0,
+    "4h": 0.0,
+    "12h": 0.0,
+    "24h": 0.0
+   },
+   "windows_as_documented": true,
+   "created_at_ms": 1792976765000,
+   "created_at": "2026-10-26T01:06:05Z",
+   "blacklisted": false
+  }
+ ],
+ "presentation_only": true,
+ "note": "presentation line only: never an engine input, never passed to assess, never counted toward NO_ALARM; it never changes the forensics or analysis FLAG, verdict or threshold; a pool at or above the bar is not a safety signal",
+ "cannot_see": "Meteora's own indexer numbers at one moment (fees can drop fast after a pump); DLMM pools only (no DAMM, PumpSwap or Raydium pools); fees per window, not who earned them or where your liquidity would sit"
+}

@@ -1,0 +1,34 @@
+{
+ "mint": "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC",
+ "token": {
+  "decimals": 6,
+  "token_program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
+ },
+ "top_holders": [
+  {
+   "owner": "9KjR2VWz46yjreNb1QhXBDUtrcSCfYxbUUjNBEwFg9cv",
+   "kind": "program_account",
+   "share": 0.103091
+  },
+  {
+   "owner": "9nkE3B5zF3yCDh8YrQrhch4dGNyLYcNBqEB7feo3V9Av",
+   "kind": "liquidity_pool",
+   "share": 0.091619
+  },
+  {
+   "owner": "FPL1UpEorEgMZCtFdi4uzHzhDFsSZajrpee8Et2Ws79F",
+   "kind": "program_account",
+   "share": 0.039903
+  },
+  {
+   "owner": "3taae7MuY3Ugg4zdc8NTDDmBRqYzzZzcCkCQEH9zXfyW",
+   "kind": "program_account",
+   "share": 0.023939
+  },
+  {
+   "owner": "6SbmUrJB2MkZ9HF3xQ9e48sRNwLdjK8tbQGkMicj6RpL",
+   "kind": "program_account",
+   "share": 0.013603
+  }
+ ]
+}

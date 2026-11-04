@@ -1,0 +1,1614 @@
+{
+ "mint": "D42TjMjz5H7toPu5md5KBXreZkCSdZMEfLQwmBhJXvb1",
+ "note": "trimmed from the 2026-10-20 01:57 UTC holder-scan run's holders.json: top_holders only (rank, wallet, share_pct, infrastructure)",
+ "top_holders": [
+  {
+   "rank": 1,
+   "wallet": "CxyUG8PvWbbKW41MLAq7J87ft3dryDJZV2A5pgwb31an",
+   "share_pct": 6.2691,
+   "infrastructure": true
+  },
+  {
+   "rank": 2,
+   "wallet": "5jmKohrtreUNYxkPfJr2Ycr4cAyXTyTmh1d3te6x2pXs",
+   "share_pct": 6.1521,
+   "infrastructure": true
+  },
+  {
+   "rank": 3,
+   "wallet": "EATmaY5h2szFxGi5BsNZpzrVaQ4iYaDNDV7YBeEo57aP",
+   "share_pct": 3.1101,
+   "infrastructure": false
+  },
+  {
+   "rank": 4,
+   "wallet": "DuARUpsEzdVbVpSnbGipLJvWxaXUCPLDJDjNov6Rc6s6",
+   "share_pct": 2.5903,
+   "infrastructure": false
+  },
+  {
+   "rank": 5,
+   "wallet": "Be24Gbf5KisDk1LcWWZsBn8dvB816By7YzYF5zWZnRR6",
+   "share_pct": 2.5216,
+   "infrastructure": false
+  },
+  {
+   "rank": 6,
+   "wallet": "6DQAGJT7VZPVBsuG4kn3AvpyHCEi7B2RFFvMZdbqQqqP",
+   "share_pct": 2.4721,
+   "infrastructure": false
+  },
+  {
+   "rank": 7,
+   "wallet": "79nMjs72wH4wDJXrHMK71UnfKPSaBmNHJ21kfh3KCDV3",
+   "share_pct": 2.1482,
+   "infrastructure": false
+  },
+  {
+   "rank": 8,
+   "wallet": "5i8MRhUYxV9qFN3NAiacwBr4udrp2WTBZqTGc6XinW14",
+   "share_pct": 2.0675,
+   "infrastructure": false
+  },
+  {
+   "rank": 9,
+   "wallet": "8H14bK23kreBrsiXrjXJ5TGuB4n4V3xA9XoSJb5RAnHR",
+   "share_pct": 1.9588,
+   "infrastructure": false
+  },
+  {
+   "rank": 10,
+   "wallet": "HVUij9h5SM7ikKMgi9q4wSScEd5zVvCTL4jjuYPotqsT",
+   "share_pct": 1.9123,
+   "infrastructure": false
+  },
+  {
+   "rank": 11,
+   "wallet": "BuVKPj4NWbcCkh4gnHoXTcG23j9oGa7BtdBgJQUNgFLa",
+   "share_pct": 1.611,
+   "infrastructure": true
+  },
+  {
+   "rank": 12,
+   "wallet": "7fEXteaTtmX1uR8fpChEXsevM4icH5vq8LNL9dzDupX2",
+   "share_pct": 1.5159,
+   "infrastructure": false
+  },
+  {
+   "rank": 13,
+   "wallet": "CE44oKS3wpUerx8afyeii56u5oQjBLZknzm4Q2CYHUz9",
+   "share_pct": 1.4035,
+   "infrastructure": false
+  },
+  {
+   "rank": 14,
+   "wallet": "5ppcc7wMNd7uHeMSu8ZyvdYCNnBgWzskJoxxHcHmz2kP",
+   "share_pct": 1.3249,
+   "infrastructure": false
+  },
+  {
+   "rank": 15,
+   "wallet": "59WwRHJyoFDL4D9fBBkG71dzZEZgyPmSFPNAsbTZRay6",
+   "share_pct": 1.3152,
+   "infrastructure": false
+  },
+  {
+   "rank": 16,
+   "wallet": "F8Atrfuc1qZs5G3HvGyF9UriwXmGbgGVEfqScDSCz8Nv",
+   "share_pct": 1.2385,
+   "infrastructure": false
+  },
+  {
+   "rank": 17,
+   "wallet": "4xBN9y8kk6SuMRv9Ao1xWjDdSprETwYo4qWH37vMgBaT",
+   "share_pct": 1.2375,
+   "infrastructure": false
+  },
+  {
+   "rank": 18,
+   "wallet": "C8XfXrChczdqWcEpByKiHj15gSyFpscSGAGN1a6EQdA1",
+   "share_pct": 1.1393,
+   "infrastructure": false
+  },
+  {
+   "rank": 19,
+   "wallet": "3piLzXrYpjWscuameNM33k1acfC4Ys3TT2kLanXCz12F",
+   "share_pct": 1.124,
+   "infrastructure": true
+  },
+  {
+   "rank": 20,
+   "wallet": "6bbdG6BVv49tonrKcFSGCmRenyfP8zU1EEPNq3DsmxdQ",
+   "share_pct": 1.0245,
+   "infrastructure": false
+  },
+  {
+   "rank": 21,
+   "wallet": "69aiAKU3uJMxMLRkUEGFNt6nQ43PiVimE4ZbErJ7VSM1",
+   "share_pct": 0.9973,
+   "infrastructure": false
+  },
+  {
+   "rank": 22,
+   "wallet": "CrCAvyQ78362N7ar7frofog2zyTphdMrUUXZerACnKtT",
+   "share_pct": 0.8393,
+   "infrastructure": false
+  },
+  {
+   "rank": 23,
+   "wallet": "AAqfSn7JJ9h5irXv5ucxkhCw1CjVQAV6aDDabSvidnQk",
+   "share_pct": 0.8281,
+   "infrastructure": false
+  },
+  {
+   "rank": 24,
+   "wallet": "HtJsy6zMfNG4MA9KGbnA4G6f34YMZ32rswpdCPt2uwb8",
+   "share_pct": 0.695,
+   "infrastructure": false
+  },
+  {
+   "rank": 25,
+   "wallet": "8f7RGyUZenkKsK44WifchZoVQfZbXf8YuqDtrhUZvQtC",
+   "share_pct": 0.6892,
+   "infrastructure": false
+  },
+  {
+   "rank": 26,
+   "wallet": "3DQhhpTdLkLc94gzepNHtD7HAyLsFeapCDuobBkH3tXD",
+   "share_pct": 0.6667,
+   "infrastructure": false
+  },
+  {
+   "rank": 27,
+   "wallet": "Ar2Y6o1QmrRAskjii1cRfijeKugHH13ycxW5cd7rro1x",
+   "share_pct": 0.6627,
+   "infrastructure": false
+  },
+  {
+   "rank": 28,
+   "wallet": "9BfKBN91Eae5tv2ofiqXvVYD9pR8nHGWqJe53gRtMoZE",
+   "share_pct": 0.6359,
+   "infrastructure": false
+  },
+  {
+   "rank": 29,
+   "wallet": "EGiTNq9rwCpm6bhKURuswVbxCG7zT1xKfMgLXMzm67gQ",
+   "share_pct": 0.6329,
+   "infrastructure": false
+  },
+  {
+   "rank": 30,
+   "wallet": "83Jv4PrmGzcWTvCySBDttqLHXHwnC9KvKSu789BfbcXy",
+   "share_pct": 0.6293,
+   "infrastructure": true
+  },
+  {
+   "rank": 31,
+   "wallet": "5DbP2Ry4iLFCzBWCFAw9ro6HQp7BodMPqmPKEr7t91AJ",
+   "share_pct": 0.6196,
+   "infrastructure": false
+  },
+  {
+   "rank": 32,
+   "wallet": "5YAmY28CN9cSYQokWXn1hosS1qzjZGbbncbtCLPDTrFE",
+   "share_pct": 0.6101,
+   "infrastructure": false
+  },
+  {
+   "rank": 33,
+   "wallet": "3nLh14fRyZr1EBpp7jJqwBqKt8uLBFZ1rTmVTfLvnkfj",
+   "share_pct": 0.6021,
+   "infrastructure": false
+  },
+  {
+   "rank": 34,
+   "wallet": "HwaMKcLzz2kUKQvo12GQx9hgowefUWe66EPH7qV8iSxx",
+   "share_pct": 0.5635,
+   "infrastructure": false
+  },
+  {
+   "rank": 35,
+   "wallet": "DB9KiMmNXAYx94bvMLaCwgNbZ14HtF3wjdaHgU1F6ai4",
+   "share_pct": 0.5499,
+   "infrastructure": false
+  },
+  {
+   "rank": 36,
+   "wallet": "3aQVh49CtuKG7DEstdf4xCLXTcprqHDaehiLBYjnCvq4",
+   "share_pct": 0.5472,
+   "infrastructure": false
+  },
+  {
+   "rank": 37,
+   "wallet": "AyFUqq6VKcwF4MSxShKK4fsUWwhyersWUXATmvmy2Kui",
+   "share_pct": 0.5309,
+   "infrastructure": false
+  },
+  {
+   "rank": 38,
+   "wallet": "52houUTLXsy3a26PtkwShmUUoDBjyVmQCZkZ7syjjMS",
+   "share_pct": 0.5283,
+   "infrastructure": false
+  },
+  {
+   "rank": 39,
+   "wallet": "9W8fdvbYqBY7SGB6AvUzY1AXsChGthPNQN93CEVFGAoT",
+   "share_pct": 0.527,
+   "infrastructure": false
+  },
+  {
+   "rank": 40,
+   "wallet": "4HMQQgTWG8K3VEEhCN8HB7j8z4SeMZxHH5NFCAeqPgvM",
+   "share_pct": 0.5165,
+   "infrastructure": false
+  },
+  {
+   "rank": 41,
+   "wallet": "8QK5YvxmXtgE1TeiquhuB8aEuv1C2pWFUV9tdqQmgxZE",
+   "share_pct": 0.4724,
+   "infrastructure": false
+  },
+  {
+   "rank": 42,
+   "wallet": "EpzcEoamvD8Rwhzb2KGTcit2PeDh5ZrDMvCeeEiXveos",
+   "share_pct": 0.4666,
+   "infrastructure": false
+  },
+  {
+   "rank": 43,
+   "wallet": "XSbNUiHG8uaTDDz6HBR5FYwE9WVjhZxzxjdFzT1UV5a",
+   "share_pct": 0.4541,
+   "infrastructure": false
+  },
+  {
+   "rank": 44,
+   "wallet": "2C4hxmkP7nRH1EGpXWxcKKN1LzzC8iFEbTRgjVLmGGrh",
+   "share_pct": 0.447,
+   "infrastructure": false
+  },
+  {
+   "rank": 45,
+   "wallet": "DPzxSdVPbju8p8NtzGukaPRM2HVNSrStsxuEeSHod3o6",
+   "share_pct": 0.4272,
+   "infrastructure": false
+  },
+  {
+   "rank": 46,
+   "wallet": "3PB8yZJQjVmqidcCabHTMbNYuCNeYdA6yAjrEL45xEue",
+   "share_pct": 0.4151,
+   "infrastructure": false
+  },
+  {
+   "rank": 47,
+   "wallet": "3hrYmGuSV9J3p1hrQDwgsW6Ln3LfhPoizRBispNYtvr3",
+   "share_pct": 0.3981,
+   "infrastructure": false
+  },
+  {
+   "rank": 48,
+   "wallet": "9VLQbbLgntNRunG841upcR5wnFVLKbPC3YsVdfxLMzrg",
+   "share_pct": 0.3522,
+   "infrastructure": false
+  },
+  {
+   "rank": 49,
+   "wallet": "2PqXWjPHssTg1dKJVoydFJwc2wC3SBonwvoPnbjJrkLC",
+   "share_pct": 0.3408,
+   "infrastructure": false
+  },
+  {
+   "rank": 50,
+   "wallet": "52kTsxE8aia9VGwLj86NYKC58dAtis4AbE49LsmUTz37",
+   "share_pct": 0.3347,
+   "infrastructure": false
+  },
+  {
+   "rank": 51,
+   "wallet": "GMTgfzNqTF7Y9oMk6RCMrHzEiAJQ3UEJy7kCacG4tAVU",
+   "share_pct": 0.3341,
+   "infrastructure": false
+  },
+  {
+   "rank": 52,
+   "wallet": "DxBSYKmc7FH1BYHYNoaUM5mBBMoHyP5g3Q7FMRmjKQHR",
+   "share_pct": 0.3163,
+   "infrastructure": false
+  },
+  {
+   "rank": 53,
+   "wallet": "AXYUeq2SYUV9kgr4UcvfJ1uAwvY1iPRkCX94PsJ7WR85",
+   "share_pct": 0.3096,
+   "infrastructure": false
+  },
+  {
+   "rank": 54,
+   "wallet": "CMGiusC1ACTWZCPZfsJABNk9v6yRTCv1W9NikNUnbhfk",
+   "share_pct": 0.3089,
+   "infrastructure": false
+  },
+  {
+   "rank": 55,
+   "wallet": "4b3ZctHLzPBQt3biFbDWp12hf6ADkaruQx4aj9kiDQKh",
+   "share_pct": 0.3086,
+   "infrastructure": false
+  },
+  {
+   "rank": 56,
+   "wallet": "Gzd2H2FNtzBADphpZLqYTJLyPZn6M25WT4DecoTZQSTf",
+   "share_pct": 0.3079,
+   "infrastructure": false
+  },
+  {
+   "rank": 57,
+   "wallet": "Bn6Gygbqnm28eE72iaDFwtvPjXtxhbudiNnFbHFhDTMC",
+   "share_pct": 0.3078,
+   "infrastructure": false
+  },
+  {
+   "rank": 58,
+   "wallet": "83cYyTzw8hbinEhYKSW6UX1QKyzJC6dfL7ZvovSq4U9Z",
+   "share_pct": 0.3041,
+   "infrastructure": false
+  },
+  {
+   "rank": 59,
+   "wallet": "66jeAckxq8oatXrfNRLvGc3KHHc7oGvaMWyYhxzgGrjN",
+   "share_pct": 0.301,
+   "infrastructure": false
+  },
+  {
+   "rank": 60,
+   "wallet": "EDoC5jLgZVtTZkapj7r7rGeUHQbRpVTkm4ksr8nvt9kZ",
+   "share_pct": 0.3005,
+   "infrastructure": false
+  },
+  {
+   "rank": 61,
+   "wallet": "AWR2PZ2WKirChLxSPpnffqQRCjQPRaidAjNmxaBe7Fz6",
+   "share_pct": 0.2922,
+   "infrastructure": false
+  },
+  {
+   "rank": 62,
+   "wallet": "3PhVQs4expTDHRSsURN2F1RVNYxaCpN4BuWM6LYREgPe",
+   "share_pct": 0.2867,
+   "infrastructure": false
+  },
+  {
+   "rank": 63,
+   "wallet": "B5WCJAFwGwWqS9g3Ma48UczqrvWTXwU9rJ4HbM4xZDpV",
+   "share_pct": 0.2813,
+   "infrastructure": false
+  },
+  {
+   "rank": 64,
+   "wallet": "7hcjqz5Q7UKBcv57mg9ekgkNgn8TqnUKcdSvq6fwxqHU",
+   "share_pct": 0.2759,
+   "infrastructure": true
+  },
+  {
+   "rank": 65,
+   "wallet": "371DC6QmX3JxckpBNPdgv8TD78witHFfRhBAZDjZdJ1z",
+   "share_pct": 0.2715,
+   "infrastructure": false
+  },
+  {
+   "rank": 66,
+   "wallet": "CWqBXfsB5c7DuofFo89zRd5HpdyffG7aja8ZD4qZP2ky",
+   "share_pct": 0.2633,
+   "infrastructure": true
+  },
+  {
+   "rank": 67,
+   "wallet": "2omDzbAVzdT6FjccNtd3rBbSoa6b4bVmidyCyR77swQd",
+   "share_pct": 0.2621,
+   "infrastructure": false
+  },
+  {
+   "rank": 68,
+   "wallet": "GpiY1js36rZ1PeEqAACxK51syvqLT2tUykSvsBpP84uj",
+   "share_pct": 0.2583,
+   "infrastructure": false
+  },
+  {
+   "rank": 69,
+   "wallet": "Fjx9ordWfAC2SVLoMdreg75bG952jfjvudu9rveEcbCr",
+   "share_pct": 0.256,
+   "infrastructure": false
+  },
+  {
+   "rank": 70,
+   "wallet": "EJa8hKLxkSBvxT5ipKPyTfAvQCoSVUP87YoicTeuZ5xp",
+   "share_pct": 0.2515,
+   "infrastructure": false
+  },
+  {
+   "rank": 71,
+   "wallet": "HTdX257JFSBPdAQxf4n1EdHMxVedw8XZTQK4k7mYELQ",
+   "share_pct": 0.2441,
+   "infrastructure": false
+  },
+  {
+   "rank": 72,
+   "wallet": "7TjhzPLMWe9fK9Y4uX5zqkjFH8QXvrK3HWrCQEr72aJL",
+   "share_pct": 0.2373,
+   "infrastructure": true
+  },
+  {
+   "rank": 73,
+   "wallet": "HWJt9K4mfY2h86XjcZQsgEHGmGPgwQY2zX6p9MYUkBzd",
+   "share_pct": 0.2356,
+   "infrastructure": false
+  },
+  {
+   "rank": 74,
+   "wallet": "8kG2FwgJFFyakCugWqCR8WbgA4uHDJufJ3iWssoGMPmQ",
+   "share_pct": 0.2254,
+   "infrastructure": false
+  },
+  {
+   "rank": 75,
+   "wallet": "2Za1iBfeMfXEYU6Nom7xPMno7k3QMJhPbKAWBkEaATGK",
+   "share_pct": 0.2202,
+   "infrastructure": false
+  },
+  {
+   "rank": 76,
+   "wallet": "4xf3fbcJCaNSyHYWbTk1LypFtTma2tkuC5acH6wTqPic",
+   "share_pct": 0.2172,
+   "infrastructure": true
+  },
+  {
+   "rank": 77,
+   "wallet": "A1LtK6Mw5QWSb9hkUkhMW2efiZcZ8F6NogRYMLiP2qp5",
+   "share_pct": 0.2159,
+   "infrastructure": false
+  },
+  {
+   "rank": 78,
+   "wallet": "Hhhs7SZcgAnXM4iP6GhbvJbfkkiNq8bvL5tJP1fMycTb",
+   "share_pct": 0.215,
+   "infrastructure": false
+  },
+  {
+   "rank": 79,
+   "wallet": "GATfRqFtTxnPRbW1t76jkqnZMCs9vMqWofWM68UpqXrC",
+   "share_pct": 0.214,
+   "infrastructure": false
+  },
+  {
+   "rank": 80,
+   "wallet": "BEQcyjDafrZvbyLP3XAxzztjjh27wkVDRzG7U6PdBpn8",
+   "share_pct": 0.2113,
+   "infrastructure": false
+  },
+  {
+   "rank": 81,
+   "wallet": "9RcXF5UFut8R2dYYcqAFvcrFgrCdV6uuJQwAeAmFDJ7M",
+   "share_pct": 0.2078,
+   "infrastructure": false
+  },
+  {
+   "rank": 82,
+   "wallet": "4ng4mJcYdQ3Xkc1qiVYe9gouBTsEw1K5KCHFMDhqvtMz",
+   "share_pct": 0.2066,
+   "infrastructure": false
+  },
+  {
+   "rank": 83,
+   "wallet": "BFQ3KHMMGfQfWCXzRGbuQ3HYu6AHBRYq6b8e5kHtpWNv",
+   "share_pct": 0.2066,
+   "infrastructure": false
+  },
+  {
+   "rank": 84,
+   "wallet": "EeZYt9U7Z5ui2JF86yRD914uKYzgJnGSUn9ZNZVd4BPB",
+   "share_pct": 0.2057,
+   "infrastructure": false
+  },
+  {
+   "rank": 85,
+   "wallet": "EQEu6NyEq8nECAiem1YkTu3uDBiGTEA2tYBLBmr9YJ7Y",
+   "share_pct": 0.2054,
+   "infrastructure": true
+  },
+  {
+   "rank": 86,
+   "wallet": "Ec5XbLYdEjtMxZJx74zNsk32zMbJD1QtjJ45svwYiBA7",
+   "share_pct": 0.2027,
+   "infrastructure": false
+  },
+  {
+   "rank": 87,
+   "wallet": "CjWcv8eE63YwxN6Ue6zRJeFHdbnh5LNqwr22GHcq7GNd",
+   "share_pct": 0.1992,
+   "infrastructure": false
+  },
+  {
+   "rank": 88,
+   "wallet": "DFat8prxzyRtdNP1wF7ePzoLEx7Y3khJg7vb8FnWauNZ",
+   "share_pct": 0.1941,
+   "infrastructure": false
+  },
+  {
+   "rank": 89,
+   "wallet": "55jvwg7eLygsJKptBEba5SmpW9qicSMmsBykPobZWDQt",
+   "share_pct": 0.1935,
+   "infrastructure": false
+  },
+  {
+   "rank": 90,
+   "wallet": "FdNWmUK3tcEf4jzcfKrUcg6VqAQd8egz1v8VnBxE8nPf",
+   "share_pct": 0.1875,
+   "infrastructure": false
+  },
+  {
+   "rank": 91,
+   "wallet": "9eZU9vEvMEvYjV6NC7xAuwSFSsQ7vuvZGczbJ2Niqhze",
+   "share_pct": 0.1846,
+   "infrastructure": false
+  },
+  {
+   "rank": 92,
+   "wallet": "E3US7ZiuYMRmrxWByjVMpyrkJE7tAyXaBfdJi1CKo6Bn",
+   "share_pct": 0.1826,
+   "infrastructure": false
+  },
+  {
+   "rank": 93,
+   "wallet": "2rLGRvwcBEwR1i6xVt9KMKj1BYKD4SPvU3sBK2f35rkH",
+   "share_pct": 0.1792,
+   "infrastructure": false
+  },
+  {
+   "rank": 94,
+   "wallet": "6uWKDisJKNzHtckuTXeUvkfXZ84USNZhabsvEkNmzriH",
+   "share_pct": 0.1736,
+   "infrastructure": false
+  },
+  {
+   "rank": 95,
+   "wallet": "3vKC1m1CgNL3AU27NTYZ93zfpPeFV9JSAV9k9oMuD4HW",
+   "share_pct": 0.1728,
+   "infrastructure": false
+  },
+  {
+   "rank": 96,
+   "wallet": "Dgb14LGmMnWzyzc6pJtKm3iEPDJVaCBBUTWktUnTdHgN",
+   "share_pct": 0.172,
+   "infrastructure": false
+  },
+  {
+   "rank": 97,
+   "wallet": "3BpXnfJaUTiwXnJNe7Ej1rcbzqTTQUvLShZaWazebsVR",
+   "share_pct": 0.1719,
+   "infrastructure": false
+  },
+  {
+   "rank": 98,
+   "wallet": "Hj4VpUUt5dqTKHbCDNBhR6wpivcG4uVBdUoFv3YPm9sk",
+   "share_pct": 0.1718,
+   "infrastructure": false
+  },
+  {
+   "rank": 99,
+   "wallet": "DqhwoMKpN2kPfSqRpuHovfoqBT8oweYgBdYfMzJ6jMDB",
+   "share_pct": 0.1674,
+   "infrastructure": false
+  },
+  {
+   "rank": 100,
+   "wallet": "Ez9twf5UMakR5TWmEdfdxw9ddYrLNySZbcv2E4cSNnNG",
+   "share_pct": 0.1641,
+   "infrastructure": true
+  },
+  {
+   "rank": 101,
+   "wallet": "DjfE7emgZs1MPtw8jW4eLJF5e78tufw3faD2WgR6Vdqf",
+   "share_pct": 0.1629,
+   "infrastructure": true
+  },
+  {
+   "rank": 102,
+   "wallet": "9nA3c82be7pVEHhan9Difpn1n99j9zTLjKZbJGuELoBr",
+   "share_pct": 0.1627,
+   "infrastructure": false
+  },
+  {
+   "rank": 103,
+   "wallet": "2zTyPRxtHA249EzP7f1DftkMk3TEavDKT2auFUPN1s5S",
+   "share_pct": 0.1612,
+   "infrastructure": false
+  },
+  {
+   "rank": 104,
+   "wallet": "Bzti2WV7TX48rSctyDSPyCbxMkRxcx4wuVrJ6GhNHECU",
+   "share_pct": 0.161,
+   "infrastructure": false
+  },
+  {
+   "rank": 105,
+   "wallet": "J9YVLGvC2M2KibhY7UCWa1YjYeNoK4VTprmAUc483172",
+   "share_pct": 0.1604,
+   "infrastructure": false
+  },
+  {
+   "rank": 106,
+   "wallet": "E8jHYgJBNjY4iKnMBmXLdwrEqwSTWX71AK83Y2WEmSJu",
+   "share_pct": 0.1599,
+   "infrastructure": false
+  },
+  {
+   "rank": 107,
+   "wallet": "8DghXRczsywDtYgNDuCwJBQrkAmSPQzxSpqPgigmVqWL",
+   "share_pct": 0.1547,
+   "infrastructure": false
+  },
+  {
+   "rank": 108,
+   "wallet": "3HWXcQ7j6Lc9S1tzok6oGZByWR9PGYdxhgCpPA7mxAGj",
+   "share_pct": 0.1517,
+   "infrastructure": false
+  },
+  {
+   "rank": 109,
+   "wallet": "8zkgFGVZrDLieViwqiXFCydSX6WL5hsxmUu55yBdsNsZ",
+   "share_pct": 0.1513,
+   "infrastructure": false
+  },
+  {
+   "rank": 110,
+   "wallet": "H3EnQAHmeFuysvNbAmJe7zZ2ufjc9uHuT51nfmZyU7st",
+   "share_pct": 0.1448,
+   "infrastructure": false
+  },
+  {
+   "rank": 111,
+   "wallet": "5YxQFdt3Tr9zJLvkFccqXVUwhdTWJQc1fFg2YPbxvxeD",
+   "share_pct": 0.1436,
+   "infrastructure": false
+  },
+  {
+   "rank": 112,
+   "wallet": "3fnecY3sMhYUNwzNWqZjX5GDsVF8gi2gNd6R7ZeeHT9n",
+   "share_pct": 0.1432,
+   "infrastructure": false
+  },
+  {
+   "rank": 113,
+   "wallet": "5CyGufjZdfntH2iJaTr8PW5g7sNAXhamc92CYLXmsKM2",
+   "share_pct": 0.1425,
+   "infrastructure": true
+  },
+  {
+   "rank": 114,
+   "wallet": "8ZLEuZPUTHEs1uC2LtC9MibSnhPCyyk2P6JFKF7Cm7YJ",
+   "share_pct": 0.1415,
+   "infrastructure": false
+  },
+  {
+   "rank": 115,
+   "wallet": "69z4qTgQ5DBRTJvnQzx2h8jZhNsv5UgADotEwwKUm2JS",
+   "share_pct": 0.1389,
+   "infrastructure": false
+  },
+  {
+   "rank": 116,
+   "wallet": "CAqrR2aFhHqPHoS6HojRX8nwmktAneeHN9QDXCxSL8vE",
+   "share_pct": 0.1352,
+   "infrastructure": false
+  },
+  {
+   "rank": 117,
+   "wallet": "9FxVVqc5XCZtTAizCFUyVcGx7ujnyK2F4WYwxMYVkfJk",
+   "share_pct": 0.1294,
+   "infrastructure": false
+  },
+  {
+   "rank": 118,
+   "wallet": "4EMVzGawCjZMR3z3BcGDhXdMK3ki9NTt1F4LHHp1vT4v",
+   "share_pct": 0.1288,
+   "infrastructure": false
+  },
+  {
+   "rank": 119,
+   "wallet": "HtMA9f6sPfzGk4KCNvKQZ5GyD8z29MWR15vxLEAUMRac",
+   "share_pct": 0.1281,
+   "infrastructure": false
+  },
+  {
+   "rank": 120,
+   "wallet": "AevgmVgQuntnx9HmsJgMPfAuxSZozVdhnk3REvN7CDeH",
+   "share_pct": 0.1264,
+   "infrastructure": false
+  },
+  {
+   "rank": 121,
+   "wallet": "97qHonbHZGCChMhK4fJ68jcj1qPMNaARwsKBmpAQVH8s",
+   "share_pct": 0.1241,
+   "infrastructure": false
+  },
+  {
+   "rank": 122,
+   "wallet": "BU8HQRCLF8s8uJuyMh7nKrPtErebXxxnuYeLX8qiLNyL",
+   "share_pct": 0.1221,
+   "infrastructure": false
+  },
+  {
+   "rank": 123,
+   "wallet": "G5BpQ26jEVv1AUBAdX7S9UKaLrWyeoZzGRnthnQvthGf",
+   "share_pct": 0.1218,
+   "infrastructure": false
+  },
+  {
+   "rank": 124,
+   "wallet": "EHGpL1GfFDjAQ66H4snFUZNN8pHRgecSoZNXHQGamBAK",
+   "share_pct": 0.121,
+   "infrastructure": false
+  },
+  {
+   "rank": 125,
+   "wallet": "5G7Uqj81rWqwARJgrqCkLgN7gTQ9akBSintVv2xwWeBu",
+   "share_pct": 0.1191,
+   "infrastructure": false
+  },
+  {
+   "rank": 126,
+   "wallet": "F2onCd3EFFeLfVQHuwSDXa5Ldgh8ZiCnRBmhYWRraK1m",
+   "share_pct": 0.117,
+   "infrastructure": false
+  },
+  {
+   "rank": 127,
+   "wallet": "9BGTc96yY5Njxw9PzakpfqTgopuTKRCHYE3fsD4o6pPv",
+   "share_pct": 0.1168,
+   "infrastructure": false
+  },
+  {
+   "rank": 128,
+   "wallet": "BtCSH9yNRtsnzUEmTMXGUug7nroeZKGtmr6Yda4JDu3X",
+   "share_pct": 0.1168,
+   "infrastructure": false
+  },
+  {
+   "rank": 129,
+   "wallet": "7VtfL8fvgNfhz17qKRMjzQEXgbdpnHHHQRh54R9jP2RJ",
+   "share_pct": 0.1161,
+   "infrastructure": false
+  },
+  {
+   "rank": 130,
+   "wallet": "Akabho3xRaCFQRoM7BxHibf6MvPeHb6As8GAzqfycss",
+   "share_pct": 0.1157,
+   "infrastructure": false
+  },
+  {
+   "rank": 131,
+   "wallet": "7G8kXRdhoVySxjhL47JaruJ6KytjuftCx8ozu3CBKhUY",
+   "share_pct": 0.115,
+   "infrastructure": false
+  },
+  {
+   "rank": 132,
+   "wallet": "Am74swiBScPpaqN7hXNzQWs1QEun15KhRoryTV8wZTzb",
+   "share_pct": 0.1147,
+   "infrastructure": false
+  },
+  {
+   "rank": 133,
+   "wallet": "AyrtimZSdu7tyRUkCXvDoRJiX281ysZCTQtHoTf8Eh2X",
+   "share_pct": 0.1146,
+   "infrastructure": false
+  },
+  {
+   "rank": 134,
+   "wallet": "B62EHdrvpu6ThmXoqx8BpJuiqaUSzZ7RB1KPX4HyFsmJ",
+   "share_pct": 0.1145,
+   "infrastructure": false
+  },
+  {
+   "rank": 135,
+   "wallet": "DQQKPuN6yxnwY8KsJacLxRdhNRv4pftydAWZBGKGoU9T",
+   "share_pct": 0.1143,
+   "infrastructure": false
+  },
+  {
+   "rank": 136,
+   "wallet": "AAZfdar75jfrFhJg94wSxm2qpnqYrsfJtVb9DCkarBCQ",
+   "share_pct": 0.1141,
+   "infrastructure": true
+  },
+  {
+   "rank": 137,
+   "wallet": "9zGNR7j6oMHTpCW722vVZPKGDU2udkaczyuirBeyMFty",
+   "share_pct": 0.1131,
+   "infrastructure": false
+  },
+  {
+   "rank": 138,
+   "wallet": "BJRDU68pE7LzZw27pMacdy2531zUZhftVbuPXXqitAhW",
+   "share_pct": 0.1072,
+   "infrastructure": false
+  },
+  {
+   "rank": 139,
+   "wallet": "4e1DF7YuRhRwf5bfEZRPqftQ9ehHxucutmxefcLdLJkv",
+   "share_pct": 0.1061,
+   "infrastructure": false
+  },
+  {
+   "rank": 140,
+   "wallet": "C2vL9NxTrSY3gmmGxBCZfDDb9NQvjqzP7rYycgLfwNNK",
+   "share_pct": 0.1056,
+   "infrastructure": false
+  },
+  {
+   "rank": 141,
+   "wallet": "HQCwCAMco9YftUb5Fq7AbAXCJAz89YMTuZ38wokD53rZ",
+   "share_pct": 0.1055,
+   "infrastructure": false
+  },
+  {
+   "rank": 142,
+   "wallet": "CP2kvxp6tUT3n2ALBA9nnpXCeuTFC2G7UR7KDNs9UMQ6",
+   "share_pct": 0.1052,
+   "infrastructure": false
+  },
+  {
+   "rank": 143,
+   "wallet": "EqBQhoU88ty3a3aDphDRCBuiRirjUsFSFi4UHGY64qvv",
+   "share_pct": 0.1045,
+   "infrastructure": false
+  },
+  {
+   "rank": 144,
+   "wallet": "AUYmoCFU925jM39Ffe5nWmSyE4r9TruJDSpSUh51JHaR",
+   "share_pct": 0.1037,
+   "infrastructure": false
+  },
+  {
+   "rank": 145,
+   "wallet": "12EN2rwtaF1K1291WdtgqJEsTofxQ19mJQ6uwgCjxZtg",
+   "share_pct": 0.1034,
+   "infrastructure": false
+  },
+  {
+   "rank": 146,
+   "wallet": "Jh5SzFV6PXXEYgXHj7MBm6eiRC9QTMDetsZe2XpZUqF",
+   "share_pct": 0.1033,
+   "infrastructure": false
+  },
+  {
+   "rank": 147,
+   "wallet": "CP2F4vDkfbHouFxSZ2XYSGzwMDn4GeT2KFsAqromF7JY",
+   "share_pct": 0.1033,
+   "infrastructure": false
+  },
+  {
+   "rank": 148,
+   "wallet": "F2CpQV2RsMMXL1sRqy2ewq3vLuSyvvQT29kt5tYd8G6t",
+   "share_pct": 0.1032,
+   "infrastructure": false
+  },
+  {
+   "rank": 149,
+   "wallet": "aH31qjgPV2u1LNipeuNjFDKFa4LFA6j8SuWpBxeP5t2",
+   "share_pct": 0.1032,
+   "infrastructure": false
+  },
+  {
+   "rank": 150,
+   "wallet": "8BbPASYJEnLNp3XtFhZ7KoJuq8iMdFUWEbUXGrzWoWRx",
+   "share_pct": 0.1024,
+   "infrastructure": false
+  },
+  {
+   "rank": 151,
+   "wallet": "8K3yowZ8EAuJ6RSGBdm7pe22KMgw4CG5VDpoiReQeNq5",
+   "share_pct": 0.1024,
+   "infrastructure": false
+  },
+  {
+   "rank": 152,
+   "wallet": "3tyHbsUjqWEngTdjAYKYCFSrdZyzomRrfr6tJnjpmPUQ",
+   "share_pct": 0.1022,
+   "infrastructure": false
+  },
+  {
+   "rank": 153,
+   "wallet": "9STp61cdBVUexQd4psqFug66DuA78PoGuAoouBGh9AM4",
+   "share_pct": 0.102,
+   "infrastructure": false
+  },
+  {
+   "rank": 154,
+   "wallet": "HNH3j2E7qqrUXDtBYLJssPqfLse5xhCeQG4yWbc656Le",
+   "share_pct": 0.1017,
+   "infrastructure": false
+  },
+  {
+   "rank": 155,
+   "wallet": "HAQvG43FMT46cU8hHGG9YNR2EJUvkVCRjcaB59v6mewS",
+   "share_pct": 0.0993,
+   "infrastructure": false
+  },
+  {
+   "rank": 156,
+   "wallet": "5182w9cCQJnbg3AQMmRSQHUtdvoVRqZZ1evp2pMWZvDQ",
+   "share_pct": 0.099,
+   "infrastructure": false
+  },
+  {
+   "rank": 157,
+   "wallet": "FGKJBim1aqEosaQ4CQ51pbReLvH4K3RE7iLRR12KkcNN",
+   "share_pct": 0.0988,
+   "infrastructure": false
+  },
+  {
+   "rank": 158,
+   "wallet": "6BvVa3kS9Pb5Zq3SrsRHVMb2D1mJ9B6egaZgqbsZ7CHo",
+   "share_pct": 0.0986,
+   "infrastructure": false
+  },
+  {
+   "rank": 159,
+   "wallet": "2zxZqcrvLveMn3GWMTUDH5MLv2q1UCSEmD1zQKDdWBzB",
+   "share_pct": 0.097,
+   "infrastructure": false
+  },
+  {
+   "rank": 160,
+   "wallet": "FCcH6NowSESDgEQGcx3TdND6Gs8V1ean7xC77ZNn56Te",
+   "share_pct": 0.0967,
+   "infrastructure": false
+  },
+  {
+   "rank": 161,
+   "wallet": "6ajdu2nqqWR76RT4k2REvNjcTXwkL4gNXG5i1sehiK4b",
+   "share_pct": 0.0965,
+   "infrastructure": false
+  },
+  {
+   "rank": 162,
+   "wallet": "6B5vJTUB53LNXm56ZLfpj8mUx4hzUzqadXJCKqexVJaG",
+   "share_pct": 0.0965,
+   "infrastructure": false
+  },
+  {
+   "rank": 163,
+   "wallet": "8moipQRigiWZc5CL56876aJd56mDxbpxjfSqfYuJHxnL",
+   "share_pct": 0.0947,
+   "infrastructure": true
+  },
+  {
+   "rank": 164,
+   "wallet": "8JZMFPn7fC6agj9mLf6ejmBa3NNZsycKNX4QnCY8Hazd",
+   "share_pct": 0.0932,
+   "infrastructure": false
+  },
+  {
+   "rank": 165,
+   "wallet": "CeZ9dSVRSbgnzUpaCCSZgCwXaCvMZpuMnfacXhUxgZNr",
+   "share_pct": 0.0918,
+   "infrastructure": false
+  },
+  {
+   "rank": 166,
+   "wallet": "2t5mDavTU7BHKYBJ6s4UBoCQ9iKtekdvdifTPtkcXxjj",
+   "share_pct": 0.0915,
+   "infrastructure": false
+  },
+  {
+   "rank": 167,
+   "wallet": "FJTzK2EhJgw2Yu4of3CS9fcbaxaEF2rQHyinaA6henhK",
+   "share_pct": 0.0908,
+   "infrastructure": false
+  },
+  {
+   "rank": 168,
+   "wallet": "5a1oDCHyq7eTZC54zsY6e3scucDriE88jjY3X1xgAJTe",
+   "share_pct": 0.0907,
+   "infrastructure": false
+  },
+  {
+   "rank": 169,
+   "wallet": "FkWD2RRWdcwT9GiP1tMBj6hSnCwSjU2aSphiFfv2amcj",
+   "share_pct": 0.0906,
+   "infrastructure": false
+  },
+  {
+   "rank": 170,
+   "wallet": "23Gc8AVsKv5zCXe6ekUd6gdp1LtETuQKXTnpaq7dPHsr",
+   "share_pct": 0.0902,
+   "infrastructure": false
+  },
+  {
+   "rank": 171,
+   "wallet": "7HQjibWaKP2gLDujc4XhixtPTkxy9AkTbfE5CwHn1Zpj",
+   "share_pct": 0.0899,
+   "infrastructure": false
+  },
+  {
+   "rank": 172,
+   "wallet": "9FHzkcaEbb1jW3r4gexGA8R6uiEFDsHeRxwS8reyh49E",
+   "share_pct": 0.0894,
+   "infrastructure": false
+  },
+  {
+   "rank": 173,
+   "wallet": "Ev2hVYh3DkqBwQU2Xc9RFTHu7LiwJamw4yKKPa8usrUM",
+   "share_pct": 0.088,
+   "infrastructure": false
+  },
+  {
+   "rank": 174,
+   "wallet": "29vdyqTTwiCLVyq3vu3Luxs3bB2wcsa9Ap1gCALcGSmF",
+   "share_pct": 0.0854,
+   "infrastructure": false
+  },
+  {
+   "rank": 175,
+   "wallet": "AedneRt7crm9kNEKtFWB2aCj6skXhdDo3BcEfQzvfYJJ",
+   "share_pct": 0.0844,
+   "infrastructure": false
+  },
+  {
+   "rank": 176,
+   "wallet": "8whS3YkNkFi84yRUpb1anp9QESUDg7p7dLML1PVno5LR",
+   "share_pct": 0.084,
+   "infrastructure": false
+  },
+  {
+   "rank": 177,
+   "wallet": "4Yh5GxF8GxetKVGPH9BNZ7WLqXWtuyZFoX1HkBs97zCD",
+   "share_pct": 0.0831,
+   "infrastructure": false
+  },
+  {
+   "rank": 178,
+   "wallet": "CNACqhu86jRVndRrutYYngHZqU2jV4AqZVASDqNJS4ZD",
+   "share_pct": 0.083,
+   "infrastructure": false
+  },
+  {
+   "rank": 179,
+   "wallet": "HQwrGmXb4VqggdtGZLaTbm4nLKy9RwBQcN875KrMJLaQ",
+   "share_pct": 0.0829,
+   "infrastructure": false
+  },
+  {
+   "rank": 180,
+   "wallet": "571uzWpMeRuHEuWFC61FFsnXYV8DbE33QuBjCJhMqXh4",
+   "share_pct": 0.0824,
+   "infrastructure": false
+  },
+  {
+   "rank": 181,
+   "wallet": "8pQhvCZzxQgMPbMiZEh9mkCP3ar5S13HQxWCLXTS2PUP",
+   "share_pct": 0.0811,
+   "infrastructure": false
+  },
+  {
+   "rank": 182,
+   "wallet": "73nL45Z6kW48FpXNiLnwxBwLaNprystFfHVnWx9vLkdA",
+   "share_pct": 0.0799,
+   "infrastructure": false
+  },
+  {
+   "rank": 183,
+   "wallet": "TWPr77DFuWzieM2EpGL8Df9VNb8J9imyYktn4BtYjpW",
+   "share_pct": 0.0786,
+   "infrastructure": false
+  },
+  {
+   "rank": 184,
+   "wallet": "BonjPwq8QnTtZTbbibGnEaEqJTJKVWmdbbPbDeYYhDS3",
+   "share_pct": 0.0785,
+   "infrastructure": false
+  },
+  {
+   "rank": 185,
+   "wallet": "3tMmxFRtVsZm3ep2MBzFHYiqvX2xBT8Kf6ChTyiMzqki",
+   "share_pct": 0.078,
+   "infrastructure": false
+  },
+  {
+   "rank": 186,
+   "wallet": "8fh2wJFZoxF5Pzxy6S5KABSespywZCChJ1mjyUudUmbE",
+   "share_pct": 0.0779,
+   "infrastructure": false
+  },
+  {
+   "rank": 187,
+   "wallet": "9yFMHpSGwm9wWdmfsvko3GnGLVaFsG6sBajUCiBRkjK",
+   "share_pct": 0.0779,
+   "infrastructure": false
+  },
+  {
+   "rank": 188,
+   "wallet": "HebHcGB25uU8XK6iVD37BorE5ro7Tnd8siQHhMpPvFVa",
+   "share_pct": 0.077,
+   "infrastructure": false
+  },
+  {
+   "rank": 189,
+   "wallet": "62qc2CNXwrYqQScmEdiZFFAnJR262PxWEuNQtxfafNgV",
+   "share_pct": 0.0768,
+   "infrastructure": false
+  },
+  {
+   "rank": 190,
+   "wallet": "JAjfkYuBwT6CYccrPHb6QspHEDohAv7kqCZjo4naoLVH",
+   "share_pct": 0.0768,
+   "infrastructure": true
+  },
+  {
+   "rank": 191,
+   "wallet": "6vvcikhYdFa4Bn6FWNHyau2obVhLRHh3rwMiEshnteMr",
+   "share_pct": 0.0763,
+   "infrastructure": false
+  },
+  {
+   "rank": 192,
+   "wallet": "GJnNP4uZs4YwNRbM8dKLnhW9C2wVoMPHcGS4kSjehRRX",
+   "share_pct": 0.0754,
+   "infrastructure": false
+  },
+  {
+   "rank": 193,
+   "wallet": "CDYayG2gt1YA8CfUwTqgJsfW4AxFUKKVkue3WxiB9WYD",
+   "share_pct": 0.075,
+   "infrastructure": false
+  },
+  {
+   "rank": 194,
+   "wallet": "7gkLJyrWAXH2vc78bmmTta9XM46wNs3Wy49mVE1dj8xG",
+   "share_pct": 0.0746,
+   "infrastructure": false
+  },
+  {
+   "rank": 195,
+   "wallet": "GHuPX6GyumdQ541ysGtSjXiHWYtV3qd6JqgKoWB8KyhL",
+   "share_pct": 0.0741,
+   "infrastructure": false
+  },
+  {
+   "rank": 196,
+   "wallet": "9MwyqvtuVSMv4yZSQn2EmJJNSxVkNfLuCftxmvWDHKmg",
+   "share_pct": 0.0738,
+   "infrastructure": false
+  },
+  {
+   "rank": 197,
+   "wallet": "5hCaQz3GgFBhULcygoq7bsfNr6JkBrSu4aA2mW6uTtsu",
+   "share_pct": 0.0729,
+   "infrastructure": false
+  },
+  {
+   "rank": 198,
+   "wallet": "7vJjcmZYZqPBwbjwjAFSkQT4oyiyHYgHbCXQeGa9nZMD",
+   "share_pct": 0.072,
+   "infrastructure": false
+  },
+  {
+   "rank": 199,
+   "wallet": "F71m77Hz2ZyaBuzwQhF63TVhrg22EB7SYt5hwe3VcvXA",
+   "share_pct": 0.0719,
+   "infrastructure": false
+  },
+  {
+   "rank": 200,
+   "wallet": "HSCzHjF2vmeWTe33TfSroTakHE5gF3LbeFh2HiVAgw4j",
+   "share_pct": 0.071,
+   "infrastructure": false
+  },
+  {
+   "rank": 201,
+   "wallet": "EuHJmw5Ke1XGzJvPf6vfB9pHB2WH5KK1EmFjh9qFFLbn",
+   "share_pct": 0.0707,
+   "infrastructure": false
+  },
+  {
+   "rank": 202,
+   "wallet": "9e6ZQpCcKhejmnXwhVPVKejv7B9tCN3iTWWy4bNtX9ut",
+   "share_pct": 0.0707,
+   "infrastructure": false
+  },
+  {
+   "rank": 203,
+   "wallet": "9JPYdfryxSFWtBBCAy3avWBqsQKiXe6aAmLzWxw6RkaX",
+   "share_pct": 0.0705,
+   "infrastructure": false
+  },
+  {
+   "rank": 204,
+   "wallet": "7uohgPY3zfko6cBqbPuW7bPnHUSGvHjQu5g8zgRWGLR",
+   "share_pct": 0.0698,
+   "infrastructure": false
+  },
+  {
+   "rank": 205,
+   "wallet": "HBk29UnFMZKXQ7dj6SDJioDWQczqjWp7xA657dsLEoPP",
+   "share_pct": 0.0696,
+   "infrastructure": false
+  },
+  {
+   "rank": 206,
+   "wallet": "C5YKvw2ebPfs4DV96wfGACmjQ7eoc9Y8ixcP3kPoLRVF",
+   "share_pct": 0.0692,
+   "infrastructure": false
+  },
+  {
+   "rank": 207,
+   "wallet": "6VBRENDAZM23F1UuL6tf53owKB8cCQ9qAQNGJBNTQd8b",
+   "share_pct": 0.0672,
+   "infrastructure": false
+  },
+  {
+   "rank": 208,
+   "wallet": "3FWqSYsiBbzFeTTGpVa7n84x5z5qqUq2pjCVgsXQJ9Tf",
+   "share_pct": 0.0663,
+   "infrastructure": false
+  },
+  {
+   "rank": 209,
+   "wallet": "31xBuvGJm9viCw6UNVss47jqmskch4GtqaNgckfnBVEU",
+   "share_pct": 0.066,
+   "infrastructure": false
+  },
+  {
+   "rank": 210,
+   "wallet": "HLKY23DX6miZiQAoxpPuCrVKkkw1xozuEwtqSZ7TNns2",
+   "share_pct": 0.0655,
+   "infrastructure": false
+  },
+  {
+   "rank": 211,
+   "wallet": "HKKzrQLKkbUCMaEBwa1KS1VnsBgkcCXsi8CVqWzYzh9U",
+   "share_pct": 0.0653,
+   "infrastructure": false
+  },
+  {
+   "rank": 212,
+   "wallet": "5Vc5X3wAFpeBQJepKcD38aTq8dm7Wn2EGsgK7UXhjLmi",
+   "share_pct": 0.0643,
+   "infrastructure": false
+  },
+  {
+   "rank": 213,
+   "wallet": "AJ2c7LoFgPUYJUCdyeNTRjsNPonzT3k7swthDgyLAth5",
+   "share_pct": 0.064,
+   "infrastructure": true
+  },
+  {
+   "rank": 214,
+   "wallet": "FapTUr5tC8gE9TaVReDJLbWXQce2ct9X6bTxvhnJwsxy",
+   "share_pct": 0.0639,
+   "infrastructure": false
+  },
+  {
+   "rank": 215,
+   "wallet": "54sSLWcvFjUvBZsZJtfw82KTGTbquSFgDc3L76yiiQcp",
+   "share_pct": 0.0637,
+   "infrastructure": false
+  },
+  {
+   "rank": 216,
+   "wallet": "4SFgkLDgf3e7UGTtWUzT7moFsuFwuWQV7dN9P7bqtS1t",
+   "share_pct": 0.0634,
+   "infrastructure": false
+  },
+  {
+   "rank": 217,
+   "wallet": "GzA6mpijZWK1PmTTHFUXq6tzYTDUYybRC8H8TQbXTfHY",
+   "share_pct": 0.0634,
+   "infrastructure": false
+  },
+  {
+   "rank": 218,
+   "wallet": "2UnYJdqYWe2WkConoBz5azBqpWYsSbxYR5HH7E9tmTDa",
+   "share_pct": 0.0633,
+   "infrastructure": false
+  },
+  {
+   "rank": 219,
+   "wallet": "HgYGYaMHjjCcvaMMgTb2pDmbWH4YRyeTW93FkUgU3YXR",
+   "share_pct": 0.0626,
+   "infrastructure": false
+  },
+  {
+   "rank": 220,
+   "wallet": "9dMwQUb9p9y3MwbuW4Wxr4kP2Sm3xC3WvptMqXenRpoE",
+   "share_pct": 0.0621,
+   "infrastructure": false
+  },
+  {
+   "rank": 221,
+   "wallet": "8VbEA9zEj4DLvMPTPhLaEyWuqcBghJwbKgAQkY3NdHTg",
+   "share_pct": 0.0618,
+   "infrastructure": false
+  },
+  {
+   "rank": 222,
+   "wallet": "6BQLqxvyNpe2LUt6vEu7L4Nw1d1urCC7eEpu3Dgqgths",
+   "share_pct": 0.0616,
+   "infrastructure": false
+  },
+  {
+   "rank": 223,
+   "wallet": "BVeZmpz3sq5A4ipGitYMSWMbqcnoLR5F1VwGCDwqx25t",
+   "share_pct": 0.061,
+   "infrastructure": false
+  },
+  {
+   "rank": 224,
+   "wallet": "EifirzZRnk3dNqCe4WrBLSdG7qHAXWgbJHU1yDsqMwsT",
+   "share_pct": 0.0607,
+   "infrastructure": false
+  },
+  {
+   "rank": 225,
+   "wallet": "BCPszto1wNBJBhJCimYinfF2FZCyXBmBDGFUsSqE13Lv",
+   "share_pct": 0.0607,
+   "infrastructure": false
+  },
+  {
+   "rank": 226,
+   "wallet": "3dtVZ4uGY3JZLBxLWnsrk1USDDhgmc9RxAqeEQury26d",
+   "share_pct": 0.0599,
+   "infrastructure": false
+  },
+  {
+   "rank": 227,
+   "wallet": "5o6BJ11vZNMsxFHriw5y1QQ8qVLPpbM3Qpi6grEst3DY",
+   "share_pct": 0.0597,
+   "infrastructure": false
+  },
+  {
+   "rank": 228,
+   "wallet": "45Z1BipX6mTErWbvbZRfge3yKTRrEXrcFD6hzprtH2nE",
+   "share_pct": 0.0595,
+   "infrastructure": false
+  },
+  {
+   "rank": 229,
+   "wallet": "EhvxAQtsic8tssCUHUPKPjSkFEVavwu5QYQbjxhsinzF",
+   "share_pct": 0.0591,
+   "infrastructure": false
+  },
+  {
+   "rank": 230,
+   "wallet": "27F3xq9rz8SYkNLEu5hVeEDn45W4pemAYEXuXfZNyGe5",
+   "share_pct": 0.059,
+   "infrastructure": false
+  },
+  {
+   "rank": 231,
+   "wallet": "3ra9VsjcADvY4QTjAqbv3FrYeruDip6gLxnvnQesWY6g",
+   "share_pct": 0.059,
+   "infrastructure": false
+  },
+  {
+   "rank": 232,
+   "wallet": "E7iHZQVJSPNywWKg1RUaJeu176i6aUUS5NVy3xTQTgvi",
+   "share_pct": 0.0586,
+   "infrastructure": false
+  },
+  {
+   "rank": 233,
+   "wallet": "GAKzQ2LaqzGmcNcXGR7xKiryH19RxdBSrb3ZZFr342tF",
+   "share_pct": 0.0582,
+   "infrastructure": false
+  },
+  {
+   "rank": 234,
+   "wallet": "8UJ6vPKL3mwaYckV4DVFPeCBcKNz7ADHQtooDVn7cjts",
+   "share_pct": 0.0573,
+   "infrastructure": false
+  },
+  {
+   "rank": 235,
+   "wallet": "GNYoFyQVKQPwq6wgkvhFuz9dV9YSVL8Da4s79tEBZzKM",
+   "share_pct": 0.0572,
+   "infrastructure": false
+  },
+  {
+   "rank": 236,
+   "wallet": "3Zwo7Rfytwy5T6EY6abeDyGLrk8M3ePadTQuR4hj74YW",
+   "share_pct": 0.0565,
+   "infrastructure": false
+  },
+  {
+   "rank": 237,
+   "wallet": "9cDiUj9cweN8eDMpS3JSepQXwciQyV3TbuXcrQvk8Hch",
+   "share_pct": 0.0563,
+   "infrastructure": false
+  },
+  {
+   "rank": 238,
+   "wallet": "DHvSkhQfpNhEqf7bpFbM3P52JF9MtNeVEiDhn5ZEktF9",
+   "share_pct": 0.0563,
+   "infrastructure": false
+  },
+  {
+   "rank": 239,
+   "wallet": "HfqVn6aZp4xt7HNr1EJSToSGu7ZuJ65Xr1bcLpiAgrry",
+   "share_pct": 0.0562,
+   "infrastructure": false
+  },
+  {
+   "rank": 240,
+   "wallet": "D7eJAM69zHzMKpATWr1mwrrNXSHUiWyMxcNKhLydngDj",
+   "share_pct": 0.0562,
+   "infrastructure": false
+  },
+  {
+   "rank": 241,
+   "wallet": "DYRTa22idCqL54p6xmChzXeMi96h1XXStjpjAWpaGnCd",
+   "share_pct": 0.0558,
+   "infrastructure": false
+  },
+  {
+   "rank": 242,
+   "wallet": "9hmKtfWQV2KnDUNRwqhRZ4rNDm1R1LNKvsTbquQbdqsg",
+   "share_pct": 0.0551,
+   "infrastructure": false
+  },
+  {
+   "rank": 243,
+   "wallet": "AMtpGHevtFCDw9Efq9howJqk6voaQTV7sCFojNAmhN31",
+   "share_pct": 0.055,
+   "infrastructure": false
+  },
+  {
+   "rank": 244,
+   "wallet": "HbPaC4mQBV6VAewBTmdWBq2rENP61jAuWhM8LaJiVttr",
+   "share_pct": 0.0547,
+   "infrastructure": false
+  },
+  {
+   "rank": 245,
+   "wallet": "64eGwVnkPr3epkBcL5jdGWp1kHHUw3ZU7iB5Ya4PE8fc",
+   "share_pct": 0.0547,
+   "infrastructure": false
+  },
+  {
+   "rank": 246,
+   "wallet": "7Y6dJgRhEYXPadeEjgWgx7PigYTHkdUGT1y1oo3rXY5B",
+   "share_pct": 0.0546,
+   "infrastructure": false
+  },
+  {
+   "rank": 247,
+   "wallet": "9eFihkd14vsC3T5FrwSq65a2CJpPixE9L21nugBwdgdW",
+   "share_pct": 0.0546,
+   "infrastructure": false
+  },
+  {
+   "rank": 248,
+   "wallet": "ExP6sWDpDjgh319ao8tuYYsGAbv8uAD3hLG3HHL8DtSW",
+   "share_pct": 0.0545,
+   "infrastructure": false
+  },
+  {
+   "rank": 249,
+   "wallet": "7jRBWjzxgAWexRoMn5efynuhNxH5n639dfoxRWPcgyiS",
+   "share_pct": 0.054,
+   "infrastructure": false
+  },
+  {
+   "rank": 250,
+   "wallet": "FcQAYJ59rvxsvWTz8hUHENmakFkHgEufGDSw78BkdfrW",
+   "share_pct": 0.054,
+   "infrastructure": false
+  },
+  {
+   "rank": 251,
+   "wallet": "y2pMBnh1C2GvidoZxoRZXWHDFFvbh5br8Kp6pMnmvA5",
+   "share_pct": 0.0539,
+   "infrastructure": false
+  },
+  {
+   "rank": 252,
+   "wallet": "FWsW1xNtWscwNmKv6wVsU1iTzRN6wmmk3MjxRP5tT7hz",
+   "share_pct": 0.0537,
+   "infrastructure": false
+  },
+  {
+   "rank": 253,
+   "wallet": "4bB1PWWkPNk2svWsd4sfUvyZwGGXb2Lxn5bLyWAHr19X",
+   "share_pct": 0.0535,
+   "infrastructure": false
+  },
+  {
+   "rank": 254,
+   "wallet": "FeF2p7SgEKhpoYVgRhHSsj9Lsa8LDT7ebmYEbT75EBVb",
+   "share_pct": 0.0534,
+   "infrastructure": false
+  },
+  {
+   "rank": 255,
+   "wallet": "5L5F6gsesFdaEgYUTTDDd9QQNNG3TC6zoXbnLBsgorbW",
+   "share_pct": 0.0529,
+   "infrastructure": false
+  },
+  {
+   "rank": 256,
+   "wallet": "5EkXHryCcuyg3qPokvGEjSMp7niPHSDJasQJTpXQuN7k",
+   "share_pct": 0.0529,
+   "infrastructure": false
+  },
+  {
+   "rank": 257,
+   "wallet": "4H9DA7roqxpDFJzQnoycsaUiSrkuUYDbm1tBNMq9HkUq",
+   "share_pct": 0.0521,
+   "infrastructure": false
+  },
+  {
+   "rank": 258,
+   "wallet": "DQo3X83xyEB74gE9ZbPEhtKtGt99ZDepprFuPGj2F2oH",
+   "share_pct": 0.0513,
+   "infrastructure": false
+  },
+  {
+   "rank": 259,
+   "wallet": "Eib5QyRtaysDejzgeXPHBhGgUK62DrqERdSSpgRmM88X",
+   "share_pct": 0.0509,
+   "infrastructure": false
+  },
+  {
+   "rank": 260,
+   "wallet": "A746YX3neT3gDr6nAcLz96V6LdtNU6HkkCPcBfTtLyDr",
+   "share_pct": 0.0505,
+   "infrastructure": false
+  },
+  {
+   "rank": 261,
+   "wallet": "2ZmnADhmrJPiKobRCvXftxSiDriuVP8RquxCk4TTrxBe",
+   "share_pct": 0.0503,
+   "infrastructure": false
+  },
+  {
+   "rank": 262,
+   "wallet": "9JaP7qL4vYk58XmMyRKnWnARANakgLL7SKWEugrZpurt",
+   "share_pct": 0.0497,
+   "infrastructure": false
+  },
+  {
+   "rank": 263,
+   "wallet": "GHv4uSeeDYeBijLHvJ5VjzktyWzfYUjfiBVjU7u2S5Wq",
+   "share_pct": 0.0495,
+   "infrastructure": false
+  },
+  {
+   "rank": 264,
+   "wallet": "4eEsHQdTaHnxNcDzp8VKLLojtz8kuAvXoy7t1TwhfdbH",
+   "share_pct": 0.0493,
+   "infrastructure": false
+  },
+  {
+   "rank": 265,
+   "wallet": "FEH4Jw1f9RqTH9Z7E88a4zWZRAfGomFB4UbBEduTViKP",
+   "share_pct": 0.0493,
+   "infrastructure": true
+  },
+  {
+   "rank": 266,
+   "wallet": "J8d5UkrztUsqAD3FLxQCeNbUa1equFmjoD9TqviSuueq",
+   "share_pct": 0.0492,
+   "infrastructure": false
+  },
+  {
+   "rank": 267,
+   "wallet": "BFYo91p32jJ6YeF3Vg14yYEfPmdZgN1mzJqU6jTZF4Dd",
+   "share_pct": 0.0488,
+   "infrastructure": false
+  },
+  {
+   "rank": 268,
+   "wallet": "CPATH4EHjQyzDem69pCWK7XdU3RihWQoiv9h1NYnQcCW",
+   "share_pct": 0.0481,
+   "infrastructure": false
+  }
+ ]
+}

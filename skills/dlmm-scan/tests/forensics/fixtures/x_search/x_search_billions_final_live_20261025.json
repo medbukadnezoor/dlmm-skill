@@ -1,0 +1,5101 @@
+{
+ "note": "GetXAPI advanced-search and Dexscreener token-pairs response BODIES saved live on 2026-10-25 by the x_search collector (DS-X-LORE-T1); no request or response headers",
+ "mint": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+ "read_at": "2026-10-25T10:05:55Z",
+ "dexscreener": [
+  {
+   "chainId": "solana",
+   "dexId": "pumpswap",
+   "url": "https://dexscreener.com/solana/3daykmmmqp2j4d9z3rg1azzjdit5vyrsz2bsj93answr",
+   "pairAddress": "3daykMmmqP2J4d9Z3Rg1AZZJdit5vyrSZ2BSJ93aNswr",
+   "baseToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "quoteToken": {
+    "address": "DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF",
+    "name": "Trump Media & Technology Group Corp. Common Stock - Backpack Securities",
+    "symbol": "DJT"
+   },
+   "priceNative": "0.000005763",
+   "priceUsd": "0.00003672",
+   "txns": {
+    "m5": {
+     "buys": 7,
+     "sells": 13
+    },
+    "h1": {
+     "buys": 124,
+     "sells": 169
+    },
+    "h6": {
+     "buys": 28519,
+     "sells": 20845
+    },
+    "h24": {
+     "buys": 28519,
+     "sells": 20845
+    }
+   },
+   "volume": {
+    "h24": 2141324.49,
+    "h6": 2141324.49,
+    "h1": 9349.02,
+    "m5": 1659.33
+   },
+   "priceChange": {
+    "m5": 26,
+    "h1": 0.98,
+    "h6": -21.41,
+    "h24": -21.41
+   },
+   "liquidity": {
+    "usd": 16866.59,
+    "base": 256186302,
+    "quote": 1170.3962
+   },
+   "fdv": 36108,
+   "marketCap": 36108,
+   "pairCreatedAt": 1792903376000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/ntKRZ89saclSxLXV?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/PNYRosc7mevubkdc?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump?timestamp=1792922700000",
+    "websites": [
+     {
+      "url": "https://truthsocial.com/@realDonaldTrump/117499714815544938",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/OMGmeii2xxzz/status/2114217145794261300?s=20",
+      "type": "twitter"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "meteora",
+   "url": "https://dexscreener.com/solana/12efrff3pharkfax1ba6tbi9j4yg9wpcspm895lwsqg3",
+   "pairAddress": "12EfRFF3pHArkfaX1bA6TBi9J4Yg9wPCSpm895LWsQg3",
+   "labels": [
+    "DLMM"
+   ],
+   "baseToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "quoteToken": {
+    "address": "So11111111111111111111111111111111111111112",
+    "name": "Wrapped SOL",
+    "symbol": "SOL"
+   },
+   "priceNative": "0.0000003444",
+   "priceUsd": "0.00003472",
+   "txns": {
+    "m5": {
+     "buys": 3,
+     "sells": 2
+    },
+    "h1": {
+     "buys": 20,
+     "sells": 27
+    },
+    "h6": {
+     "buys": 1116,
+     "sells": 1382
+    },
+    "h24": {
+     "buys": 1116,
+     "sells": 1382
+    }
+   },
+   "volume": {
+    "h24": 65221.69,
+    "h6": 65221.69,
+    "h1": 221.33,
+    "m5": 10.96
+   },
+   "priceChange": {
+    "m5": 20.23,
+    "h1": -4.8,
+    "h6": -74.51,
+    "h24": -74.51
+   },
+   "liquidity": {
+    "usd": 305.09,
+    "base": 2675871,
+    "quote": 2.1041
+   },
+   "fdv": 34360,
+   "marketCap": 34360,
+   "pairCreatedAt": 1792903557000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/ntKRZ89saclSxLXV?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/PNYRosc7mevubkdc?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump?timestamp=1792922700000",
+    "websites": [
+     {
+      "url": "https://truthsocial.com/@realDonaldTrump/117499714815544938",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/OMGmeii2xxzz/status/2114217145794261300?s=20",
+      "type": "twitter"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "meteora",
+   "url": "https://dexscreener.com/solana/3ph1ofkmzxdeqde9y8cqxvjo3ag8sv4cs3zxivgkqt8e",
+   "pairAddress": "3PH1oFKmzXdEQDe9y8cqXvJo3ag8sv4CS3ZXivGkqT8E",
+   "labels": [
+    "DLMM"
+   ],
+   "baseToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "quoteToken": {
+    "address": "So11111111111111111111111111111111111111112",
+    "name": "Wrapped SOL",
+    "symbol": "SOL"
+   },
+   "priceNative": "0.0000007572",
+   "priceUsd": "0.00007709",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 744,
+     "sells": 792
+    },
+    "h24": {
+     "buys": 744,
+     "sells": 792
+    }
+   },
+   "volume": {
+    "h24": 25102.31,
+    "h6": 25102.31,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": -78.47,
+    "h24": -78.47
+   },
+   "liquidity": {
+    "usd": 83.74,
+    "base": 755017,
+    "quote": 0.2508
+   },
+   "fdv": 76273,
+   "marketCap": 76273,
+   "pairCreatedAt": 1792907459000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/ntKRZ89saclSxLXV?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/PNYRosc7mevubkdc?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump?timestamp=1792922700000",
+    "websites": [
+     {
+      "url": "https://truthsocial.com/@realDonaldTrump/117499714815544938",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/OMGmeii2xxzz/status/2114217145794261300?s=20",
+      "type": "twitter"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "meteora",
+   "url": "https://dexscreener.com/solana/a5p8npxfyeuzfgckkubpt7hd1arnfxmn7hkcxfpksiyc",
+   "pairAddress": "A5P8NpxfyeuzFgCkKUbpt7hD1aRNfxMN7hkcXFpKSiYC",
+   "labels": [
+    "DYN2"
+   ],
+   "baseToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "quoteToken": {
+    "address": "So11111111111111111111111111111111111111112",
+    "name": "Wrapped SOL",
+    "symbol": "SOL"
+   },
+   "priceNative": "0.0000003318",
+   "priceUsd": "0.00003348",
+   "txns": {
+    "m5": {
+     "buys": 2,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 6,
+     "sells": 8
+    },
+    "h6": {
+     "buys": 127,
+     "sells": 105
+    },
+    "h24": {
+     "buys": 127,
+     "sells": 105
+    }
+   },
+   "volume": {
+    "h24": 9.84,
+    "h6": 9.84,
+    "h1": 0.35,
+    "m5": 0.09
+   },
+   "priceChange": {
+    "m5": 24.48,
+    "h1": -11.01,
+    "h6": 847,
+    "h24": 847
+   },
+   "liquidity": {
+    "usd": 1.23,
+    "base": 17184,
+    "quote": 0.006579
+   },
+   "fdv": 32919,
+   "marketCap": 32919,
+   "pairCreatedAt": 1792903758000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/ntKRZ89saclSxLXV?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/PNYRosc7mevubkdc?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump?timestamp=1792922700000",
+    "websites": [
+     {
+      "url": "https://truthsocial.com/@realDonaldTrump/117499714815544938",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/OMGmeii2xxzz/status/2114217145794261300?s=20",
+      "type": "twitter"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/5n11cfyeg4voxa3cv8guaj96cv4wwiyzmj3merdj7kq2",
+   "pairAddress": "5N11CfyEG4VoXa3CV8gUAJ96Cv4WWiyZMJ3MErdJ7Kq2",
+   "baseToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "quoteToken": {
+    "address": "DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF",
+    "name": "Trump Media & Technology Group Corp. Common Stock - Backpack Securities",
+    "symbol": "DJT"
+   },
+   "priceNative": "0.000007041",
+   "priceUsd": "0.00004493",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 86,
+     "sells": 3
+    },
+    "h24": {
+     "buys": 86,
+     "sells": 3
+    }
+   },
+   "volume": {
+    "h24": 9326.08,
+    "h6": 9326.08,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": 870,
+    "h24": 870
+   },
+   "fdv": 44933.71,
+   "marketCap": 44933.71,
+   "pairCreatedAt": 1792903373000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/ntKRZ89saclSxLXV?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/PNYRosc7mevubkdc?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump?timestamp=1792922700000",
+    "websites": [
+     {
+      "url": "https://truthsocial.com/@realDonaldTrump/117499714815544938",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/OMGmeii2xxzz/status/2114217145794261300?s=20",
+      "type": "twitter"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/afq3nk3sshacfhyumn9eoisqwzmydjlbahfet59qsvu5",
+   "pairAddress": "AFq3nk3ssHAcfhYUmn9EoiSqwzMydjLBAhFET59qsVu5",
+   "baseToken": {
+    "address": "AZsujVfobbThDgrDck6xZBmX5zjCiMTVDJQgGV2Npump",
+    "name": "Trillions ",
+    "symbol": "Trillions"
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.01688",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 1038,
+     "sells": 757
+    },
+    "h24": {
+     "buys": 1038,
+     "sells": 757
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792904627000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/fsi52g3puqhpe6inyvwihqdqzmd18usqxxiuyp314ojb",
+   "pairAddress": "FSi52g3pUQHpE6inYvwiHqDQZmd18usQXXiUyp314oJb",
+   "baseToken": {
+    "address": "7j8M2BK5saHtNKHUvCxHDgQAV6TNqxRPDjpTdg5wpump",
+    "name": "Billions Inu",
+    "symbol": "Billinu"
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.01126",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 88,
+     "sells": 120
+    },
+    "h24": {
+     "buys": 88,
+     "sells": 120
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792904340000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/b6ihwi5egekjw6nejm2gzqehhfbzwnpmiyg2joyfcsgh",
+   "pairAddress": "B6iHwi5eGeKJW6nejM2GZqeHHFbzwnPMiYg2joyFcsgH",
+   "baseToken": {
+    "address": "2qVCVZKJxeV7ft8J3mZD7k18yj6uWZc2xvar98unpump",
+    "name": "BILLY",
+    "symbol": "BILLY"
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.006618",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 164,
+     "sells": 123
+    },
+    "h24": {
+     "buys": 164,
+     "sells": 123
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792907689000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/ffme6vjuckwe84fgt4ov3opvj5j1utpcmqbshpx1mkyl",
+   "pairAddress": "Ffme6vJUCkWe84fGT4oV3opVJ5j1UtPcMQbShpx1MkyL",
+   "baseToken": {
+    "address": "bb93eUZZJcKcS1xCd4Lqi1oBznXG8TNGpeuZVZdpump",
+    "name": "millions ",
+    "symbol": "millions "
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.01036",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 50,
+     "sells": 58
+    },
+    "h24": {
+     "buys": 50,
+     "sells": 58
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792903860000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/grn69r58hke8ddsfqimylyyuddmoctzwwxypvelfhmqx",
+   "pairAddress": "GRn69R58HkE8dDsfQimYLyyUDdMoCTZWwxYPvELFHMQx",
+   "baseToken": {
+    "address": "7sfiT7Q8xfULPM8muvRdsJtM5YgnKzkp1nwW3RUDpump",
+    "name": "Billionaire cat",
+    "symbol": "BCAT"
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.008399",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 55,
+     "sells": 43
+    },
+    "h24": {
+     "buys": 55,
+     "sells": 43
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792904013000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/doexpyfpmr59qv6ru7s6n7orjbt7grxv83shpscwxwp9",
+   "pairAddress": "DoeXpYFpmR59Qv6ru7S6N7orJBt7grXV83shPscwxWP9",
+   "baseToken": {
+    "address": "7sQ3LioKkz7ZKtdQuk68RxNDNUdyWJvRH45LamGZpump",
+    "name": "Trump Coin",
+    "symbol": "TRUMP"
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.01076",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 72,
+     "sells": 80
+    },
+    "h24": {
+     "buys": 72,
+     "sells": 80
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792905176000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/avxz6bjtssmv4tmyivbw25ssqukbv6wxxifp9xxfkfpu",
+   "pairAddress": "AVXz6bJTssmV4TmYiVBw25sSquKbV6wxXiFp9XXfkfpu",
+   "baseToken": {
+    "address": "BC7LAGD3kNScvMjSfMZLqReDHvZppMWmTYRBvHNJpump",
+    "name": "Official Billion Dollar Coin",
+    "symbol": "Billions"
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.008454",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 27,
+     "sells": 26
+    },
+    "h24": {
+     "buys": 27,
+     "sells": 26
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792904027000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/fw6dctyhhlpx9qch8el2eumw7jred8yjf9w597b8lmlh",
+   "pairAddress": "FW6dCTyhhLpX9QCH8eL2EUmW7JRED8YjF9W597b8LMLh",
+   "baseToken": {
+    "address": "AcTU4QcnZgFd7q5prvUKxVGWLTon6aeWJnk2BQYYpump",
+    "name": "BILLIONS RAIN",
+    "symbol": "BILLIONS"
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.009469",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 61,
+     "sells": 56
+    },
+    "h24": {
+     "buys": 61,
+     "sells": 56
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792904741000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/ayliq4ysta54zcpk6dx4uzfwvlvztb125g9f8nlmyf82",
+   "pairAddress": "AYLiq4ysTa54Zcpk6dx4uzfwvLvztB125G9F8nLMYf82",
+   "baseToken": {
+    "address": "FJTCYFqQaANmVtvExWZtivub3XYbKC5eTwXpJa5xpump",
+    "name": "BILLIONS ARE COMING ",
+    "symbol": "BILLIONS"
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.01027",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 24,
+     "sells": 28
+    },
+    "h24": {
+     "buys": 24,
+     "sells": 28
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792903620000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/53jskykeomtwwyd6xhtxeozkrfcven8xijdnmee32bg1",
+   "pairAddress": "53jskYKeomTwwyD6XhTxeoZKRFCvEn8XiJDnMee32BG1",
+   "baseToken": {
+    "address": "3Gb9yfc5uKLVr35yzN5s9yugydyjChxiTosUNtKbpump",
+    "name": "BULL GOT BILLIONS ",
+    "symbol": "BULB"
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.009829",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 5,
+     "sells": 3
+    },
+    "h24": {
+     "buys": 5,
+     "sells": 3
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792904127000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/95ckamvqfn91xfosbs6pw5wadbzagjkspq746kbhicrv",
+   "pairAddress": "95ckaMvqFn91XfoSBS6pW5WaDbZaGjKspq746kBHiCRV",
+   "baseToken": {
+    "address": "GjWkZHTczfPdMSrFfUGcUnLmUCNsPXXLgzmF2Vxjpump",
+    "name": "We are gonna win so much ",
+    "symbol": "Winin"
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.01029",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 19,
+     "sells": 24
+    },
+    "h24": {
+     "buys": 19,
+     "sells": 24
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792903925000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/xaycs3bqctf1ahp2yyb5iibdak1sxvjbnau2r9ngtxx",
+   "pairAddress": "xAYCS3bqCTF1Ahp2Yyb5iiBDAK1sxvjbNAu2r9nGTXx",
+   "baseToken": {
+    "address": "vJhKGUHRiH3fzCpgQbJCgWpteZvhxhDMt6iQAo5pump",
+    "name": "NEED BILLIONS DOLLARS ",
+    "symbol": "NBD"
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.01340",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 9,
+     "sells": 2
+    },
+    "h24": {
+     "buys": 9,
+     "sells": 2
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792909667000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/66hpmwhcp5v8sz46cc2nzkgbltfhagbagzhvk32vzh6j",
+   "pairAddress": "66HpmwhcP5v8Sz46cc2nZKGBLTfhAGBAgzHVk32VzH6j",
+   "baseToken": {
+    "address": "5vb7D4EmJVTGmMP8nx1dvXB1Q3zupBKUwuQu7PkRpump",
+    "name": "BULL BEAR MARKET ",
+    "symbol": "BILLIONS "
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.01043",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 3,
+     "sells": 1
+    },
+    "h24": {
+     "buys": 3,
+     "sells": 1
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792905524000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/9jwcm8arjwdoytpmvg449t9qzahddyzayzgpdoutmdpa",
+   "pairAddress": "9JwCM8aRjWDoYTPmVG449t9QZAhDDyZaYzgPDoUtmdPa",
+   "baseToken": {
+    "address": "GbytrGiBBXtQ6LRBzu49ZkxJ2EaYV7mKXYTbefHTpump",
+    "name": "Trillions",
+    "symbol": "Trillions"
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.007571",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 8,
+     "sells": 8
+    },
+    "h24": {
+     "buys": 8,
+     "sells": 8
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792906488000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/fm6bueurfpxkszecrtj6vrhbr2th4gg2kq58njsyqgr6",
+   "pairAddress": "Fm6buEurFpXKszeCrtj6vRHBr2th4GG2KQ58NJsyQgr6",
+   "baseToken": {
+    "address": "8oyEA7Sj4vedSFb3grwbUXcUjvYH5zNEzRn7zNxNpump",
+    "name": "SIT ON BILLIONS ",
+    "symbol": "BILLIONS "
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.01066",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 2,
+     "sells": 1
+    },
+    "h24": {
+     "buys": 2,
+     "sells": 1
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792903907000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/2gbgwngtb2harrgnsnrxdk8bfkucxxdjkc8qzq7nbaqy",
+   "pairAddress": "2gbGwNGTb2HarrGnsNRxDk8bFKUCXxdjKC8qzQ7nbAqY",
+   "baseToken": {
+    "address": "EiFXeWMzeT8cyVAUrKAS52qEJGp2i8CwihbMS3HQpump",
+    "name": "Whale coming to BILLIONS ",
+    "symbol": "BILLIONS "
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.02481",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 1,
+     "sells": 1
+    },
+    "h24": {
+     "buys": 1,
+     "sells": 1
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792910255000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/d5asttd4wecneubnnyjk3esru5if6q6bn1r3saahv9bp",
+   "pairAddress": "D5aSTtD4wECnEUbNnYJK3esRU5if6q6bn1r3sAahV9BP",
+   "baseToken": {
+    "address": "BaTkaRqPz9hsegCKb8vevWUoJDGektC23y5CS8Gupump",
+    "name": "USA BILLIONS VHS",
+    "symbol": "USAB"
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.01057",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 1,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792903765000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/9tjxiap3ncknygejpamaoyvwmxhgdxsnebwfgyx8xxtu",
+   "pairAddress": "9tJXiap3NCKNYgEjPAmAoyvwMxHgDXsneBWfGYx8xxTU",
+   "baseToken": {
+    "address": "GFGriRRiKEtbjVavkL4t7LGzoL4Edjw6KQxJwKd2pump",
+    "name": "PRIVATE JET OF BILLIONS ",
+    "symbol": "BILLIONS"
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.01680",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 1,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792909623000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/pn5qvsjf5g6zt22bmpzrubyxkche5yj9j4bbjba6lyp",
+   "pairAddress": "pn5qvSjF5G6zT22BmPzrubYXKchE5Yj9j4bbjBa6LyP",
+   "baseToken": {
+    "address": "88L7TTsbZN7pn7L6GsyawYV8MkKCWxnf7dGuo66Upump",
+    "name": "BILLIONS HANDS",
+    "symbol": "BILLIONS"
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.008973",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 1,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792905705000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/h49byqntxdeqc2rxrdxdc1gz7ad9njttb41k7fp2ifw",
+   "pairAddress": "h49ByqNtXdEQc2rxRDXdC1GZ7AD9njttb41k7Fp2ifW",
+   "baseToken": {
+    "address": "6TBJ6tU65wk2j72A4Q8veoYHVE6vUbCDdq1g1Trnpump",
+    "name": "PEPE BILLIONAIRE ",
+    "symbol": "BPEPE"
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.009819",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 1,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792903964000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/emxwjdfi75hzawrcnasvnhw93bylgjevecgsbdusebr",
+   "pairAddress": "emXWJDfi75HZawrCNasVNhW93bYLGJeVeCGSBDuSEbr",
+   "baseToken": {
+    "address": "GEibW8NK4YCAuTu6qxh9Ym1RUTStCQNFms4BLajfpump",
+    "name": "BILLIONS ",
+    "symbol": "BILLIONS "
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.007646",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 1,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792906380000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/hu5zqhauzqafxyeysjmqzwgx7qrrp3u3xcs12pitzxz6",
+   "pairAddress": "Hu5ZQhAUZqAfXyEYSJmqzWGX7QRrP3u3xCs12PitZXz6",
+   "baseToken": {
+    "address": "6KLg24xpN7X7mB7SJ9m9sFPS1PwHpvKzxBFTyrUhpump",
+    "name": "DIAMOND DOLLAR",
+    "symbol": "BILLIONS "
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.01027",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 1,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792905216000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/hwaquwtvxybc7r5x8kpbjszjbmpshgh8r3jjwuxo57eh",
+   "pairAddress": "HWAqUwtVxYbc7R5x8kpbjSZJBmpShGH8R3jjwUXo57EH",
+   "baseToken": {
+    "address": "2sahsoN734ZVThmbvTHAzAgZDihRN3o7gbq6M6TYpump",
+    "name": "BILLIONS IN VAULT",
+    "symbol": "BIV"
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.01408",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 1,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792909825000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/hk53v4dbxexeyxzfgxabhy6z9cjbvorrpd52ft7dsu4a",
+   "pairAddress": "HK53V4dbxexEyxzfgXabHy6Z9CjbvorRpd52Ft7dsU4A",
+   "baseToken": {
+    "address": "3KjxfLqPreViH31dxZEJKoRCb2s8wQ7jh2vUJwFspump",
+    "name": "BILLIONS ON YACHT ",
+    "symbol": "BOY"
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.01083",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 1,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792905357000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/herivhkh3wj7ec9nfkapeujhoear9d3odb6mefkkoako",
+   "pairAddress": "HEriVHkh3WJ7ec9nfKapeujhoEar9D3oDb6MEFKKoaKo",
+   "baseToken": {
+    "address": "BkWraqCCUtpJ5teSZAKULmeeeMBQx9Fshi5buCPkpump",
+    "name": "CROW BILLIONS ",
+    "symbol": "CB"
+   },
+   "quoteToken": {
+    "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "name": "billions",
+    "symbol": "BILLIONS"
+   },
+   "priceNative": "0.01038",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 1,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 0,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "pairCreatedAt": 1792905576000
+  }
+ ],
+ "searches": [
+  {
+   "q": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+   "product": "Latest",
+   "at": "2026-10-25T10:05:56Z",
+   "body": {
+    "query": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "tweet_count": 20,
+    "has_more": true,
+    "next_cursor": "DAADDAABCgABHVd0_bbboVwKAAIdV0jFtJbh9wAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUdV35KBYAnEAoABh1XfkoFf9jwCwAHAAAA8EVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFCUWRWMXVCN0JiUWRoMVhUdkxFVmxDN0hWZFA5NHZXa2JjZFYwNk10OXJoWFIxWFZJRU5tOURESFZkSXhiU1c0ZmNkVjBqWkZWYWdRQjFYVHNOL21vSEpIVmRQbW9NYVVWVWRWMjMyK1ZhQmlSMVhVQmxSbXpEMEhWZFFSYW1XUUg0ZFYxYU9STnV4R1IxWFcvbjNHN0ViSFZkZG4wSFdNUk1kVjNONjd0b0E5aDFYZFAyMjI2RmNIVmRPMVVDYnNPc2RWMUNLK05zUmp4MVhTd3cyRjRDUQAA",
+    "tweets": [
+     {
+      "type": "tweet",
+      "id": "2114287183117132124",
+      "url": "https://x.com/MalvadasTVycine/status/2114287183117132124",
+      "twitterUrl": "https://twitter.com/MalvadasTVycine/status/2114287183117132124",
+      "text": "dev of $BILLIONS just went live\n\n9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump\n\nDon't miss the dev live \ud83d\udc47\ud83d\udc47\u034f\u200b\nhttps://t.co/SHt8Zgb1OR",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 18,
+      "createdAt": "Sun Oct 25 09:25:20 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114287183117132124",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "MalvadasTVycine",
+       "url": "https://x.com/MalvadasTVycine",
+       "id": "1571518159",
+       "name": "WarHound",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2114276065312964608/PDtuPlaR_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1571518159/1792917670",
+       "description": "Some heroes arrive on horseback. This one arrived fully illuminated.",
+       "location": "",
+       "followers": 32,
+       "following": 104,
+       "createdAt": "Fri Jul 05 22:45:20 +0000 2013",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114285521904206070",
+      "url": "https://x.com/Gracebake23/status/2114285521904206070",
+      "twitterUrl": "https://twitter.com/Gracebake23/status/2114285521904206070",
+      "text": "dev of $BILLIONS just went live\n\n9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump\n\nDon't miss the dev live \ud83d\udc47\ud83d\udc47\u034f\u2060\nhttps://t.co/rzlDAlSvyZ",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 18,
+      "createdAt": "Sun Oct 25 09:18:44 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114285521904206070",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Gracebake23",
+       "url": "https://x.com/Gracebake23",
+       "id": "3121039155",
+       "name": "BLINTRUMP sol",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2114276065908518912/AS_aDx5L_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/3121039155/1792917670",
+       "description": "LLM-compiled knowledge bases for any AI agent with awesome outputs.",
+       "location": "",
+       "followers": 58,
+       "following": 553,
+       "createdAt": "Fri Mar 27 11:17:08 +0000 2015",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114279457586315657",
+      "url": "https://x.com/ch3fnexu0s/status/2114279457586315657",
+      "twitterUrl": "https://twitter.com/ch3fnexu0s/status/2114279457586315657",
+      "text": "21.2x\n$BILLIONS\n\n9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump https://t.co/v3EgKG2eGZ",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 48,
+      "createdAt": "Sun Oct 25 08:54:38 +0000 2026",
+      "lang": "in",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114279457586315657",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdtUJIXYAAtpMq.jpg",
+        "expanded_url": "https://x.com/ch3fnexu0s/status/2114279457586315657/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdtUJfXIAAxusL.jpg",
+        "expanded_url": "https://x.com/ch3fnexu0s/status/2114279457586315657/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "ch3fnexu0s",
+       "url": "https://x.com/ch3fnexu0s",
+       "id": "1599387436668403713",
+       "name": "Nexu0s \ud83e\uddea\ud83e\uddea",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2097187125808496640/gONPRcac_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1599387436668403713/1782434282",
+       "description": "high risk investor //Alpha caller||Crypto||web3marketer \n#memecoin||Crypto enthusiast||\n\nEntry call poster for advert & collab \nDM \ud83d\udc47\ud83d\udc47 https://t.co/V77Sqi9mEV",
+       "location": "Moon, PA",
+       "followers": 2430,
+       "following": 8,
+       "createdAt": "Sun Dec 04 12:58:14 +0000 2022",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114261488659476755",
+      "url": "https://x.com/Pibbasinmeta/status/2114261488659476755",
+      "twitterUrl": "https://twitter.com/Pibbasinmeta/status/2114261488659476755",
+      "text": "@CryptoJunkie66x 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump\n\n@FeynFun",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 35,
+      "createdAt": "Sun Oct 25 07:43:14 +0000 2026",
+      "lang": "in",
+      "bookmarkCount": 0,
+      "isReply": true,
+      "inReplyToId": "2114230199370072310",
+      "conversationId": "2114230199370072310",
+      "media": [],
+      "inReplyToUserId": "2086063673777254400",
+      "author": {
+       "type": "user",
+       "userName": "Pibbasinmeta",
+       "url": "https://x.com/Pibbasinmeta",
+       "id": "2099496925112176641",
+       "name": "Meta Pibba",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2105741611950886912/4KaWvbhK_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2099496925112176641/1790882930",
+       "description": "",
+       "location": "",
+       "followers": 54,
+       "following": 244,
+       "createdAt": "Mon Sep 14 13:55:21 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114259679224508699",
+      "url": "https://x.com/Slideonwh0/status/2114259679224508699",
+      "twitterUrl": "https://twitter.com/Slideonwh0/status/2114259679224508699",
+      "text": "I TOLS GOD IF THIS MAKE ME HEALTHY ILL GIVE MY FULL LIFE\ud83d\ude4c\ud83c\udffd\ud83d\ude4c\ud83c\udffd solana:9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 42,
+      "createdAt": "Sun Oct 25 07:36:03 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114259679224508699",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Slideonwh0",
+       "url": "https://x.com/Slideonwh0",
+       "id": "1871009053666594816",
+       "name": "Slide\ud83e\ude74",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2098978036901199872/s9vmxlQe_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1871009053666594816/1789270347",
+       "description": "I Live A Very Gemini Life \ud83e\udda0 and make music !",
+       "location": "Louisville, KY",
+       "followers": 80,
+       "following": 100,
+       "createdAt": "Mon Dec 23 01:45:06 +0000 2024",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114259163643564150",
+      "url": "https://x.com/Slideonwh0/status/2114259163643564150",
+      "twitterUrl": "https://twitter.com/Slideonwh0/status/2114259163643564150",
+      "text": "WILL THIS BE GENERATIONAL WEALTH ?? Check out $BILLIONS on fomo:\n\nhttps://t.co/jiFeLL0LwM",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 62,
+      "createdAt": "Sun Oct 25 07:34:00 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114259163643564150",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Slideonwh0",
+       "url": "https://x.com/Slideonwh0",
+       "id": "1871009053666594816",
+       "name": "Slide\ud83e\ude74",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2098978036901199872/s9vmxlQe_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1871009053666594816/1789270347",
+       "description": "I Live A Very Gemini Life \ud83e\udda0 and make music !",
+       "location": "Louisville, KY",
+       "followers": 80,
+       "following": 100,
+       "createdAt": "Mon Dec 23 01:45:06 +0000 2024",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114253719114330393",
+      "url": "https://x.com/LakSpiritus/status/2114253719114330393",
+      "twitterUrl": "https://twitter.com/LakSpiritus/status/2114253719114330393",
+      "text": "@badattrading_ solana:9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump check please !",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 253,
+      "createdAt": "Sun Oct 25 07:12:22 +0000 2026",
+      "lang": "in",
+      "bookmarkCount": 0,
+      "isReply": true,
+      "inReplyToId": "2114251663456297276",
+      "conversationId": "2114251663456297276",
+      "media": [],
+      "inReplyToUserId": "975758426",
+      "author": {
+       "type": "user",
+       "userName": "LakSpiritus",
+       "url": "https://x.com/LakSpiritus",
+       "id": "2045725898167754752",
+       "name": "Lak \ud83d\ude08",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2080559302939688960/THPFPWjU_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2045725898167754752/1783370011",
+       "description": "",
+       "location": "",
+       "followers": 134,
+       "following": 54,
+       "createdAt": "Sun Apr 19 04:54:09 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114251463329566915",
+      "url": "https://x.com/Uptradem/status/2114251463329566915",
+      "twitterUrl": "https://twitter.com/Uptradem/status/2114251463329566915",
+      "text": "What are we doing? Trump just shilled a fucking solana:9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump ticker  \n\nhttps://t.co/84K3RXzSFv https://t.co/oDHrHhZ0Vz",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 1,
+      "likeCount": 3,
+      "quoteCount": 0,
+      "viewCount": 234,
+      "createdAt": "Sun Oct 25 07:03:24 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114251463329566915",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdUf8mbkAA4bWG.jpg",
+        "expanded_url": "https://x.com/Uptradem/status/2114251463329566915/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Uptradem",
+       "url": "https://x.com/Uptradem",
+       "id": "2083054095687090176",
+       "name": "Uptrades",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2083056003810238464/djpDfZ9l_normal.jpg",
+       "coverPicture": null,
+       "description": "",
+       "location": "",
+       "followers": 177,
+       "following": 250,
+       "createdAt": "Fri Jul 31 04:58:33 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114247107884552591",
+      "url": "https://x.com/AnonTonic/status/2114247107884552591",
+      "twitterUrl": "https://twitter.com/AnonTonic/status/2114247107884552591",
+      "text": "When a token is going down in flames, you don't hold bags, you loot the damn wreckage.\n\nsolana:9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump https://t.co/naunHr9A3E",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 127,
+      "createdAt": "Sun Oct 25 06:46:05 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114247107884552591",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdQiVrW4AAyC0E.jpg",
+        "expanded_url": "https://x.com/AnonTonic/status/2114247107884552591/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "AnonTonic",
+       "url": "https://x.com/AnonTonic",
+       "id": "2017561198502313985",
+       "name": "Antonio",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2040573315371474944/9feLeOoy_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2017561198502313985/1769865313",
+       "description": "Memecoin Scalper, Pilot, Moto Addict,Guitarist, Drummer, Retired at 34",
+       "location": "Greece",
+       "followers": 43,
+       "following": 83,
+       "createdAt": "Sat Jan 31 11:30:54 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114246810201899134",
+      "url": "https://x.com/MemeKingCalls_/status/2114246810201899134",
+      "twitterUrl": "https://twitter.com/MemeKingCalls_/status/2114246810201899134",
+      "text": "\ud83d\ude80 $BILLIONS reaches $234K MC! From $44K to $234K \u2014 that's 5.3x the original market cap! \ud83d\udd25\ud83d\udcc8\n\nThe momentum is speaking. \ud83d\udc40 Want more Solana plays and updates? Tap the link in bio. \ud83d\udc8e\n\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump https://t.co/Smz50nAopg",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 133,
+      "createdAt": "Sun Oct 25 06:44:55 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114246810201899134",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdQQ09WQAE_L_s.jpg",
+        "expanded_url": "https://x.com/MemeKingCalls_/status/2114246810201899134/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "MemeKingCalls_",
+       "url": "https://x.com/MemeKingCalls_",
+       "id": "2228657486",
+       "name": "MEME KING",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2092361979369328640/T19XhHXU_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2228657486/1787692966",
+       "description": "\ud83d\udc51 Memecoin Trader\n\ud83c\udfaf Early entries. High conviction\n\ud83d\udccd Private calls & plays",
+       "location": "",
+       "followers": 3331,
+       "following": 2611,
+       "createdAt": "Tue Dec 03 18:10:34 +0000 2013",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114246075116835157",
+       "text": "\ud83d\udc40 $BILLIONS is sitting at $44K MC! \ud83d\udd25\ud83d\ude80\n\nKeep this one on your radar and stay ready for the next plays I'm watching. More calls and updates \u2014 tap the link in bio. \ud83d\udcc8\ud83d\udc8e\n\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump https://t.co/pdmbTrmAAE",
+       "user": {
+        "name": "MEME KING",
+        "screen_name": "MemeKingCalls_"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114246619747266804",
+      "url": "https://x.com/MemeKingCalls_/status/2114246619747266804",
+      "twitterUrl": "https://twitter.com/MemeKingCalls_/status/2114246619747266804",
+      "text": "\ud83d\ude80 $BILLIONS hits $205K MC! From $44K to $205K \u2014 that's around 4.7x the original market cap! \ud83d\udd25\ud83d\udcc8\n\nMore plays are on my radar. \ud83d\udc40 Tap the link in bio to connect for upcoming Solana calls and updates. \ud83d\udc8e\n\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump https://t.co/VLmmgrG4KM",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 98,
+      "createdAt": "Sun Oct 25 06:44:09 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114246619747266804",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdQFyVXYAASdr8.jpg",
+        "expanded_url": "https://x.com/MemeKingCalls_/status/2114246619747266804/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "MemeKingCalls_",
+       "url": "https://x.com/MemeKingCalls_",
+       "id": "2228657486",
+       "name": "MEME KING",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2092361979369328640/T19XhHXU_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2228657486/1787692966",
+       "description": "\ud83d\udc51 Memecoin Trader\n\ud83c\udfaf Early entries. High conviction\n\ud83d\udccd Private calls & plays",
+       "location": "",
+       "followers": 3331,
+       "following": 2611,
+       "createdAt": "Tue Dec 03 18:10:34 +0000 2013",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114246075116835157",
+       "text": "\ud83d\udc40 $BILLIONS is sitting at $44K MC! \ud83d\udd25\ud83d\ude80\n\nKeep this one on your radar and stay ready for the next plays I'm watching. More calls and updates \u2014 tap the link in bio. \ud83d\udcc8\ud83d\udc8e\n\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump https://t.co/pdmbTrmAAE",
+       "user": {
+        "name": "MEME KING",
+        "screen_name": "MemeKingCalls_"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114246474695348663",
+      "url": "https://x.com/MemeKingCalls_/status/2114246474695348663",
+      "twitterUrl": "https://twitter.com/MemeKingCalls_/status/2114246474695348663",
+      "text": "\ud83d\ude80 $BILLIONS: $44K \u2192 $170K MC! \ud83d\udd25 That's nearly 3.9x the starting market cap! \ud83d\udc40\ud83d\udcc8\n\nWant to catch the next plays I'm watching? Tap the link in bio for more calls and updates. \ud83d\udc8e\n\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump https://t.co/Cj8gjwdehP",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 80,
+      "createdAt": "Sun Oct 25 06:43:35 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114246474695348663",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdP9VpW0AAEKg4.jpg",
+        "expanded_url": "https://x.com/MemeKingCalls_/status/2114246474695348663/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "MemeKingCalls_",
+       "url": "https://x.com/MemeKingCalls_",
+       "id": "2228657486",
+       "name": "MEME KING",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2092361979369328640/T19XhHXU_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2228657486/1787692966",
+       "description": "\ud83d\udc51 Memecoin Trader\n\ud83c\udfaf Early entries. High conviction\n\ud83d\udccd Private calls & plays",
+       "location": "",
+       "followers": 3331,
+       "following": 2611,
+       "createdAt": "Tue Dec 03 18:10:34 +0000 2013",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114246075116835157",
+       "text": "\ud83d\udc40 $BILLIONS is sitting at $44K MC! \ud83d\udd25\ud83d\ude80\n\nKeep this one on your radar and stay ready for the next plays I'm watching. More calls and updates \u2014 tap the link in bio. \ud83d\udcc8\ud83d\udc8e\n\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump https://t.co/pdmbTrmAAE",
+       "user": {
+        "name": "MEME KING",
+        "screen_name": "MemeKingCalls_"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114246075116835157",
+      "url": "https://x.com/MemeKingCalls_/status/2114246075116835157",
+      "twitterUrl": "https://twitter.com/MemeKingCalls_/status/2114246075116835157",
+      "text": "\ud83d\udc40 $BILLIONS is sitting at $44K MC! \ud83d\udd25\ud83d\ude80\n\nKeep this one on your radar and stay ready for the next plays I'm watching. More calls and updates \u2014 tap the link in bio. \ud83d\udcc8\ud83d\udc8e\n\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump https://t.co/pdmbTrmAAE",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 2,
+      "viewCount": 279,
+      "createdAt": "Sun Oct 25 06:41:59 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114246075116835157",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdPl62XYAAH6dM.jpg",
+        "expanded_url": "https://x.com/MemeKingCalls_/status/2114246075116835157/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "MemeKingCalls_",
+       "url": "https://x.com/MemeKingCalls_",
+       "id": "2228657486",
+       "name": "MEME KING",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2092361979369328640/T19XhHXU_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2228657486/1787692966",
+       "description": "\ud83d\udc51 Memecoin Trader\n\ud83c\udfaf Early entries. High conviction\n\ud83d\udccd Private calls & plays",
+       "location": "",
+       "followers": 3331,
+       "following": 2611,
+       "createdAt": "Tue Dec 03 18:10:34 +0000 2013",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114245354656780475",
+      "url": "https://x.com/Charlie_SOL23/status/2114245354656780475",
+      "twitterUrl": "https://twitter.com/Charlie_SOL23/status/2114245354656780475",
+      "text": "\ud83d\udd25 $BILLIONS \u2014 $76K MC \ud83d\udc40 From $11K to $76K! Keep it on your radar. \ud83d\ude80\n\n\ud83d\udce9 DM me on Telegram for fresh calls + VIP access. \ud83c\udfaf\n\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump\n\n#BILLIONS #Solana #Memecoin https://t.co/9fFjRfBHws",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 97,
+      "createdAt": "Sun Oct 25 06:39:07 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114245354656780475",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdO68UaIAEzCHF.jpg",
+        "expanded_url": "https://x.com/Charlie_SOL23/status/2114245354656780475/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Charlie_SOL23",
+       "url": "https://x.com/Charlie_SOL23",
+       "id": "842416279",
+       "name": "Early Radar",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2102426272265576449/Oxh7QNDS_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/842416279/1790092460",
+       "description": "Finding early SOL gems before the crowd \ud83d\udd0d\nCalls \u2022 Research \u2022 Real-time updates\nRisk first. DYOR | NFA\nPrivate Alpha TG \u2193",
+       "location": "Missouri, USA",
+       "followers": 1669,
+       "following": 1116,
+       "createdAt": "Sun Sep 23 21:10:50 +0000 2012",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114244916360700253",
+       "text": "\ud83d\udc40 $BILLIONS \u2014 $11K MC \ud83d\udd25 Tiny cap, fresh on the radar!\n\n\ud83d\udce9 DM me on Telegram for early calls + VIP access. \ud83c\udfaf\n\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump\n\n#BILLIONS #Solana #Memecoin https://t.co/VSkYjNsJVv",
+       "user": {
+        "name": "Early Radar",
+        "screen_name": "Charlie_SOL23"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114245227892682987",
+      "url": "https://x.com/BabyWhaletail/status/2114245227892682987",
+      "twitterUrl": "https://twitter.com/BabyWhaletail/status/2114245227892682987",
+      "text": "rotate from that scam cabal token to og\n\nOG ORGANIC: CnKbRo1r73ZVU24tvHQxRdcUnLxPtZTsxHGxmzEQ8BUC \u2705\n\nBUNDLED SCAM RUG: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump\u274c",
+      "source": null,
+      "retweetCount": 1,
+      "replyCount": 0,
+      "likeCount": 2,
+      "quoteCount": 0,
+      "viewCount": 189,
+      "createdAt": "Sun Oct 25 06:38:37 +0000 2026",
+      "lang": "nl",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114245227892682987",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "BabyWhaletail",
+       "url": "https://x.com/BabyWhaletail",
+       "id": "1765603524493418497",
+       "name": "Baby Whale",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1937751622110838786/mU0JdB-t_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1765603524493418497/1749176674",
+       "description": "I don\u2019t always ape into crypto but when I do I ape into meme and utility GEMS \ud83d\udc8e \u201cDon\u2019t just do what makes you happy do what makes you great.\u201d",
+       "location": "The MOON",
+       "followers": 524,
+       "following": 682,
+       "createdAt": "Thu Mar 07 05:01:13 +0000 2024",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114245151640158665",
+      "url": "https://x.com/Charlie_SOL23/status/2114245151640158665",
+      "twitterUrl": "https://twitter.com/Charlie_SOL23/status/2114245151640158665",
+      "text": "\ud83d\ude80 $BILLIONS \u2014 $71K MC \ud83d\udd25 From $11K to $71K! \ud83d\udc40\n\n\ud83d\udce9 DM me on Telegram for fresh calls + VIP access. \ud83c\udfaf\n\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump\n\n#BILLIONS #Solana #Memecoin https://t.co/GuPn6m6aG4",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 1,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 89,
+      "createdAt": "Sun Oct 25 06:38:19 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114245151640158665",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdOvVQbYAA68UL.jpg",
+        "expanded_url": "https://x.com/Charlie_SOL23/status/2114245151640158665/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Charlie_SOL23",
+       "url": "https://x.com/Charlie_SOL23",
+       "id": "842416279",
+       "name": "Early Radar",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2102426272265576449/Oxh7QNDS_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/842416279/1790092460",
+       "description": "Finding early SOL gems before the crowd \ud83d\udd0d\nCalls \u2022 Research \u2022 Real-time updates\nRisk first. DYOR | NFA\nPrivate Alpha TG \u2193",
+       "location": "Missouri, USA",
+       "followers": 1669,
+       "following": 1116,
+       "createdAt": "Sun Sep 23 21:10:50 +0000 2012",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114244916360700253",
+       "text": "\ud83d\udc40 $BILLIONS \u2014 $11K MC \ud83d\udd25 Tiny cap, fresh on the radar!\n\n\ud83d\udce9 DM me on Telegram for early calls + VIP access. \ud83c\udfaf\n\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump\n\n#BILLIONS #Solana #Memecoin https://t.co/VSkYjNsJVv",
+       "user": {
+        "name": "Early Radar",
+        "screen_name": "Charlie_SOL23"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114244916360700253",
+      "url": "https://x.com/Charlie_SOL23/status/2114244916360700253",
+      "twitterUrl": "https://twitter.com/Charlie_SOL23/status/2114244916360700253",
+      "text": "\ud83d\udc40 $BILLIONS \u2014 $11K MC \ud83d\udd25 Tiny cap, fresh on the radar!\n\n\ud83d\udce9 DM me on Telegram for early calls + VIP access. \ud83c\udfaf\n\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump\n\n#BILLIONS #Solana #Memecoin https://t.co/VSkYjNsJVv",
+      "source": null,
+      "retweetCount": 1,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 1,
+      "viewCount": 227,
+      "createdAt": "Sun Oct 25 06:37:23 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114244916360700253",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdOhmZaUAABMlG.jpg",
+        "expanded_url": "https://x.com/Charlie_SOL23/status/2114244916360700253/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Charlie_SOL23",
+       "url": "https://x.com/Charlie_SOL23",
+       "id": "842416279",
+       "name": "Early Radar",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2102426272265576449/Oxh7QNDS_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/842416279/1790092460",
+       "description": "Finding early SOL gems before the crowd \ud83d\udd0d\nCalls \u2022 Research \u2022 Real-time updates\nRisk first. DYOR | NFA\nPrivate Alpha TG \u2193",
+       "location": "Missouri, USA",
+       "followers": 1669,
+       "following": 1116,
+       "createdAt": "Sun Sep 23 21:10:50 +0000 2012",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114241065892937872",
+      "url": "https://x.com/Unlimited_sol0/status/2114241065892937872",
+      "twitterUrl": "https://twitter.com/Unlimited_sol0/status/2114241065892937872",
+      "text": "Woo love this move $BILLIONS hits $205K MC! From $44K to $205K \u2014 that's around 4.7x the original market cap\nMore plays are on my radar. \ud83d\udc40 Tap the link in bio to connect for upcoming Solana calls and updates. \nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump\nDM me https://t.co/C8t3McSHzN",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 200,
+      "createdAt": "Sun Oct 25 06:22:05 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114241065892937872",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdLCDRXAAACvZb.jpg",
+        "expanded_url": "https://x.com/Unlimited_sol0/status/2114241065892937872/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Unlimited_sol0",
+       "url": "https://x.com/Unlimited_sol0",
+       "id": "1877601077563928576",
+       "name": "Unlimited_sol",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2113229624909926400/mA1P3PBY_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1877601077563928576/1792668179",
+       "description": "Alpha .memecoin .Solana is the goals\nshadows signals MeMecoin alphal signals",
+       "location": "United states",
+       "followers": 415,
+       "following": 354,
+       "createdAt": "Fri Jan 10 06:19:25 +0000 2025",
+       "canDm": false
+      },
+      "quoted_tweet": {
+       "id": "2114238647276838976",
+       "text": "$Bilions $44K MC! \nKeep this one on your radar and stay ready for the next plays I'm watching. More calls and updates  tap the link in bio. \nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump https://t.co/F0oIoIiD7t",
+       "user": {
+        "name": "Unlimited_sol",
+        "screen_name": "Unlimited_sol0"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114238647276838976",
+      "url": "https://x.com/Unlimited_sol0/status/2114238647276838976",
+      "twitterUrl": "https://twitter.com/Unlimited_sol0/status/2114238647276838976",
+      "text": "$Bilions $44K MC! \nKeep this one on your radar and stay ready for the next plays I'm watching. More calls and updates  tap the link in bio. \nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump https://t.co/F0oIoIiD7t",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 1,
+      "viewCount": 471,
+      "createdAt": "Sun Oct 25 06:12:28 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114238647276838976",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdIzRdXEAAidWt.jpg",
+        "expanded_url": "https://x.com/Unlimited_sol0/status/2114238647276838976/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Unlimited_sol0",
+       "url": "https://x.com/Unlimited_sol0",
+       "id": "1877601077563928576",
+       "name": "Unlimited_sol",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2113229624909926400/mA1P3PBY_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1877601077563928576/1792668179",
+       "description": "Alpha .memecoin .Solana is the goals\nshadows signals MeMecoin alphal signals",
+       "location": "United states",
+       "followers": 415,
+       "following": 354,
+       "createdAt": "Fri Jan 10 06:19:25 +0000 2025",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114238564049281527",
+      "url": "https://x.com/cmd550/status/2114238564049281527",
+      "twitterUrl": "https://twitter.com/cmd550/status/2114238564049281527",
+      "text": "solana:9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump and that\u2019s on gang https://t.co/XEEDRVavSJ",
+      "source": null,
+      "retweetCount": 2,
+      "replyCount": 2,
+      "likeCount": 6,
+      "quoteCount": 0,
+      "viewCount": 504,
+      "createdAt": "Sun Oct 25 06:12:08 +0000 2026",
+      "lang": "in",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114238564049281527",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdIw_UXsAAx48V.jpg",
+        "expanded_url": "https://x.com/cmd550/status/2114238564049281527/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "cmd550",
+       "url": "https://x.com/cmd550",
+       "id": "1682066761594683394",
+       "name": "Abdul\ud83d\udc7e",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2068768980584554498/Ywdqfe0K_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1682066761594683394/1786252510",
+       "description": "BASED Shitposter #Web3 | CM-@N_AlphaDao| AI coded",
+       "location": "",
+       "followers": 278,
+       "following": 769,
+       "createdAt": "Thu Jul 20 16:35:51 +0000 2023",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     }
+    ]
+   }
+  },
+  {
+   "q": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+   "product": "Top",
+   "at": "2026-10-25T10:05:58Z",
+   "body": {
+    "query": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+    "tweet_count": 20,
+    "has_more": true,
+    "next_cursor": "DAACCgACHVd-S67AJxAKAAMdV35Lrr_Y8AgABAAAAAILAAUAAADwRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUJRZFYwNk10OXJoWFIxWE56R3MyNkJISFZkVWdRMmIwTU1kVjBqWkZWYWdRQjFYVHNOL21vSEpIVmRCS2liYlFQWWRWMFk5cUpiUVZSMVhVRVdwbGtCK0hWZGIrZmNic1JzZFYzTjY3dG9BOWgxWFB6dGUyc0JtSFZkMC9iYmJvVndkVnpqb2FKcVJaaDFYUmZIOGxrQ1ZIVmRIczZnYUlkOGRWMUNLK05zUmp4MVhTd3cyRjRDUUhWYzVpcmRha2ZJZFYzRUcrWmZCT2gxWE9hK1VGaUV2CAAGAAAAAAgABwAAAAAMAAgKAAEdVzcxrNugRwAAAA",
+    "tweets": [
+     {
+      "type": "tweet",
+      "id": "2114247107884552591",
+      "url": "https://x.com/AnonTonic/status/2114247107884552591",
+      "twitterUrl": "https://twitter.com/AnonTonic/status/2114247107884552591",
+      "text": "When a token is going down in flames, you don't hold bags, you loot the damn wreckage.\n\nsolana:9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump https://t.co/naunHr9A3E",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 127,
+      "createdAt": "Sun Oct 25 06:46:05 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114247107884552591",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdQiVrW4AAyC0E.jpg",
+        "expanded_url": "https://x.com/AnonTonic/status/2114247107884552591/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "AnonTonic",
+       "url": "https://x.com/AnonTonic",
+       "id": "2017561198502313985",
+       "name": "Antonio",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2040573315371474944/9feLeOoy_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2017561198502313985/1769865313",
+       "description": "Memecoin Scalper, Pilot, Moto Addict,Guitarist, Drummer, Retired at 34",
+       "location": "Greece",
+       "followers": 43,
+       "following": 83,
+       "createdAt": "Sat Jan 31 11:30:54 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114287183117132124",
+      "url": "https://x.com/MalvadasTVycine/status/2114287183117132124",
+      "twitterUrl": "https://twitter.com/MalvadasTVycine/status/2114287183117132124",
+      "text": "dev of $BILLIONS just went live\n\n9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump\n\nDon't miss the dev live \ud83d\udc47\ud83d\udc47\u034f\u200b\nhttps://t.co/SHt8Zgb1OR",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 18,
+      "createdAt": "Sun Oct 25 09:25:20 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114287183117132124",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "MalvadasTVycine",
+       "url": "https://x.com/MalvadasTVycine",
+       "id": "1571518159",
+       "name": "WarHound",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2114276065312964608/PDtuPlaR_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1571518159/1792917670",
+       "description": "Some heroes arrive on horseback. This one arrived fully illuminated.",
+       "location": "",
+       "followers": 32,
+       "following": 104,
+       "createdAt": "Fri Jul 05 22:45:20 +0000 2013",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114285521904206070",
+      "url": "https://x.com/Gracebake23/status/2114285521904206070",
+      "twitterUrl": "https://twitter.com/Gracebake23/status/2114285521904206070",
+      "text": "dev of $BILLIONS just went live\n\n9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump\n\nDon't miss the dev live \ud83d\udc47\ud83d\udc47\u034f\u2060\nhttps://t.co/rzlDAlSvyZ",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 18,
+      "createdAt": "Sun Oct 25 09:18:44 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114285521904206070",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Gracebake23",
+       "url": "https://x.com/Gracebake23",
+       "id": "3121039155",
+       "name": "BLINTRUMP sol",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2114276065908518912/AS_aDx5L_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/3121039155/1792917670",
+       "description": "LLM-compiled knowledge bases for any AI agent with awesome outputs.",
+       "location": "",
+       "followers": 58,
+       "following": 553,
+       "createdAt": "Fri Mar 27 11:17:08 +0000 2015",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114237387018740191",
+      "url": "https://x.com/Ian_TheRula/status/2114237387018740191",
+      "twitterUrl": "https://twitter.com/Ian_TheRula/status/2114237387018740191",
+      "text": "I put 0.1 sol on solana:9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump at 190k I won but at what cost",
+      "source": null,
+      "retweetCount": 1,
+      "replyCount": 0,
+      "likeCount": 2,
+      "quoteCount": 0,
+      "viewCount": 242,
+      "createdAt": "Sun Oct 25 06:07:28 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114237387018740191",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Ian_TheRula",
+       "url": "https://x.com/Ian_TheRula",
+       "id": "1627071200550846465",
+       "name": "Iann",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2113502166501490689/pdp4ldBm_normal.jpg",
+       "coverPicture": null,
+       "description": "",
+       "location": "sum place on the earth",
+       "followers": 92,
+       "following": 81,
+       "createdAt": "Sat Feb 18 22:23:18 +0000 2023",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114241065892937872",
+      "url": "https://x.com/Unlimited_sol0/status/2114241065892937872",
+      "twitterUrl": "https://twitter.com/Unlimited_sol0/status/2114241065892937872",
+      "text": "Woo love this move $BILLIONS hits $205K MC! From $44K to $205K \u2014 that's around 4.7x the original market cap\nMore plays are on my radar. \ud83d\udc40 Tap the link in bio to connect for upcoming Solana calls and updates. \nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump\nDM me https://t.co/C8t3McSHzN",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 200,
+      "createdAt": "Sun Oct 25 06:22:05 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114241065892937872",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdLCDRXAAACvZb.jpg",
+        "expanded_url": "https://x.com/Unlimited_sol0/status/2114241065892937872/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Unlimited_sol0",
+       "url": "https://x.com/Unlimited_sol0",
+       "id": "1877601077563928576",
+       "name": "Unlimited_sol",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2113229624909926400/mA1P3PBY_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1877601077563928576/1792668179",
+       "description": "Alpha .memecoin .Solana is the goals\nshadows signals MeMecoin alphal signals",
+       "location": "United states",
+       "followers": 415,
+       "following": 354,
+       "createdAt": "Fri Jan 10 06:19:25 +0000 2025",
+       "canDm": false
+      },
+      "quoted_tweet": {
+       "id": "2114238647276838976",
+       "text": "$Bilions $44K MC! \nKeep this one on your radar and stay ready for the next plays I'm watching. More calls and updates  tap the link in bio. \nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump https://t.co/F0oIoIiD7t",
+       "user": {
+        "name": "Unlimited_sol",
+        "screen_name": "Unlimited_sol0"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114221976340275503",
+      "url": "https://x.com/CristinaCuba1/status/2114221976340275503",
+      "twitterUrl": "https://twitter.com/CristinaCuba1/status/2114221976340275503",
+      "text": "\ud83d\ude80 $BILLIONS reaches $234K MC! From $44K to $234K \u2014 that's 5.3x the original market cap! \ud83d\udd25\ud83d\udcc8\n\nThe momentum is speaking. \ud83d\udc40 Want more Solana plays and updates? Tap the link in bio. \ud83d\udc8e\n\n#Solana #Memecoin\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump https://t.co/SKUo9ufIVn",
+      "source": null,
+      "retweetCount": 1,
+      "replyCount": 0,
+      "likeCount": 3,
+      "quoteCount": 0,
+      "viewCount": 47,
+      "createdAt": "Sun Oct 25 05:06:14 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114221976340275503",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVc5q84W0AAwYJL.jpg",
+        "expanded_url": "https://x.com/CristinaCuba1/status/2114221976340275503/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "CristinaCuba1",
+       "url": "https://x.com/CristinaCuba1",
+       "id": "926304360",
+       "name": "Crypto Kings \ud83d\udc51",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2109033175854800896/eFD_dSrk_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/926304360/1790919228",
+       "description": "Solana Memecoin Hunter \ud83d\ude80 Early Alpha \ud83d\udc8e Low-Cap Gems \ud83d\udcca DM for Setups & Watchlists",
+       "location": "",
+       "followers": 3340,
+       "following": 2079,
+       "createdAt": "Sun Nov 04 22:29:04 +0000 2012",
+       "canDm": false
+      },
+      "quoted_tweet": {
+       "id": "2114220726974664963",
+       "text": "\ud83d\udc40 $BILLIONS is sitting at $44K MC! \ud83d\udd25\ud83d\ude80\n\nKeep this one on your radar and stay ready for the next plays I'm watching. More calls and updates \u2014 tap the link in bio. \ud83d\udcc8\ud83d\udc8e\n\n#Solana #Memecoin\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump https://t.co/TRczowubnw",
+       "user": {
+        "name": "Crypto Kings \ud83d\udc51",
+        "screen_name": "CristinaCuba1"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114221818018173426",
+      "url": "https://x.com/CristinaCuba1/status/2114221818018173426",
+      "twitterUrl": "https://twitter.com/CristinaCuba1/status/2114221818018173426",
+      "text": "\ud83d\udc40\ud83d\udd25 $BILLIONS climbs to $229K MC! From $44K to $229K \u2014 over 5.2x the starting market cap! \ud83d\ude80\ud83d\udcc8\n\nWant to stay close to my next Solana plays? Tap the link in bio for more calls and updates. \ud83d\udc8e\n\n#Solana #Memecoin\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump https://t.co/PGZPcOcZyG",
+      "source": null,
+      "retweetCount": 2,
+      "replyCount": 0,
+      "likeCount": 3,
+      "quoteCount": 0,
+      "viewCount": 71,
+      "createdAt": "Sun Oct 25 05:05:36 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114221818018173426",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVc5h7NX0AA8Xeu.jpg",
+        "expanded_url": "https://x.com/CristinaCuba1/status/2114221818018173426/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "CristinaCuba1",
+       "url": "https://x.com/CristinaCuba1",
+       "id": "926304360",
+       "name": "Crypto Kings \ud83d\udc51",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2109033175854800896/eFD_dSrk_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/926304360/1790919228",
+       "description": "Solana Memecoin Hunter \ud83d\ude80 Early Alpha \ud83d\udc8e Low-Cap Gems \ud83d\udcca DM for Setups & Watchlists",
+       "location": "",
+       "followers": 3340,
+       "following": 2079,
+       "createdAt": "Sun Nov 04 22:29:04 +0000 2012",
+       "canDm": false
+      },
+      "quoted_tweet": {
+       "id": "2114220726974664963",
+       "text": "\ud83d\udc40 $BILLIONS is sitting at $44K MC! \ud83d\udd25\ud83d\ude80\n\nKeep this one on your radar and stay ready for the next plays I'm watching. More calls and updates \u2014 tap the link in bio. \ud83d\udcc8\ud83d\udc8e\n\n#Solana #Memecoin\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump https://t.co/TRczowubnw",
+       "user": {
+        "name": "Crypto Kings \ud83d\udc51",
+        "screen_name": "CristinaCuba1"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114235455700877461",
+      "url": "https://x.com/EarlyChad_/status/2114235455700877461",
+      "twitterUrl": "https://twitter.com/EarlyChad_/status/2114235455700877461",
+      "text": "$BILLIONS \u2014 $44K MC \ud83d\ude80\ud83d\udcc8\n\n\ud83d\udc40 Eyes on this one.\n\ud83d\udd25 Don\u2019t sleep on it.\n\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump\n\n#Solana #CryptoAlpha #Memecoin #Degen #bbvpicks4 https://t.co/yImYkpxPHH",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 2,
+      "quoteCount": 1,
+      "viewCount": 413,
+      "createdAt": "Sun Oct 25 05:59:47 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114235455700877461",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdF77eX0AA3AGD.jpg",
+        "expanded_url": "https://x.com/EarlyChad_/status/2114235455700877461/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "EarlyChad_",
+       "url": "https://x.com/EarlyChad_",
+       "id": "2394021621",
+       "name": "EarlyChad",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2103078396242563072/A8By2ujI_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2394021621/1790247949",
+       "description": "Specialized in early memecoin positioning.\nI identify high-upside setups before they move.\nPrecision entries. Controlled size. Clear edge.",
+       "location": "",
+       "followers": 5181,
+       "following": 5035,
+       "createdAt": "Sat Mar 08 14:26:28 +0000 2014",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114235780709142613",
+      "url": "https://x.com/EarlyChad_/status/2114235780709142613",
+      "twitterUrl": "https://twitter.com/EarlyChad_/status/2114235780709142613",
+      "text": "$44K \u2192 $432K MC = 9.8x \ud83d\ude80\n\nMy $BILLIONS call.\n\nCalled early. Momentum followed. \ud83d\udd25\nKeep watching \u2014 the next move could be bigger. \ud83d\udc40\n\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump\n\n#Solana #SolanaMemecoins #Memecoin https://t.co/4jQRUU4s6W",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 2,
+      "quoteCount": 0,
+      "viewCount": 284,
+      "createdAt": "Sun Oct 25 06:01:05 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114235780709142613",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdGO2bXMAEwpjt.jpg",
+        "expanded_url": "https://x.com/EarlyChad_/status/2114235780709142613/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "EarlyChad_",
+       "url": "https://x.com/EarlyChad_",
+       "id": "2394021621",
+       "name": "EarlyChad",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2103078396242563072/A8By2ujI_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2394021621/1790247949",
+       "description": "Specialized in early memecoin positioning.\nI identify high-upside setups before they move.\nPrecision entries. Controlled size. Clear edge.",
+       "location": "",
+       "followers": 5181,
+       "following": 5035,
+       "createdAt": "Sat Mar 08 14:26:28 +0000 2014",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114235455700877461",
+       "text": "$BILLIONS \u2014 $44K MC \ud83d\ude80\ud83d\udcc8\n\n\ud83d\udc40 Eyes on this one.\n\ud83d\udd25 Don\u2019t sleep on it.\n\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump\n\n#Solana #CryptoAlpha #Memecoin #Degen #bbvpicks4 https://t.co/yImYkpxPHH",
+       "user": {
+        "name": "EarlyChad",
+        "screen_name": "EarlyChad_"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114221120912265574",
+      "url": "https://x.com/CristinaCuba1/status/2114221120912265574",
+      "twitterUrl": "https://twitter.com/CristinaCuba1/status/2114221120912265574",
+      "text": "\ud83d\ude80 $BILLIONS: $44K \u2192 $170K MC! \ud83d\udd25 That's nearly 3.9x the starting market cap! \ud83d\udc40\ud83d\udcc8\n\nWant to catch the next plays I'm watching? Tap the link in bio for more calls and updates. \ud83d\udc8e\n\n#Solana #Memecoin\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump https://t.co/LpAKGmlUb0",
+      "source": null,
+      "retweetCount": 2,
+      "replyCount": 1,
+      "likeCount": 4,
+      "quoteCount": 0,
+      "viewCount": 120,
+      "createdAt": "Sun Oct 25 05:02:50 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114221120912265574",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVc45bqWkAA3Thr.jpg",
+        "expanded_url": "https://x.com/CristinaCuba1/status/2114221120912265574/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "CristinaCuba1",
+       "url": "https://x.com/CristinaCuba1",
+       "id": "926304360",
+       "name": "Crypto Kings \ud83d\udc51",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2109033175854800896/eFD_dSrk_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/926304360/1790919228",
+       "description": "Solana Memecoin Hunter \ud83d\ude80 Early Alpha \ud83d\udc8e Low-Cap Gems \ud83d\udcca DM for Setups & Watchlists",
+       "location": "",
+       "followers": 3340,
+       "following": 2079,
+       "createdAt": "Sun Nov 04 22:29:04 +0000 2012",
+       "canDm": false
+      },
+      "quoted_tweet": {
+       "id": "2114220726974664963",
+       "text": "\ud83d\udc40 $BILLIONS is sitting at $44K MC! \ud83d\udd25\ud83d\ude80\n\nKeep this one on your radar and stay ready for the next plays I'm watching. More calls and updates \u2014 tap the link in bio. \ud83d\udcc8\ud83d\udc8e\n\n#Solana #Memecoin\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump https://t.co/TRczowubnw",
+       "user": {
+        "name": "Crypto Kings \ud83d\udc51",
+        "screen_name": "CristinaCuba1"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114282824844951866",
+      "url": "https://x.com/SzymonWitt/status/2114282824844951866",
+      "twitterUrl": "https://twitter.com/SzymonWitt/status/2114282824844951866",
+      "text": "$MEOWE is a runner \n\nFiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump\n\n$BILLIONS 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump  is buns\u034f\u034f\u2060\u200b\nhttps://t.co/5ssdGTkz1q",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 1,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 3,
+      "createdAt": "Sun Oct 25 09:08:01 +0000 2026",
+      "lang": "in",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114282824844951866",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "SzymonWitt",
+       "url": "https://x.com/SzymonWitt",
+       "id": "958204296",
+       "name": "luckylynx.sol",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2114183414165217280/TOuupswW_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/958204296/1792895580",
+       "description": "started w 1 sol \u00b7 sitting on 14",
+       "location": "",
+       "followers": 1,
+       "following": 18,
+       "createdAt": "Mon Nov 19 19:04:52 +0000 2012",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114228074300751974",
+      "url": "https://x.com/jojobugattibaby/status/2114228074300751974",
+      "twitterUrl": "https://twitter.com/jojobugattibaby/status/2114228074300751974",
+      "text": "Check out $BILLIONS on fomo:\n\nhttps://t.co/3cVBIJ30u2 #FOMO",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 62,
+      "createdAt": "Sun Oct 25 05:30:28 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114228074300751974",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "jojobugattibaby",
+       "url": "https://x.com/jojobugattibaby",
+       "id": "1631532563675115520",
+       "name": "Jojofromnewyork",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2091221433611390977/426fnfur_normal.jpg",
+       "coverPicture": null,
+       "description": "Trade with me on fomo and get 10% off fees!\nLink below \u2b07\ufe0f",
+       "location": "",
+       "followers": 22,
+       "following": 29,
+       "createdAt": "Fri Mar 03 05:51:02 +0000 2023",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114251463329566915",
+      "url": "https://x.com/Uptradem/status/2114251463329566915",
+      "twitterUrl": "https://twitter.com/Uptradem/status/2114251463329566915",
+      "text": "What are we doing? Trump just shilled a fucking solana:9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump ticker  \n\nhttps://t.co/84K3RXzSFv https://t.co/oDHrHhZ0Vz",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 1,
+      "likeCount": 3,
+      "quoteCount": 0,
+      "viewCount": 234,
+      "createdAt": "Sun Oct 25 07:03:24 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114251463329566915",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdUf8mbkAA4bWG.jpg",
+        "expanded_url": "https://x.com/Uptradem/status/2114251463329566915/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Uptradem",
+       "url": "https://x.com/Uptradem",
+       "id": "2083054095687090176",
+       "name": "Uptrades",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2083056003810238464/djpDfZ9l_normal.jpg",
+       "coverPicture": null,
+       "description": "",
+       "location": "",
+       "followers": 177,
+       "following": 250,
+       "createdAt": "Fri Jul 31 04:58:33 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114244916360700253",
+      "url": "https://x.com/Charlie_SOL23/status/2114244916360700253",
+      "twitterUrl": "https://twitter.com/Charlie_SOL23/status/2114244916360700253",
+      "text": "\ud83d\udc40 $BILLIONS \u2014 $11K MC \ud83d\udd25 Tiny cap, fresh on the radar!\n\n\ud83d\udce9 DM me on Telegram for early calls + VIP access. \ud83c\udfaf\n\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump\n\n#BILLIONS #Solana #Memecoin https://t.co/VSkYjNsJVv",
+      "source": null,
+      "retweetCount": 1,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 1,
+      "viewCount": 227,
+      "createdAt": "Sun Oct 25 06:37:23 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114244916360700253",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdOhmZaUAABMlG.jpg",
+        "expanded_url": "https://x.com/Charlie_SOL23/status/2114244916360700253/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Charlie_SOL23",
+       "url": "https://x.com/Charlie_SOL23",
+       "id": "842416279",
+       "name": "Early Radar",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2102426272265576449/Oxh7QNDS_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/842416279/1790092460",
+       "description": "Finding early SOL gems before the crowd \ud83d\udd0d\nCalls \u2022 Research \u2022 Real-time updates\nRisk first. DYOR | NFA\nPrivate Alpha TG \u2193",
+       "location": "Missouri, USA",
+       "followers": 1669,
+       "following": 1116,
+       "createdAt": "Sun Sep 23 21:10:50 +0000 2012",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114246810201899134",
+      "url": "https://x.com/MemeKingCalls_/status/2114246810201899134",
+      "twitterUrl": "https://twitter.com/MemeKingCalls_/status/2114246810201899134",
+      "text": "\ud83d\ude80 $BILLIONS reaches $234K MC! From $44K to $234K \u2014 that's 5.3x the original market cap! \ud83d\udd25\ud83d\udcc8\n\nThe momentum is speaking. \ud83d\udc40 Want more Solana plays and updates? Tap the link in bio. \ud83d\udc8e\n\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump https://t.co/Smz50nAopg",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 133,
+      "createdAt": "Sun Oct 25 06:44:55 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114246810201899134",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdQQ09WQAE_L_s.jpg",
+        "expanded_url": "https://x.com/MemeKingCalls_/status/2114246810201899134/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "MemeKingCalls_",
+       "url": "https://x.com/MemeKingCalls_",
+       "id": "2228657486",
+       "name": "MEME KING",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2092361979369328640/T19XhHXU_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2228657486/1787692966",
+       "description": "\ud83d\udc51 Memecoin Trader\n\ud83c\udfaf Early entries. High conviction\n\ud83d\udccd Private calls & plays",
+       "location": "",
+       "followers": 3331,
+       "following": 2611,
+       "createdAt": "Tue Dec 03 18:10:34 +0000 2013",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114246075116835157",
+       "text": "\ud83d\udc40 $BILLIONS is sitting at $44K MC! \ud83d\udd25\ud83d\ude80\n\nKeep this one on your radar and stay ready for the next plays I'm watching. More calls and updates \u2014 tap the link in bio. \ud83d\udcc8\ud83d\udc8e\n\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump https://t.co/pdmbTrmAAE",
+       "user": {
+        "name": "MEME KING",
+        "screen_name": "MemeKingCalls_"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114219236566736967",
+      "url": "https://x.com/MrShowMetaX/status/2114219236566736967",
+      "twitterUrl": "https://twitter.com/MrShowMetaX/status/2114219236566736967",
+      "text": "Trump posted ticker on truth Next trump coin?\n\n9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+      "source": null,
+      "retweetCount": 2,
+      "replyCount": 1,
+      "likeCount": 11,
+      "quoteCount": 1,
+      "viewCount": 1300,
+      "createdAt": "Sun Oct 25 04:55:20 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114219236566736967",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "MrShowMetaX",
+       "url": "https://x.com/MrShowMetaX",
+       "id": "1779912007661342721",
+       "name": "Show",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2091363037135704064/hLziwTKZ_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1779912007661342721/1787285450",
+       "description": "web3 soldier | | god fearing | | support specialists | | Hard working mother fucker ||",
+       "location": "",
+       "followers": 1122,
+       "following": 1054,
+       "createdAt": "Mon Apr 15 16:38:04 +0000 2024",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114238647276838976",
+      "url": "https://x.com/Unlimited_sol0/status/2114238647276838976",
+      "twitterUrl": "https://twitter.com/Unlimited_sol0/status/2114238647276838976",
+      "text": "$Bilions $44K MC! \nKeep this one on your radar and stay ready for the next plays I'm watching. More calls and updates  tap the link in bio. \nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump https://t.co/F0oIoIiD7t",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 1,
+      "viewCount": 471,
+      "createdAt": "Sun Oct 25 06:12:28 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114238647276838976",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdIzRdXEAAidWt.jpg",
+        "expanded_url": "https://x.com/Unlimited_sol0/status/2114238647276838976/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Unlimited_sol0",
+       "url": "https://x.com/Unlimited_sol0",
+       "id": "1877601077563928576",
+       "name": "Unlimited_sol",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2113229624909926400/mA1P3PBY_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1877601077563928576/1792668179",
+       "description": "Alpha .memecoin .Solana is the goals\nshadows signals MeMecoin alphal signals",
+       "location": "United states",
+       "followers": 415,
+       "following": 354,
+       "createdAt": "Fri Jan 10 06:19:25 +0000 2025",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114245151640158665",
+      "url": "https://x.com/Charlie_SOL23/status/2114245151640158665",
+      "twitterUrl": "https://twitter.com/Charlie_SOL23/status/2114245151640158665",
+      "text": "\ud83d\ude80 $BILLIONS \u2014 $71K MC \ud83d\udd25 From $11K to $71K! \ud83d\udc40\n\n\ud83d\udce9 DM me on Telegram for fresh calls + VIP access. \ud83c\udfaf\n\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump\n\n#BILLIONS #Solana #Memecoin https://t.co/GuPn6m6aG4",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 1,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 89,
+      "createdAt": "Sun Oct 25 06:38:19 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114245151640158665",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdOvVQbYAA68UL.jpg",
+        "expanded_url": "https://x.com/Charlie_SOL23/status/2114245151640158665/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Charlie_SOL23",
+       "url": "https://x.com/Charlie_SOL23",
+       "id": "842416279",
+       "name": "Early Radar",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2102426272265576449/Oxh7QNDS_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/842416279/1790092460",
+       "description": "Finding early SOL gems before the crowd \ud83d\udd0d\nCalls \u2022 Research \u2022 Real-time updates\nRisk first. DYOR | NFA\nPrivate Alpha TG \u2193",
+       "location": "Missouri, USA",
+       "followers": 1669,
+       "following": 1116,
+       "createdAt": "Sun Sep 23 21:10:50 +0000 2012",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114244916360700253",
+       "text": "\ud83d\udc40 $BILLIONS \u2014 $11K MC \ud83d\udd25 Tiny cap, fresh on the radar!\n\n\ud83d\udce9 DM me on Telegram for early calls + VIP access. \ud83c\udfaf\n\nCA: 9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump\n\n#BILLIONS #Solana #Memecoin https://t.co/VSkYjNsJVv",
+       "user": {
+        "name": "Early Radar",
+        "screen_name": "Charlie_SOL23"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114259679224508699",
+      "url": "https://x.com/Slideonwh0/status/2114259679224508699",
+      "twitterUrl": "https://twitter.com/Slideonwh0/status/2114259679224508699",
+      "text": "I TOLS GOD IF THIS MAKE ME HEALTHY ILL GIVE MY FULL LIFE\ud83d\ude4c\ud83c\udffd\ud83d\ude4c\ud83c\udffd solana:9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 42,
+      "createdAt": "Sun Oct 25 07:36:03 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114259679224508699",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Slideonwh0",
+       "url": "https://x.com/Slideonwh0",
+       "id": "1871009053666594816",
+       "name": "Slide\ud83e\ude74",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2098978036901199872/s9vmxlQe_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1871009053666594816/1789270347",
+       "description": "I Live A Very Gemini Life \ud83e\udda0 and make music !",
+       "location": "Louisville, KY",
+       "followers": 80,
+       "following": 100,
+       "createdAt": "Mon Dec 23 01:45:06 +0000 2024",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114230199370072310",
+      "url": "https://x.com/CryptoJunkie66x/status/2114230199370072310",
+      "twitterUrl": "https://twitter.com/CryptoJunkie66x/status/2114230199370072310",
+      "text": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump send itttt https://t.co/tNrlXEXGwU",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 1,
+      "likeCount": 2,
+      "quoteCount": 0,
+      "viewCount": 157,
+      "createdAt": "Sun Oct 25 05:38:54 +0000 2026",
+      "lang": "in",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114230199370072310",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdBKUMWoAErca8.jpg",
+        "expanded_url": "https://x.com/CryptoJunkie66x/status/2114230199370072310/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "CryptoJunkie66x",
+       "url": "https://x.com/CryptoJunkie66x",
+       "id": "2086063673777254400",
+       "name": "Crypto Junkie",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2086065320221908992/WKBnZewq_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2086063673777254400/1786193294",
+       "description": "6 god, lost it all many times, have fun and goodluck",
+       "location": "",
+       "followers": 8,
+       "following": 25,
+       "createdAt": "Sat Aug 08 12:15:54 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     }
+    ]
+   }
+  },
+  {
+   "q": "\"$BILLIONS\" -filter:retweets",
+   "product": "Latest",
+   "at": "2026-10-25T10:06:00Z",
+   "body": {
+    "query": "\"$BILLIONS\" -filter:retweets",
+    "tweet_count": 20,
+    "has_more": true,
+    "next_cursor": "DAADDAABCgABHVd-RnRXYf4KAAIdV33SHFtxrAAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUdV35N6QAnEAoABh1Xfk3o_9jwCwAHAAAA8EVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFCUWRWMzN0bEZiUjBoMVhmZEljVzNHc0hWZCtLYWRXc1RjZFYzNE1yOXFCNngxWGZoZWRXaEdHSFZkK0l2UFgwTzhkVjMzejRSZXdsaDFYZmtJdzJ1QW5IVmQrSk9CV01CMGRWMzRDTjFZaHpCMVhmaW5GbDFBSEhWZCtIdVBXY1JjZFYzNHN5ZGRSQkIxWGZnSEtGOURaSFZkK0x6YWJNRDhkVjM0YkpGWVFlUjFYZmU1UWxsRy9IVmQrUm5SWFlmNGRWMzQ0RnRhUmxSMVhmaUtTbDZGQwAA",
+    "tweets": [
+     {
+      "type": "tweet",
+      "id": "2114297391138431486",
+      "url": "https://x.com/K50239030/status/2114297391138431486",
+      "twitterUrl": "https://twitter.com/K50239030/status/2114297391138431486",
+      "text": "@PaulNiland @BylineTimes Thousands of children, yet they could only produce a list of 332 names ? Another Ukroscam to justify billions in funding. Where\u2019s the evidence, where\u2019s the transparency, and most important where\u2019s the money ?",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 0,
+      "createdAt": "Sun Oct 25 10:05:54 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": true,
+      "inReplyToId": "2114263728640147608",
+      "conversationId": "2114263728640147608",
+      "media": [],
+      "inReplyToUserId": "86327801",
+      "author": {
+       "type": "user",
+       "userName": "K50239030",
+       "url": "https://x.com/K50239030",
+       "id": "377262843",
+       "name": "REMI",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1843851503280308224/PZNN7tVU_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/377262843/1767955082",
+       "description": "Quand un syst\u00e8me est trop gros, trop tentaculaire, il ne prot\u00e8ge plus personne \u2014 il se prot\u00e8ge lui-m\u00eame.",
+       "location": "Annemasse, France",
+       "followers": 612,
+       "following": 1294,
+       "createdAt": "Wed Sep 21 08:56:37 +0000 2011",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114297372826329127",
+      "url": "https://x.com/Arif8000/status/2114297372826329127",
+      "twitterUrl": "https://twitter.com/Arif8000/status/2114297372826329127",
+      "text": "@apepeofficial @BingXOfficial Prizes paid in billions of APEPE make the dollar value depend on the price when winners are paid, and the $6,500 headline only holds if that doesn't move. Are the top three picked by the team or by likes, and what is the $6,500 counted at",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 0,
+      "createdAt": "Sun Oct 25 10:05:50 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": true,
+      "inReplyToId": "2112204969076269093",
+      "conversationId": "2112204969076269093",
+      "media": [],
+      "inReplyToUserId": "1664686473998901249",
+      "author": {
+       "type": "user",
+       "userName": "Arif8000",
+       "url": "https://x.com/Arif8000",
+       "id": "1747994792125235200",
+       "name": "Md Arif Hasan",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2073019585797005312/MXNT8MOe_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1747994792125235200/1783081495",
+       "description": "Content creator  Analysts  Web3 Explore || Creator of  : @TurboFlow_xyz\nTG:https://t.co/iwjrEZxkwK",
+       "location": "asia",
+       "followers": 11957,
+       "following": 12941,
+       "createdAt": "Thu Jan 18 14:50:21 +0000 2024",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114297329440166293",
+      "url": "https://x.com/Bella_Billionss/status/2114297329440166293",
+      "twitterUrl": "https://twitter.com/Bella_Billionss/status/2114297329440166293",
+      "text": "@faveda12 She was forced???\n\nLike they dragged her????\n\nWhen she\u2019s ready she knows what to do!",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 1,
+      "createdAt": "Sun Oct 25 10:05:39 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": true,
+      "inReplyToId": "2114264796443148720",
+      "conversationId": "2114264796443148720",
+      "media": [],
+      "inReplyToUserId": "1682037547097272322",
+      "author": {
+       "type": "user",
+       "userName": "Bella_Billionss",
+       "url": "https://x.com/Bella_Billionss",
+       "id": "1303054931973353473",
+       "name": "The Bella Billions",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1889129849740001280/izxcyhbG_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1303054931973353473/1739238641",
+       "description": "The better human! Be kinder today, the world needs it!",
+       "location": "",
+       "followers": 335,
+       "following": 219,
+       "createdAt": "Mon Sep 07 19:38:14 +0000 2020",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114297291318439999",
+      "url": "https://x.com/_gogonna/status/2114297291318439999",
+      "twitterUrl": "https://twitter.com/_gogonna/status/2114297291318439999",
+      "text": "@Emeneks Inukwa\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 0,
+      "createdAt": "Sun Oct 25 10:05:30 +0000 2026",
+      "lang": "tl",
+      "bookmarkCount": 0,
+      "isReply": true,
+      "inReplyToId": "2114269358969197029",
+      "conversationId": "2114269358969197029",
+      "media": [],
+      "inReplyToUserId": "381702652",
+      "author": {
+       "type": "user",
+       "userName": "_gogonna",
+       "url": "https://x.com/_gogonna",
+       "id": "791955166190645248",
+       "name": "Gorgor Billions",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2091973496238661633/UlDcWTl-_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/791955166190645248/1766744253",
+       "description": "Growing like the Cedar in Lebanon \u2022GORGOR NIGERIA (leather foot wear, leather bags made in Nigeria)\u2022 Fashion \u2022 Fragrances \u2022",
+       "location": "The winning side",
+       "followers": 1827,
+       "following": 1630,
+       "createdAt": "Fri Oct 28 10:50:00 +0000 2016",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114297280903729412",
+      "url": "https://x.com/SzydloCarol/status/2114297280903729412",
+      "twitterUrl": "https://twitter.com/SzydloCarol/status/2114297280903729412",
+      "text": "@TruthFringe @JustinTrudeau @MarkJCarney It's because Mark Carney has been pouring billions of dollars into United Nations refugees and resettlement programs. Watch @vesperdigital s stuff. He's got the goods like nobody else in Canada. https://t.co/9sV5UMYwB4",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 3,
+      "createdAt": "Sun Oct 25 10:05:28 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": true,
+      "inReplyToId": "2114104645161472504",
+      "conversationId": "2114104645161472504",
+      "media": [
+       {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2114297151526207488/img/5H8QVebdkiaoRrU1.jpg",
+        "expanded_url": "https://x.com/SzydloCarol/status/2114297280903729412/video/1",
+        "video_url": "https://video.twimg.com/amplify_video/2114297151526207488/vid/avc1/590x1280/FD0LTx9vd7WdLyN_.mp4?tag=29"
+       }
+      ],
+      "inReplyToUserId": "1642308676080873472",
+      "author": {
+       "type": "user",
+       "userName": "SzydloCarol",
+       "url": "https://x.com/SzydloCarol",
+       "id": "1594710458312921088",
+       "name": "Talking Dawg \ud83d\udcab\u2652\ufe0f",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2005211673720721408/XIQ-rn61_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1594710458312921088/1733122190",
+       "description": "Canadian / American \n\ud83c\udde8\ud83c\udde6\ud83c\uddfa\ud83c\uddf8 \ud83d\udeab CRYPTO \ud83d\udeab DMs",
+       "location": "Prison Of Canada \ud83c\udde8\ud83c\udde6 ",
+       "followers": 2896,
+       "following": 3993,
+       "createdAt": "Mon Nov 21 15:13:25 +0000 2022",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114297267947524103",
+      "url": "https://x.com/dafidimimo/status/2114297267947524103",
+      "twitterUrl": "https://twitter.com/dafidimimo/status/2114297267947524103",
+      "text": "@Peter4Nigeria @OfficialDSSNG @richone090 There are folks on national TV boasting of rigging votes of whole states &amp; bribing with billions to be appointed Ministers. Those ones roam free... But a young man fighting for his future &amp; that of his unborn children is the criminal to way-lay at night... 9ja will be OK!",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 0,
+      "createdAt": "Sun Oct 25 10:05:25 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": true,
+      "inReplyToId": "2114265079252173266",
+      "conversationId": "2114265079252173266",
+      "media": [],
+      "inReplyToUserId": "1315365443478093824",
+      "author": {
+       "type": "user",
+       "userName": "dafidimimo",
+       "url": "https://x.com/dafidimimo",
+       "id": "105177683",
+       "name": "David Sowemimo",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2023405798911524864/GqxK201q_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/105177683/1771252513",
+       "description": "Ecosystem Architect | Founder, GOAT Academy (Student-preneurship & Youth Wealth Creation) | Agribusiness \u2022 Fintech \u2022 Governance   | Husband, Father, Friend",
+       "location": "Sagamu, Nigeria",
+       "followers": 2259,
+       "following": 1108,
+       "createdAt": "Fri Jan 15 15:55:32 +0000 2010",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114297267439972663",
+      "url": "https://x.com/Roachieparks/status/2114297267439972663",
+      "twitterUrl": "https://twitter.com/Roachieparks/status/2114297267439972663",
+      "text": "@MarioNawfal Omg lol loser he was a divider he put us in debt spent more than anyone gave billions to our enemies got innocent people killed ruined healthcare the jobs market and did nothing to help Americans \nTo name a few",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 0,
+      "createdAt": "Sun Oct 25 10:05:24 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": true,
+      "inReplyToId": "2114207851757342988",
+      "conversationId": "2114207851757342988",
+      "media": [],
+      "inReplyToUserId": "1319287761048723458",
+      "author": {
+       "type": "user",
+       "userName": "Roachieparks",
+       "url": "https://x.com/Roachieparks",
+       "id": "1823150510154629120",
+       "name": "Roachie",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+       "coverPicture": null,
+       "description": "",
+       "location": "",
+       "followers": 992,
+       "following": 1546,
+       "createdAt": "Tue Aug 13 00:12:24 +0000 2024",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114297246921404445",
+      "url": "https://x.com/jsolomonReports/status/2114297246921404445",
+      "twitterUrl": "https://twitter.com/jsolomonReports/status/2114297246921404445",
+      "text": "California pays billions for affordable student housing https://t.co/ZzY953spBj",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 1622,
+      "createdAt": "Sun Oct 25 10:05:20 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114297246921404445",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "jsolomonReports",
+       "url": "https://x.com/jsolomonReports",
+       "id": "523248016",
+       "name": "John Solomon",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1894002095/john_solomon_2583-1-a_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/523248016/1643390263",
+       "description": "John Solomon is an award-winning investigative journalist and founder of Just the News. He has worked at AP, WaPo, TWT, and The Hill.",
+       "location": "Washington, DC",
+       "followers": 1490029,
+       "following": 854,
+       "createdAt": "Tue Mar 13 13:19:51 +0000 2012",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114297238658732271",
+      "url": "https://x.com/JustTheNews/status/2114297238658732271",
+      "twitterUrl": "https://twitter.com/JustTheNews/status/2114297238658732271",
+      "text": "California pays billions for affordable student housing https://t.co/7OFii8lccs",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 554,
+      "createdAt": "Sun Oct 25 10:05:18 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114297238658732271",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "JustTheNews",
+       "url": "https://x.com/JustTheNews",
+       "id": "1216793092134723586",
+       "name": "Just the News",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2097721326693711872/H0Bt33qd_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1216793092134723586/1631891789",
+       "description": "Just the News is a nonpartisan news media brand based in Washington, D.C. committed to just reporting facts from journalists. RTs/likes are not endorsements.",
+       "location": "",
+       "followers": 272790,
+       "following": 193,
+       "createdAt": "Mon Jan 13 18:45:27 +0000 2020",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114297237027135810",
+      "url": "https://x.com/wholly_unholy/status/2114297237027135810",
+      "twitterUrl": "https://twitter.com/wholly_unholy/status/2114297237027135810",
+      "text": "@Leezelbub @Top5Gamingx Are you suggesting Sony pushed for a deal and Rockstar had no choice?\nThere\u2019s absolutely no way any number of millions Sony offered would outweigh the billions Rockstar will make from GTA.\nIf Rockstar chose to make this deal they did it for a reason.",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 1,
+      "createdAt": "Sun Oct 25 10:05:17 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": true,
+      "inReplyToId": "2114113772121935923",
+      "conversationId": "2114076234971771046",
+      "media": [],
+      "inReplyToUserId": "948243133405519873",
+      "author": {
+       "type": "user",
+       "userName": "wholly_unholy",
+       "url": "https://x.com/wholly_unholy",
+       "id": "65698906",
+       "name": "Keith Bishop \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc77\udb40\udc6c\udb40\udc73\udb40\udc7f",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/850905008501661696/8kw4y0K8_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/65698906/1491706570",
+       "description": "\u2660\ufe0f Poet, philanthropist, tech support. \u2665\ufe0f Ol' Papa Flyboy/Him",
+       "location": "Burnham, South East",
+       "followers": 131,
+       "following": 458,
+       "createdAt": "Fri Aug 14 18:22:37 +0000 2009",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114297221210337559",
+      "url": "https://x.com/petepedwards/status/2114297221210337559",
+      "twitterUrl": "https://twitter.com/petepedwards/status/2114297221210337559",
+      "text": "@Martin_Abrams @_LFI Of COURSE he's aware of Israels racism! They are paid to look the other way. Israel has spent \u00a3billions bribing politicians across the globe. The genocide will not stop unless we the people stop it. Centuries of politicians pretending to represent the people-we see the truth now",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 3,
+      "createdAt": "Sun Oct 25 10:05:13 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": true,
+      "inReplyToId": "2114063926220513303",
+      "conversationId": "2114063926220513303",
+      "media": [],
+      "inReplyToUserId": "256556741",
+      "author": {
+       "type": "user",
+       "userName": "petepedwards",
+       "url": "https://x.com/petepedwards",
+       "id": "1601242129698885633",
+       "name": "pedwards",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1601242129698885633/1698512087",
+       "description": "",
+       "location": "England, United Kingdom",
+       "followers": 316,
+       "following": 966,
+       "createdAt": "Fri Dec 09 15:47:35 +0000 2022",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114297205112574073",
+      "url": "https://x.com/JessSalop/status/2114297205112574073",
+      "twitterUrl": "https://twitter.com/JessSalop/status/2114297205112574073",
+      "text": "@dave43law And don't remind me that I was part of the government who bankrupted the country while helping donors save billions.....",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 0,
+      "createdAt": "Sun Oct 25 10:05:10 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": true,
+      "inReplyToId": "2114288484248666118",
+      "conversationId": "2114288484248666118",
+      "media": [],
+      "inReplyToUserId": "528674835",
+      "author": {
+       "type": "user",
+       "userName": "JessSalop",
+       "url": "https://x.com/JessSalop",
+       "id": "1305586396564987904",
+       "name": "Jess-No flags because I actually am British",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1311267245167972353/26JW8Nff_normal.jpg",
+       "coverPicture": null,
+       "description": "Just an average bod trying to survive in a crazy world. Ex HM Forces, football agent, security consultant. Aikidoka.  #ForgottenLtd",
+       "location": "",
+       "followers": 1111,
+       "following": 369,
+       "createdAt": "Mon Sep 14 19:17:27 +0000 2020",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114297189963010438",
+      "url": "https://x.com/Wi947321/status/2114297189963010438",
+      "twitterUrl": "https://twitter.com/Wi947321/status/2114297189963010438",
+      "text": "this explains why someone can be incredibly wealthy with ten billions at young age, while others end up as internet losers whose monthly salary is less than number of likes on their own posts\n(If it were me, I\u2019d feel absolutely pathetic)",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 2,
+      "quoteCount": 0,
+      "viewCount": 1,
+      "createdAt": "Sun Oct 25 10:05:06 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114297189963010438",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Wi947321",
+       "url": "https://x.com/Wi947321",
+       "id": "2041327811538137088",
+       "name": "MARK MY FRIEND OUT NOW",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2041332281634390016/6O87GX77_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2041327811538137088/1786527983",
+       "description": "",
+       "location": "",
+       "followers": 27,
+       "following": 41,
+       "createdAt": "Tue Apr 07 01:32:35 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": {
+       "user": {}
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114297143028777451",
+      "url": "https://x.com/youmunbean/status/2114297143028777451",
+      "twitterUrl": "https://twitter.com/youmunbean/status/2114297143028777451",
+      "text": "@Lens395499 @Rousseau_Frans @Rolandschoeman I think these guys don\u2019t get the point that Starlink knows the rules but wants to bypass them.  Already the Telcos contribute Billions to connectivity at schools and clinics, not to mention generating economic activity.  Starlink offer is misleading as it will be over many years",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 1,
+      "createdAt": "Sun Oct 25 10:04:55 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": true,
+      "inReplyToId": "2114073053667918294",
+      "conversationId": "2114009843711541305",
+      "media": [],
+      "inReplyToUserId": "1779120502025383936",
+      "author": {
+       "type": "user",
+       "userName": "youmunbean",
+       "url": "https://x.com/youmunbean",
+       "id": "718066249717194752",
+       "name": "Youmunbean",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1756091907711684608/AWOmCkv5_normal.jpg",
+       "coverPicture": null,
+       "description": "",
+       "location": "",
+       "followers": 27,
+       "following": 12,
+       "createdAt": "Thu Apr 07 13:21:49 +0000 2016",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114297098057163212",
+      "url": "https://x.com/jakobo2030/status/2114297098057163212",
+      "twitterUrl": "https://twitter.com/jakobo2030/status/2114297098057163212",
+      "text": "@bungomaduke @AnneWaiguru Kenyans lost millions if not billions of public money under your watch in the NYS https://t.co/1d8N49jZYi have no moral wave length to lecture us on anything.2027 we will drain the swamp off the looters who take kenyans for fools every election cycle.",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 2,
+      "createdAt": "Sun Oct 25 10:04:44 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": true,
+      "inReplyToId": "2113986990181949452",
+      "conversationId": "2113986990181949452",
+      "media": [],
+      "inReplyToUserId": "1563609619426988032",
+      "author": {
+       "type": "user",
+       "userName": "jakobo2030",
+       "url": "https://x.com/jakobo2030",
+       "id": "402353835",
+       "name": "Jackkija",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1162305282321670144/5P8-v_oM_normal.jpg",
+       "coverPicture": null,
+       "description": "In times like these when survival is the game, let's play on..",
+       "location": "Kenya",
+       "followers": 2135,
+       "following": 3850,
+       "createdAt": "Mon Oct 31 23:04:02 +0000 2011",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114297096224362713",
+      "url": "https://x.com/Ernest1588761/status/2114297096224362713",
+      "twitterUrl": "https://twitter.com/Ernest1588761/status/2114297096224362713",
+      "text": "Why did God make billions of galaxies when all he needed to do was make the Earth and the Sun? The whole thing seems pointless to me.",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 6,
+      "createdAt": "Sun Oct 25 10:04:44 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114297096224362713",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Ernest1588761",
+       "url": "https://x.com/Ernest1588761",
+       "id": "1729118242751287297",
+       "name": "Ernest-001\u2693\u2693",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1729120383305973760/PNlAOVCk_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1729118242751287297/1771844213",
+       "description": "Atheist / humanist /debunking the lies of religion through content/ A Chelsea fan.\nfollow me if you love the truth\ud83c\udfaf\nthis page will transform you\u2693",
+       "location": "Nigeria",
+       "followers": 2566,
+       "following": 1440,
+       "createdAt": "Mon Nov 27 12:41:55 +0000 2023",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114297036480688278",
+      "url": "https://x.com/NostainBillion7/status/2114297036480688278",
+      "twitterUrl": "https://twitter.com/NostainBillion7/status/2114297036480688278",
+      "text": "@carterefe__ @Daddyzee02 @iamtaylorjasmin \ud83d\udda4\ud83d\udc4f https://t.co/3p4jRK5NyA",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 0,
+      "createdAt": "Sun Oct 25 10:04:29 +0000 2026",
+      "lang": "qme",
+      "bookmarkCount": 0,
+      "isReply": true,
+      "inReplyToId": "2114135735376720063",
+      "conversationId": "2114135735376720063",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVd97-4XkAAZJfI.jpg",
+        "expanded_url": "https://x.com/NostainBillion7/status/2114297036480688278/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": "1380188109569196033",
+      "author": {
+       "type": "user",
+       "userName": "NostainBillion7",
+       "url": "https://x.com/NostainBillion7",
+       "id": "2049422799085740032",
+       "name": "Nostain Billions\ud83e\ude96",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2094409902252859393/e_TNVAme_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2049422799085740032/1789866936",
+       "description": "@davido\ud83d\udc10 @mancity\ud83e\ude75 @Cristiano\ud83d\udc10\n\nFOREVER RICH.\u261d\ufe0f\n30Billions Dollars.",
+       "location": "",
+       "followers": 369,
+       "following": 50,
+       "createdAt": "Wed Apr 29 09:39:21 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114297012581454271",
+      "url": "https://x.com/Alex_Oloyede2/status/2114297012581454271",
+      "twitterUrl": "https://twitter.com/Alex_Oloyede2/status/2114297012581454271",
+      "text": "\u203c\ufe0f\ud83c\uddea\ud83c\uddfa Ursula's Europe in chaos.\n\nThe Russian Federation supports the dissolution of the corrupt, unelected EU regime.\n\nFor years, Europe has been in decline, yet pouring billions into an unwinnable war against Russia, it's time for new leaderships. https://t.co/shjmttoTu2",
+      "source": null,
+      "retweetCount": 1,
+      "replyCount": 0,
+      "likeCount": 5,
+      "quoteCount": 0,
+      "viewCount": 94,
+      "createdAt": "Sun Oct 25 10:04:24 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 1,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114297012581454271",
+      "media": [
+       {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2114296990905323520/img/9GnK19MuafmOX8rU.jpg",
+        "expanded_url": "https://x.com/Alex_Oloyede2/status/2114297012581454271/video/1",
+        "video_url": "https://video.twimg.com/amplify_video/2114296990905323520/vid/avc1/640x336/KiEApV4vwzJesLZN.mp4?tag=29"
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Alex_Oloyede2",
+       "url": "https://x.com/Alex_Oloyede2",
+       "id": "1520737910554824706",
+       "name": "Spetsna\u2124 007 \ud83c\uddf7\ud83c\uddfa",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1655609438055587843/HJaLi3QF_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1520737910554824706/1683563022",
+       "description": "\ud83c\udd86\ud83c\udd7e\ufe0f\ud83c\udd81\ud83c\udd7b\ud83c\udd73 Affiliated Media.\n\nAgent of Influence, trying to change the world.\n\nFreedom of speech.\n\nCitizen of the Russian Federation.\n\nFollow \u2192 @TheOtherSideRu",
+       "location": "United World",
+       "followers": 338040,
+       "following": 1342,
+       "createdAt": "Sun May 01 12:12:37 +0000 2022",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114297009423176146",
+      "url": "https://x.com/JungleReportFi/status/2114297009423176146",
+      "twitterUrl": "https://twitter.com/JungleReportFi/status/2114297009423176146",
+      "text": "Hey @grok, I\u2019m a regular iPhone user, and honestly I\u2019m tired.\n\nEvery year it feels like I pay more for a device that stays almost the same. My old one started lagging right when the new line dropped. My AirPods feel useless outside Apple\u2019s ecosystem. Leaving means starting over, so I stay.\n\nMeanwhile, $AAPL  makes billions off the friction of leaving.\n\nStrip away the brand loyalty: is the lock-in itself the real product?\n\nSkip the generic takes. Give me the single most likely way this moat breaks, the trade-offs of holding vs avoiding $AAPL, and the one metric that would change your mind.",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 1,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 9,
+      "createdAt": "Sun Oct 25 10:04:23 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114297009423176146",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "JungleReportFi",
+       "url": "https://x.com/JungleReportFi",
+       "id": "1161177742676811781",
+       "name": "Banana Republic",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2086586124332404736/sZ3seH6g_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1161177742676811781/1786315877",
+       "description": "I explain what actually moves markets!",
+       "location": "Tokyo, Japan",
+       "followers": 3011,
+       "following": 2212,
+       "createdAt": "Tue Aug 13 07:28:42 +0000 2019",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114296891446096300",
+      "url": "https://x.com/scalingreport/status/2114296891446096300",
+      "twitterUrl": "https://twitter.com/scalingreport/status/2114296891446096300",
+      "text": "The AI buildout's binding constraint moved from chip supply to credit this week, as Nvidia's financing exposure met a market repricing of its neocloud buyers.\n\nNVIDIA \u00b7 $105B\nCNBC reported October 24 that Nvidia's role as financier of the AI buildout faces its first stress test. The company disclosed $36B in AI cloud purchase commitments, a guarantee of up to $105B for OpenAI's planned Ohio data center, and $99B in equity stakes as of the second quarter, per CNBC's reading of the quarterly filing. CoreWeave, Nebius and IREN each fell at least 30% in October; CoreWeave's CDS spread passed 11% and yields on its 2031 and 2032 bonds topped 15%. Huang told CNBC neocloud demand is off the charts and working capital is the missing ingredient. Nvidia declined to comment. Its balance sheet is now tied to whether indebted operators service their debt.\n\nNEBIUS \u00b7 $3.5B\nNebius showed the debt side two days earlier, taking a $3.5B senior secured facility from Citi with a 364-day maturity at SOFR plus 2.75%, rising to 3.50%. Proceeds fund data center development, GPU procurement and general corporate purposes, against cited $40B-plus of long-term investment-grade contracts. Reuters reported the shares fell 7.3% that day. A one-year tenor on billions of buildout debt is the exposure CNBC questioned.\n\nCHINA \u00b7 DEC 7\nCapital controls tightened on a second front. Treasury proposed its expanded outbound-investment rule October 22, adding biotechnology and widening high-performance computing and hypersonics coverage; semiconductors, quantum and AI were already restricted. Beijing answered October 24, calling the proposal discriminatory, urging Washington to stop, and reserving countermeasures. Comments close December 7. A technical rulemaking is now a negotiating item.\n\nCNBC \u00b7 63%\nA CNBC survey published October 24 found 63% of voters oppose an AI data center within 10 miles of home, with 13% in favor, per Hart and Public Opinion Strategies. The poll of 1,000 voters ran October 14-18 with a \u00b13.1-point margin; the siting question went to a half-sample of about 500. Opposition crossed party lines: 80% of Democrats opposed, while 40% of MAGA supporters opposed against 29% in favor. Single-outlet findings, not confirmed votes, but they quantify the siting fight.\n\nTHE THROUGH-LINE\nChips are available on credit; the credit is the question. Nvidia underwrites, neoclouds borrow short, Washington fences cross-border capital, and voters resist the buildings. The scarce input is permission to spend, borrow, invest abroad, or build nearby.",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 6,
+      "createdAt": "Sun Oct 25 10:03:55 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114296891446096300",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "scalingreport",
+       "url": "https://x.com/scalingreport",
+       "id": "1038442154",
+       "name": "Scaling Report",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2097878043092238336/21Es6hp-_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1038442154/1785989818",
+       "description": "Daily AI news",
+       "location": "San Fransisco",
+       "followers": 29,
+       "following": 177,
+       "createdAt": "Thu Dec 27 00:45:54 +0000 2012",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     }
+    ]
+   }
+  },
+  {
+   "q": "\"$BILLIONS\" -filter:retweets min_faves:5",
+   "product": "Top",
+   "at": "2026-10-25T10:06:02Z",
+   "body": {
+    "query": "\"$BILLIONS\" -filter:retweets min_faves:5",
+    "tweet_count": 20,
+    "has_more": true,
+    "next_cursor": "DAACCgACHVd-UMbAJxAKAAMdV35Qxr_Y8AgABAAAAAILAAUAAADwRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUJRZFVGYzJDdFlCM3gxVlkxVEdXaEdvSFZXSGdJRGFJZlVRbFhIaEVCZlFBQjFXNkRoWjEyQ0RIVmNvVDRHYTBLd094Z1ZGUTFkd0FCbU9xb2NmbGlIbEVhNFo0OTNYWUFBUnRQVkxYQmVRQUIxWElHbjFGMEJDRHpWRXEyb1dzQUFkVjFPbXFsYUJMQjFURjM2S21nRmlIVldXSndWWG9CQWRWdnBQbGRaaHN4MVdtWVZSVnhEbEhWY2JKemVXUWFrZFZ6U2VUaHBoSngxWGVxMTIxZ0ZyCAAGAAAAAAgABwAAAAAMAAgKAAEOxgVFQ1dwAAAAAA",
+    "tweets": [
+     {
+      "type": "tweet",
+      "id": "2114194189529333826",
+      "url": "https://x.com/MarioNawfal/status/2114194189529333826",
+      "twitterUrl": "https://twitter.com/MarioNawfal/status/2114194189529333826",
+      "text": "\ud83d\udea8\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 Trump says America is making \u201chundreds of billions of dollars\u201d off the war in the Middle East... with gas over $4 and 70% of voters saying they\u2019re WORSE off than last year\n\nTo be fair... there\u2019s real money behind it, since America is now the world\u2019s top oil and gas producer and every spike sends export cash to Texas and the Gulf Coast.\n\nThe problem is that money ends up with PRODUCERS, while Americans are paying more for basically everything and the Pentagon has already burned through more than $45 billion on the war.\n\nTen days out, voters are going to vote with their wallets, and \u201cthe country is making money\u201d is a tough sell to the guy chewing his fingernails watching the meter as he fills his truck, or the mom wincing at the register over her groceries.\n\nWriter: Daniel https://t.co/viy2FRnl6c",
+      "source": null,
+      "retweetCount": 35,
+      "replyCount": 47,
+      "likeCount": 195,
+      "quoteCount": 4,
+      "viewCount": 49564,
+      "createdAt": "Sun Oct 25 03:15:49 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 13,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114194189529333826",
+      "media": [
+       {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2114152309588475904/img/pWpdpD_shSc2i4Ic.jpg",
+        "expanded_url": "https://x.com/clashreport/status/2114152556905783510/video/1",
+        "video_url": "https://video.twimg.com/amplify_video/2114152309588475904/vid/avc1/1920x1080/5ynWc_bdJaUuRw3P.mp4?tag=29"
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "MarioNawfal",
+       "url": "https://x.com/MarioNawfal",
+       "id": "1319287761048723458",
+       "name": "Mario Nawfal",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1938244629071015936/UwtzYY-R_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1319287761048723458/1776932857",
+       "description": "Largest Show on X (Live Daily 10am-8pm ET) | 24x7 Writers Covering News | Investor 700+ Startups | Founder @ibcgroupio , https://t.co/sw7OQ5KOqu",
+       "location": "",
+       "followers": 3964494,
+       "following": 51674,
+       "createdAt": "Thu Oct 22 14:42:25 +0000 2020",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114152294820241843",
+      "url": "https://x.com/atrupar/status/2114152294820241843",
+      "twitterUrl": "https://twitter.com/atrupar/status/2114152294820241843",
+      "text": "Trump: \"While oil prices are temporarily high ... the United States oil and gas business is making hundreds of billions of dollars\" https://t.co/Qj6whcDBJF",
+      "source": null,
+      "retweetCount": 273,
+      "replyCount": 376,
+      "likeCount": 800,
+      "quoteCount": 190,
+      "viewCount": 241519,
+      "createdAt": "Sun Oct 25 00:29:20 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 127,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114152294820241843",
+      "media": [
+       {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2114152267813113856/img/DZ_9UjqCVCKkwsGA.jpg",
+        "expanded_url": "https://x.com/atrupar/status/2114152294820241843/video/1",
+        "video_url": "https://video.twimg.com/amplify_video/2114152267813113856/vid/avc1/1280x720/YNdhx_xmYQRN45V5.mp4?tag=16"
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "atrupar",
+       "url": "https://x.com/atrupar",
+       "id": "288277167",
+       "name": "Aaron Rupar",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1335565046290804738/eGXNmTvg_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/288277167/1469538346",
+       "description": "journalist. sign up for my newsletter, Public Notice (link below). Powered by @SnapStream (more info: https://t.co/2oHPuuFBnN).",
+       "location": "",
+       "followers": 1159474,
+       "following": 5685,
+       "createdAt": "Tue Apr 26 15:22:47 +0000 2011",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2113744586107658741",
+      "url": "https://x.com/manifestpower4X/status/2113744586107658741",
+      "twitterUrl": "https://twitter.com/manifestpower4X/status/2113744586107658741",
+      "text": "Money is coming your way in Billions....\nDrop 888 to Claim it.\u2728\ud83c\udf40 https://t.co/oRIbDPpiMn",
+      "source": null,
+      "retweetCount": 132,
+      "replyCount": 688,
+      "likeCount": 1876,
+      "quoteCount": 12,
+      "viewCount": 15277,
+      "createdAt": "Fri Oct 23 21:29:15 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 64,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2113744586107658741",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVWHfqmboAALS91.jpg",
+        "expanded_url": "https://x.com/manifestpower4X/status/2113744586107658741/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "manifestpower4X",
+       "url": "https://x.com/manifestpower4X",
+       "id": "1531621045848842240",
+       "name": "Law Of Attraction Coach",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1762345293591232512/-svWFj5W_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1531621045848842240/1792469714",
+       "description": "\ud83e\udd2b Activate Your Subconscious Mind\n\ud83c\udfa7 Listen This Before Going To Bed\n\ud83e\udd11 Discover How To Attract Wealth & Success",
+       "location": "Watch Free Video Here \ud83d\udc49",
+       "followers": 105494,
+       "following": 375,
+       "createdAt": "Tue May 31 12:58:23 +0000 2022",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "1064544156960387072",
+      "url": "https://x.com/realDonaldTrump/status/1064544156960387072",
+      "twitterUrl": "https://twitter.com/realDonaldTrump/status/1064544156960387072",
+      "text": "....We no longer pay Pakistan the $Billions because they would take our money and do nothing for us, Bin Laden being a prime example, Afghanistan being another. They were just one of many countries that take from the United States without giving anything in return. That\u2019s ENDING!",
+      "source": null,
+      "retweetCount": 23459,
+      "replyCount": 20308,
+      "likeCount": 109344,
+      "quoteCount": 4137,
+      "viewCount": 0,
+      "createdAt": "Mon Nov 19 15:41:19 +0000 2018",
+      "lang": "en",
+      "bookmarkCount": 145,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1064544156960387072",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "realDonaldTrump",
+       "url": "https://x.com/realDonaldTrump",
+       "id": "25073877",
+       "name": "Donald J. Trump",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/25073877/1604214583",
+       "description": "45th & 47th President of the United States of America\ud83c\uddfa\ud83c\uddf8",
+       "location": "",
+       "followers": 111832506,
+       "following": 53,
+       "createdAt": "Wed Mar 18 13:46:38 +0000 2009",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114293435515404651",
+      "url": "https://x.com/Ariwodo_/status/2114293435515404651",
+      "twitterUrl": "https://twitter.com/Ariwodo_/status/2114293435515404651",
+      "text": "I smell billions \ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25",
+      "source": null,
+      "retweetCount": 6,
+      "replyCount": 3,
+      "likeCount": 19,
+      "quoteCount": 0,
+      "viewCount": 6962,
+      "createdAt": "Sun Oct 25 09:50:11 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 1,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114293435515404651",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Ariwodo_",
+       "url": "https://x.com/Ariwodo_",
+       "id": "1481511879491129344",
+       "name": "Ariwodo",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2054930082251014144/1Op-dRoF_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1481511879491129344/1779276842",
+       "description": "telegram https://t.co/sB8vYAoTcz Arsenal, i sell iPhones and all gadget @Elitewashasaba @Elitegadgd\nlaundry and Dry cleaner , Gadget seller \nDm for PR",
+       "location": "",
+       "followers": 181056,
+       "following": 562,
+       "createdAt": "Thu Jan 13 06:22:42 +0000 2022",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114132403820126339",
+      "url": "https://x.com/atrupar/status/2114132403820126339",
+      "twitterUrl": "https://twitter.com/atrupar/status/2114132403820126339",
+      "text": "Obama: \"The guy has become billions of dollars wealthier in office. Nobody disputes this! It's just -- how do you do that when you're supposed to be looking out for you? And the worst part of it not a single Republican in Congress has done anything to stop it.\" https://t.co/lUjmvP2TtI",
+      "source": null,
+      "retweetCount": 2789,
+      "replyCount": 148,
+      "likeCount": 10444,
+      "quoteCount": 55,
+      "viewCount": 108620,
+      "createdAt": "Sat Oct 24 23:10:18 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 224,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114132403820126339",
+      "media": [
+       {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2114132370701860865/img/fNxCq_oAbjq_xCUC.jpg",
+        "expanded_url": "https://x.com/atrupar/status/2114132403820126339/video/1",
+        "video_url": "https://video.twimg.com/amplify_video/2114132370701860865/vid/avc1/1280x720/B7kuUzyehss91O9r.mp4?tag=16"
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "atrupar",
+       "url": "https://x.com/atrupar",
+       "id": "288277167",
+       "name": "Aaron Rupar",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1335565046290804738/eGXNmTvg_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/288277167/1469538346",
+       "description": "journalist. sign up for my newsletter, Public Notice (link below). Powered by @SnapStream (more info: https://t.co/2oHPuuFBnN).",
+       "location": "",
+       "followers": 1159474,
+       "following": 5685,
+       "createdAt": "Tue Apr 26 15:22:47 +0000 2011",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2113704815876510120",
+      "url": "https://x.com/RobinSeyr/status/2113704815876510120",
+      "twitterUrl": "https://twitter.com/RobinSeyr/status/2113704815876510120",
+      "text": "Strategy is going to print Trillions of Dollars in Digital Credit, create hundreds of billions of dollars in shareholder Value &amp; buy Millions of Bitcoin. \n\n-&gt; MSTR will be the most valuable stock in the world!\n\nIt\u2019s all really that simple:  https://t.co/NkfZTcQaCX",
+      "source": null,
+      "retweetCount": 33,
+      "replyCount": 25,
+      "likeCount": 380,
+      "quoteCount": 1,
+      "viewCount": 9809,
+      "createdAt": "Fri Oct 23 18:51:13 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 33,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2113704815876510120",
+      "media": [
+       {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2113607464612487168/img/sWSeIMuC92BaiHyL.jpg",
+        "expanded_url": "https://x.com/saylor/status/2113607634611732614/video/1",
+        "video_url": "https://video.twimg.com/amplify_video/2113607464612487168/vid/avc1/1920x1080/PGz5pmW-vm39hdlu.mp4?tag=29"
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "RobinSeyr",
+       "url": "https://x.com/RobinSeyr",
+       "id": "922111953761337344",
+       "name": "Robin Seyr",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1909293664955711488/skw8PqoQ_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/922111953761337344/1765993084",
+       "description": "\ud83d\udcd5 Writing The Great Capital Shift \n\ud83c\udde6\ud83c\uddf9 Austrian Bitcoin + MSTR Podcaster\n\ud83d\udc68\u200d\ud83d\udcbb Co-Founder @microseed_io\n\nNot financial advice. DYOR.",
+       "location": "Podcast:",
+       "followers": 24629,
+       "following": 1164,
+       "createdAt": "Sun Oct 22 14:46:36 +0000 2017",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "1275914298469093376",
+      "url": "https://x.com/realDonaldTrump/status/1275914298469093376",
+      "twitterUrl": "https://twitter.com/realDonaldTrump/status/1275914298469093376",
+      "text": "Biden failed with China. They took us to the cleaners! I got $Billions out of China, and gave much of it to our targeted farmers!",
+      "source": null,
+      "retweetCount": 16089,
+      "replyCount": 23648,
+      "likeCount": 99670,
+      "quoteCount": 2572,
+      "viewCount": 0,
+      "createdAt": "Wed Jun 24 22:10:48 +0000 2020",
+      "lang": "en",
+      "bookmarkCount": 109,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1275914298469093376",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "realDonaldTrump",
+       "url": "https://x.com/realDonaldTrump",
+       "id": "25073877",
+       "name": "Donald J. Trump",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/25073877/1604214583",
+       "description": "45th & 47th President of the United States of America\ud83c\uddfa\ud83c\uddf8",
+       "location": "",
+       "followers": 111832506,
+       "following": 53,
+       "createdAt": "Wed Mar 18 13:46:38 +0000 2009",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114202872015671468",
+      "url": "https://x.com/Darshini_Che/status/2114202872015671468",
+      "twitterUrl": "https://twitter.com/Darshini_Che/status/2114202872015671468",
+      "text": "It's not about money \ud83d\udcb0 \n\nHis heart is more than billions \ud83e\udd79 https://t.co/yXsDTSku5p",
+      "source": null,
+      "retweetCount": 112,
+      "replyCount": 5,
+      "likeCount": 1173,
+      "quoteCount": 4,
+      "viewCount": 31898,
+      "createdAt": "Sun Oct 25 03:50:19 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 95,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114202872015671468",
+      "media": [
+       {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2114202840050909184/img/DhMxdyzaGC31y2oK.jpg",
+        "expanded_url": "https://x.com/Darshini_Che/status/2114202872015671468/video/1",
+        "video_url": "https://video.twimg.com/amplify_video/2114202840050909184/vid/avc1/720x1280/7wFV3QuxGOgVu12H.mp4?tag=29"
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Darshini_Che",
+       "url": "https://x.com/Darshini_Che",
+       "id": "1964957646567657472",
+       "name": "Darshini",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1978039950705651712/3zeM76OC_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1964957646567657472/1765784011",
+       "description": "follow and support me, TVK supporter \ud83c\uddea\ud83c\uddf8 | CSK \ud83d\udc9b | Cat lover \ud83d\udc3e | Spreading smiles \ud83c\udf38 | Let\u2019s vibe | NO DM |",
+       "location": "Chennai",
+       "followers": 3522,
+       "following": 3663,
+       "createdAt": "Mon Sep 08 07:43:26 +0000 2025",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "1273984211062579200",
+      "url": "https://x.com/realDonaldTrump/status/1273984211062579200",
+      "twitterUrl": "https://twitter.com/realDonaldTrump/status/1273984211062579200",
+      "text": "The Democrats are doing totally false advertising. They have done NOTHING for years, including when Sleepy Joe was V.P., and they now have a Fake ad that my China Deal is losing us jobs. Opposite, &amp; China is paying us $BILLIONS. Also, I LOVE Seniors &amp; protect Preexisting C\u2019s.",
+      "source": null,
+      "retweetCount": 9520,
+      "replyCount": 11986,
+      "likeCount": 46907,
+      "quoteCount": 1399,
+      "viewCount": 0,
+      "createdAt": "Fri Jun 19 14:21:20 +0000 2020",
+      "lang": "en",
+      "bookmarkCount": 73,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1273984211062579200",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "realDonaldTrump",
+       "url": "https://x.com/realDonaldTrump",
+       "id": "25073877",
+       "name": "Donald J. Trump",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/25073877/1604214583",
+       "description": "45th & 47th President of the United States of America\ud83c\uddfa\ud83c\uddf8",
+       "location": "",
+       "followers": 111832506,
+       "following": 53,
+       "createdAt": "Wed Mar 18 13:46:38 +0000 2009",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2113760694457835536",
+      "url": "https://x.com/pjmIesviu/status/2113760694457835536",
+      "twitterUrl": "https://twitter.com/pjmIesviu/status/2113760694457835536",
+      "text": "OFICIALMENTE SWIM LLEG\u00d3 AL 1B! El bill\u00f3n ya es una realidad, #SWIM es la PRIMERA CANCION del 2026 en lograrlo, lo hermoso que se mira esto, otra reina m\u00e1s en el billions club y bts hizo historia otra vez, ESTO ES HIST\u00d3RICO \ud83d\ude2d\ud83d\udd25\n\nCONGRATULATIONS BTS\nBTS PAVED THE WAY\nSWIM 1 BILLION ON SPOTIFY\n#BTS_SWIM1BILLION #SWIM1B\n#Swim1BillionOnSpotify",
+      "source": null,
+      "retweetCount": 540,
+      "replyCount": 41,
+      "likeCount": 1010,
+      "quoteCount": 4,
+      "viewCount": 6007,
+      "createdAt": "Fri Oct 23 22:33:15 +0000 2026",
+      "lang": "es",
+      "bookmarkCount": 24,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2113760694457835536",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVWWJBSXEAAPZwc.jpg",
+        "expanded_url": "https://x.com/pjmIesviu/status/2113760694457835536/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "pjmIesviu",
+       "url": "https://x.com/pjmIesviu",
+       "id": "1523656622077358080",
+       "name": "\u026a \u0475 \u1d1c \u2077 \ud83e\ude90 | VIO A BTS",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2103167488938696705/09OHrwwj_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1523656622077358080/1792464694",
+       "description": "\u3164\u3164\u3164\u2e3a \ud835\udc53or my biggest \ud835\udc59ove \u2661 : \ubc29\ud0c4\uc18c\ub144\ub2e8\n\r             \u10e7ou're my best friend, for the rest of my life",
+       "location": "ONLY ARMY \u2022 134340",
+       "followers": 29528,
+       "following": 4233,
+       "createdAt": "Mon May 09 13:30:34 +0000 2022",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114188405324005801",
+      "url": "https://x.com/The_Real_Fly/status/2114188405324005801",
+      "twitterUrl": "https://twitter.com/The_Real_Fly/status/2114188405324005801",
+      "text": "Obama: \"The guy has become billions of dollars wealthier in office. Nobody disputes this! It's just -- how do you do that when you're supposed to be looking out for you? And the worst part of it not a single Republican in Congress has done anything to stop it.\" https://t.co/lwzLBDoood",
+      "source": null,
+      "retweetCount": 6,
+      "replyCount": 11,
+      "likeCount": 41,
+      "quoteCount": 0,
+      "viewCount": 7975,
+      "createdAt": "Sun Oct 25 02:52:50 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 7,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114188405324005801",
+      "media": [
+       {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2114132370701860865/img/fNxCq_oAbjq_xCUC.jpg",
+        "expanded_url": "https://x.com/atrupar/status/2114132403820126339/video/1",
+        "video_url": "https://video.twimg.com/amplify_video/2114132370701860865/vid/avc1/1280x720/B7kuUzyehss91O9r.mp4?tag=16"
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "The_Real_Fly",
+       "url": "https://x.com/The_Real_Fly",
+       "id": "15079601",
+       "name": "The_Real_Fly",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1365459205453471751/LL4GKo3m_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/15079601/1648759324",
+       "description": "Man of leisure. Sophisticate. Master Ace stock trader. Champion of Champions.",
+       "location": "United States",
+       "followers": 220143,
+       "following": 447,
+       "createdAt": "Wed Jun 11 00:23:03 +0000 2008",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114250525361209644",
+      "url": "https://x.com/clashreport/status/2114250525361209644",
+      "twitterUrl": "https://twitter.com/clashreport/status/2114250525361209644",
+      "text": "Trump:\n\nObama was a grossly incompetent President! He paid off Iran with $Billions, and gave them a road to a Nuclear Weapon.\n\nHe said that Crooked Hillary Clinton was going to WIN, he campaigned hard for her, and she lost in all directions and ways. He then campaigned full out for Kamala, and likewise, she lost.\n\nNow he\u2019s campaigning for a Muslim Brotherhood Jihadist, who hates Jews and Blacks and AMERICANS and TRUMP, and he is going to lose, also. He\u2019s a Fake Doctor, who runs what is considered to be the WORST CLINIC IN AMERICA.\n\nMichigan doesn\u2019t want an arrogant, Open Borders, Fake Doctor, Jihadist, whose reputation will only get worse as more information is revealed - And there\u2019s plenty. VOTE FOR MIKE ROGERS! He will never let you down!",
+      "source": null,
+      "retweetCount": 20,
+      "replyCount": 24,
+      "likeCount": 133,
+      "quoteCount": 2,
+      "viewCount": 20947,
+      "createdAt": "Sun Oct 25 06:59:40 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 19,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114250525361209644",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdTLWKXQAA1SmQ.jpg",
+        "expanded_url": "https://x.com/clashreport/status/2114250525361209644/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "clashreport",
+       "url": "https://x.com/clashreport",
+       "id": "3247652319",
+       "name": "Clash Report",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1942576646457868288/gOMYVVRf_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/3247652319/1710871366",
+       "description": "Breaking news, reports, and opinions from ongoing clashes of the world.",
+       "location": "",
+       "followers": 908675,
+       "following": 1,
+       "createdAt": "Tue May 12 11:23:40 +0000 2015",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2113058482425561442",
+      "url": "https://x.com/VivekGRamaswamy/status/2113058482425561442",
+      "twitterUrl": "https://twitter.com/VivekGRamaswamy/status/2113058482425561442",
+      "text": "We\u2019re going to fight for common sense. Fix the property tax crisis. Cut electric bills. Prosecute Medicaid fraud &amp; recover billions for Ohioans. https://t.co/JNEsS1B0ae",
+      "source": null,
+      "retweetCount": 1818,
+      "replyCount": 1355,
+      "likeCount": 9692,
+      "quoteCount": 48,
+      "viewCount": 165262,
+      "createdAt": "Thu Oct 22 00:02:55 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 63,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2113058482425561442",
+      "media": [
+       {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2113058365861666816/img/BTFdyhhC1VQBwh9Q.jpg",
+        "expanded_url": "https://x.com/VivekGRamaswamy/status/2113058482425561442/video/1",
+        "video_url": "https://video.twimg.com/amplify_video/2113058365861666816/vid/avc1/1920x1080/_hjiGhDCNRqcs5sL.mp4?tag=29"
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "VivekGRamaswamy",
+       "url": "https://x.com/VivekGRamaswamy",
+       "id": "1227799690579718144",
+       "name": "Vivek Ramaswamy",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1848818505556094977/bfQ4OO7F_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1227799690579718144/1706208030",
+       "description": "Father. Husband. Entrepreneur. Candidate for Governor of Ohio. Posts made by Vivek\u2019s team.",
+       "location": "Ohio, USA",
+       "followers": 3514147,
+       "following": 305,
+       "createdAt": "Thu Feb 13 03:41:05 +0000 2020",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2112284114858410463",
+      "url": "https://x.com/EricLDaugh/status/2112284114858410463",
+      "twitterUrl": "https://twitter.com/EricLDaugh/status/2112284114858410463",
+      "text": "\ud83d\udea8 BREAKING: President Trump just gave a MASSIVE \"THANK YOU\" to ELON MUSK for giving out billions of dollars in SpaceX stock in Trump Accounts\n\nTEAM AMERICA, UNIFIED for the future! \ud83c\uddfa\ud83c\uddf8\n\n\"A BIG THANK YOU to our legendary friend, Elon Musk, for his incredible generosity in giving SpaceX Stock to millions of American children through TRUMP ACCOUNTS! This is exactly what was envisioned when we created TRUMP ACCOUNTS \u2014 Bringing together the GREAT PRIVATE SECTOR, Elon and so many more, to invest in our children, by far our greatest and most important asset, and give every American Child a piece of the American Dream. Thank you Elon! President DONALD J. TRUMP\"\n\nThis is why Elon is our guy.\n\nTrump Accounts came out of the One Big Beautiful Bill, and every baby born from 2025 through 2028 gets $1,000 from the government to start\n\nDemocrats talk about the \"rich paying their fair share.\" They will be SILENT on this \ud83d\ude05",
+      "source": null,
+      "retweetCount": 360,
+      "replyCount": 123,
+      "likeCount": 1693,
+      "quoteCount": 18,
+      "viewCount": 45977,
+      "createdAt": "Mon Oct 19 20:45:51 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 56,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2112284114858410463",
+      "media": [
+       {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2112283835337490432/img/89Q1XHxGCaoZrdWL.jpg",
+        "expanded_url": "https://x.com/EricLDaugh/status/2112284114858410463/video/1",
+        "video_url": "https://video.twimg.com/amplify_video/2112283835337490432/vid/avc1/1920x1080/6zj8OL5ZXUhZw-xV.mp4?tag=29"
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "EricLDaugh",
+       "url": "https://x.com/EricLDaugh",
+       "id": "763094579491008512",
+       "name": "Eric Daugherty",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1946702115037908992/NU6Ro1bl_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/763094579491008512/1651332472",
+       "description": "Chief Content Officer @RightLineNews @FLVoiceNews | Marylander-turned-Floridian | \u201cMen must vote\u201d - Charlie Kirk",
+       "location": "",
+       "followers": 1217629,
+       "following": 2713,
+       "createdAt": "Tue Aug 09 19:28:20 +0000 2016",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114045872971387109",
+      "url": "https://x.com/RyanAFournier/status/2114045872971387109",
+      "twitterUrl": "https://twitter.com/RyanAFournier/status/2114045872971387109",
+      "text": "Zelensky goes on TV complaining President Trump isn\u2019t giving him enough billions, while American families are struggling at home.\nThe entitlement is unreal!\nTrump wants to stop the killing and end the endless blank checks. America First means putting OUR country first! \ud83c\uddfa\ud83c\uddf8\ud83d\udd25 https://t.co/TMuAaSDGo5",
+      "source": null,
+      "retweetCount": 197,
+      "replyCount": 152,
+      "likeCount": 641,
+      "quoteCount": 14,
+      "viewCount": 15775,
+      "createdAt": "Sat Oct 24 17:26:27 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 10,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114045872971387109",
+      "media": [
+       {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2114044993039945728/img/NBY2aTP6UuvuUhXR.jpg",
+        "expanded_url": "https://x.com/EricLDaugh/status/2114045076192338253/video/1",
+        "video_url": "https://video.twimg.com/amplify_video/2114044993039945728/vid/avc1/1080x1080/_EfzYa9LU4-Pq93O.mp4?tag=29"
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "RyanAFournier",
+       "url": "https://x.com/RyanAFournier",
+       "id": "166751745",
+       "name": "Ryan Fournier",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1997136884561018880/EiGAD-gD_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/166751745/1728270679",
+       "description": "Founder, Students for Trump",
+       "location": "North Carolina, USA",
+       "followers": 1275496,
+       "following": 266781,
+       "createdAt": "Wed Jul 14 22:44:56 +0000 2010",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "1194986487588311040",
+      "url": "https://x.com/realDonaldTrump/status/1194986487588311040",
+      "twitterUrl": "https://twitter.com/realDonaldTrump/status/1194986487588311040",
+      "text": "Walmart announces great numbers. No impact from Tariffs (which are contributing $Billions to our Treasury). Inflation low (do you hear that Powell?)!",
+      "source": null,
+      "retweetCount": 8640,
+      "replyCount": 5751,
+      "likeCount": 49678,
+      "quoteCount": 794,
+      "viewCount": 0,
+      "createdAt": "Thu Nov 14 14:32:35 +0000 2019",
+      "lang": "en",
+      "bookmarkCount": 36,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1194986487588311040",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "realDonaldTrump",
+       "url": "https://x.com/realDonaldTrump",
+       "id": "25073877",
+       "name": "Donald J. Trump",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/25073877/1604214583",
+       "description": "45th & 47th President of the United States of America\ud83c\uddfa\ud83c\uddf8",
+       "location": "",
+       "followers": 111832506,
+       "following": 53,
+       "createdAt": "Wed Mar 18 13:46:38 +0000 2009",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "1095857587344551936",
+      "url": "https://x.com/realDonaldTrump/status/1095857587344551936",
+      "twitterUrl": "https://twitter.com/realDonaldTrump/status/1095857587344551936",
+      "text": "California has been forced to cancel the massive bullet train project after having spent and wasted many billions of dollars. They owe the Federal Government three and a half billion dollars. We want that money back now. Whole project is a \u201cgreen\u201d disaster!",
+      "source": null,
+      "retweetCount": 25739,
+      "replyCount": 30160,
+      "likeCount": 127464,
+      "quoteCount": 5271,
+      "viewCount": 0,
+      "createdAt": "Thu Feb 14 01:29:43 +0000 2019",
+      "lang": "en",
+      "bookmarkCount": 174,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1095857587344551936",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "realDonaldTrump",
+       "url": "https://x.com/realDonaldTrump",
+       "id": "25073877",
+       "name": "Donald J. Trump",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/25073877/1604214583",
+       "description": "45th & 47th President of the United States of America\ud83c\uddfa\ud83c\uddf8",
+       "location": "",
+       "followers": 111832506,
+       "following": 53,
+       "createdAt": "Wed Mar 18 13:46:38 +0000 2009",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "1841596794968351205",
+      "url": "https://x.com/bennyjohnson/status/1841596794968351205",
+      "twitterUrl": "https://twitter.com/bennyjohnson/status/1841596794968351205",
+      "text": "Kamala just told Americans they will be receiving $750 to those who \u2018truly need it\u2019 for hurricane relief.. \n\nWe can send BILLIONS to Ukraine but Americans who have lost everything only get $750 dollars?! https://t.co/9fYUZuMfM9",
+      "source": null,
+      "retweetCount": 28246,
+      "replyCount": 18071,
+      "likeCount": 110091,
+      "quoteCount": 6551,
+      "viewCount": 11296020,
+      "createdAt": "Wed Oct 02 21:51:05 +0000 2024",
+      "lang": "en",
+      "bookmarkCount": 5809,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1841596794968351205",
+      "media": [
+       {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/1841584714517274624/img/myltOahGHE4VJsgo.jpg",
+        "expanded_url": "https://x.com/joma_gc/status/1841584766686007417/video/1",
+        "video_url": "https://video.twimg.com/amplify_video/1841584714517274624/vid/avc1/1920x1080/4IdE0YfeoqjOHUxH.mp4?tag=16"
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "bennyjohnson",
+       "url": "https://x.com/bennyjohnson",
+       "id": "15212187",
+       "name": "Benny Johnson",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2107104081936281600/SY3opkkF_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/15212187/1773088926",
+       "description": "Christian, Husband, Father, American Digital Media Entrepreneur with 17 Million Subscribers | Build The Future, Let\u2019s Save Western Civilization \ud83c\uddfa\ud83c\uddf8",
+       "location": "Tampa Florida ",
+       "followers": 4155460,
+       "following": 4339,
+       "createdAt": "Mon Jun 23 21:33:20 +0000 2008",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114216404593565991",
+      "url": "https://x.com/TrumpTruthOnX/status/2114216404593565991",
+      "twitterUrl": "https://twitter.com/TrumpTruthOnX/status/2114216404593565991",
+      "text": "Obama was a grossly incompetent President! He paid off Iran with $Billions, and gave them a road to a Nuclear Weapon. He said that Crooked Hillary Clinton was going to WIN, he campaigned hard for her, and she lost in all directions and ways. He then campaigned full out for Kamala, and likewise, she lost. Now he\u2019s campaigning for a Muslim Brotherhood Jihadist, who hates Jews and Blacks and AMERICANS and TRUMP, and he is going to lose, also. He\u2019s a Fake Doctor, who runs what is considered to be the WORST CLINIC IN AMERICA. I won Michigan, BIG, have brought back the Car Industry, the Air Force Base, and everything else. Also, more jobs than ever before. Michigan doesn\u2019t want an arrogant, Open Borders, Fake Doctor, Jihadist, whose reputation will only get worse as more information is revealed - And there\u2019s plenty. VOTE FOR MIKE ROGERS! He will never let you down! President DONALD J. TRUMP\n\n( TS: Oct 25 2026, 12:42 AM ET )\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200d\u200c\u200b\u200b\u200c\u200b\u200d\u200b\u200b\u200c\u200d\u200b\u200d\u200d\u200d\u200b\u200b\u200b\u200d\u200d\u200b\u200d\u200b\u200c\u200b\u200d\u200d\u200b\u200d\u200d\u200c\u200b\u200d\u200c",
+      "source": null,
+      "retweetCount": 553,
+      "replyCount": 304,
+      "likeCount": 2705,
+      "quoteCount": 41,
+      "viewCount": 210122,
+      "createdAt": "Sun Oct 25 04:44:05 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 102,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114216404593565991",
+      "media": [
+       {
+        "type": "video",
+        "url": "https://pbs.twimg.com/ext_tw_video_thumb/2114216359001489409/pu/img/GTCmUZpShlKb6D2o.jpg",
+        "expanded_url": "https://x.com/TrumpTruthOnX/status/2114216404593565991/video/1",
+        "video_url": "https://video.twimg.com/ext_tw_video/2114216359001489409/pu/vid/avc1/720x884/uVfdcgvFfyP6SN6f.mp4?tag=12"
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "TrumpTruthOnX",
+       "url": "https://x.com/TrumpTruthOnX",
+       "id": "1922803520019013632",
+       "name": "Commentary Donald J. Trump Truth Social Posts On X",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1982191767685382144/NcPvdHQe_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1922803520019013632/1778259920",
+       "description": "Trump Truth Posts On X within 1 minute while the others are still asleep. Commentary, not associated with President Trump.",
+       "location": "Washington, DC",
+       "followers": 674503,
+       "following": 0,
+       "createdAt": "Wed May 14 23:57:49 +0000 2025",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,1147 @@
+{
+ "about": "Trimmed public data from the saved dlmm-scan run 20261026T033041Z-AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C (DS-AMM-VAULTS-T1): the 30 largest owners and every pool_addresses or shared-vault-authority owner with their raw balances, the raw supply of all saved owners, the GMGN holder PnL rows with the fields exit_overhang.py reads, creator_fees status and pools, and the GMGN and Jupiter top-100 rows of the Raydium CPMM authority as saved",
+ "run": "20261026T033041Z-AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C",
+ "mint": "AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C",
+ "token_accounts": 6329,
+ "owners_saved": 6290,
+ "truncated": false,
+ "earliest_pair_created_at": 1792928329,
+ "pool_addresses": [
+  "2H2TNJuqivWWM87oZF3pgBa7KhH3ugo6qea5rjkFey2b",
+  "2mm5pntmMHYQt4ALgERLKJyS8s47oMYTry2iLGgry57T",
+  "3zBANR2M3nzBCCcVsu764S7Y681zxkCRg1rAPcefmAEM",
+  "5Ey2p65wMh1KMBB1MkiUGenRegei9mAKvFm9urShnpuU",
+  "5Jv1UywFXEbKM73yHBvDJNTxkLMfKBDxMB26QzvpDeFL",
+  "5QADeRwiyzgqBFow1krnQ2Tjys4rDTy5q2zVgWEVFvUE",
+  "5b4NoKQnh4t7Hs9ZmzYAQVktkUxEkvmiJRr9bXWzgzZw",
+  "6MaXDAkJFkcyyopqDeR4ap7zCfoErXv5aJHbfAQTg6oM",
+  "76229vKW614QbzSy1xDiqYJSTZd5oapH1ZoUHafVHsw7",
+  "7gWeD5fi2qLnrWtyARwFRTaXZEGZ8oXvKmCTvb1s969H",
+  "85PJugH39rCm88RQrFFGHWDkuAkbvRp6H7uhzAqKTspa",
+  "85UF47oBS9Qv9SJ5XoK1GmdBR8hMHoaNCHBzPvFpmvix",
+  "BhTFFRh8vdMu6RAftQF7Vzu48kYTxmHwZpKt5PZPoy5M",
+  "CCw2ZCBK9MFu4ETWhRgvDqhrwzRttM3wfE4u2PcwwnxN",
+  "CWZn1h6um53vco4Z4cgRxDdMZCQX3bjb9GakzjwNKPLM",
+  "DChQcvRRdovJeiry61atfvso4pYSVeCeHTmNu2zun42p",
+  "EBi3KEdMoprug4Xox9gJfY2bEJFJLEXhX6FoeEJP4LQ4",
+  "EXDc3dmr8da7BZ3WCSeBCpMK7PsrpWNwKofUxG3jEXnr",
+  "FZWxV7C4JKKe3wX54MM6QpcVAHtyGrtnPFmihysWfiDB",
+  "GezArkyjgqsjid7m9zg3jkxxFmnHuh8dDzmqUpbL7K59",
+  "HGJWK4PUjjPCGHJ9cxWPDUFWBaCgFr2n3boFGsk8WVoF"
+ ],
+ "supply_raw": 989867089456416.0,
+ "owners": [
+  [
+   "GpMZbSM2GgvTKHJirzeGfMFoaZ8UR2X7F4v8vHTvxFbL",
+   45935260566733.0
+  ],
+  [
+   "2cnsrrC4RUSUhTT1wGc9XYmmSjQCBf9pVUGDHudSJsVn",
+   32484300577485.0
+  ],
+  [
+   "AEtL29wgARtujVynpgoDtUMLvM7NmZ6WALcjD2NjU8Dk",
+   23702401393882.0
+  ],
+  [
+   "ECskPe5oVm4oaTK3CTnZGcGQrMn4GZarc4M5D5JGbZXf",
+   20426926255428.0
+  ],
+  [
+   "DoLqxdyFYQjJySZuN9xot5vAwqbzt7JDYU5wrWu3hypg",
+   19414090700900.0
+  ],
+  [
+   "FZWxV7C4JKKe3wX54MM6QpcVAHtyGrtnPFmihysWfiDB",
+   18758804472615.0
+  ],
+  [
+   "FiUuaA4QVJkUnyeUzm3aksysHT6rDPaMMtezVWDr9TNs",
+   18756228177980.0
+  ],
+  [
+   "2H2TNJuqivWWM87oZF3pgBa7KhH3ugo6qea5rjkFey2b",
+   14443614480220.0
+  ],
+  [
+   "CC3VHiS7u4i4E7vDWwdYDPTJjopPnuhsxVqstPwDSY33",
+   14420057081113.0
+  ],
+  [
+   "9QuHMjmYXxhqCPmNYnrjviD5SPNbFnXCt8SYDcZnhq8q",
+   13818934117057.0
+  ],
+  [
+   "CMQgBRmmWBRitNDCCpj8ZTTwYMnhyRk5gTBfAHqW5Q9",
+   11092556260115.0
+  ],
+  [
+   "ANWHfy5FVbM5Tx8PxbWTaUShqrStAn5qbSvGZT3PFL1c",
+   10863972863462.0
+  ],
+  [
+   "33vFB2rtG9FDpJReNaJrBF4RZgri5HTVo5gSxP1XfVCr",
+   10590621315898.0
+  ],
+  [
+   "5Ey2p65wMh1KMBB1MkiUGenRegei9mAKvFm9urShnpuU",
+   10054320465771.0
+  ],
+  [
+   "Ebut3WtFcCc7SgkBCVEp45A5fNSfhDMWJ3TRpUjbfxCC",
+   9222984632637.0
+  ],
+  [
+   "GzzTqRtJpBhTrnegv1YnfFQsPbpXZiP9gi2TWkoAEaM6",
+   7610920444616.0
+  ],
+  [
+   "2CHh8F5ch5ySTiBBd1JareCnHUAG8D5xci3fyLwrQwv5",
+   7311629256287.0
+  ],
+  [
+   "96UN2r4r1DCpB2r1uNb5kbThEoZP5Ru8HS71VJFSkjRB",
+   7167846281591.0
+  ],
+  [
+   "JXHdMTw7UzBzFYjqva44Uh1sQu9boXygpfPZprCHYF2",
+   6859361488919.0
+  ],
+  [
+   "6URuZAjeHc8XCQyv24Ux7RoHanRScQfbJn3XBvgreZAi",
+   6766728848120.0
+  ],
+  [
+   "EYVHabVfP6fsBt7wGPU4iY8HFrCYxyZxDNoKaRpqvwZx",
+   6535883723097.0
+  ],
+  [
+   "7cNfaRiuyhaC56nUxpupS4YUK3h5RdwzrmukYTmPph1j",
+   6244397188941.0
+  ],
+  [
+   "6KP9EmghZXT5M7Z3Huecw4gFW3PYQYsopa4hRf7K7WK",
+   6226441967654.0
+  ],
+  [
+   "HGJWK4PUjjPCGHJ9cxWPDUFWBaCgFr2n3boFGsk8WVoF",
+   5797349989614.0
+  ],
+  [
+   "JDomNchA9FguguCPnLhGVkiVtGCf72JrmxhugCjSDess",
+   5779872488250.0
+  ],
+  [
+   "FbTvJLHooSfpAp4sb4PQCGFRd2VWzHjeApMUzit8vzKx",
+   5643678201401.0
+  ],
+  [
+   "Dfa98M4P6m6c7AWJ1KFiz7cPA7M6uLW4wVm8GJv4K4QN",
+   5579564304968.0
+  ],
+  [
+   "3dgmokUuEfUMaz4YPrvESXzdBmGdxcGgwcRb1nMqXbdc",
+   5220763423319.0
+  ],
+  [
+   "G1Md3XH8gB3mSAoqZY4wRWBT9SbgKuaFypMUGEwntEEo",
+   4933000680705.0
+  ],
+  [
+   "2SeHoXXuWsSj4GanNS5TJfpmKNUtTB9pmtkYQdbyqRQ9",
+   4900320746488.0
+  ],
+  [
+   "5Jv1UywFXEbKM73yHBvDJNTxkLMfKBDxMB26QzvpDeFL",
+   90236124183.0
+  ],
+  [
+   "6MaXDAkJFkcyyopqDeR4ap7zCfoErXv5aJHbfAQTg6oM",
+   10684339214.0
+  ],
+  [
+   "CCw2ZCBK9MFu4ETWhRgvDqhrwzRttM3wfE4u2PcwwnxN",
+   7036482815.0
+  ],
+  [
+   "DChQcvRRdovJeiry61atfvso4pYSVeCeHTmNu2zun42p",
+   6714751525.0
+  ],
+  [
+   "HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC",
+   6163017412.0
+  ],
+  [
+   "CWZn1h6um53vco4Z4cgRxDdMZCQX3bjb9GakzjwNKPLM",
+   7688382.0
+  ],
+  [
+   "7gWeD5fi2qLnrWtyARwFRTaXZEGZ8oXvKmCTvb1s969H",
+   7071084.0
+  ]
+ ],
+ "saved_distribution": {
+  "top_ex_infra": {
+   "top_1": 4.64,
+   "top_10": 21.31
+  },
+  "infrastructure_pct": 4.97
+ },
+ "gmgn_holder_pnl": {
+  "schema": "holder-scan-gmgn-holder-pnl/1",
+  "provider": "GMGN",
+  "mint": "AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C",
+  "status": "ok",
+  "reason": null,
+  "fetched_at": "2026-10-26T03:31:43Z",
+  "fields_missing": [],
+  "rows": [
+   {
+    "address": "GpMZbSM2GgvTKHJirzeGfMFoaZ8UR2X7F4v8vHTvxFbL",
+    "amount_percentage": 0.046405267534871585,
+    "addr_type": 2,
+    "avg_cost": null,
+    "balance": 45935260.566733,
+    "usd_value": 53535.16674402996,
+    "transfer_in": false
+   },
+   {
+    "address": "2cnsrrC4RUSUhTT1wGc9XYmmSjQCBf9pVUGDHudSJsVn",
+    "amount_percentage": 0.0328166780896218,
+    "addr_type": 0,
+    "avg_cost": 0.00012495772664721723,
+    "balance": 32484300.577485,
+    "usd_value": 37858.76963628885,
+    "transfer_in": true
+   },
+   {
+    "address": "AEtL29wgARtujVynpgoDtUMLvM7NmZ6WALcjD2NjU8Dk",
+    "amount_percentage": 0.023944923014077406,
+    "addr_type": 0,
+    "avg_cost": 0.0022021183003465053,
+    "balance": 23702401.393882,
+    "usd_value": 27623.921040177265,
+    "transfer_in": false
+   },
+   {
+    "address": "ECskPe5oVm4oaTK3CTnZGcGQrMn4GZarc4M5D5JGbZXf",
+    "amount_percentage": 0.020635933400685324,
+    "addr_type": 0,
+    "avg_cost": 0.00013712154193602706,
+    "balance": 20426926.255428,
+    "usd_value": 23806.524435921303,
+    "transfer_in": false
+   },
+   {
+    "address": "DoLqxdyFYQjJySZuN9xot5vAwqbzt7JDYU5wrWu3hypg",
+    "amount_percentage": 0.01961273457048775,
+    "addr_type": 0,
+    "avg_cost": 0.0015455751946908262,
+    "balance": 19414090.7009,
+    "usd_value": 22626.11706200064,
+    "transfer_in": false
+   },
+   {
+    "address": "FZWxV7C4JKKe3wX54MM6QpcVAHtyGrtnPFmihysWfiDB",
+    "amount_percentage": 0.018950743490861552,
+    "addr_type": 2,
+    "avg_cost": null,
+    "balance": 18758804.472615,
+    "usd_value": 21862.4149067611,
+    "transfer_in": false
+   },
+   {
+    "address": "FiUuaA4QVJkUnyeUzm3aksysHT6rDPaMMtezVWDr9TNs",
+    "amount_percentage": 0.018948140835726674,
+    "addr_type": 0,
+    "avg_cost": 0.0005896679117591556,
+    "balance": 18756228.17798,
+    "usd_value": 21859.41236881607,
+    "transfer_in": false
+   },
+   {
+    "address": "2H2TNJuqivWWM87oZF3pgBa7KhH3ugo6qea5rjkFey2b",
+    "amount_percentage": 0.014589631075541265,
+    "addr_type": 2,
+    "avg_cost": null,
+    "balance": 14441862.758875,
+    "usd_value": 16831.2429569779,
+    "transfer_in": false
+   },
+   {
+    "address": "CC3VHiS7u4i4E7vDWwdYDPTJjopPnuhsxVqstPwDSY33",
+    "amount_percentage": 0.01456760228332717,
+    "addr_type": 0,
+    "avg_cost": 5.086097297814235e-05,
+    "balance": 14420057.081113,
+    "usd_value": 16805.8295690804,
+    "transfer_in": false
+   },
+   {
+    "address": "9QuHMjmYXxhqCPmNYnrjviD5SPNbFnXCt8SYDcZnhq8q",
+    "amount_percentage": 0.013960328663362645,
+    "addr_type": 0,
+    "avg_cost": 0.0019985835161357352,
+    "balance": 13818934.117057,
+    "usd_value": 16105.25189264267,
+    "transfer_in": false
+   },
+   {
+    "address": "CMQgBRmmWBRitNDCCpj8ZTTwYMnhyRk5gTBfAHqW5Q9",
+    "amount_percentage": 0.011206054663572388,
+    "addr_type": 0,
+    "avg_cost": 0.001357234800754958,
+    "balance": 11092556.260115,
+    "usd_value": 12927.799726749758,
+    "transfer_in": false
+   },
+   {
+    "address": "ANWHfy5FVbM5Tx8PxbWTaUShqrStAn5qbSvGZT3PFL1c",
+    "amount_percentage": 0.010975132414632448,
+    "addr_type": 0,
+    "avg_cost": 0.00036349034703278473,
+    "balance": 10863972.863462,
+    "usd_value": 12661.397618570632,
+    "transfer_in": true
+   },
+   {
+    "address": "33vFB2rtG9FDpJReNaJrBF4RZgri5HTVo5gSxP1XfVCr",
+    "amount_percentage": 0.010698983949612849,
+    "addr_type": 0,
+    "avg_cost": 0.0015229682648170324,
+    "balance": 10590621.315898,
+    "usd_value": 12342.820549494954,
+    "transfer_in": true
+   },
+   {
+    "address": "5Ey2p65wMh1KMBB1MkiUGenRegei9mAKvFm9urShnpuU",
+    "amount_percentage": 0.010157195699752652,
+    "addr_type": 2,
+    "avg_cost": null,
+    "balance": 10054320.465771,
+    "usd_value": 11717.789689055975,
+    "transfer_in": false
+   },
+   {
+    "address": "Ebut3WtFcCc7SgkBCVEp45A5fNSfhDMWJ3TRpUjbfxCC",
+    "amount_percentage": 0.0093173536857542,
+    "addr_type": 0,
+    "avg_cost": 0.00014990355357839252,
+    "balance": 9222984.632637,
+    "usd_value": 10748.910838734453,
+    "transfer_in": false
+   },
+   {
+    "address": "GzzTqRtJpBhTrnegv1YnfFQsPbpXZiP9gi2TWkoAEaM6",
+    "amount_percentage": 0.0076887949488374605,
+    "addr_type": 0,
+    "avg_cost": 0.0013905787001800337,
+    "balance": 7610920.444616,
+    "usd_value": 8870.133532520917,
+    "transfer_in": false
+   },
+   {
+    "address": "2CHh8F5ch5ySTiBBd1JareCnHUAG8D5xci3fyLwrQwv5",
+    "amount_percentage": 0.0073864414301269285,
+    "addr_type": 0,
+    "avg_cost": 0.002365308490093367,
+    "balance": 7311629.256287,
+    "usd_value": 8521.325155807022,
+    "transfer_in": false
+   },
+   {
+    "address": "96UN2r4r1DCpB2r1uNb5kbThEoZP5Ru8HS71VJFSkjRB",
+    "amount_percentage": 0.0072411872762284364,
+    "addr_type": 0,
+    "avg_cost": 0.0020453360488690894,
+    "balance": 7167846.281591,
+    "usd_value": 8353.753546756923,
+    "transfer_in": false
+   },
+   {
+    "address": "JXHdMTw7UzBzFYjqva44Uh1sQu9boXygpfPZprCHYF2",
+    "amount_percentage": 0.006929546084739236,
+    "addr_type": 0,
+    "avg_cost": 0.0020989569609459993,
+    "balance": 6859361.488919,
+    "usd_value": 7994.230500409969,
+    "transfer_in": false
+   },
+   {
+    "address": "6URuZAjeHc8XCQyv24Ux7RoHanRScQfbJn3XBvgreZAi",
+    "amount_percentage": 0.006835965632038977,
+    "addr_type": 0,
+    "avg_cost": 0.002008872001140409,
+    "balance": 6766728.84812,
+    "usd_value": 7886.271955929527,
+    "transfer_in": true
+   },
+   {
+    "address": "EYVHabVfP6fsBt7wGPU4iY8HFrCYxyZxDNoKaRpqvwZx",
+    "amount_percentage": 0.0066027585128532575,
+    "addr_type": 0,
+    "avg_cost": 4.16152905004863e-05,
+    "balance": 6535883.723097,
+    "usd_value": 7617.2339204926975,
+    "transfer_in": false
+   },
+   {
+    "address": "7cNfaRiuyhaC56nUxpupS4YUK3h5RdwzrmukYTmPph1j",
+    "amount_percentage": 0.006308289505092414,
+    "addr_type": 0,
+    "avg_cost": 0.00161668211075392,
+    "balance": 6244397.188941,
+    "usd_value": 7277.5214639363485,
+    "transfer_in": false
+   },
+   {
+    "address": "6KP9EmghZXT5M7Z3Huecw4gFW3PYQYsopa4hRf7K7WK",
+    "amount_percentage": 0.006290150567004524,
+    "addr_type": 0,
+    "avg_cost": 0.00016819201809434485,
+    "balance": 6226441.967654,
+    "usd_value": 7256.595583606812,
+    "transfer_in": false
+   },
+   {
+    "address": "HGJWK4PUjjPCGHJ9cxWPDUFWBaCgFr2n3boFGsk8WVoF",
+    "amount_percentage": 0.005856668144300381,
+    "addr_type": 2,
+    "avg_cost": null,
+    "balance": 5797349.989614,
+    "usd_value": 6756.511110165655,
+    "transfer_in": false
+   },
+   {
+    "address": "JDomNchA9FguguCPnLhGVkiVtGCf72JrmxhugCjSDess",
+    "amount_percentage": 0.005839011814138519,
+    "addr_type": 0,
+    "avg_cost": 6.609000639517908e-05,
+    "balance": 5779872.48825,
+    "usd_value": 6736.141987660484,
+    "transfer_in": false
+   },
+   {
+    "address": "FbTvJLHooSfpAp4sb4PQCGFRd2VWzHjeApMUzit8vzKx",
+    "amount_percentage": 0.005701423995108576,
+    "addr_type": 0,
+    "avg_cost": 0.0011472867573531897,
+    "balance": 5643678.201401,
+    "usd_value": 6577.414601202033,
+    "transfer_in": false
+   },
+   {
+    "address": "Dfa98M4P6m6c7AWJ1KFiz7cPA7M6uLW4wVm8GJv4K4QN",
+    "amount_percentage": 0.005636654088941306,
+    "addr_type": 0,
+    "avg_cost": 9.112894290809547e-05,
+    "balance": 5579564.304968,
+    "usd_value": 6502.693176009207,
+    "transfer_in": true
+   },
+   {
+    "address": "3dgmokUuEfUMaz4YPrvESXzdBmGdxcGgwcRb1nMqXbdc",
+    "amount_percentage": 0.005274181977120348,
+    "addr_type": 0,
+    "avg_cost": null,
+    "balance": 5220763.423319,
+    "usd_value": 6084.529334332966,
+    "transfer_in": true
+   },
+   {
+    "address": "G1Md3XH8gB3mSAoqZY4wRWBT9SbgKuaFypMUGEwntEEo",
+    "amount_percentage": 0.004983474862524333,
+    "addr_type": 0,
+    "avg_cost": 0.00019472542679900052,
+    "balance": 4933000.680705,
+    "usd_value": 5749.156763926417,
+    "transfer_in": false
+   },
+   {
+    "address": "2SeHoXXuWsSj4GanNS5TJfpmKNUtTB9pmtkYQdbyqRQ9",
+    "amount_percentage": 0.004950460549082947,
+    "addr_type": 0,
+    "avg_cost": 0.0008468857225518841,
+    "balance": 4900320.746488,
+    "usd_value": 5711.069993417096,
+    "transfer_in": true
+   },
+   {
+    "address": "66PDSLWU4XPSLVorf1PJmXPPzdzSQTRBUau5LUgjHn1w",
+    "amount_percentage": 0.004696291736220679,
+    "addr_type": 0,
+    "avg_cost": null,
+    "balance": 4648726.234335,
+    "usd_value": 5417.8496220985035,
+    "transfer_in": true
+   },
+   {
+    "address": "Hu9XVbykGh2etiFYVWZ8F47yLzR8vos7SVmgHaPaSMqc",
+    "amount_percentage": 0.004682812419134078,
+    "addr_type": 0,
+    "avg_cost": 0.00035349150493306226,
+    "balance": 4635383.43996,
+    "usd_value": 5402.29928641119,
+    "transfer_in": false
+   },
+   {
+    "address": "D2TWMSfuPsi9rxQvzsBeW4H4Uqg11rSVjWdtugy25ieD",
+    "amount_percentage": 0.004595619401509904,
+    "addr_type": 0,
+    "avg_cost": null,
+    "balance": 4549073.54031,
+    "usd_value": 5301.709569221917,
+    "transfer_in": true
+   },
+   {
+    "address": "27uFyYrXSXc2CzfuCngrLYsmXmXqjkx8zLPyo9CyCag6",
+    "amount_percentage": 0.0045951256055843425,
+    "addr_type": 0,
+    "avg_cost": 3.699461858538206e-05,
+    "balance": 4548584.745703,
+    "usd_value": 5301.139904427018,
+    "transfer_in": false
+   },
+   {
+    "address": "B1QNotUyud3KF1TATgVsCZr5jhsrGfHFB4ggvKTZE4f1",
+    "amount_percentage": 0.004493183375852223,
+    "addr_type": 0,
+    "avg_cost": null,
+    "balance": 4447675.018548,
+    "usd_value": 5183.534844551733,
+    "transfer_in": true
+   },
+   {
+    "address": "5f1AoBaqeBZ3sQhNVQp7xYANb7ykj4xzYBh8eW5RYyFE",
+    "amount_percentage": 0.004454814448078147,
+    "addr_type": 0,
+    "avg_cost": 0.0021477241813759817,
+    "balance": 4409694.703196,
+    "usd_value": 5139.270754389313,
+    "transfer_in": false
+   },
+   {
+    "address": "GwXp9ZsnxBZzSzTmwMQVxSn65ETyRnQHA36tWT6jSLey",
+    "amount_percentage": 0.004103774333580103,
+    "addr_type": 0,
+    "avg_cost": 0.0006273992774255564,
+    "balance": 4062210.032049,
+    "usd_value": 4734.295369873449,
+    "transfer_in": true
+   },
+   {
+    "address": "BM9CcyErJcu2mjrFvUsRRrD3snGeHDDVirJLvL6EjvMN",
+    "amount_percentage": 0.004059005350318493,
+    "addr_type": 0,
+    "avg_cost": null,
+    "balance": 4017894.48296,
+    "usd_value": 4682.647892955662,
+    "transfer_in": true
+   },
+   {
+    "address": "AbE3uEjju9ScYV3Eo5SXvzUyJQC8n5yCARRjYYeDMqqa",
+    "amount_percentage": 0.003970650544599517,
+    "addr_type": 0,
+    "avg_cost": 0.0015491358841144475,
+    "balance": 3930434.562166,
+    "usd_value": 4580.717885694153,
+    "transfer_in": false
+   },
+   {
+    "address": "Am7qrF1e6Av7qppo7cLKjwRTDGR69vwKp9MngV1TR4t2",
+    "amount_percentage": 0.0038686689828808163,
+    "addr_type": 0,
+    "avg_cost": 0.0006601084518423723,
+    "balance": 3829485.901391,
+    "usd_value": 4463.067450701518,
+    "transfer_in": false
+   },
+   {
+    "address": "5uxLEtZzxTTLWP2xcXXDeDGn73UgwXeaH7CkznKkXcfZ",
+    "amount_percentage": 0.003774001463582288,
+    "addr_type": 0,
+    "avg_cost": 0.003390753600393612,
+    "balance": 3735777.204142,
+    "usd_value": 4353.854818168326,
+    "transfer_in": false
+   },
+   {
+    "address": "2WBEd2azgcnMB8xKfsWQqeprhgfVvqbgSDYCKgXdsoEi",
+    "amount_percentage": 0.0037438754902479393,
+    "addr_type": 0,
+    "avg_cost": 0.0007620299297938321,
+    "balance": 3705956.356026,
+    "usd_value": 4319.100164409061,
+    "transfer_in": false
+   },
+   {
+    "address": "ErmryfQrjK9HQqAcMffgnxKkHqnBQdSobhRdAAHyN4h1",
+    "amount_percentage": 0.0037337905204624586,
+    "addr_type": 0,
+    "avg_cost": 0.00012581016499679744,
+    "balance": 3695973.529948,
+    "usd_value": 4307.465697725543,
+    "transfer_in": true
+   },
+   {
+    "address": "62aohM6N4V9stqSmwZqr7dWx9rbZ5LgAZdqwnsfSvEfj",
+    "amount_percentage": 0.003657996649140857,
+    "addr_type": 0,
+    "avg_cost": 0.00021163358841730633,
+    "balance": 3620947.322505,
+    "usd_value": 4220.026539308272,
+    "transfer_in": false
+   },
+   {
+    "address": "7CzoUN6ZK3AV2AFVpfy2j41hkV7DAfkU5ehwA4fsMsSU",
+    "amount_percentage": 0.0036508204026920984,
+    "addr_type": 0,
+    "avg_cost": 0.0016256705942607123,
+    "balance": 3613843.75931,
+    "usd_value": 4211.747704369072,
+    "transfer_in": false
+   },
+   {
+    "address": "EYny4hDN8RzmwhxEmno1p37gF28FkXmB8yFBWsj3BDtv",
+    "amount_percentage": 0.00361921152356715,
+    "addr_type": 0,
+    "avg_cost": 0.00021349530903374547,
+    "balance": 3582555.024734,
+    "usd_value": 4175.282304977196,
+    "transfer_in": false
+   },
+   {
+    "address": "BayKLS7Mh2xbt8zQgRBG2UqEGTHMKEkePsnA37MqGUdi",
+    "amount_percentage": 0.0035550962116377084,
+    "addr_type": 0,
+    "avg_cost": 0.0001741961536870063,
+    "balance": 3519089.092605,
+    "usd_value": 4101.3160486161305,
+    "transfer_in": false
+   },
+   {
+    "address": "Ey68F1yZXpa4551nx5ZoCo41TxcesSpxDVzuMHUGGt7M",
+    "amount_percentage": 0.003393739545650584,
+    "addr_type": 0,
+    "avg_cost": 0.0003820081990273625,
+    "balance": 3359366.697066,
+    "usd_value": 3915.1678702355152,
+    "transfer_in": false
+   },
+   {
+    "address": "BbbVwyYDypjTNSmtxDVRStYcGSJ3ZAHYjhCq6usfqvvc",
+    "amount_percentage": 0.0033568349148067884,
+    "addr_type": 0,
+    "avg_cost": 0.0014617031525090596,
+    "balance": 3322835.84779,
+    "usd_value": 3872.5930577023296,
+    "transfer_in": false
+   },
+   {
+    "address": "HDJdRCNNwVaoqN6Eh9pbFzRS7TobCDgcWgmbqW4Zat9d",
+    "amount_percentage": 0.003317603171861574,
+    "addr_type": 0,
+    "avg_cost": 0.0001758685581271577,
+    "balance": 3284001.456127,
+    "usd_value": 3827.3335858405912,
+    "transfer_in": true
+   },
+   {
+    "address": "6cBxq2sPrnhm46gLFVYjHFqzsPcpGxGQ3wSaawUMsqR6",
+    "amount_percentage": 0.0032801135677265275,
+    "addr_type": 0,
+    "avg_cost": 0.000410730970132233,
+    "balance": 3246891.558351,
+    "usd_value": 3784.0839222753675,
+    "transfer_in": false
+   },
+   {
+    "address": "Hsi31kayUNBT9G8GgjjEBrePtCL7ijuHniuk17xzgozH",
+    "amount_percentage": 0.003261138715766212,
+    "addr_type": 0,
+    "avg_cost": 0.0002109163452993267,
+    "balance": 3228108.889587,
+    "usd_value": 3762.193694773168,
+    "transfer_in": false
+   },
+   {
+    "address": "Abcv95PjTw4rehmGaiWgbSWb6pkLWCmWe1gQLseRgPth",
+    "amount_percentage": 0.0032330946325993424,
+    "addr_type": 0,
+    "avg_cost": 0.0001301688871517563,
+    "balance": 3200348.845608,
+    "usd_value": 3729.8408014859215,
+    "transfer_in": false
+   },
+   {
+    "address": "GiG5WAs8PzqhgQjMhnuHMD1JXLeRrGEGHUVDgAgxFjoZ",
+    "amount_percentage": 0.0031769601061580285,
+    "addr_type": 0,
+    "avg_cost": 0.0020730777086983712,
+    "balance": 3144782.867092,
+    "usd_value": 3665.0815318432105,
+    "transfer_in": false
+   },
+   {
+    "address": "5xVPK3gJk8dVkb5kL82aKwfwZ1PBPjuydZ8jtedDigCF",
+    "amount_percentage": 0.0031564431696401735,
+    "addr_type": 0,
+    "avg_cost": 0.0006611457874432632,
+    "balance": 3124473.732482,
+    "usd_value": 3641.412287468428,
+    "transfer_in": false
+   },
+   {
+    "address": "GpiY1js36rZ1PeEqAACxK51syvqLT2tUykSvsBpP84uj",
+    "amount_percentage": 0.0030772844551777544,
+    "addr_type": 0,
+    "avg_cost": 0.0009924257084496764,
+    "balance": 3046116.762075,
+    "usd_value": 3550.0912973501368,
+    "transfer_in": false
+   },
+   {
+    "address": "3Mpxpmo4JdK7bw4yQbSjNUSfLvqJHKHSDPeUJJYLPTYE",
+    "amount_percentage": 0.002976961639606422,
+    "addr_type": 0,
+    "avg_cost": 0.00020345852588683902,
+    "balance": 2946810.047151,
+    "usd_value": 3434.354465194048,
+    "transfer_in": false
+   },
+   {
+    "address": "1bBVX6zNNmwNi3Nv1vbhtoESAaFBVVdyQ6CetJ6ZJ69",
+    "amount_percentage": 0.0029576375295425157,
+    "addr_type": 0,
+    "avg_cost": 0.0018592054545592855,
+    "balance": 2927681.657678,
+    "usd_value": 3412.0613181138415,
+    "transfer_in": false
+   },
+   {
+    "address": "39LqygR4s9oFECHKqrfdnXHH4uhxxh9cY9ZzpwEr61xm",
+    "amount_percentage": 0.0028939339947761248,
+    "addr_type": 0,
+    "avg_cost": 0.0007939307080085756,
+    "balance": 2864623.332105,
+    "usd_value": 3338.5701060797746,
+    "transfer_in": false
+   },
+   {
+    "address": "FVVoAFd8dER1XPpHgvis7oDSbSbXs2ucVLo7p5tPsDaF",
+    "amount_percentage": 0.002793058709206997,
+    "addr_type": 0,
+    "avg_cost": 0.00010137845141829225,
+    "balance": 2764769.742771,
+    "usd_value": 3222.195920126925,
+    "transfer_in": false
+   },
+   {
+    "address": "BWBuaCHdcTecdoZYqcV4qZHwnpMPP8FjYYS1Fkj63wZC",
+    "amount_percentage": 0.0027116135796369577,
+    "addr_type": 0,
+    "avg_cost": 0.00012347779806622388,
+    "balance": 2684149.514779,
+    "usd_value": 3128.237220530059,
+    "transfer_in": false
+   },
+   {
+    "address": "2mPwhv3iRqg7W7APbZtvPW5MnTgYyXUvYs4E19zvKdb1",
+    "amount_percentage": 0.0027022798554816384,
+    "addr_type": 0,
+    "avg_cost": null,
+    "balance": 2674910.325482,
+    "usd_value": 3117.469423994411,
+    "transfer_in": true
+   },
+   {
+    "address": "62NbnrwzeKPxeNQqRXpWAmGGnRmUxtp9inZV636KKXUm",
+    "amount_percentage": 0.002674927524311929,
+    "addr_type": 0,
+    "avg_cost": 0.000821321199507556,
+    "balance": 2647835.027221,
+    "usd_value": 3085.9145663716654,
+    "transfer_in": false
+   },
+   {
+    "address": "B8jmyJKXJTD58DYPZWdJWKTo2tggrUS3VBkW89pCP6HN",
+    "amount_percentage": 0.0026547402575386797,
+    "addr_type": 0,
+    "avg_cost": 0.001551055930248485,
+    "balance": 2627852.223358,
+    "usd_value": 3062.625643578579,
+    "transfer_in": false
+   },
+   {
+    "address": "HWN7NGiCFwXS5quoUczfDeFV1QmeHaajFHVabx4xwAZ1",
+    "amount_percentage": 0.0025379923096154468,
+    "addr_type": 0,
+    "avg_cost": 0.0021994815236815166,
+    "balance": 2512286.734926,
+    "usd_value": 2927.9400531033834,
+    "transfer_in": false
+   },
+   {
+    "address": "CkZnuSEKfSYG3ns8RUG72QRkUFu24o6UfH6pDrkM6KtH",
+    "amount_percentage": 0.0025020742912210884,
+    "addr_type": 0,
+    "avg_cost": 9.907695305402346e-05,
+    "balance": 2476732.505382,
+    "usd_value": 2886.503440278942,
+    "transfer_in": false
+   },
+   {
+    "address": "2RnpjFE9CeFRG6UHuR88Xwtyo5oBFfSUqqdWEvG5s791",
+    "amount_percentage": 0.0024810699231914333,
+    "addr_type": 0,
+    "avg_cost": null,
+    "balance": 2455940.876118,
+    "usd_value": 2862.271873378146,
+    "transfer_in": true
+   },
+   {
+    "address": "CWNkWGXgEKiQT56t7G6bySGDYSwy3W7aJXEd1EMA7sRZ",
+    "amount_percentage": 0.0024599708966459174,
+    "addr_type": 0,
+    "avg_cost": 0.0014949313497304136,
+    "balance": 2435055.547069,
+    "usd_value": 2837.9311042315812,
+    "transfer_in": true
+   },
+   {
+    "address": "9AL3wNxcKS7Te3Vrk3gPM3ni2t2FVaRdxA3DdFN9pfTf",
+    "amount_percentage": 0.002443959569708831,
+    "addr_type": 0,
+    "avg_cost": 0.001271122659243717,
+    "balance": 2419206.387826,
+    "usd_value": 2819.4597301203135,
+    "transfer_in": false
+   },
+   {
+    "address": "Hce3UgJwJkxVnkcxWrvaKGHNwqLP8dmMFMEK26jPR1EE",
+    "amount_percentage": 0.0024420363916852596,
+    "addr_type": 0,
+    "avg_cost": 0.001628509980874976,
+    "balance": 2417302.688347,
+    "usd_value": 2817.2410669891724,
+    "transfer_in": false
+   },
+   {
+    "address": "54F7F2xQkdwudKQmB672HszwZwVbP7GeDckHQUo2qVS9",
+    "amount_percentage": 0.0024176283879940833,
+    "addr_type": 0,
+    "avg_cost": 0.001413031787715644,
+    "balance": 2393141.896501,
+    "usd_value": 2789.082915621677,
+    "transfer_in": true
+   },
+   {
+    "address": "92wZTCEktnYHGfMX1uKsLnyaRM4sPY7or97LYFWA4Zbq",
+    "amount_percentage": 0.0024172739864582117,
+    "addr_type": 0,
+    "avg_cost": 0.00046996292963206657,
+    "balance": 2392791.084454,
+    "usd_value": 2788.674062352962,
+    "transfer_in": false
+   },
+   {
+    "address": "3kfRbS3HhkLyirFth2EfokCwQLvQA1LwWxrxca7U2C5T",
+    "amount_percentage": 0.0024055250835066256,
+    "addr_type": 0,
+    "avg_cost": 0.0024814003753989024,
+    "balance": 2381161.178042,
+    "usd_value": 2775.1200088589285,
+    "transfer_in": false
+   },
+   {
+    "address": "3GbYzq5DsGtVnuCshkAvnaQHk1jWibjDhdJdso6tyHBd",
+    "amount_percentage": 0.0023373839153918684,
+    "addr_type": 0,
+    "avg_cost": 0.002753661719238155,
+    "balance": 2313710.16485,
+    "usd_value": 2696.5093469461353,
+    "transfer_in": false
+   },
+   {
+    "address": "2MmVdFT6f5c5zztZuBmxaPngM3Ws1sZ2oyiXPtgn65JG",
+    "amount_percentage": 0.002322971593577491,
+    "addr_type": 0,
+    "avg_cost": 0.002581238256853055,
+    "balance": 2299443.815509,
+    "usd_value": 2679.882655786096,
+    "transfer_in": false
+   },
+   {
+    "address": "7gJpGuVUPsZxnbM4g4JwX4QiBTb21WYspBYeAx6cWXLX",
+    "amount_percentage": 0.0023221393982072102,
+    "addr_type": 0,
+    "avg_cost": 6.9341940114226e-05,
+    "balance": 2298620.048872,
+    "usd_value": 2678.9225984417844,
+    "transfer_in": false
+   },
+   {
+    "address": "gxy7J1HLtnmnS45GkBoS7udcqwhJcVda6X65URNrhHF",
+    "amount_percentage": 0.002288738873250598,
+    "addr_type": 0,
+    "avg_cost": 0.0006185663867952346,
+    "balance": 2265557.81481,
+    "usd_value": 2640.3902772662477,
+    "transfer_in": false
+   },
+   {
+    "address": "BLy3sf8PS4u4tDNEkpor5JBLUM6SQvkgaV8MShE5ZKPi",
+    "amount_percentage": 0.0022854057794489515,
+    "addr_type": 0,
+    "avg_cost": 0.0017799869692845865,
+    "balance": 2262258.479618,
+    "usd_value": 2636.5450730055345,
+    "transfer_in": false
+   },
+   {
+    "address": "iLeBMf1KtHo1DsMVQ9RsV5wtwNipivAaVKEzwuY1WJM",
+    "amount_percentage": 0.0022780468509102244,
+    "addr_type": 0,
+    "avg_cost": 0.00013191298070450367,
+    "balance": 2254974.084594,
+    "usd_value": 2628.055487936725,
+    "transfer_in": false
+   },
+   {
+    "address": "7d779dsR1873AxqZwPJrfUs2ftuSwvSkVFTUK9gFM52C",
+    "amount_percentage": 0.0022729871063603135,
+    "addr_type": 0,
+    "avg_cost": 0.001995807645503051,
+    "balance": 2249965.586709,
+    "usd_value": 2622.218343091948,
+    "transfer_in": false
+   },
+   {
+    "address": "GLQ5TyfnjvwR5PoDEmjbEVfz8E7d1mGM8KfZfkYXeuor",
+    "amount_percentage": 0.0021827363802161912,
+    "addr_type": 0,
+    "avg_cost": null,
+    "balance": 2160628.947961,
+    "usd_value": 2518.101118269041,
+    "transfer_in": true
+   },
+   {
+    "address": "6fUz35VaNSqUk7x7ZBhEanGajuFyEbadLx4ew9SofQ2x",
+    "amount_percentage": 0.002135040804111951,
+    "addr_type": 0,
+    "avg_cost": 0.0004247531278702646,
+    "balance": 2113416.447471,
+    "usd_value": 2463.077394555471,
+    "transfer_in": true
+   },
+   {
+    "address": "DUD9hpdCxizSQ9kXjh2sLafizNjowCE39TWWLE3o47H2",
+    "amount_percentage": 0.002130512112133487,
+    "addr_type": 0,
+    "avg_cost": 0.0005160683705286887,
+    "balance": 2108933.623492,
+    "usd_value": 2457.8528954182293,
+    "transfer_in": false
+   },
+   {
+    "address": "ATvGTSz7Eg9JDpfNf6BnhWwX14GVq7iR1rZ8ZY9Dat85",
+    "amount_percentage": 0.0021096789175850342,
+    "addr_type": 0,
+    "avg_cost": 0.0017481076147293894,
+    "balance": 2088311.434011,
+    "usd_value": 2433.818801807539,
+    "transfer_in": false
+   },
+   {
+    "address": "BjKNfakeEJjHumi5EG7BQ3XheyZ3AqLRxiTNGEXamMEz",
+    "amount_percentage": 0.002098206192642131,
+    "addr_type": 0,
+    "avg_cost": null,
+    "balance": 2076954.908391,
+    "usd_value": 2420.583359465456,
+    "transfer_in": true
+   },
+   {
+    "address": "CgEBx2Ccr8QpZ71vth9Q3ieE3mc1i4CTr6mGuaufSBGG",
+    "amount_percentage": 0.0020739721309041012,
+    "addr_type": 0,
+    "avg_cost": 0.0014626943269230308,
+    "balance": 2052966.29676,
+    "usd_value": 2392.6258752196077,
+    "transfer_in": false
+   },
+   {
+    "address": "7MbH9QDZERJJqn9FxtwmNC8PcGKSaJb7PnjtpPkGGMKz",
+    "amount_percentage": 0.0020711285677913745,
+    "addr_type": 0,
+    "avg_cost": 0.0014605734977546463,
+    "balance": 2050151.534138,
+    "usd_value": 2389.3454151883707,
+    "transfer_in": false
+   },
+   {
+    "address": "4A1R4a14fYXMtGZVU4U1RWkx5QnzRf84gPo2GwqxcFkd",
+    "amount_percentage": 0.002063776154428371,
+    "addr_type": 0,
+    "avg_cost": null,
+    "balance": 2042873.588302,
+    "usd_value": 2380.863346314107,
+    "transfer_in": true
+   },
+   {
+    "address": "6Nazsr7hSGny2asTnoUHvaSKnpEZvNk6MWrdVaKrp9Zq",
+    "amount_percentage": 0.002056703633055408,
+    "addr_type": 0,
+    "avg_cost": 0.0009909656963466718,
+    "balance": 2035872.699623,
+    "usd_value": 2372.704173204766,
+    "transfer_in": false
+   },
+   {
+    "address": "2xmbUVAb8m5Xb9ngH19exicuLQ3h5VQvGViWpoG5ZETJ",
+    "amount_percentage": 0.0020257001746294082,
+    "addr_type": 0,
+    "avg_cost": 0.0020832738270622425,
+    "balance": 2005183.253857,
+    "usd_value": 2336.9372138777835,
+    "transfer_in": false
+   },
+   {
+    "address": "FNmoM9DX5eebkWwvbcDqyXTgugrvEWrSQCiY8a3MJ53o",
+    "amount_percentage": 0.0020204638862254902,
+    "addr_type": 0,
+    "avg_cost": 0.00016615978401194744,
+    "balance": 2000000.000209,
+    "usd_value": 2330.8964002435787,
+    "transfer_in": false
+   },
+   {
+    "address": "HCNN4uMhdQYic7P4is7J1XtAcpJWiNXEDkC2YyL8fSFT",
+    "amount_percentage": 0.002020463886014352,
+    "addr_type": 0,
+    "avg_cost": null,
+    "balance": 2000000.0,
+    "usd_value": 2330.8964,
+    "transfer_in": true
+   },
+   {
+    "address": "F3HSy4XRhxXhr7FBYLeuCpYnys6nxQH9r5c6zQDKm4xM",
+    "amount_percentage": 0.001999799673799478,
+    "addr_type": 0,
+    "avg_cost": 0.002590775928048452,
+    "balance": 1979545.081347,
+    "usd_value": 2307.057251874715,
+    "transfer_in": false
+   },
+   {
+    "address": "DcUmTFFCiGn788mfF4MK4rvNhaZ2yJ2NxzPtuGnap4ma",
+    "amount_percentage": 0.0019710756272350465,
+    "addr_type": 0,
+    "avg_cost": 0.0025201603014721632,
+    "balance": 1951111.960851,
+    "usd_value": 2273.9199227722684,
+    "transfer_in": false
+   },
+   {
+    "address": "8Gr9XREwkhPzmfcoePCxX6dpUmNsUqsLNFCVFE7GpAGM",
+    "amount_percentage": 0.0019347318596182794,
+    "addr_type": 0,
+    "avg_cost": 0.00011733718812049171,
+    "balance": 1915136.294205,
+    "usd_value": 2231.9921468358875,
+    "transfer_in": false
+   },
+   {
+    "address": "723oXHL5quxirpjmdDKgbWxuBADBUAZBgu2EKoXvKfyX",
+    "amount_percentage": 0.0019207716311669526,
+    "addr_type": 0,
+    "avg_cost": 4.263646631795305e-05,
+    "balance": 1901317.459285,
+    "usd_value": 2215.8870105522765,
+    "transfer_in": false
+   },
+   {
+    "address": "CxRXwpmpsX94sMHDmufkdmfHz6xZcBfipLSqLccpQHRd",
+    "amount_percentage": 0.0019137072883469147,
+    "addr_type": 0,
+    "avg_cost": 0.00029200406709019137,
+    "balance": 1894324.666324,
+    "usd_value": 2207.7372725829064,
+    "transfer_in": false
+   },
+   {
+    "address": "7boGMyPxcogdwYuywFkSbx34pmC732GDch3RxGieCyaQ",
+    "amount_percentage": 0.001907731924529572,
+    "addr_type": 0,
+    "avg_cost": 0.001283107754747688,
+    "balance": 1888409.822848,
+    "usd_value": 2200.8438289005207,
+    "transfer_in": false
+   },
+   {
+    "address": "7GxCSkSERwqD79cWvrAmEbbV7Zq5BeTLX5AhNVszEvYU",
+    "amount_percentage": 0.001896722069960634,
+    "addr_type": 0,
+    "avg_cost": 0.0025564173557308632,
+    "balance": 1877511.479507,
+    "usd_value": 2188.14237427077,
+    "transfer_in": false
+   },
+   {
+    "address": "rvg66dcUzSVwyu4k33Km6WHdrokwZ9Mc6BbfyLno2MD",
+    "amount_percentage": 0.0018864320815922444,
+    "addr_type": 0,
+    "avg_cost": 0.001784660311505577,
+    "balance": 1867325.711338,
+    "usd_value": 2176.2713890925916,
+    "transfer_in": true
+   }
+  ]
+ },
+ "creator_fees": {
+  "schema": "holder-scan-creator-fees/1",
+  "collector": "creator_fees",
+  "mint": "AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C",
+  "status": "empty",
+  "reason": "no_pump_curve",
+  "fetched_at": "2026-10-26T03:31:44Z",
+  "pools": [
+   {
+    "address": "B3LAWFvFEK72Wm8b2SBtshWCTdbTZUfTwseRaHyjHx5D",
+    "quote_mint": "So11111111111111111111111111111111111111112",
+    "found_by": [
+     "derived_sol_pair"
+    ],
+    "status": "not_found",
+    "reason": null
+   }
+  ]
+ },
+ "gmgn_top100_cpmm_row": [
+  {
+   "address": "GpMZbSM2GgvTKHJirzeGfMFoaZ8UR2X7F4v8vHTvxFbL",
+   "amount_percentage": 0.046405267534871585,
+   "tags": [],
+   "maker_token_tags": [
+    "top_holder"
+   ],
+   "start_holding_at": 1792928328,
+   "native_transfer": {
+    "from_address": "4Pozzy3hLPckSz5vuJBFxi3CQQX6JTsryERkT5w32wpB",
+    "amount": "0.001364257",
+    "timestamp": 1744904905,
+    "name": null
+   },
+   "created_at": 1744904905
+  }
+ ],
+ "jupiter_top100_cpmm_row": [
+  {
+   "address": "GpMZbSM2GgvTKHJirzeGfMFoaZ8UR2X7F4v8vHTvxFbL",
+   "amount": 45935260.566733,
+   "tags": [
+    "influencer"
+   ]
+  }
+ ]
+}

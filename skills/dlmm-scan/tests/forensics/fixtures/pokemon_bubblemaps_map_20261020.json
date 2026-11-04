@@ -1,0 +1,70 @@
+{
+ "mint": "D42TjMjz5H7toPu5md5KBXreZkCSdZMEfLQwmBhJXvb1",
+ "refreshed": true,
+ "age_label_before": "33m ago",
+ "age_min_before": 33,
+ "clusters_before": [
+  {
+   "cluster": 1,
+   "wallets": 14,
+   "supply_pct": 16.21
+  },
+  {
+   "cluster": 2,
+   "wallets": 2,
+   "supply_pct": 2.76
+  },
+  {
+   "cluster": 3,
+   "wallets": 8,
+   "supply_pct": 2.28
+  },
+  {
+   "cluster": 4,
+   "wallets": 2,
+   "supply_pct": 1.3
+  },
+  {
+   "cluster": 5,
+   "wallets": 3,
+   "supply_pct": 1.01
+  }
+ ],
+ "age_label_after": "just now",
+ "age_min_after": 0.0,
+ "clusters": [
+  {
+   "cluster": 1,
+   "wallets": 11,
+   "supply_pct": 12.33
+  },
+  {
+   "cluster": 2,
+   "wallets": 9,
+   "supply_pct": 2.76
+  },
+  {
+   "cluster": 3,
+   "wallets": 2,
+   "supply_pct": 2.76
+  },
+  {
+   "cluster": 4,
+   "wallets": 11,
+   "supply_pct": 1.83
+  },
+  {
+   "cluster": 5,
+   "wallets": 2,
+   "supply_pct": 1.3
+  },
+  {
+   "cluster": 6,
+   "wallets": 7,
+   "supply_pct": 0.58
+  }
+ ],
+ "largest_pool_share_pct": 6.35,
+ "refresh_effective": true,
+ "parse_ok": true
+}

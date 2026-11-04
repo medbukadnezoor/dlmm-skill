@@ -1,0 +1,22 @@
+[for the executive summary] FEE/TVL (Yun's rule, provisional): WARNING — best Meteora DLMM pool earns 10.1% of its TVL in fees over 24h; the bar for a token 3d 6h old is 20%.
+Pool fees vs TVL (Meteora DLMM; Yun's rule; provisional)
+  token age: 3d 6h at scan, from the oldest trading pair (Dexscreener's earliest pair in holders.json, created 2026-10-29 19:28 UTC = 2026-10-30 02:28 WIB); scan 2026-11-02 01:58 UTC = 2026-11-02 08:58 WIB
+  bar: 20% of TVL in fees over 24h for this token (6 h or older; owner's rule of 2026-10-25: 300% under 6 h, 20% from 6 h; provisional and unvalidated)
+  Meteora DLMM datapi: read; 4 DLMM pools of this token; 1 request
+  counted pools (not blacklisted, TVL $2,000 or more), best 24h fee/TVL first:
+    pool 2ZvxeVP9UXbCS1P3wjgUGz4xKHs9T7Ng75v2BoKMN2zM (Anakin-SOL, bin step 100, base fee 2%): TVL $252k, 24h fees $25.6k, 24h volume $992k; fee/TVL 1h 0.1%, 4h 1.4%, 12h 7.7%, 24h 10.1%; pool age 1d 7h; below the bar
+      after adding $2,500 (a small position): 10.0% (24h fees / (TVL + 2,500); your own liquidity counted in)
+    pool 5EqdM7FBGypHBZAm8duPxioAeJ2BTG1SvDrrPKc3fyj3 (Anakin-SOL, bin step 100, base fee 0.8%): TVL $155k, 24h fees $14.6k, 24h volume $771k; fee/TVL 1h 0.3%, 4h 2.7%, 12h 9.4%, 24h 9.4%; pool age 9h 21m (younger than 24 h); below the bar
+      after adding $2,500 (a small position): 9.2% (24h fees / (TVL + 2,500); your own liquidity counted in)
+    pool 5uShBrn7Gy19cHyNist6hf3LxAzrWVKNSfgVCAqKwGmZ (Anakin-SOL, bin step 125, base fee 1.5%): TVL $14.5k, 24h fees $554, 24h volume $25.6k; fee/TVL 1h 0.0%, 4h 0.8%, 12h 3.8%, 24h 3.8%; pool age 9h 35m (younger than 24 h); below the bar
+      after adding $2,500 (a small position): 3.2% (24h fees / (TVL + 2,500); your own liquidity counted in)
+    pool 4yH1qg3kQzvddsnG9kftjP1HB1ouJMiCTfpvkDiN6eMY (Anakin-SOL, bin step 50, base fee 0.75%): TVL $68.8k, 24h fees $1.87k, 24h volume $179k; fee/TVL 1h 0.7%, 4h 2.6%, 12h 2.7%, 24h 2.7%; pool age 4h 22m (younger than 24 h); below the bar
+      after adding $2,500 (a small position): 2.6% (24h fees / (TVL + 2,500); your own liquidity counted in)
+  LP Agent cross-check (one /pools/discover call; LP Agent's 24h figure; agrees = TVL and 24h fee/TVL both within 10%):
+    pool 2ZvxeVP9UXbCS1P3wjgUGz4xKHs9T7Ng75v2BoKMN2zM: LP Agent TVL $254k, 24h fee/TVL 10.0%: agrees within 10%
+    pool 5EqdM7FBGypHBZAm8duPxioAeJ2BTG1SvDrrPKc3fyj3: LP Agent TVL $155k, 24h fee/TVL 9.4%: agrees within 10%
+    pool 5uShBrn7Gy19cHyNist6hf3LxAzrWVKNSfgVCAqKwGmZ: LP Agent TVL $14.5k, 24h fee/TVL 3.8%: agrees within 10%
+    pool 4yH1qg3kQzvddsnG9kftjP1HB1ouJMiCTfpvkDiN6eMY: LP Agent TVL $63.6k, 24h fee/TVL 2.9%: agrees within 10%
+  note: for a pool younger than 24 h, the "24h" figures cover only its lifetime so far
+  cannot see: fees can drop fast after a pump (a snapshot at scan time); the windows are Meteora's own (its indexer's 1h, 4h, 12h and 24h); fee/TVL is the pool average, not what your bins would earn; LP Agent shares a 5 requests-a-minute key with the trading bot, so its cross-check can be not read (rate limited)
+  presentation line only: never an engine input, never passed to assess, never counted toward NO_ALARM; it never changes the forensics or analysis FLAG, verdict or threshold; a pool at or above the bar is not a safety signal

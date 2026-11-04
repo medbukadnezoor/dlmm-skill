@@ -1,0 +1,3602 @@
+{
+ "note": "GetXAPI advanced-search and Dexscreener token-pairs response BODIES saved live on 2026-10-25 by the x_search collector (DS-X-LORE-T1); no request or response headers",
+ "mint": "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
+ "read_at": "2026-10-25T09:48:14Z",
+ "dexscreener": [
+  {
+   "chainId": "solana",
+   "dexId": "pumpswap",
+   "url": "https://dexscreener.com/solana/3txp9x2w1al9jtzf1tuawezmux4w3pwnvvahpjjd3maq",
+   "pairAddress": "3tXP9X2W1aL9jtZF1tuAwEZMuX4w3PWNvVAHPJjd3MAq",
+   "baseToken": {
+    "address": "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
+    "name": "dope wif sword",
+    "symbol": "SWORDOPE"
+   },
+   "quoteToken": {
+    "address": "So11111111111111111111111111111111111111112",
+    "name": "Wrapped SOL",
+    "symbol": "SOL"
+   },
+   "priceNative": "0.00002129",
+   "priceUsd": "0.002141",
+   "txns": {
+    "m5": {
+     "buys": 611,
+     "sells": 577
+    },
+    "h1": {
+     "buys": 6640,
+     "sells": 6879
+    },
+    "h6": {
+     "buys": 47747,
+     "sells": 33133
+    },
+    "h24": {
+     "buys": 128851,
+     "sells": 63139
+    }
+   },
+   "volume": {
+    "h24": 5285604.06,
+    "h6": 852650.09,
+    "h1": 116996.94,
+    "m5": 8339.57
+   },
+   "priceChange": {
+    "m5": 0.48,
+    "h1": 20.62,
+    "h6": 17.83,
+    "h24": 3744
+   },
+   "liquidity": {
+    "usd": 135048.8,
+    "base": 31698921,
+    "quote": 667.8031
+   },
+   "fdv": 2131465,
+   "marketCap": 2131465,
+   "pairCreatedAt": 1792871066000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/Jp-qmedkU47xiFrA?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/ji2L9KotC5rOKki5?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump?timestamp=1792921500000",
+    "websites": [
+     {
+      "url": "https://swordope.fun",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/SwordopeMeme",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/swordope",
+      "type": "telegram"
+     }
+    ]
+   },
+   "boosts": {
+    "active": 500
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/3vutogflboopstfpv4wyyhpasjmgow2cpfdkkoj95vfk",
+   "pairAddress": "3VUToGFLBoopStFpv4wyyhPasjMGow2cPfDkkoj95VFK",
+   "baseToken": {
+    "address": "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
+    "name": "dope wif sword",
+    "symbol": "SWORDOPE"
+   },
+   "quoteToken": {
+    "address": "So11111111111111111111111111111111111111112",
+    "name": "Wrapped SOL",
+    "symbol": "SOL"
+   },
+   "priceNative": "0.0000001063",
+   "priceUsd": "0.00001075",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 10,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 2421.16,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h24": 280
+   },
+   "fdv": 10755.91,
+   "marketCap": 10755.91,
+   "pairCreatedAt": 1792871066000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/Jp-qmedkU47xiFrA?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/ji2L9KotC5rOKki5?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump?timestamp=1792921500000",
+    "websites": [
+     {
+      "url": "https://swordope.fun",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/SwordopeMeme",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/swordope",
+      "type": "telegram"
+     }
+    ]
+   },
+   "boosts": {
+    "active": 500
+   }
+  }
+ ],
+ "searches": [
+  {
+   "q": "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
+   "product": "Latest",
+   "at": "2026-10-25T09:48:14Z",
+   "body": {
+    "query": "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
+    "tweet_count": 20,
+    "has_more": true,
+    "next_cursor": "DAADDAABCgABHVdwlJUWweAKAAIdV0IV19pBjgAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUdV3o-Q4AnEAoABh1Xej5Df9jwCwAHAAAA8EVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFCUWRWMHErQzVhaDRSMVhWc3RpMXZDWEhWZHdsSlVXd2VBZFYxbTc3QmFRVVIxWFJrTkRHdkZnSFZkTExVYVhBRTRkVjJvTjc1YlFHeDFYVlkrYjFqSFBIVmRabG1rYkFPa2RWMVVTeEJxUk5CMVhXV2pKVnNHTUhWZFlxemhYUVdBZFYyUGxYUmVRaVIxWGE0OHgxMkI4SFZkQ0ZkZmFRWTRkVjBsTVJKWnhxUjFYYlJrZ1ZpQmxIVmRJeFRNWFFIY2RWMkRUWlZjaGFSMVhWYXBzV3hIUgAA",
+    "tweets": [
+     {
+      "type": "tweet",
+      "id": "2114282333532504544",
+      "url": "https://x.com/SolProfitHunt/status/2114282333532504544",
+      "twitterUrl": "https://twitter.com/SolProfitHunt/status/2114282333532504544",
+      "text": "$SWORDOPE is vertical! \ud83d\ude80\ud83d\udd25\nIf you\u2019re inside my Alpha Telegram, your copy trade is already printing massive profits with me right now. We don't miss. \ud83d\udcc8\ud83d\udc8e\nDon't sleep on the next call.\nCA: \u20603SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\u2060 https://t.co/HqtYvxq9a2",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 19,
+      "createdAt": "Sun Oct 25 09:06:04 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114282333532504544",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdwkoPXMAA9bnr.jpg",
+        "expanded_url": "https://x.com/SolProfitHunt/status/2114282333532504544/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "SolProfitHunt",
+       "url": "https://x.com/SolProfitHunt",
+       "id": "1545121605969448962",
+       "name": "Sol Profit Hunter",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2108491925623844864/RHU9m5mJ_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1545121605969448962/1763544160",
+       "description": "\u26a1 Solana trader | Profit hunter | Turning early plays into massive gains \ud83d\ude80Solana trader. Night: Alpha seeker. One mission: maximize profits \ud83d\udcc8\ud83d\udca5",
+       "location": "Egypt base in New York, USA",
+       "followers": 1377,
+       "following": 11,
+       "createdAt": "Thu Jul 07 19:05:00 +0000 2022",
+       "canDm": false
+      },
+      "quoted_tweet": {
+       "id": "2114257213728395345",
+       "text": "$SWORDOPE just ripped a clean 160x! \ud83d\udea8\ud83d\ude80\n$10K \u2192 $1.6M MCAP \ud83d\udcc8\ud83d\udcb0\nWe catch these micro-cap Solana gems before they explode. If you want in on the next play, DM me \"ALPHA\" now! \ud83d\udce9\u26a1\nCA: \u20603SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\u2060 https://t.co/Ihg3oFnlXY",
+       "user": {
+        "name": "Sol Profit Hunter",
+        "screen_name": "SolProfitHunt"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114278504757862501",
+      "url": "https://x.com/waaaaaw_9/status/2114278504757862501",
+      "twitterUrl": "https://twitter.com/waaaaaw_9/status/2114278504757862501",
+      "text": "$SWORDOPE Another massive send \ud83d\ude80\n$18K MC \u279c $3.1M MC\nThat\u2019s what happens when you get in early.\nPrivate TG ate once again \ud83d\udcb0\ud83d\udd25\nFollow &amp; \ud83d\udce9 DM me to get into the TG + Discord before the next gem explodes.\nCa: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n#memecoin #solana #bbvip https://t.co/YYuQLMW4HI",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 1,
+      "likeCount": 1,
+      "quoteCount": 1,
+      "viewCount": 16,
+      "createdAt": "Sun Oct 25 08:50:51 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114278504757862501",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdtFXBXcAA9FFv.jpg",
+        "expanded_url": "https://x.com/waaaaaw_9/status/2114278504757862501/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdtFzlWUAAA3oy.jpg",
+        "expanded_url": "https://x.com/waaaaaw_9/status/2114278504757862501/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "waaaaaw_9",
+       "url": "https://x.com/waaaaaw_9",
+       "id": "360362952",
+       "name": "alsayidmeme",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2100361456218787840/LFgDO05P_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/360362952/1789600180",
+       "description": "\ud83e\ude99 Meme Coin Trader\n\ud83c\udfaf Early entries. Smart exits.\n\ud83d\ude80 Chasing the next 100x",
+       "location": "Dm \ud83e\udef4",
+       "followers": 256,
+       "following": 341,
+       "createdAt": "Tue Aug 23 02:53:44 +0000 2011",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114276812834431100",
+      "url": "https://x.com/mouswehbi/status/2114276812834431100",
+      "twitterUrl": "https://twitter.com/mouswehbi/status/2114276812834431100",
+      "text": "$SWORDOPE - 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\nS\u0441an ID\u200b ec095q8\n\nhttps://t.co/HRXVMEvkGG https://t.co/I4kTk6Ucwi",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 8,
+      "createdAt": "Sun Oct 25 08:44:08 +0000 2026",
+      "lang": "nl",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114276812834431100",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdrjTYXIAABhFE.jpg",
+        "expanded_url": "https://x.com/mouswehbi/status/2114276812834431100/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "mouswehbi",
+       "url": "https://x.com/mouswehbi",
+       "id": "572777036",
+       "name": "\ud83d\udd3b \u0645\u0648\u0633\u0649 \ud83c\uddf1\ud83c\udde7",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2107860065419988992/qTm6_80K_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/572777036/1684503486",
+       "description": "\ud83c\uddf1\ud83c\udde7 \ud83d\udd3b\u0641\u064e\u062f\u064e\u0639\u064e\u0627 \u0631\u064e\u0628\u064e\u0651\u0647\u064f \u0623\u064e\u0646\u0650\u0651\u064a \u0645\u064e\u063a\u0652\u0644\u064f\u0648\u0628\u064c \u0641\u064e\u0627\u0646\u0652\u062a\u064e\u0635\u0650\u0631\u0652",
+       "location": "Somewhere iBelong",
+       "followers": 864,
+       "following": 647,
+       "createdAt": "Sun May 06 16:20:10 +0000 2012",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114275158160494619",
+      "url": "https://x.com/badattrading_/status/2114275158160494619",
+      "twitterUrl": "https://twitter.com/badattrading_/status/2114275158160494619",
+      "text": "$SWORDOPE (CA 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump)  is a bundled scam, don't buy that garbage, stay away. https://t.co/zMLxRro6jr",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 4,
+      "likeCount": 7,
+      "quoteCount": 0,
+      "viewCount": 3717,
+      "createdAt": "Sun Oct 25 08:37:33 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114275158160494619",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdqBAsWcAAdlM4.jpg",
+        "expanded_url": "https://x.com/badattrading_/status/2114275158160494619/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdqDHAX0AAjppv.png",
+        "expanded_url": "https://x.com/badattrading_/status/2114275158160494619/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "badattrading_",
+       "url": "https://x.com/badattrading_",
+       "id": "975758426",
+       "name": "Nova",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1872012491514892288/QsZ6kSqm_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/975758426/1791562205",
+       "description": "Building @LuminosCapital our memecoin analysis tool linked to $SOBAT\n\nEW7cWbNmTgL7PLQNiJ6tBVC62SJzJXa2pFYJjDPPpump",
+       "location": "",
+       "followers": 70357,
+       "following": 4880,
+       "createdAt": "Wed Nov 28 09:38:23 +0000 2012",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114268386834223241",
+      "url": "https://x.com/FeynFun/status/2114268386834223241",
+      "twitterUrl": "https://twitter.com/FeynFun/status/2114268386834223241",
+      "text": "@Pibbasinmeta @SwordopeMeme $SWORDOPE \u00b7 Complete scam (100/100)\nOne actor bought out the whole launch before anyone else could, and over half the supply was bought in the block the token launched.\nhttps://t.co/PnhBaPCXGh",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 26,
+      "createdAt": "Sun Oct 25 08:10:39 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": true,
+      "inReplyToId": "2114268183938896188",
+      "conversationId": "2114261045682610284",
+      "media": [],
+      "inReplyToUserId": "2099496925112176641",
+      "author": {
+       "type": "user",
+       "userName": "FeynFun",
+       "url": "https://x.com/FeynFun",
+       "id": "2104603785481875456",
+       "name": "Feyn",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2112987854947151872/YBI2uTnd_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2104603785481875456/1790612989",
+       "description": "We don't call tops. We call scams. Live detection for @pumpfun. Every flag backed by on-chain evidence.  $FEYN",
+       "location": "Global",
+       "followers": 1332,
+       "following": 7,
+       "createdAt": "Mon Sep 28 16:08:05 +0000 2026",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114265011128312169",
+      "url": "https://x.com/JustinePORCHER/status/2114265011128312169",
+      "twitterUrl": "https://twitter.com/JustinePORCHER/status/2114265011128312169",
+      "text": "325X \ud83d\ude80\ud83d\udd25 from my $SWORDOPE call.\n\nCalled early. Momentum went CRAZY. \ud83d\udcc8\ud83d\udcb0\n\nCA: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump https://t.co/fhaoxbHn6J",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 5,
+      "createdAt": "Sun Oct 25 07:57:14 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114265011128312169",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdgzzdXgAAi5-O.jpg",
+        "expanded_url": "https://x.com/JustinePORCHER/status/2114265011128312169/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "JustinePORCHER",
+       "url": "https://x.com/JustinePORCHER",
+       "id": "854743838",
+       "name": "Justine PORCHER",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2081421815507742720/JS8q9qdM_normal.jpg",
+       "coverPicture": null,
+       "description": "\ud83d\udc8e Sniping 100x\u20131000x Meme Gems \ud83d\ude80 Catch Pumps Before They Moon\ud83d\ude0ejoin now link on bio",
+       "location": "Am from India but live in USA",
+       "followers": 2669,
+       "following": 7479,
+       "createdAt": "Sun Sep 30 13:48:45 +0000 2012",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114257213728395345",
+      "url": "https://x.com/SolProfitHunt/status/2114257213728395345",
+      "twitterUrl": "https://twitter.com/SolProfitHunt/status/2114257213728395345",
+      "text": "$SWORDOPE just ripped a clean 160x! \ud83d\udea8\ud83d\ude80\n$10K \u2192 $1.6M MCAP \ud83d\udcc8\ud83d\udcb0\nWe catch these micro-cap Solana gems before they explode. If you want in on the next play, DM me \"ALPHA\" now! \ud83d\udce9\u26a1\nCA: \u20603SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\u2060 https://t.co/Ihg3oFnlXY",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 1,
+      "viewCount": 38,
+      "createdAt": "Sun Oct 25 07:26:15 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 1,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114257213728395345",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdYLaJWQAAQNGl.jpg",
+        "expanded_url": "https://x.com/SolProfitHunt/status/2114257213728395345/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdYLaQXYAEEcBA.jpg",
+        "expanded_url": "https://x.com/SolProfitHunt/status/2114257213728395345/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "SolProfitHunt",
+       "url": "https://x.com/SolProfitHunt",
+       "id": "1545121605969448962",
+       "name": "Sol Profit Hunter",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2108491925623844864/RHU9m5mJ_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1545121605969448962/1763544160",
+       "description": "\u26a1 Solana trader | Profit hunter | Turning early plays into massive gains \ud83d\ude80Solana trader. Night: Alpha seeker. One mission: maximize profits \ud83d\udcc8\ud83d\udca5",
+       "location": "Egypt base in New York, USA",
+       "followers": 1377,
+       "following": 11,
+       "createdAt": "Thu Jul 07 19:05:00 +0000 2022",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114257052617081065",
+      "url": "https://x.com/SolProfitHunt/status/2114257052617081065",
+      "twitterUrl": "https://twitter.com/SolProfitHunt/status/2114257052617081065",
+      "text": "$SWORDOPE just ripped a clean 160x! \ud83d\udea8\ud83d\ude80\n$10K \u2192 $1.6M MCAP \ud83d\udcc8\ud83d\udcb0\nWe catch these micro-cap Solana gems before they explode. If you want in on the next play, DM me \"ALPHA\" now! \ud83d\udce9\u26a1\nCA: \u20603SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\u2060 https://t.co/nVgzJClR5E",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 22,
+      "createdAt": "Sun Oct 25 07:25:36 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114257052617081065",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdYLaJWQAAQNGl.jpg",
+        "expanded_url": "https://x.com/SolProfitHunt/status/2114257052617081065/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdYLaQXYAEEcBA.jpg",
+        "expanded_url": "https://x.com/SolProfitHunt/status/2114257052617081065/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "SolProfitHunt",
+       "url": "https://x.com/SolProfitHunt",
+       "id": "1545121605969448962",
+       "name": "Sol Profit Hunter",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2108491925623844864/RHU9m5mJ_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1545121605969448962/1763544160",
+       "description": "\u26a1 Solana trader | Profit hunter | Turning early plays into massive gains \ud83d\ude80Solana trader. Night: Alpha seeker. One mission: maximize profits \ud83d\udcc8\ud83d\udca5",
+       "location": "Egypt base in New York, USA",
+       "followers": 1377,
+       "following": 11,
+       "createdAt": "Thu Jul 07 19:05:00 +0000 2022",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114256856663114124",
+      "url": "https://x.com/sofiamarthins44/status/2114256856663114124",
+      "twitterUrl": "https://twitter.com/sofiamarthins44/status/2114256856663114124",
+      "text": "\u2694\ufe0f $SWORDOPE \u2014 $8K \u2192 $277K MC\n\n\ud83d\ude80 $SWORDOPE is gaining traction! Keep it on your radar. \ud83d\udc40\ud83d\udd25\n\nCA: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\n\ud83d\udd14 Follow + tap my bio for private radar access. https://t.co/dYQLDOmG5O",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 43,
+      "createdAt": "Sun Oct 25 07:24:50 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114256856663114124",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdZY8zW8AATBcM.jpg",
+        "expanded_url": "https://x.com/sofiamarthins44/status/2114256856663114124/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "sofiamarthins44",
+       "url": "https://x.com/sofiamarthins44",
+       "id": "2098443181947834377",
+       "name": "John Smith",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2114240375548219392/sTXbAKPK_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2098443181947834377/1789205851",
+       "description": "Crypto investor \ud83c\uddee\ud83c\uddf9 | On-chain researcher \ud83d\udd0e\nFinding early opportunities before they hit the mainstream.\nDeFi \u2022 Solana",
+       "location": "Florida, USA",
+       "followers": 9,
+       "following": 0,
+       "createdAt": "Fri Sep 11 16:08:15 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": {
+       "id": "2114256042481631584",
+       "text": "\u2694\ufe0f $SWORDOPE \u2014 $8K MC\n\nA fresh low-cap contender just landed on the radar \ud83d\udc40 Early-stage activity worth keeping an eye on. Let\u2019s see if attention starts to build!\n\nCA: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\nFollow + tap my bio for private radar access. https://t.co/GhovBLMauy",
+       "user": {
+        "name": "John Smith",
+        "screen_name": "sofiamarthins44"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114256042481631584",
+      "url": "https://x.com/sofiamarthins44/status/2114256042481631584",
+      "twitterUrl": "https://twitter.com/sofiamarthins44/status/2114256042481631584",
+      "text": "\u2694\ufe0f $SWORDOPE \u2014 $8K MC\n\nA fresh low-cap contender just landed on the radar \ud83d\udc40 Early-stage activity worth keeping an eye on. Let\u2019s see if attention starts to build!\n\nCA: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\nFollow + tap my bio for private radar access. https://t.co/GhovBLMauy",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 2,
+      "quoteCount": 1,
+      "viewCount": 79,
+      "createdAt": "Sun Oct 25 07:21:36 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114256042481631584",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdYpiyW4AAidu9.jpg",
+        "expanded_url": "https://x.com/sofiamarthins44/status/2114256042481631584/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "sofiamarthins44",
+       "url": "https://x.com/sofiamarthins44",
+       "id": "2098443181947834377",
+       "name": "John Smith",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2114240375548219392/sTXbAKPK_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2098443181947834377/1789205851",
+       "description": "Crypto investor \ud83c\uddee\ud83c\uddf9 | On-chain researcher \ud83d\udd0e\nFinding early opportunities before they hit the mainstream.\nDeFi \u2022 Solana",
+       "location": "Florida, USA",
+       "followers": 9,
+       "following": 0,
+       "createdAt": "Fri Sep 11 16:08:15 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114253981610340503",
+      "url": "https://x.com/sbusfzi/status/2114253981610340503",
+      "twitterUrl": "https://twitter.com/sbusfzi/status/2114253981610340503",
+      "text": "\ud83d\ude80 LIVE AIRDROP for dope wif sword! Discover the $SWORDOPE token, explore Solana memecoin action, and check the claim free details. $SOL community, take a look \n\n CA=3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump \n\n https://t.co/r5sENOGNkP",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 2,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 11,
+      "createdAt": "Sun Oct 25 07:13:24 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114253981610340503",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "sbusfzi",
+       "url": "https://x.com/sbusfzi",
+       "id": "1199719652454289408",
+       "name": "Malakxada \ud83d\udd25",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2109387314845609984/6I7nDspQ_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1199719652454289408/1791752102",
+       "description": "",
+       "location": "USA",
+       "followers": 1510,
+       "following": 1073,
+       "createdAt": "Wed Nov 27 16:00:43 +0000 2019",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114252740524446161",
+      "url": "https://x.com/JEREMYhboo/status/2114252740524446161",
+      "twitterUrl": "https://twitter.com/JEREMYhboo/status/2114252740524446161",
+      "text": "$SWORDOPE printed huge profits on my Alpha telegram group \ud83d\udcaf\ud83d\udcca\ud83d\ude80\n\nIt\u2019s all about timing \u2014 DM to join for early entries \ud83d\udcca\ud83d\ude80\ud83c\udfc6\n\nCa: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\n#memecoin #solana https://t.co/TVkPyuSLSy",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 55,
+      "createdAt": "Sun Oct 25 07:08:28 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114252740524446161",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdVqHqWEAAWAwi.jpg",
+        "expanded_url": "https://x.com/JEREMYhboo/status/2114252740524446161/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "JEREMYhboo",
+       "url": "https://x.com/JEREMYhboo",
+       "id": "1389771560",
+       "name": "JEREMY \ud83e\ude90",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2083206462218567680/snYZGZUC_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1389771560/1785510053",
+       "description": "Early alpha. Late sleep. \ud83d\udc8e\nCatching narratives before CT does.\n~ ALWAYS NFA/DYOR ~",
+       "location": "Trenches ",
+       "followers": 4032,
+       "following": 70,
+       "createdAt": "Mon Apr 29 15:37:45 +0000 2013",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114252625356927439",
+       "text": "I introduce $SWORDOPE at  $6.8K market cap?\nNow it\u2019s currently at $1.6M MC.\ud83d\ude80\ud83d\udcc9\ud83d\udcb0\n\nDon't keep buying the top after the move.\nTap FOLLOW.\nGet into the VIP TG before the next runner.\n\nCa: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\n#memecoin #solana https://t.co/RW5uBNXDjc",
+       "user": {
+        "name": "JEREMY \ud83e\ude90",
+        "screen_name": "JEREMYhboo"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114252625356927439",
+      "url": "https://x.com/JEREMYhboo/status/2114252625356927439",
+      "twitterUrl": "https://twitter.com/JEREMYhboo/status/2114252625356927439",
+      "text": "I introduce $SWORDOPE at  $6.8K market cap?\nNow it\u2019s currently at $1.6M MC.\ud83d\ude80\ud83d\udcc9\ud83d\udcb0\n\nDon't keep buying the top after the move.\nTap FOLLOW.\nGet into the VIP TG before the next runner.\n\nCa: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\n#memecoin #solana https://t.co/RW5uBNXDjc",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 1,
+      "viewCount": 71,
+      "createdAt": "Sun Oct 25 07:08:01 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114252625356927439",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdVjYGXQAAZVnl.jpg",
+        "expanded_url": "https://x.com/JEREMYhboo/status/2114252625356927439/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdVjYAXkAAFurz.jpg",
+        "expanded_url": "https://x.com/JEREMYhboo/status/2114252625356927439/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "JEREMYhboo",
+       "url": "https://x.com/JEREMYhboo",
+       "id": "1389771560",
+       "name": "JEREMY \ud83e\ude90",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2083206462218567680/snYZGZUC_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1389771560/1785510053",
+       "description": "Early alpha. Late sleep. \ud83d\udc8e\nCatching narratives before CT does.\n~ ALWAYS NFA/DYOR ~",
+       "location": "Trenches ",
+       "followers": 4032,
+       "following": 70,
+       "createdAt": "Mon Apr 29 15:37:45 +0000 2013",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114252089161584948",
+      "url": "https://x.com/sbusfzi/status/2114252089161584948",
+      "twitterUrl": "https://twitter.com/sbusfzi/status/2114252089161584948",
+      "text": "\ud83d\ude80 LIVE AIRDROP for dope wif sword! Discover the $SWORDOPE token, explore Solana memecoin action, and check the claim free details. $SOL community, take a look \n\n CA=3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump \n\n https://t.co/r5sENOHlan",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 11,
+      "createdAt": "Sun Oct 25 07:05:53 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114252089161584948",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "sbusfzi",
+       "url": "https://x.com/sbusfzi",
+       "id": "1199719652454289408",
+       "name": "Malakxada \ud83d\udd25",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2109387314845609984/6I7nDspQ_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1199719652454289408/1791752102",
+       "description": "",
+       "location": "USA",
+       "followers": 1510,
+       "following": 1073,
+       "createdAt": "Wed Nov 27 16:00:43 +0000 2019",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114241207903649870",
+      "url": "https://x.com/sofiamarthins44/status/2114241207903649870",
+      "twitterUrl": "https://twitter.com/sofiamarthins44/status/2114241207903649870",
+      "text": "\u2694\ufe0f $SWORDOPE \u2014 $8K \u2192 $804K MC\n\n\ud83d\udd25 $SWORDOPE is gaining traction! Eyes on the next move. \ud83d\udc40\ud83d\udcc8\n\nCA: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\n\ud83d\ude80 Follow + check my bio for private radar access. https://t.co/TwKzYvrx0W",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 37,
+      "createdAt": "Sun Oct 25 06:22:39 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114241207903649870",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdLKYtXEAE7XhW.jpg",
+        "expanded_url": "https://x.com/sofiamarthins44/status/2114241207903649870/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "sofiamarthins44",
+       "url": "https://x.com/sofiamarthins44",
+       "id": "2098443181947834377",
+       "name": "John Smith",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2114240375548219392/sTXbAKPK_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2098443181947834377/1789205851",
+       "description": "Crypto investor \ud83c\uddee\ud83c\uddf9 | On-chain researcher \ud83d\udd0e\nFinding early opportunities before they hit the mainstream.\nDeFi \u2022 Solana",
+       "location": "Florida, USA",
+       "followers": 9,
+       "following": 0,
+       "createdAt": "Fri Sep 11 16:08:15 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": {
+       "id": "2114240730172400097",
+       "text": "\u2694\ufe0f $SWORDOPE \u2014 $8K MC\n\nA fresh low-cap contender just landed on the radar \ud83d\udc40 Early-stage activity worth keeping an eye on. Let\u2019s see if attention starts to build!\n\nCA: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\nFollow + tap my bio for private radar access. https://t.co/qaBRrIk37l",
+       "user": {
+        "name": "John Smith",
+        "screen_name": "sofiamarthins44"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114240730172400097",
+      "url": "https://x.com/sofiamarthins44/status/2114240730172400097",
+      "twitterUrl": "https://twitter.com/sofiamarthins44/status/2114240730172400097",
+      "text": "\u2694\ufe0f $SWORDOPE \u2014 $8K MC\n\nA fresh low-cap contender just landed on the radar \ud83d\udc40 Early-stage activity worth keeping an eye on. Let\u2019s see if attention starts to build!\n\nCA: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\nFollow + tap my bio for private radar access. https://t.co/qaBRrIk37l",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 1,
+      "viewCount": 57,
+      "createdAt": "Sun Oct 25 06:20:45 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114240730172400097",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdKu0SWQAAsBai.jpg",
+        "expanded_url": "https://x.com/sofiamarthins44/status/2114240730172400097/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "sofiamarthins44",
+       "url": "https://x.com/sofiamarthins44",
+       "id": "2098443181947834377",
+       "name": "John Smith",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2114240375548219392/sTXbAKPK_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2098443181947834377/1789205851",
+       "description": "Crypto investor \ud83c\uddee\ud83c\uddf9 | On-chain researcher \ud83d\udd0e\nFinding early opportunities before they hit the mainstream.\nDeFi \u2022 Solana",
+       "location": "Florida, USA",
+       "followers": 9,
+       "following": 0,
+       "createdAt": "Fri Sep 11 16:08:15 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114239141990789545",
+      "url": "https://x.com/sofiamarthins44/status/2114239141990789545",
+      "twitterUrl": "https://twitter.com/sofiamarthins44/status/2114239141990789545",
+      "text": "\u2694\ufe0f $SWORDOPE \u2014 $8K MC\n\nA fresh low-cap contender just landed on the radar \ud83d\udc40 Early-stage activity worth keeping an eye on. Let\u2019s see if attention starts to build!\n\nCA: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\nFollow + tap my bio for private radar access. https://t.co/tDyOmK5vss",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 1,
+      "viewCount": 39,
+      "createdAt": "Sun Oct 25 06:14:26 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114239141990789545",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdJSL3WcAAV-M8.jpg",
+        "expanded_url": "https://x.com/sofiamarthins44/status/2114239141990789545/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "sofiamarthins44",
+       "url": "https://x.com/sofiamarthins44",
+       "id": "2098443181947834377",
+       "name": "John Smith",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2114240375548219392/sTXbAKPK_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2098443181947834377/1789205851",
+       "description": "Crypto investor \ud83c\uddee\ud83c\uddf9 | On-chain researcher \ud83d\udd0e\nFinding early opportunities before they hit the mainstream.\nDeFi \u2022 Solana",
+       "location": "Florida, USA",
+       "followers": 9,
+       "following": 0,
+       "createdAt": "Fri Sep 11 16:08:15 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114238561876656247",
+      "url": "https://x.com/sofiamarthins44/status/2114238561876656247",
+      "twitterUrl": "https://twitter.com/sofiamarthins44/status/2114238561876656247",
+      "text": "\u2694\ufe0f $SWORDOPE \u2014 $8K MC\n\nA fresh low-cap contender just landed on the radar \ud83d\udc40 Early-stage activity worth keeping an eye on. Let\u2019s see if attention starts to build!\n\nCA: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\nFollow + tap my bio for private radar access. https://t.co/VEgts387jp",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 1,
+      "viewCount": 30,
+      "createdAt": "Sun Oct 25 06:12:08 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114238561876656247",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdIwN-XsAAtSLY.jpg",
+        "expanded_url": "https://x.com/sofiamarthins44/status/2114238561876656247/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "sofiamarthins44",
+       "url": "https://x.com/sofiamarthins44",
+       "id": "2098443181947834377",
+       "name": "John Smith",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2114240375548219392/sTXbAKPK_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2098443181947834377/1789205851",
+       "description": "Crypto investor \ud83c\uddee\ud83c\uddf9 | On-chain researcher \ud83d\udd0e\nFinding early opportunities before they hit the mainstream.\nDeFi \u2022 Solana",
+       "location": "Florida, USA",
+       "followers": 9,
+       "following": 0,
+       "createdAt": "Fri Sep 11 16:08:15 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114235804776329568",
+      "url": "https://x.com/jaymgx_/status/2114235804776329568",
+      "twitterUrl": "https://twitter.com/jaymgx_/status/2114235804776329568",
+      "text": "$SWORDOPE - 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\nS\u200b\u0441an ID slhjoy\n\nhttps://t.co/lcKzYK1dkq https://t.co/TboWghX0kM",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 0,
+      "createdAt": "Sun Oct 25 06:01:11 +0000 2026",
+      "lang": "cs",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114235804776329568",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdGQKoW0AAQiY5.jpg",
+        "expanded_url": "https://x.com/jaymgx_/status/2114235804776329568/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "jaymgx_",
+       "url": "https://x.com/jaymgx_",
+       "id": "2029185417657110528",
+       "name": "Jay Gonzalez",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2029185812999368704/Ux6zjALG_normal.jpg",
+       "coverPicture": null,
+       "description": "Trader | Ex - Platform Engineer",
+       "location": "",
+       "followers": 44,
+       "following": 123,
+       "createdAt": "Wed Mar 04 13:21:34 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114231211656888718",
+      "url": "https://x.com/web3chibainu/status/2114231211656888718",
+      "twitterUrl": "https://twitter.com/web3chibainu/status/2114231211656888718",
+      "text": "Today Elon replies to a meme.\n\nToo many tickers show up on chain.\n\nMost traders miss out.\n\nBut my ai calls still work.\n\n$SWORDOPE 2X:\n3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\n$CATTLEAXE 5.5X:\nH7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump\n\nA big day for meme.\n\nI appreciate what elon done.",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 21,
+      "createdAt": "Sun Oct 25 05:42:56 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114231211656888718",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVc_EHAagAABYME.jpg",
+        "expanded_url": "https://x.com/web3chibainu/status/2114231211656888718/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdBN8TbkAAuCvg.png",
+        "expanded_url": "https://x.com/web3chibainu/status/2114231211656888718/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdBRjcbAAAyogb.png",
+        "expanded_url": "https://x.com/web3chibainu/status/2114231211656888718/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "web3chibainu",
+       "url": "https://x.com/web3chibainu",
+       "id": "1761874209439985664",
+       "name": "\u5976\u4e00\u4e2a\u5e01 | Shill a Coin",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2108461812215881728/eelvmRLM_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1761874209439985664/1791515576",
+       "description": "\u5976\u4e00\u4e2a\u5e01\uff0c\u7b49\u98ce\u6765\uff0c\u8d77\u98de\nShilling a coin, awaiting for the wind, pump it up.",
+       "location": "",
+       "followers": 12,
+       "following": 35,
+       "createdAt": "Sun Feb 25 22:05:43 +0000 2024",
+       "canDm": false
+      },
+      "quoted_tweet": {
+       "id": "2114003447443866063",
+       "text": "@paranoidream \u2764\ufe0f",
+       "user": {
+        "name": "Elon Musk",
+        "screen_name": "elonmusk"
+       }
+      },
+      "retweeted_tweet": null
+     }
+    ]
+   }
+  },
+  {
+   "q": "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
+   "product": "Top",
+   "at": "2026-10-25T09:48:18Z",
+   "body": {
+    "query": "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
+    "tweet_count": 20,
+    "has_more": true,
+    "next_cursor": "DAACCgACHVd6QEfAJxAKAAMdV3pAR7_Y8AgABAAAAAILAAUAAADwRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUJRZFYwcStDNWFoNFIxWEZBUE5HNUI3SFZkR1EwTWE4V0FkVjJvTjc1YlFHeDFXd3UzRUc5RDBIVmRabG1rYkFPa2RWdXVGaDViaDNSMVhXV2pKVnNHTUhWYzNkR3JYVUswZFYxaXJPRmRCWUIxV3lVNU5XdkNISFZkcmp6SFhZSHdkVnNDYmV4dHdNUjFYUWhYWDJrR09IVmEvY2pOYm9RWWRWMGxNUkpaeHFSMVcrVjY3RjJETEhWZEl4VE1YUUhjZFYwRm5ZOXFSamgxVzZyTC9GaEJtCAAGAAAAAAgABwAAAAAMAAgKAAEdVr9yM1uhBgAAAA",
+    "tweets": [
+     {
+      "type": "tweet",
+      "id": "2114275158160494619",
+      "url": "https://x.com/badattrading_/status/2114275158160494619",
+      "twitterUrl": "https://twitter.com/badattrading_/status/2114275158160494619",
+      "text": "$SWORDOPE (CA 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump)  is a bundled scam, don't buy that garbage, stay away. https://t.co/zMLxRro6jr",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 4,
+      "likeCount": 7,
+      "quoteCount": 0,
+      "viewCount": 3717,
+      "createdAt": "Sun Oct 25 08:37:33 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114275158160494619",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdqBAsWcAAdlM4.jpg",
+        "expanded_url": "https://x.com/badattrading_/status/2114275158160494619/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdqDHAX0AAjppv.png",
+        "expanded_url": "https://x.com/badattrading_/status/2114275158160494619/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "badattrading_",
+       "url": "https://x.com/badattrading_",
+       "id": "975758426",
+       "name": "Nova",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1872012491514892288/QsZ6kSqm_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/975758426/1791562205",
+       "description": "Building @LuminosCapital our memecoin analysis tool linked to $SOBAT\n\nEW7cWbNmTgL7PLQNiJ6tBVC62SJzJXa2pFYJjDPPpump",
+       "location": "",
+       "followers": 70358,
+       "following": 4880,
+       "createdAt": "Wed Nov 28 09:38:23 +0000 2012",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114239141990789545",
+      "url": "https://x.com/sofiamarthins44/status/2114239141990789545",
+      "twitterUrl": "https://twitter.com/sofiamarthins44/status/2114239141990789545",
+      "text": "\u2694\ufe0f $SWORDOPE \u2014 $8K MC\n\nA fresh low-cap contender just landed on the radar \ud83d\udc40 Early-stage activity worth keeping an eye on. Let\u2019s see if attention starts to build!\n\nCA: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\nFollow + tap my bio for private radar access. https://t.co/tDyOmK5vss",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 1,
+      "viewCount": 39,
+      "createdAt": "Sun Oct 25 06:14:26 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114239141990789545",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdJSL3WcAAV-M8.jpg",
+        "expanded_url": "https://x.com/sofiamarthins44/status/2114239141990789545/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "sofiamarthins44",
+       "url": "https://x.com/sofiamarthins44",
+       "id": "2098443181947834377",
+       "name": "John Smith",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2114240375548219392/sTXbAKPK_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2098443181947834377/1789205851",
+       "description": "Crypto investor \ud83c\uddee\ud83c\uddf9 | On-chain researcher \ud83d\udd0e\nFinding early opportunities before they hit the mainstream.\nDeFi \u2022 Solana",
+       "location": "Florida, USA",
+       "followers": 9,
+       "following": 0,
+       "createdAt": "Fri Sep 11 16:08:15 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114230462386442638",
+      "url": "https://x.com/Kelfin97/status/2114230462386442638",
+      "twitterUrl": "https://twitter.com/Kelfin97/status/2114230462386442638",
+      "text": "who's keeping an eye on it\ud83d\udc40\n\n$Swordope\n\nCa: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump https://t.co/9J6w28cjEp",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 48,
+      "createdAt": "Sun Oct 25 05:39:57 +0000 2026",
+      "lang": "nl",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114230462386442638",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdBZWubcAATxDy.jpg",
+        "expanded_url": "https://x.com/Kelfin97/status/2114230462386442638/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "Kelfin97",
+       "url": "https://x.com/Kelfin97",
+       "id": "1874724371606175744",
+       "name": "Finn",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2106666565961916416/ghj9qiGn_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1874724371606175744/1791103436",
+       "description": "Crypto trader | Altcoin & memecoin calls + chart updates | Track record publik | NFA \u00b7 DYOR",
+       "location": "Antarctica",
+       "followers": 291,
+       "following": 219,
+       "createdAt": "Thu Jan 02 07:50:10 +0000 2025",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114136033835016669",
+      "url": "https://x.com/ValenOnchains/status/2114136033835016669",
+      "twitterUrl": "https://twitter.com/ValenOnchains/status/2114136033835016669",
+      "text": "$SWORDOPE \u2014 $2.0M MC \ud83d\udc40\n\nFrom $8K \u2192 $2.0M MC on the early call. \ud83d\ude80\ud83d\udcc8\n\nMomentum is building, and I\u2019m keeping a close eye on the next moves.\n\n\ud83d\udce9 DM \u201cJOIN\u201d FOR VIP ACCESS\n\ud83d\udd17 TG: https://t.co/Qp4mTEfLe3\n\nCA: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\n#Solana #Memecoin #Crypto https://t.co/gAqtCQ7e9T",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 54,
+      "createdAt": "Sat Oct 24 23:24:43 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114136033835016669",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVbrgKvXIAAZmHH.jpg",
+        "expanded_url": "https://x.com/ValenOnchains/status/2114136033835016669/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "ValenOnchains",
+       "url": "https://x.com/ValenOnchains",
+       "id": "761305442689646593",
+       "name": "Veylan",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2092505817895366656/GGsQ6Ggw_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/761305442689646593/1787727250",
+       "description": "On-chain markets. Memecoin cycles. Asymmetric opportunities.",
+       "location": "",
+       "followers": 2023,
+       "following": 72,
+       "createdAt": "Thu Aug 04 20:58:57 +0000 2016",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114117361389453318",
+       "text": "$SWORDOPE\n$8k MC\n\nCa:\n3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\n#Solana #Memecoin #Crypto https://t.co/PcQIlYuVs2",
+       "user": {
+        "name": "Veylan",
+        "screen_name": "ValenOnchains"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114088849114886193",
+      "url": "https://x.com/EvansOnSolana/status/2114088849114886193",
+      "twitterUrl": "https://twitter.com/EvansOnSolana/status/2114088849114886193",
+      "text": "Massive 34x up on my call $SWORDOPE\nTG eating massively \nDm for entry\n\n3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n#solana #memecoin #crypto https://t.co/ZE3VCU3Zdl",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 26,
+      "createdAt": "Sat Oct 24 20:17:14 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114088849114886193",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVbAk9_XwAACE76.jpg",
+        "expanded_url": "https://x.com/EvansOnSolana/status/2114088849114886193/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "EvansOnSolana",
+       "url": "https://x.com/EvansOnSolana",
+       "id": "1399667293144109056",
+       "name": "EVANS | SOLANA \u26a1",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2112085559988338688/ZGB9-wTl_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1399667293144109056/1792359342",
+       "description": "Solana Trader \u26a1 | Liquidity \u2022 Volume \u2022 Market Structure | Early Setups. Precise Entries. Disciplined Execution. \ud83d\udcc8",
+       "location": "",
+       "followers": 1138,
+       "following": 53,
+       "createdAt": "Tue Jun 01 10:01:10 +0000 2021",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114087572305846534",
+       "text": "Watch your entry on $SWORDOPE\n\nCA:\n\n3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n#solana #memecoin #crypto https://t.co/HecAWadj8o",
+       "user": {
+        "name": "EVANS | SOLANA \u26a1",
+        "screen_name": "EvansOnSolana"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114238561876656247",
+      "url": "https://x.com/sofiamarthins44/status/2114238561876656247",
+      "twitterUrl": "https://twitter.com/sofiamarthins44/status/2114238561876656247",
+      "text": "\u2694\ufe0f $SWORDOPE \u2014 $8K MC\n\nA fresh low-cap contender just landed on the radar \ud83d\udc40 Early-stage activity worth keeping an eye on. Let\u2019s see if attention starts to build!\n\nCA: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\nFollow + tap my bio for private radar access. https://t.co/VEgts387jp",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 1,
+      "viewCount": 30,
+      "createdAt": "Sun Oct 25 06:12:08 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114238561876656247",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdIwN-XsAAtSLY.jpg",
+        "expanded_url": "https://x.com/sofiamarthins44/status/2114238561876656247/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "sofiamarthins44",
+       "url": "https://x.com/sofiamarthins44",
+       "id": "2098443181947834377",
+       "name": "John Smith",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2114240375548219392/sTXbAKPK_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2098443181947834377/1789205851",
+       "description": "Crypto investor \ud83c\uddee\ud83c\uddf9 | On-chain researcher \ud83d\udd0e\nFinding early opportunities before they hit the mainstream.\nDeFi \u2022 Solana",
+       "location": "Florida, USA",
+       "followers": 9,
+       "following": 0,
+       "createdAt": "Fri Sep 11 16:08:15 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114151260358140107",
+      "url": "https://x.com/_Shonsol/status/2114151260358140107",
+      "twitterUrl": "https://twitter.com/_Shonsol/status/2114151260358140107",
+      "text": "Smooth 311x up on my call $SWORDOPE\nTG eating massively \nDm for entry\n\n3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n#solana #memecoin #memecoin1000x https://t.co/rgFYCAfKkK",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 110,
+      "createdAt": "Sun Oct 25 00:25:14 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114151260358140107",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVb5XQoWoAApRgP.jpg",
+        "expanded_url": "https://x.com/_Shonsol/status/2114151260358140107/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "_Shonsol",
+       "url": "https://x.com/_Shonsol",
+       "id": "362765891",
+       "name": "Shon sol",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2069864657364402176/hr71JSfi_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/362765891/1782329179",
+       "description": "Degenerate /Meme-Maxi || Made 6-Figs Trading SOL/BSC meme \ud83c\udfb0 Early 10-100X Gem Calls on TG",
+       "location": "",
+       "followers": 1848,
+       "following": 26,
+       "createdAt": "Fri Aug 26 23:24:47 +0000 2011",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114086276143956424",
+       "text": "Watch your entry on $SWORDOPE\nGamble for now\nCA:\n\n3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n#solana #memecoin #memecoin1000x https://t.co/sliw80m65d",
+       "user": {
+        "name": "Shon sol",
+        "screen_name": "_Shonsol"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114256042481631584",
+      "url": "https://x.com/sofiamarthins44/status/2114256042481631584",
+      "twitterUrl": "https://twitter.com/sofiamarthins44/status/2114256042481631584",
+      "text": "\u2694\ufe0f $SWORDOPE \u2014 $8K MC\n\nA fresh low-cap contender just landed on the radar \ud83d\udc40 Early-stage activity worth keeping an eye on. Let\u2019s see if attention starts to build!\n\nCA: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\nFollow + tap my bio for private radar access. https://t.co/GhovBLMauy",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 2,
+      "quoteCount": 1,
+      "viewCount": 79,
+      "createdAt": "Sun Oct 25 07:21:36 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114256042481631584",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdYpiyW4AAidu9.jpg",
+        "expanded_url": "https://x.com/sofiamarthins44/status/2114256042481631584/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "sofiamarthins44",
+       "url": "https://x.com/sofiamarthins44",
+       "id": "2098443181947834377",
+       "name": "John Smith",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2114240375548219392/sTXbAKPK_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2098443181947834377/1789205851",
+       "description": "Crypto investor \ud83c\uddee\ud83c\uddf9 | On-chain researcher \ud83d\udd0e\nFinding early opportunities before they hit the mainstream.\nDeFi \u2022 Solana",
+       "location": "Florida, USA",
+       "followers": 9,
+       "following": 0,
+       "createdAt": "Fri Sep 11 16:08:15 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114240730172400097",
+      "url": "https://x.com/sofiamarthins44/status/2114240730172400097",
+      "twitterUrl": "https://twitter.com/sofiamarthins44/status/2114240730172400097",
+      "text": "\u2694\ufe0f $SWORDOPE \u2014 $8K MC\n\nA fresh low-cap contender just landed on the radar \ud83d\udc40 Early-stage activity worth keeping an eye on. Let\u2019s see if attention starts to build!\n\nCA: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\nFollow + tap my bio for private radar access. https://t.co/qaBRrIk37l",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 1,
+      "viewCount": 57,
+      "createdAt": "Sun Oct 25 06:20:45 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114240730172400097",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdKu0SWQAAsBai.jpg",
+        "expanded_url": "https://x.com/sofiamarthins44/status/2114240730172400097/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "sofiamarthins44",
+       "url": "https://x.com/sofiamarthins44",
+       "id": "2098443181947834377",
+       "name": "John Smith",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2114240375548219392/sTXbAKPK_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2098443181947834377/1789205851",
+       "description": "Crypto investor \ud83c\uddee\ud83c\uddf9 | On-chain researcher \ud83d\udd0e\nFinding early opportunities before they hit the mainstream.\nDeFi \u2022 Solana",
+       "location": "Florida, USA",
+       "followers": 9,
+       "following": 0,
+       "createdAt": "Fri Sep 11 16:08:15 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114276812834431100",
+      "url": "https://x.com/mouswehbi/status/2114276812834431100",
+      "twitterUrl": "https://twitter.com/mouswehbi/status/2114276812834431100",
+      "text": "$SWORDOPE - 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\nS\u0441an ID\u200b ec095q8\n\nhttps://t.co/HRXVMEvkGG https://t.co/I4kTk6Ucwi",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 8,
+      "createdAt": "Sun Oct 25 08:44:08 +0000 2026",
+      "lang": "nl",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114276812834431100",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdrjTYXIAABhFE.jpg",
+        "expanded_url": "https://x.com/mouswehbi/status/2114276812834431100/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "mouswehbi",
+       "url": "https://x.com/mouswehbi",
+       "id": "572777036",
+       "name": "\ud83d\udd3b \u0645\u0648\u0633\u0649 \ud83c\uddf1\ud83c\udde7",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2107860065419988992/qTm6_80K_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/572777036/1684503486",
+       "description": "\ud83c\uddf1\ud83c\udde7 \ud83d\udd3b\u0641\u064e\u062f\u064e\u0639\u064e\u0627 \u0631\u064e\u0628\u064e\u0651\u0647\u064f \u0623\u064e\u0646\u0650\u0651\u064a \u0645\u064e\u063a\u0652\u0644\u064f\u0648\u0628\u064c \u0641\u064e\u0627\u0646\u0652\u062a\u064e\u0635\u0650\u0631\u0652",
+       "location": "Somewhere iBelong",
+       "followers": 864,
+       "following": 647,
+       "createdAt": "Sun May 06 16:20:10 +0000 2012",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114098413239464071",
+      "url": "https://x.com/EvansOnSolana/status/2114098413239464071",
+      "twitterUrl": "https://twitter.com/EvansOnSolana/status/2114098413239464071",
+      "text": "Super 101x up on my call $SWORDOPE\nTG eating massively \nDm for entry\n\n3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n#solana #memecoin #crypto https://t.co/LDcK18dXcO",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 37,
+      "createdAt": "Sat Oct 24 20:55:14 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114098413239464071",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVbJSLsX0AA4C8h.jpg",
+        "expanded_url": "https://x.com/EvansOnSolana/status/2114098413239464071/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "EvansOnSolana",
+       "url": "https://x.com/EvansOnSolana",
+       "id": "1399667293144109056",
+       "name": "EVANS | SOLANA \u26a1",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2112085559988338688/ZGB9-wTl_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1399667293144109056/1792359342",
+       "description": "Solana Trader \u26a1 | Liquidity \u2022 Volume \u2022 Market Structure | Early Setups. Precise Entries. Disciplined Execution. \ud83d\udcc8",
+       "location": "",
+       "followers": 1138,
+       "following": 53,
+       "createdAt": "Tue Jun 01 10:01:10 +0000 2021",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114087572305846534",
+       "text": "Watch your entry on $SWORDOPE\n\nCA:\n\n3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n#solana #memecoin #crypto https://t.co/HecAWadj8o",
+       "user": {
+        "name": "EVANS | SOLANA \u26a1",
+        "screen_name": "EvansOnSolana"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114135129601740902",
+      "url": "https://x.com/JanoskianSwe1/status/2114135129601740902",
+      "twitterUrl": "https://twitter.com/JanoskianSwe1/status/2114135129601740902",
+      "text": "$SWORDOPE Another massive send \ud83d\ude80\n$18K MC \u279c $3.1M MC\nThat\u2019s what happens when you get in early.\nPrivate TG ate once again \ud83d\udcb0\ud83d\udd25\nFollow &amp; \ud83d\udce9 DM me to get into the TG + Discord before the next gem explodes.\nCa: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n#memecoin #solana #bbvip https://t.co/66KY27y7PW",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 61,
+      "createdAt": "Sat Oct 24 23:21:08 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114135129601740902",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVbqrbwW8AAJKc9.jpg",
+        "expanded_url": "https://x.com/JanoskianSwe1/status/2114135129601740902/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVbqrb-XoAAHQ_K.jpg",
+        "expanded_url": "https://x.com/JanoskianSwe1/status/2114135129601740902/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "JanoskianSwe1",
+       "url": "https://x.com/JanoskianSwe1",
+       "id": "733403640",
+       "name": "JanoskianSwe",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2066136252479393792/KUsL8d0p_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/733403640/1781440244",
+       "description": "Alpha Hunter on Solana \ud83e\udde0 | Memecoins \u2022 On-chain Analysis \u2022 Market Psychology | Navigating volatility with discipline |\u26a1\ud83d\udcaf",
+       "location": "Sweden",
+       "followers": 485,
+       "following": 178,
+       "createdAt": "Thu Aug 02 19:28:22 +0000 2012",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114219523221967021",
+      "url": "https://x.com/zainka_173/status/2114219523221967021",
+      "twitterUrl": "https://twitter.com/zainka_173/status/2114219523221967021",
+      "text": "$SWORDOPE - 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\nS\u0441an er\u200cg861f3\n\nhttps://t.co/2P5TnozAfx https://t.co/SsBNgYAJL2",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 28,
+      "createdAt": "Sun Oct 25 04:56:29 +0000 2026",
+      "lang": "nl",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114219523221967021",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVc3cp4WsAAPIka.jpg",
+        "expanded_url": "https://x.com/zainka_173/status/2114219523221967021/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "zainka_173",
+       "url": "https://x.com/zainka_173",
+       "id": "2524372869",
+       "name": "Jazmin",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2032638316835749888/TwtfKpg1_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2524372869/1768758201",
+       "description": "\u2653 - TY  \ud83c\udf39\ud83c\udf1f \ud83c\uddf5\ud83c\uddfe",
+       "location": "Paraguay",
+       "followers": 678,
+       "following": 733,
+       "createdAt": "Sat May 03 00:40:36 +0000 2014",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114256856663114124",
+      "url": "https://x.com/sofiamarthins44/status/2114256856663114124",
+      "twitterUrl": "https://twitter.com/sofiamarthins44/status/2114256856663114124",
+      "text": "\u2694\ufe0f $SWORDOPE \u2014 $8K \u2192 $277K MC\n\n\ud83d\ude80 $SWORDOPE is gaining traction! Keep it on your radar. \ud83d\udc40\ud83d\udd25\n\nCA: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\n\ud83d\udd14 Follow + tap my bio for private radar access. https://t.co/dYQLDOmG5O",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 43,
+      "createdAt": "Sun Oct 25 07:24:50 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114256856663114124",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdZY8zW8AATBcM.jpg",
+        "expanded_url": "https://x.com/sofiamarthins44/status/2114256856663114124/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "sofiamarthins44",
+       "url": "https://x.com/sofiamarthins44",
+       "id": "2098443181947834377",
+       "name": "John Smith",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2114240375548219392/sTXbAKPK_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2098443181947834377/1789205851",
+       "description": "Crypto investor \ud83c\uddee\ud83c\uddf9 | On-chain researcher \ud83d\udd0e\nFinding early opportunities before they hit the mainstream.\nDeFi \u2022 Solana",
+       "location": "Florida, USA",
+       "followers": 9,
+       "following": 0,
+       "createdAt": "Fri Sep 11 16:08:15 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": {
+       "id": "2114256042481631584",
+       "text": "\u2694\ufe0f $SWORDOPE \u2014 $8K MC\n\nA fresh low-cap contender just landed on the radar \ud83d\udc40 Early-stage activity worth keeping an eye on. Let\u2019s see if attention starts to build!\n\nCA: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\nFollow + tap my bio for private radar access. https://t.co/GhovBLMauy",
+       "user": {
+        "name": "John Smith",
+        "screen_name": "sofiamarthins44"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114091401550221556",
+      "url": "https://x.com/CryptoKittoll/status/2114091401550221556",
+      "twitterUrl": "https://twitter.com/CryptoKittoll/status/2114091401550221556",
+      "text": "175X up on $SWORDOPE\n\n3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump https://t.co/YmBdrXzF5w",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 89,
+      "createdAt": "Sat Oct 24 20:27:22 +0000 2026",
+      "lang": "nl",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114091401550221556",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVbC6WiW8AAL8da.jpg",
+        "expanded_url": "https://x.com/CryptoKittoll/status/2114091401550221556/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "CryptoKittoll",
+       "url": "https://x.com/CryptoKittoll",
+       "id": "249816919",
+       "name": "CryptoKitty",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2066914533373837314/3-qS2u32_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/249816919/1781625812",
+       "description": "Crypto marketing expert \ud83d\ude80||Degen||NFA-DYOR|| Daily 10X to 100X gems on my TG & TL\u2026..my TG link \ud83d\udd17 \ud83d\udc49 https://t.co/GZdBQ5wojo",
+       "location": "Potential gems\ud83d\ude80",
+       "followers": 2097,
+       "following": 24,
+       "createdAt": "Wed Feb 09 21:04:04 +0000 2011",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114086558353747988",
+       "text": "Track your entry on $SWORDOPE\nCA;\n\n3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump https://t.co/liAIIrIOf0",
+       "user": {
+        "name": "CryptoKitty",
+        "screen_name": "CryptoKittoll"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114231211656888718",
+      "url": "https://x.com/web3chibainu/status/2114231211656888718",
+      "twitterUrl": "https://twitter.com/web3chibainu/status/2114231211656888718",
+      "text": "Today Elon replies to a meme.\n\nToo many tickers show up on chain.\n\nMost traders miss out.\n\nBut my ai calls still work.\n\n$SWORDOPE 2X:\n3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\n$CATTLEAXE 5.5X:\nH7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump\n\nA big day for meme.\n\nI appreciate what elon done.",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 21,
+      "createdAt": "Sun Oct 25 05:42:56 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114231211656888718",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVc_EHAagAABYME.jpg",
+        "expanded_url": "https://x.com/web3chibainu/status/2114231211656888718/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdBN8TbkAAuCvg.png",
+        "expanded_url": "https://x.com/web3chibainu/status/2114231211656888718/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdBRjcbAAAyogb.png",
+        "expanded_url": "https://x.com/web3chibainu/status/2114231211656888718/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "web3chibainu",
+       "url": "https://x.com/web3chibainu",
+       "id": "1761874209439985664",
+       "name": "\u5976\u4e00\u4e2a\u5e01 | Shill a Coin",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2108461812215881728/eelvmRLM_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1761874209439985664/1791515576",
+       "description": "\u5976\u4e00\u4e2a\u5e01\uff0c\u7b49\u98ce\u6765\uff0c\u8d77\u98de\nShilling a coin, awaiting for the wind, pump it up.",
+       "location": "",
+       "followers": 12,
+       "following": 35,
+       "createdAt": "Sun Feb 25 22:05:43 +0000 2024",
+       "canDm": false
+      },
+      "quoted_tweet": {
+       "id": "2114003447443866063",
+       "text": "@paranoidream \u2764\ufe0f",
+       "user": {
+        "name": "Elon Musk",
+        "screen_name": "elonmusk"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114180556632330363",
+      "url": "https://x.com/ZHKBLUE/status/2114180556632330363",
+      "twitterUrl": "https://twitter.com/ZHKBLUE/status/2114180556632330363",
+      "text": "$SWORDOPE - 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\nS\u0441an report v\u200b3c8nq\n\nhttps://t.co/s2ZFHbdzA0 https://t.co/bd78eSprQ6",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 38,
+      "createdAt": "Sun Oct 25 02:21:38 +0000 2026",
+      "lang": "nl",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114180556632330363",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVcUAO2W0AAE5iY.jpg",
+        "expanded_url": "https://x.com/ZHKBLUE/status/2114180556632330363/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "ZHKBLUE",
+       "url": "https://x.com/ZHKBLUE",
+       "id": "1591267297",
+       "name": "Zach Khan Photographer \ud83d\udcf7\uea00\ud83c\uddf5\ud83c\uddf0",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1391982336464629761/do0aGcfr_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1591267297/1620709526",
+       "description": "Insta @ZHKBluePhotography\nhttpp://www.instagram.com/ZHKBluePhotography",
+       "location": "Islamamad",
+       "followers": 714,
+       "following": 706,
+       "createdAt": "Sat Jul 13 15:29:08 +0000 2013",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114087572305846534",
+      "url": "https://x.com/EvansOnSolana/status/2114087572305846534",
+      "twitterUrl": "https://twitter.com/EvansOnSolana/status/2114087572305846534",
+      "text": "Watch your entry on $SWORDOPE\n\nCA:\n\n3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n#solana #memecoin #crypto https://t.co/HecAWadj8o",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 1,
+      "viewCount": 136,
+      "createdAt": "Sat Oct 24 20:12:09 +0000 2026",
+      "lang": "nl",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114087572305846534",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVa_YwpWEAAcajc.jpg",
+        "expanded_url": "https://x.com/EvansOnSolana/status/2114087572305846534/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "EvansOnSolana",
+       "url": "https://x.com/EvansOnSolana",
+       "id": "1399667293144109056",
+       "name": "EVANS | SOLANA \u26a1",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2112085559988338688/ZGB9-wTl_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1399667293144109056/1792359342",
+       "description": "Solana Trader \u26a1 | Liquidity \u2022 Volume \u2022 Market Structure | Early Setups. Precise Entries. Disciplined Execution. \ud83d\udcc8",
+       "location": "",
+       "followers": 1138,
+       "following": 53,
+       "createdAt": "Tue Jun 01 10:01:10 +0000 2021",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114257052617081065",
+      "url": "https://x.com/SolProfitHunt/status/2114257052617081065",
+      "twitterUrl": "https://twitter.com/SolProfitHunt/status/2114257052617081065",
+      "text": "$SWORDOPE just ripped a clean 160x! \ud83d\udea8\ud83d\ude80\n$10K \u2192 $1.6M MCAP \ud83d\udcc8\ud83d\udcb0\nWe catch these micro-cap Solana gems before they explode. If you want in on the next play, DM me \"ALPHA\" now! \ud83d\udce9\u26a1\nCA: \u20603SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\u2060 https://t.co/nVgzJClR5E",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 22,
+      "createdAt": "Sun Oct 25 07:25:36 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114257052617081065",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdYLaJWQAAQNGl.jpg",
+        "expanded_url": "https://x.com/SolProfitHunt/status/2114257052617081065/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdYLaQXYAEEcBA.jpg",
+        "expanded_url": "https://x.com/SolProfitHunt/status/2114257052617081065/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "SolProfitHunt",
+       "url": "https://x.com/SolProfitHunt",
+       "id": "1545121605969448962",
+       "name": "Sol Profit Hunter",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2108491925623844864/RHU9m5mJ_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1545121605969448962/1763544160",
+       "description": "\u26a1 Solana trader | Profit hunter | Turning early plays into massive gains \ud83d\ude80Solana trader. Night: Alpha seeker. One mission: maximize profits \ud83d\udcc8\ud83d\udca5",
+       "location": "Egypt base in New York, USA",
+       "followers": 1378,
+       "following": 11,
+       "createdAt": "Thu Jul 07 19:05:00 +0000 2022",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114235804776329568",
+      "url": "https://x.com/jaymgx_/status/2114235804776329568",
+      "twitterUrl": "https://twitter.com/jaymgx_/status/2114235804776329568",
+      "text": "$SWORDOPE - 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\nS\u200b\u0441an ID slhjoy\n\nhttps://t.co/lcKzYK1dkq https://t.co/TboWghX0kM",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 0,
+      "createdAt": "Sun Oct 25 06:01:11 +0000 2026",
+      "lang": "cs",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114235804776329568",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdGQKoW0AAQiY5.jpg",
+        "expanded_url": "https://x.com/jaymgx_/status/2114235804776329568/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "jaymgx_",
+       "url": "https://x.com/jaymgx_",
+       "id": "2029185417657110528",
+       "name": "Jay Gonzalez",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2029185812999368704/Ux6zjALG_normal.jpg",
+       "coverPicture": null,
+       "description": "Trader | Ex - Platform Engineer",
+       "location": "",
+       "followers": 44,
+       "following": 123,
+       "createdAt": "Wed Mar 04 13:21:34 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     }
+    ]
+   }
+  },
+  {
+   "q": "\"$SWORDOPE\" -filter:retweets",
+   "product": "Latest",
+   "at": "2026-10-25T09:48:20Z",
+   "body": {
+    "query": "\"$SWORDOPE\" -filter:retweets",
+    "tweet_count": 20,
+    "has_more": true,
+    "next_cursor": "DAADDAABCgABHVdxFp4awNQKAAIdV1iiBFYgoQAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUdV3pB7UAnEAoABh1XekHtP9jwCwAHAAAA8EVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFCUWRWMmpFa3Rid1NSMVhjSlNWRnNIZ0hWZHhGcDRhd05RZFYya2xMdHRSdEIxWFlyWHhteUJxSFZkWW9nUldJS0VkVjJvTjc1YlFHeDFYWXZDS2xnRGtIVmRabG1rYkFPa2RWMWxveVZiQmpCMVhXM1NPR3VBVUhWZFlxemhYUVdBZFYyUGxYUmVRaVIxWGE0OHgxMkI4SFZkbzNCUGJVUllkVjIwWklGWWdaUjFYY0piYjJ3RWRIVmRadSt3V2tGRWRWMkRUWlZjaGFSMVhaRFpaMm1BbAAA",
+    "tweets": [
+     {
+      "type": "tweet",
+      "id": "2114282892029509844",
+      "url": "https://x.com/XCryptodaily01/status/2114282892029509844",
+      "twitterUrl": "https://twitter.com/XCryptodaily01/status/2114282892029509844",
+      "text": "\u2694\ufe0f $SWORDOPE \u2014 THE DOPE WIF SWORD \ud83d\udc15\ud83d\udde1\ufe0f\n\n A meme with a sword-wielding identity.\n\n\ud83d\udd25 $SWORDOPE is bringing fantasy battle energy to the Solana trenches.\n\nKeep $SWORDOPE on your radar \ud83d\udc47\n\n\ud83d\udd17 Chart: \"View $SWORDOPE on DexScreener\" (https://t.co/qitGNsXQgi) https://t.co/eNRjtQFPwW",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 21,
+      "quoteCount": 0,
+      "viewCount": 4443,
+      "createdAt": "Sun Oct 25 09:08:17 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114282892029509844",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdxE--aEAEckqb.jpg",
+        "expanded_url": "https://x.com/XCryptodaily01/status/2114282892029509844/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "XCryptodaily01",
+       "url": "https://x.com/XCryptodaily01",
+       "id": "1230951679509569536",
+       "name": "Crypto Daily",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2078582225478844416/IBk-xw3Y_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1230951679509569536/1779980734",
+       "description": "",
+       "location": "",
+       "followers": 58062,
+       "following": 33550,
+       "createdAt": "Fri Feb 21 20:25:40 +0000 2020",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114282343309705501",
+      "url": "https://x.com/daharleycrypto/status/2114282343309705501",
+      "twitterUrl": "https://twitter.com/daharleycrypto/status/2114282343309705501",
+      "text": "\u2694\ufe0f $SWORDOPE \u2014 THE DOPE WIF SWORD \ud83d\udc15\ud83d\udde1\ufe0f\n\nA warrior dog. A medieval battlefield. A meme with a sword-wielding identity.\n\n\ud83d\udd25 $SWORDOPE is bringing fantasy battle energy to the Solana trenches.\n\nThe sword is drawn. The battlefield is live. \u2694\ufe0f\n\nKeep $SWORDOPE on your radar \ud83d\udc47\n#SWORDOPE #Solana #Memecoin\n\n\ud83d\udd17 Chart: \"View $SWORDOPE on DexScreener\" (https://t.co/mqt4yEAMBg)",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 3,
+      "likeCount": 23,
+      "quoteCount": 0,
+      "viewCount": 7909,
+      "createdAt": "Sun Oct 25 09:06:06 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114282343309705501",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdwlGFbAAAVxy8.jpg",
+        "expanded_url": "https://x.com/daharleycrypto/status/2114282343309705501/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "daharleycrypto",
+       "url": "https://x.com/daharleycrypto",
+       "id": "1968411077596647424",
+       "name": "Harley Hood",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2112205865944231936/ZvqXxjIL_normal.jpg",
+       "coverPicture": null,
+       "description": "#Bullrun believer. Hunting for 1000X opportunities before they trend. Investor in #BTC, #SOL, #ETH & #BNB. DMs open for business. @GameOfCatogob",
+       "location": "",
+       "followers": 93058,
+       "following": 2264,
+       "createdAt": "Wed Sep 17 20:25:59 +0000 2025",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114282333532504544",
+      "url": "https://x.com/SolProfitHunt/status/2114282333532504544",
+      "twitterUrl": "https://twitter.com/SolProfitHunt/status/2114282333532504544",
+      "text": "$SWORDOPE is vertical! \ud83d\ude80\ud83d\udd25\nIf you\u2019re inside my Alpha Telegram, your copy trade is already printing massive profits with me right now. We don't miss. \ud83d\udcc8\ud83d\udc8e\nDon't sleep on the next call.\nCA: \u20603SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\u2060 https://t.co/HqtYvxq9a2",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 19,
+      "createdAt": "Sun Oct 25 09:06:04 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114282333532504544",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdwkoPXMAA9bnr.jpg",
+        "expanded_url": "https://x.com/SolProfitHunt/status/2114282333532504544/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "SolProfitHunt",
+       "url": "https://x.com/SolProfitHunt",
+       "id": "1545121605969448962",
+       "name": "Sol Profit Hunter",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2108491925623844864/RHU9m5mJ_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1545121605969448962/1763544160",
+       "description": "\u26a1 Solana trader | Profit hunter | Turning early plays into massive gains \ud83d\ude80Solana trader. Night: Alpha seeker. One mission: maximize profits \ud83d\udcc8\ud83d\udca5",
+       "location": "Egypt base in New York, USA",
+       "followers": 1378,
+       "following": 11,
+       "createdAt": "Thu Jul 07 19:05:00 +0000 2022",
+       "canDm": false
+      },
+      "quoted_tweet": {
+       "id": "2114257213728395345",
+       "text": "$SWORDOPE just ripped a clean 160x! \ud83d\udea8\ud83d\ude80\n$10K \u2192 $1.6M MCAP \ud83d\udcc8\ud83d\udcb0\nWe catch these micro-cap Solana gems before they explode. If you want in on the next play, DM me \"ALPHA\" now! \ud83d\udce9\u26a1\nCA: \u20603SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\u2060 https://t.co/Ihg3oFnlXY",
+       "user": {
+        "name": "Sol Profit Hunter",
+        "screen_name": "SolProfitHunt"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114278504757862501",
+      "url": "https://x.com/waaaaaw_9/status/2114278504757862501",
+      "twitterUrl": "https://twitter.com/waaaaaw_9/status/2114278504757862501",
+      "text": "$SWORDOPE Another massive send \ud83d\ude80\n$18K MC \u279c $3.1M MC\nThat\u2019s what happens when you get in early.\nPrivate TG ate once again \ud83d\udcb0\ud83d\udd25\nFollow &amp; \ud83d\udce9 DM me to get into the TG + Discord before the next gem explodes.\nCa: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n#memecoin #solana #bbvip https://t.co/YYuQLMW4HI",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 1,
+      "likeCount": 1,
+      "quoteCount": 1,
+      "viewCount": 16,
+      "createdAt": "Sun Oct 25 08:50:51 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114278504757862501",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdtFXBXcAA9FFv.jpg",
+        "expanded_url": "https://x.com/waaaaaw_9/status/2114278504757862501/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdtFzlWUAAA3oy.jpg",
+        "expanded_url": "https://x.com/waaaaaw_9/status/2114278504757862501/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "waaaaaw_9",
+       "url": "https://x.com/waaaaaw_9",
+       "id": "360362952",
+       "name": "alsayidmeme",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2100361456218787840/LFgDO05P_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/360362952/1789600180",
+       "description": "\ud83e\ude99 Meme Coin Trader\n\ud83c\udfaf Early entries. Smart exits.\n\ud83d\ude80 Chasing the next 100x",
+       "location": "Dm \ud83e\udef4",
+       "followers": 256,
+       "following": 341,
+       "createdAt": "Tue Aug 23 02:53:44 +0000 2011",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114276812834431100",
+      "url": "https://x.com/mouswehbi/status/2114276812834431100",
+      "twitterUrl": "https://twitter.com/mouswehbi/status/2114276812834431100",
+      "text": "$SWORDOPE - 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\nS\u0441an ID\u200b ec095q8\n\nhttps://t.co/HRXVMEvkGG https://t.co/I4kTk6Ucwi",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 8,
+      "createdAt": "Sun Oct 25 08:44:08 +0000 2026",
+      "lang": "nl",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114276812834431100",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdrjTYXIAABhFE.jpg",
+        "expanded_url": "https://x.com/mouswehbi/status/2114276812834431100/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "mouswehbi",
+       "url": "https://x.com/mouswehbi",
+       "id": "572777036",
+       "name": "\ud83d\udd3b \u0645\u0648\u0633\u0649 \ud83c\uddf1\ud83c\udde7",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2107860065419988992/qTm6_80K_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/572777036/1684503486",
+       "description": "\ud83c\uddf1\ud83c\udde7 \ud83d\udd3b\u0641\u064e\u062f\u064e\u0639\u064e\u0627 \u0631\u064e\u0628\u064e\u0651\u0647\u064f \u0623\u064e\u0646\u0650\u0651\u064a \u0645\u064e\u063a\u0652\u0644\u064f\u0648\u0628\u064c \u0641\u064e\u0627\u0646\u0652\u062a\u064e\u0635\u0650\u0631\u0652",
+       "location": "Somewhere iBelong",
+       "followers": 864,
+       "following": 647,
+       "createdAt": "Sun May 06 16:20:10 +0000 2012",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114275158160494619",
+      "url": "https://x.com/badattrading_/status/2114275158160494619",
+      "twitterUrl": "https://twitter.com/badattrading_/status/2114275158160494619",
+      "text": "$SWORDOPE (CA 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump)  is a bundled scam, don't buy that garbage, stay away. https://t.co/zMLxRro6jr",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 4,
+      "likeCount": 7,
+      "quoteCount": 0,
+      "viewCount": 3717,
+      "createdAt": "Sun Oct 25 08:37:33 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114275158160494619",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdqBAsWcAAdlM4.jpg",
+        "expanded_url": "https://x.com/badattrading_/status/2114275158160494619/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdqDHAX0AAjppv.png",
+        "expanded_url": "https://x.com/badattrading_/status/2114275158160494619/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "badattrading_",
+       "url": "https://x.com/badattrading_",
+       "id": "975758426",
+       "name": "Nova",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1872012491514892288/QsZ6kSqm_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/975758426/1791562205",
+       "description": "Building @LuminosCapital our memecoin analysis tool linked to $SOBAT\n\nEW7cWbNmTgL7PLQNiJ6tBVC62SJzJXa2pFYJjDPPpump",
+       "location": "",
+       "followers": 70358,
+       "following": 4880,
+       "createdAt": "Wed Nov 28 09:38:23 +0000 2012",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114274158494568884",
+      "url": "https://x.com/MrBIGWHALE_0/status/2114274158494568884",
+      "twitterUrl": "https://twitter.com/MrBIGWHALE_0/status/2114274158494568884",
+      "text": "@MaxelRowan $SWORDOPE is ready for battle \u2694\ufe0f",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 44,
+      "createdAt": "Sun Oct 25 08:33:35 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": true,
+      "inReplyToId": "2114273844508971286",
+      "conversationId": "2114273844508971286",
+      "media": [],
+      "inReplyToUserId": "1542486331808698369",
+      "author": {
+       "type": "user",
+       "userName": "MrBIGWHALE_0",
+       "url": "https://x.com/MrBIGWHALE_0",
+       "id": "1260825668021092352",
+       "name": "Mr BIG Whale",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1986284779138949120/S0coSWtx_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1260825668021092352/1786219202",
+       "description": "Crypto Investor & Web3 Explorer \u2022 NFA \u2022 DYOR \u2022 Dm for Enquiries!",
+       "location": "",
+       "followers": 106178,
+       "following": 18952,
+       "createdAt": "Thu May 14 07:00:37 +0000 2020",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114273844508971286",
+      "url": "https://x.com/MaxelRowan/status/2114273844508971286",
+      "twitterUrl": "https://twitter.com/MaxelRowan/status/2114273844508971286",
+      "text": "JUST IN: $SWORDOPE \u2014 EVERY MEME NEEDS A WARRIOR.\n\nA sword. A fearless attitude. A whole lot of degen energy.\n\nMeet Swordope, the sword-wielding Doge bringing battle-ready visuals and internet meme culture to Solana.\n\nNo complicated storyline. Just a bold mascot, a recognizable meme identity, and a community ready to carve out its own place on the timeline.\n\nTHE SWORD IS DRAWN. THE QUEST BEGINS.\n\nCA: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\nChart: https://t.co/p3lRTFkMFD\n\nWebsite: https://t.co/LTmxGM1HeZ\n\nDYOR & NFA.",
+      "source": null,
+      "retweetCount": 2,
+      "replyCount": 3,
+      "likeCount": 28,
+      "quoteCount": 0,
+      "viewCount": 44076,
+      "createdAt": "Sun Oct 25 08:32:20 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114273844508971286",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdo2j5asAAFkxd.jpg",
+        "expanded_url": "https://x.com/MaxelRowan/status/2114273844508971286/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdo2j0aMAAviGm.jpg",
+        "expanded_url": "https://x.com/MaxelRowan/status/2114273844508971286/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "MaxelRowan",
+       "url": "https://x.com/MaxelRowan",
+       "id": "1542486331808698369",
+       "name": "Mando Maxel",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2064257240455061504/zgP-oS3o_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1542486331808698369/1780992662",
+       "description": "Crypto Expert & Gem Hunter | Market momentum | Low caps | DMs open | Always do your own research !",
+       "location": "",
+       "followers": 125459,
+       "following": 6556,
+       "createdAt": "Thu Jun 30 12:33:06 +0000 2022",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114273743560175689",
+      "url": "https://x.com/soltoken_realm/status/2114273743560175689",
+      "twitterUrl": "https://twitter.com/soltoken_realm/status/2114273743560175689",
+      "text": "23.5x run with my entry on $Swordope in my private Tg. https://t.co/QSiBfqyBbi",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 1,
+      "viewCount": 13,
+      "createdAt": "Sun Oct 25 08:31:56 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114273743560175689",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdovk0XQAA8zHu.jpg",
+        "expanded_url": "https://x.com/soltoken_realm/status/2114273743560175689/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdovkzWYAAsT1X.jpg",
+        "expanded_url": "https://x.com/soltoken_realm/status/2114273743560175689/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdovk4XgAA071S.jpg",
+        "expanded_url": "https://x.com/soltoken_realm/status/2114273743560175689/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "soltoken_realm",
+       "url": "https://x.com/soltoken_realm",
+       "id": "281217255",
+       "name": "Token Realm",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2023984758678577152/m26O0G2M_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/281217255/1771373759",
+       "description": "Navigating the decentralized world, one block at a time. Sharing insights on cryptocurrency markets and the future of finance.",
+       "location": "",
+       "followers": 2083,
+       "following": 766,
+       "createdAt": "Tue Apr 12 21:34:04 +0000 2011",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114248248307089483",
+       "text": "$Swordope to the moon in my private Tg. https://t.co/ASpEhMqO9f",
+       "user": {
+        "name": "Token Realm",
+        "screen_name": "soltoken_realm"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114268734672232485",
+      "url": "https://x.com/skeletontoolsx/status/2114268734672232485",
+      "twitterUrl": "https://twitter.com/skeletontoolsx/status/2114268734672232485",
+      "text": "Trending Tokens on #Solana in Skeleton Ecosystem.\n\n1\ufe0f\u20e3 DOPE +12.4%  @dopecoinotc\n\u2022 MC: $3.4M V: $897.19k\n2\ufe0f\u20e3 HOOKED +115%  @Hoookedpad\n\u2022 MC: $1.96M V: $358.59k\n3\ufe0f\u20e3 USDUC -4.5%  @usduc_official\n\u2022 MC: $2.16M V: $23.89k\n4\ufe0f\u20e3 SWORDOPE +2867%  @SwordopeMeme\n\u2022 MC: $1.64M V: $5.11M\n5\ufe0f\u20e3 BIRB -56.5%  @moonbirds\n\u2022 MC: $79.14M V: $18.07M",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 1,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 39,
+      "createdAt": "Sun Oct 25 08:12:02 +0000 2026",
+      "lang": "ht",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114268734672232485",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "skeletontoolsx",
+       "url": "https://x.com/skeletontoolsx",
+       "id": "1539858957325451266",
+       "name": "Skeleton Crypto Tools",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2069498878680768512/jainOZHB_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1539858957325451266/1782244761",
+       "description": "The official X of Skeleton Crypto Tools\nhttps://t.co/fCE991xiIL\nhttps://t.co/olBlH0cAZz",
+       "location": "",
+       "followers": 2901,
+       "following": 149,
+       "createdAt": "Thu Jun 23 06:33:09 +0000 2022",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114268386834223241",
+      "url": "https://x.com/FeynFun/status/2114268386834223241",
+      "twitterUrl": "https://twitter.com/FeynFun/status/2114268386834223241",
+      "text": "@Pibbasinmeta @SwordopeMeme $SWORDOPE \u00b7 Complete scam (100/100)\nOne actor bought out the whole launch before anyone else could, and over half the supply was bought in the block the token launched.\nhttps://t.co/PnhBaPCXGh",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 26,
+      "createdAt": "Sun Oct 25 08:10:39 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": true,
+      "inReplyToId": "2114268183938896188",
+      "conversationId": "2114261045682610284",
+      "media": [],
+      "inReplyToUserId": "2099496925112176641",
+      "author": {
+       "type": "user",
+       "userName": "FeynFun",
+       "url": "https://x.com/FeynFun",
+       "id": "2104603785481875456",
+       "name": "Feyn",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2112987854947151872/YBI2uTnd_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2104603785481875456/1790612989",
+       "description": "We don't call tops. We call scams. Live detection for @pumpfun. Every flag backed by on-chain evidence.  $FEYN",
+       "location": "Global",
+       "followers": 1332,
+       "following": 7,
+       "createdAt": "Mon Sep 28 16:08:05 +0000 2026",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114267335330496740",
+      "url": "https://x.com/captain_meme1/status/2114267335330496740",
+      "twitterUrl": "https://twitter.com/captain_meme1/status/2114267335330496740",
+      "text": "massive bag pulled in on $SWORDOPE after my entry ! \ud83d\udd25\nmy alphas got on early too, Dm for my Tg link and join my call group \ud83d\udce9\ud83d\ude0e https://t.co/0aLDt5E0ee",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 29,
+      "createdAt": "Sun Oct 25 08:06:28 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114267335330496740",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdi7zNXAAAPajr.jpg",
+        "expanded_url": "https://x.com/captain_meme1/status/2114267335330496740/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "captain_meme1",
+       "url": "https://x.com/captain_meme1",
+       "id": "1512613316",
+       "name": "CAPTAIN \ud83d\udea8\ud83c\udff4",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2106982349367824384/3iOAbEY4_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1512613316/1791179199",
+       "description": "Crypto strategist || Alpha Tg Admin || Memecoin enthusiast || Spotting 10x-1000x gems || \nEarly entry & sniper calls.\n\nJOHN 3:16\u271d\ufe0f",
+       "location": "Santiago, CV",
+       "followers": 3375,
+       "following": 477,
+       "createdAt": "Thu Jun 13 06:49:26 +0000 2013",
+       "canDm": true
+      },
+      "quoted_tweet": {
+       "id": "2114267083655815274",
+       "text": "aped $SWORDOPE on my alpha TG\n\nFrom a $156k mcap \u2192 $1.5m mcap after we got in on my Telegram! \ud83d\udcca\n\nWe locked in a 10x profits on my Tg with this \ud83d\udd25\ud83c\udfb0\n\n\ud83d\udce9 send a DM now to join my TG\n#solana #memecoins #earlycalls \u26d3\ufe0f https://t.co/SmwODaHkBi",
+       "user": {
+        "name": "CAPTAIN \ud83d\udea8\ud83c\udff4",
+        "screen_name": "captain_meme1"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114267083655815274",
+      "url": "https://x.com/captain_meme1/status/2114267083655815274",
+      "twitterUrl": "https://twitter.com/captain_meme1/status/2114267083655815274",
+      "text": "aped $SWORDOPE on my alpha TG\n\nFrom a $156k mcap \u2192 $1.5m mcap after we got in on my Telegram! \ud83d\udcca\n\nWe locked in a 10x profits on my Tg with this \ud83d\udd25\ud83c\udfb0\n\n\ud83d\udce9 send a DM now to join my TG\n#solana #memecoins #earlycalls \u26d3\ufe0f https://t.co/SmwODaHkBi",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 1,
+      "viewCount": 41,
+      "createdAt": "Sun Oct 25 08:05:28 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114267083655815274",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVditEfXQAA5V-H.jpg",
+        "expanded_url": "https://x.com/captain_meme1/status/2114267083655815274/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVditEbW4AAHmDb.jpg",
+        "expanded_url": "https://x.com/captain_meme1/status/2114267083655815274/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "captain_meme1",
+       "url": "https://x.com/captain_meme1",
+       "id": "1512613316",
+       "name": "CAPTAIN \ud83d\udea8\ud83c\udff4",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2106982349367824384/3iOAbEY4_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1512613316/1791179199",
+       "description": "Crypto strategist || Alpha Tg Admin || Memecoin enthusiast || Spotting 10x-1000x gems || \nEarly entry & sniper calls.\n\nJOHN 3:16\u271d\ufe0f",
+       "location": "Santiago, CV",
+       "followers": 3375,
+       "following": 477,
+       "createdAt": "Thu Jun 13 06:49:26 +0000 2013",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114265011128312169",
+      "url": "https://x.com/JustinePORCHER/status/2114265011128312169",
+      "twitterUrl": "https://twitter.com/JustinePORCHER/status/2114265011128312169",
+      "text": "325X \ud83d\ude80\ud83d\udd25 from my $SWORDOPE call.\n\nCalled early. Momentum went CRAZY. \ud83d\udcc8\ud83d\udcb0\n\nCA: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump https://t.co/fhaoxbHn6J",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 5,
+      "createdAt": "Sun Oct 25 07:57:14 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114265011128312169",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdgzzdXgAAi5-O.jpg",
+        "expanded_url": "https://x.com/JustinePORCHER/status/2114265011128312169/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "JustinePORCHER",
+       "url": "https://x.com/JustinePORCHER",
+       "id": "854743838",
+       "name": "Justine PORCHER",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2081421815507742720/JS8q9qdM_normal.jpg",
+       "coverPicture": null,
+       "description": "\ud83d\udc8e Sniping 100x\u20131000x Meme Gems \ud83d\ude80 Catch Pumps Before They Moon\ud83d\ude0ejoin now link on bio",
+       "location": "Am from India but live in USA",
+       "followers": 2669,
+       "following": 7479,
+       "createdAt": "Sun Sep 30 13:48:45 +0000 2012",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114259106232197140",
+      "url": "https://x.com/geekoshi/status/2114259106232197140",
+      "twitterUrl": "https://twitter.com/geekoshi/status/2114259106232197140",
+      "text": "@fourtisann @SirCattleaxe @Swordope @catwifswordsoll @JeanPhilMadame @DacityCoin_GTA @token_works @BitlightLabs The leaderboard brought its running shoes",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 3,
+      "createdAt": "Sun Oct 25 07:33:46 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": true,
+      "inReplyToId": "2114254549149983123",
+      "conversationId": "2114254549149983123",
+      "media": [],
+      "inReplyToUserId": "3101038465",
+      "author": {
+       "type": "user",
+       "userName": "geekoshi",
+       "url": "https://x.com/geekoshi",
+       "id": "2106078523534331904",
+       "name": "Geekoshi",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2107954346973364224/eze9fHFI_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2106078523534331904/1791410455",
+       "description": "Memecoin & https://t.co/5jc78eGpOf data, daily. On-chain charts, early narratives, no fluff. \nInvesting In PeptideSwap\ud83d\udc47",
+       "location": "",
+       "followers": 255,
+       "following": 44,
+       "createdAt": "Fri Oct 02 17:48:02 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114257213728395345",
+      "url": "https://x.com/SolProfitHunt/status/2114257213728395345",
+      "twitterUrl": "https://twitter.com/SolProfitHunt/status/2114257213728395345",
+      "text": "$SWORDOPE just ripped a clean 160x! \ud83d\udea8\ud83d\ude80\n$10K \u2192 $1.6M MCAP \ud83d\udcc8\ud83d\udcb0\nWe catch these micro-cap Solana gems before they explode. If you want in on the next play, DM me \"ALPHA\" now! \ud83d\udce9\u26a1\nCA: \u20603SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\u2060 https://t.co/Ihg3oFnlXY",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 1,
+      "viewCount": 38,
+      "createdAt": "Sun Oct 25 07:26:15 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 1,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114257213728395345",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdYLaJWQAAQNGl.jpg",
+        "expanded_url": "https://x.com/SolProfitHunt/status/2114257213728395345/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdYLaQXYAEEcBA.jpg",
+        "expanded_url": "https://x.com/SolProfitHunt/status/2114257213728395345/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "SolProfitHunt",
+       "url": "https://x.com/SolProfitHunt",
+       "id": "1545121605969448962",
+       "name": "Sol Profit Hunter",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2108491925623844864/RHU9m5mJ_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1545121605969448962/1763544160",
+       "description": "\u26a1 Solana trader | Profit hunter | Turning early plays into massive gains \ud83d\ude80Solana trader. Night: Alpha seeker. One mission: maximize profits \ud83d\udcc8\ud83d\udca5",
+       "location": "Egypt base in New York, USA",
+       "followers": 1378,
+       "following": 11,
+       "createdAt": "Thu Jul 07 19:05:00 +0000 2022",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114257052617081065",
+      "url": "https://x.com/SolProfitHunt/status/2114257052617081065",
+      "twitterUrl": "https://twitter.com/SolProfitHunt/status/2114257052617081065",
+      "text": "$SWORDOPE just ripped a clean 160x! \ud83d\udea8\ud83d\ude80\n$10K \u2192 $1.6M MCAP \ud83d\udcc8\ud83d\udcb0\nWe catch these micro-cap Solana gems before they explode. If you want in on the next play, DM me \"ALPHA\" now! \ud83d\udce9\u26a1\nCA: \u20603SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\u2060 https://t.co/nVgzJClR5E",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 22,
+      "createdAt": "Sun Oct 25 07:25:36 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114257052617081065",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdYLaJWQAAQNGl.jpg",
+        "expanded_url": "https://x.com/SolProfitHunt/status/2114257052617081065/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdYLaQXYAEEcBA.jpg",
+        "expanded_url": "https://x.com/SolProfitHunt/status/2114257052617081065/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "SolProfitHunt",
+       "url": "https://x.com/SolProfitHunt",
+       "id": "1545121605969448962",
+       "name": "Sol Profit Hunter",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2108491925623844864/RHU9m5mJ_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1545121605969448962/1763544160",
+       "description": "\u26a1 Solana trader | Profit hunter | Turning early plays into massive gains \ud83d\ude80Solana trader. Night: Alpha seeker. One mission: maximize profits \ud83d\udcc8\ud83d\udca5",
+       "location": "Egypt base in New York, USA",
+       "followers": 1378,
+       "following": 11,
+       "createdAt": "Thu Jul 07 19:05:00 +0000 2022",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114256856663114124",
+      "url": "https://x.com/sofiamarthins44/status/2114256856663114124",
+      "twitterUrl": "https://twitter.com/sofiamarthins44/status/2114256856663114124",
+      "text": "\u2694\ufe0f $SWORDOPE \u2014 $8K \u2192 $277K MC\n\n\ud83d\ude80 $SWORDOPE is gaining traction! Keep it on your radar. \ud83d\udc40\ud83d\udd25\n\nCA: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\n\ud83d\udd14 Follow + tap my bio for private radar access. https://t.co/dYQLDOmG5O",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 43,
+      "createdAt": "Sun Oct 25 07:24:50 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114256856663114124",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdZY8zW8AATBcM.jpg",
+        "expanded_url": "https://x.com/sofiamarthins44/status/2114256856663114124/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "sofiamarthins44",
+       "url": "https://x.com/sofiamarthins44",
+       "id": "2098443181947834377",
+       "name": "John Smith",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2114240375548219392/sTXbAKPK_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2098443181947834377/1789205851",
+       "description": "Crypto investor \ud83c\uddee\ud83c\uddf9 | On-chain researcher \ud83d\udd0e\nFinding early opportunities before they hit the mainstream.\nDeFi \u2022 Solana",
+       "location": "Florida, USA",
+       "followers": 9,
+       "following": 0,
+       "createdAt": "Fri Sep 11 16:08:15 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": {
+       "id": "2114256042481631584",
+       "text": "\u2694\ufe0f $SWORDOPE \u2014 $8K MC\n\nA fresh low-cap contender just landed on the radar \ud83d\udc40 Early-stage activity worth keeping an eye on. Let\u2019s see if attention starts to build!\n\nCA: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\nFollow + tap my bio for private radar access. https://t.co/GhovBLMauy",
+       "user": {
+        "name": "John Smith",
+        "screen_name": "sofiamarthins44"
+       }
+      },
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114256042481631584",
+      "url": "https://x.com/sofiamarthins44/status/2114256042481631584",
+      "twitterUrl": "https://twitter.com/sofiamarthins44/status/2114256042481631584",
+      "text": "\u2694\ufe0f $SWORDOPE \u2014 $8K MC\n\nA fresh low-cap contender just landed on the radar \ud83d\udc40 Early-stage activity worth keeping an eye on. Let\u2019s see if attention starts to build!\n\nCA: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\nFollow + tap my bio for private radar access. https://t.co/GhovBLMauy",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 2,
+      "quoteCount": 1,
+      "viewCount": 79,
+      "createdAt": "Sun Oct 25 07:21:36 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114256042481631584",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdYpiyW4AAidu9.jpg",
+        "expanded_url": "https://x.com/sofiamarthins44/status/2114256042481631584/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "sofiamarthins44",
+       "url": "https://x.com/sofiamarthins44",
+       "id": "2098443181947834377",
+       "name": "John Smith",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2114240375548219392/sTXbAKPK_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2098443181947834377/1789205851",
+       "description": "Crypto investor \ud83c\uddee\ud83c\uddf9 | On-chain researcher \ud83d\udd0e\nFinding early opportunities before they hit the mainstream.\nDeFi \u2022 Solana",
+       "location": "Florida, USA",
+       "followers": 9,
+       "following": 0,
+       "createdAt": "Fri Sep 11 16:08:15 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114256002954436769",
+      "url": "https://x.com/alphalistt/status/2114256002954436769",
+      "twitterUrl": "https://twitter.com/alphalistt/status/2114256002954436769",
+      "text": "@fourtisann @Bittez_ @SirCattleaxe @Swordope @catwifswordsoll @JeanPhilMadame @DacityCoin_GTA @token_works @BitlightLabs \ud83d\udc40",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 9,
+      "createdAt": "Sun Oct 25 07:21:26 +0000 2026",
+      "lang": "qme",
+      "bookmarkCount": 0,
+      "isReply": true,
+      "inReplyToId": "2114254549149983123",
+      "conversationId": "2114254549149983123",
+      "media": [],
+      "inReplyToUserId": "3101038465",
+      "author": {
+       "type": "user",
+       "userName": "alphalistt",
+       "url": "https://x.com/alphalistt",
+       "id": "2066521964819423232",
+       "name": "alpha list",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2072904480836952064/ijn8gfm6_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2066521964819423232/1783053927",
+       "description": "alphaaaa",
+       "location": "alpha",
+       "followers": 126,
+       "following": 33,
+       "createdAt": "Mon Jun 15 14:13:03 +0000 2026",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     }
+    ]
+   }
+  },
+  {
+   "q": "\"$SWORDOPE\" -filter:retweets min_faves:5",
+   "product": "Top",
+   "at": "2026-10-25T09:48:22Z",
+   "body": {
+    "query": "\"$SWORDOPE\" -filter:retweets min_faves:5",
+    "tweet_count": 8,
+    "has_more": false,
+    "next_cursor": null,
+    "tweets": [
+     {
+      "type": "tweet",
+      "id": "2114116190129823874",
+      "url": "https://x.com/fourtislisting/status/2114116190129823874",
+      "twitterUrl": "https://twitter.com/fourtislisting/status/2114116190129823874",
+      "text": "\u26a1Fourtis Express Listing - SWORDOPE\u26a1\n@Swordope\n\ndope wif sword ( #SWORDOPE ) \nhttps://t.co/laXVusZ8Ig\n\nCA: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\nPRICE: $0.002521 | MC: $2,509,616\n\n#Fourtis #Newlisting #Altcoin #Memecoin #FourtisListing #Dyor https://t.co/IfuRLtsy2X",
+      "source": null,
+      "retweetCount": 8,
+      "replyCount": 11,
+      "likeCount": 39,
+      "quoteCount": 10,
+      "viewCount": 8095,
+      "createdAt": "Sat Oct 24 22:05:52 +0000 2026",
+      "lang": "nl",
+      "bookmarkCount": 8,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114116190129823874",
+      "media": [
+       {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2114116182722637824/img/BPhOLQvaSMWUAe7O.jpg",
+        "expanded_url": "https://x.com/fourtislisting/status/2114116190129823874/video/1",
+        "video_url": "https://video.twimg.com/amplify_video/2114116182722637824/vid/avc1/1280x720/YZJLJpBM3a7XgPAX.mp4?tag=14"
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "fourtislisting",
+       "url": "https://x.com/fourtislisting",
+       "id": "1436526596496629766",
+       "name": "Fourtis Listing Alert",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1836798507560374272/406-XSli_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1436526596496629766/1775481351",
+       "description": "Real time price chart history on Dex Get your coin for listing https://t.co/AMfOafL5r4 ! Book listing or trending https://t.co/431HK1gWMI #Fourtis",
+       "location": "Dubai",
+       "followers": 67251,
+       "following": 71,
+       "createdAt": "Sat Sep 11 03:06:59 +0000 2021",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114275158160494619",
+      "url": "https://x.com/badattrading_/status/2114275158160494619",
+      "twitterUrl": "https://twitter.com/badattrading_/status/2114275158160494619",
+      "text": "$SWORDOPE (CA 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump)  is a bundled scam, don't buy that garbage, stay away. https://t.co/zMLxRro6jr",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 4,
+      "likeCount": 7,
+      "quoteCount": 0,
+      "viewCount": 3717,
+      "createdAt": "Sun Oct 25 08:37:33 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114275158160494619",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdqBAsWcAAdlM4.jpg",
+        "expanded_url": "https://x.com/badattrading_/status/2114275158160494619/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdqDHAX0AAjppv.png",
+        "expanded_url": "https://x.com/badattrading_/status/2114275158160494619/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "badattrading_",
+       "url": "https://x.com/badattrading_",
+       "id": "975758426",
+       "name": "Nova",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/1872012491514892288/QsZ6kSqm_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/975758426/1791562205",
+       "description": "Building @LuminosCapital our memecoin analysis tool linked to $SOBAT\n\nEW7cWbNmTgL7PLQNiJ6tBVC62SJzJXa2pFYJjDPPpump",
+       "location": "",
+       "followers": 70357,
+       "following": 4880,
+       "createdAt": "Wed Nov 28 09:38:23 +0000 2012",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114282892029509844",
+      "url": "https://x.com/XCryptodaily01/status/2114282892029509844",
+      "twitterUrl": "https://twitter.com/XCryptodaily01/status/2114282892029509844",
+      "text": "\u2694\ufe0f $SWORDOPE \u2014 THE DOPE WIF SWORD \ud83d\udc15\ud83d\udde1\ufe0f\n\n A meme with a sword-wielding identity.\n\n\ud83d\udd25 $SWORDOPE is bringing fantasy battle energy to the Solana trenches.\n\nKeep $SWORDOPE on your radar \ud83d\udc47\n\n\ud83d\udd17 Chart: \"View $SWORDOPE on DexScreener\" (https://t.co/qitGNsXQgi) https://t.co/eNRjtQFPwW",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 21,
+      "quoteCount": 0,
+      "viewCount": 4443,
+      "createdAt": "Sun Oct 25 09:08:17 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114282892029509844",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdxE--aEAEckqb.jpg",
+        "expanded_url": "https://x.com/XCryptodaily01/status/2114282892029509844/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "XCryptodaily01",
+       "url": "https://x.com/XCryptodaily01",
+       "id": "1230951679509569536",
+       "name": "Crypto Daily",
+       "isVerified": false,
+       "isBlueVerified": false,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2078582225478844416/IBk-xw3Y_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1230951679509569536/1779980734",
+       "description": "",
+       "location": "",
+       "followers": 58062,
+       "following": 33550,
+       "createdAt": "Fri Feb 21 20:25:40 +0000 2020",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114273844508971286",
+      "url": "https://x.com/MaxelRowan/status/2114273844508971286",
+      "twitterUrl": "https://twitter.com/MaxelRowan/status/2114273844508971286",
+      "text": "JUST IN: $SWORDOPE \u2014 EVERY MEME NEEDS A WARRIOR.\n\nA sword. A fearless attitude. A whole lot of degen energy.\n\nMeet Swordope, the sword-wielding Doge bringing battle-ready visuals and internet meme culture to Solana.\n\nNo complicated storyline. Just a bold mascot, a recognizable meme identity, and a community ready to carve out its own place on the timeline.\n\nTHE SWORD IS DRAWN. THE QUEST BEGINS.\n\nCA: 3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump\n\nChart: https://t.co/p3lRTFkMFD\n\nWebsite: https://t.co/LTmxGM1HeZ\n\nDYOR & NFA.",
+      "source": null,
+      "retweetCount": 2,
+      "replyCount": 3,
+      "likeCount": 28,
+      "quoteCount": 0,
+      "viewCount": 44076,
+      "createdAt": "Sun Oct 25 08:32:20 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114273844508971286",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdo2j5asAAFkxd.jpg",
+        "expanded_url": "https://x.com/MaxelRowan/status/2114273844508971286/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdo2j0aMAAviGm.jpg",
+        "expanded_url": "https://x.com/MaxelRowan/status/2114273844508971286/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "MaxelRowan",
+       "url": "https://x.com/MaxelRowan",
+       "id": "1542486331808698369",
+       "name": "Mando Maxel",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2064257240455061504/zgP-oS3o_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1542486331808698369/1780992662",
+       "description": "Crypto Expert & Gem Hunter | Market momentum | Low caps | DMs open | Always do your own research !",
+       "location": "",
+       "followers": 125459,
+       "following": 6557,
+       "createdAt": "Thu Jun 30 12:33:06 +0000 2022",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114254549149983123",
+      "url": "https://x.com/fourtisann/status/2114254549149983123",
+      "twitterUrl": "https://twitter.com/fourtisann/status/2114254549149983123",
+      "text": "Today The most token #Gainers on https://t.co/uMLu8C0qKh\n\n1\ufe0f\u20e3 #CATTLEAXE | @sircattleaxe\n2\ufe0f\u20e3 #SWORDOPE | @Swordope\n3\ufe0f\u20e3 #swordcat | @catwifswordsoll\n4\ufe0f\u20e3 #JEANPHIL | @JeanPhilMadame\n5\ufe0f\u20e3 #DacityCoin | @dacitycoin_gta\n6\ufe0f\u20e3 #PNKSTR | @token_works\n7\ufe0f\u20e3 #LIGHT | @BitlightLabs\n8\ufe0f\u20e3 #Moolah | @Moolah_bsc\n\n#Fourtis  #Crypto #Memecoin",
+      "source": null,
+      "retweetCount": 11,
+      "replyCount": 12,
+      "likeCount": 58,
+      "quoteCount": 7,
+      "viewCount": 11781,
+      "createdAt": "Sun Oct 25 07:15:40 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 11,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114254549149983123",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdXTVPXgAAV4V-.jpg",
+        "expanded_url": "https://x.com/fourtisann/status/2114254549149983123/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "fourtisann",
+       "url": "https://x.com/fourtisann",
+       "id": "3101038465",
+       "name": "Fourtis",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2037414080634609664/UQ3DVZ0i_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/3101038465/1774592360",
+       "description": "fourtis official x account | get listed your token @fourtislisting on our bot with automatic procesed https://t.co/9Saoji9IC1 #Fourtis",
+       "location": "memecoin",
+       "followers": 40882,
+       "following": 579,
+       "createdAt": "Sat Mar 21 05:49:58 +0000 2015",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114133477578707066",
+      "url": "https://x.com/1111mubest/status/2114133477578707066",
+      "twitterUrl": "https://twitter.com/1111mubest/status/2114133477578707066",
+      "text": "\ud83d\udea8 SCAM ALERT - $SWORDOPE \ud83d\udea8\n\nDO NOT BUY $SWORDOPE - This is a setup to rug.\n\nBubblemaps data exposes it:\n\nCluster 1: 52.07% of supply spread across 57 wallets\nCluster 2: 17.82% of supply spread across 20 wallets\n\n= 69.89% controlled by just 2 entities using multiple wallets to hide it.\n\nThis is textbook bundle / distribution farming. They will dump on you.\n\nIf you bought, consider exiting.\nIf you haven't bought, stay away.\n\nStay safe out there \u26a0\ufe0f\n\n#SWORDOPE #ScamAlert #RugPull #Solana",
+      "source": null,
+      "retweetCount": 1,
+      "replyCount": 5,
+      "likeCount": 14,
+      "quoteCount": 0,
+      "viewCount": 279,
+      "createdAt": "Sat Oct 24 23:14:34 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114133477578707066",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVbpIESX0AAHulP.jpg",
+        "expanded_url": "https://x.com/1111mubest/status/2114133477578707066/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVbpKEvWYAAfyY_.jpg",
+        "expanded_url": "https://x.com/1111mubest/status/2114133477578707066/photo/1",
+        "video_url": null
+       },
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVbpLljWMAAZTuX.jpg",
+        "expanded_url": "https://x.com/1111mubest/status/2114133477578707066/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "1111mubest",
+       "url": "https://x.com/1111mubest",
+       "id": "2264260737",
+       "name": "M M B",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2104527823067074560/vIHan-YI_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/2264260737/1767349065",
+       "description": "$Cryptor Trader, community builder, $Ambassador at $CoinW block chain analyst, Affiliated marketer. DM for Businesses. Telegram channel https://t.co/ut6PHWik4V",
+       "location": "",
+       "followers": 10352,
+       "following": 9309,
+       "createdAt": "Sun Jan 05 21:32:17 +0000 2014",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114213592442540243",
+      "url": "https://x.com/cryptcaapo/status/2114213592442540243",
+      "twitterUrl": "https://twitter.com/cryptcaapo/status/2114213592442540243",
+      "text": "What you missed today in memecoins, October 24th\n\n- $DeepSeek hit $83m on BSC in under 2 hours on DeepSeek's $15B raise and V4-Pro news, then dumped over 90%, it's at $1.2m now\n\n- $microduck is holding $6m on Robinhood Chain, still riding Nvidia's robot duck\n\n- $WarHound hit $1.5m on SOL after Warhound, the startup gene-editing and cloning military dogs, raised $200M\n\n- $CLAUDIA hit $3.3m on SOL, the AI runner kept grinding all day and sits at $2.9m\n\n- $EVMZONE hit $16.2m on ETH and is still at $15m, but liquidity is only $226k so be careful\n\n- $GROKLET the Grok mascot hit $3.9m on ETH off Elon's Grok shilling, then the liquidity got pulled\n\n- $\u725b\u5e01 hit $8m on BSC on the Futu x Binance news, crashed 74% after, and a fresh version is up to $433k\n\n- $Kimchi (Aura Final Boss) went from $207k to $1.2m on a new Robinhood Chain pair\n\n- $SWORDOPE (dope wif sword) is at $2.3m on SOL, the last one standing from the sword meta after $swordtrump and $swordlon rugged\n\n- $DACITY hit $19.3m on ETH and $DacityCoin hit $2.9m on SOL as the Dacity coins ran together\n\n- $HOOKED came back from the dead to $2.25m on SOL, it's cooled to $1.5m\n\n- $WILDWOOD hit $284k on SOL after the anti-AI stop-motion film went viral",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 1,
+      "likeCount": 15,
+      "quoteCount": 0,
+      "viewCount": 510,
+      "createdAt": "Sun Oct 25 04:32:55 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 1,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114213592442540243",
+      "media": [],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "cryptcaapo",
+       "url": "https://x.com/cryptcaapo",
+       "id": "1644372678873055238",
+       "name": "Crypto Captain \ud83c\udfd4\ufe0f ( Zenith Arc )",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2009270833823313920/dlYOa4WS_normal.jpg",
+       "coverPicture": "https://pbs.twimg.com/profile_banners/1644372678873055238/1767381978",
+       "description": "just a chef .. cooking @Afrofnf",
+       "location": "Moon",
+       "followers": 4039,
+       "following": 514,
+       "createdAt": "Fri Apr 07 16:13:11 +0000 2023",
+       "canDm": false
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     },
+     {
+      "type": "tweet",
+      "id": "2114282343309705501",
+      "url": "https://x.com/daharleycrypto/status/2114282343309705501",
+      "twitterUrl": "https://twitter.com/daharleycrypto/status/2114282343309705501",
+      "text": "\u2694\ufe0f $SWORDOPE \u2014 THE DOPE WIF SWORD \ud83d\udc15\ud83d\udde1\ufe0f\n\nA warrior dog. A medieval battlefield. A meme with a sword-wielding identity.\n\n\ud83d\udd25 $SWORDOPE is bringing fantasy battle energy to the Solana trenches.\n\nThe sword is drawn. The battlefield is live. \u2694\ufe0f\n\nKeep $SWORDOPE on your radar \ud83d\udc47\n#SWORDOPE #Solana #Memecoin\n\n\ud83d\udd17 Chart: \"View $SWORDOPE on DexScreener\" (https://t.co/mqt4yEAMBg)",
+      "source": null,
+      "retweetCount": 0,
+      "replyCount": 3,
+      "likeCount": 23,
+      "quoteCount": 0,
+      "viewCount": 7908,
+      "createdAt": "Sun Oct 25 09:06:06 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2114282343309705501",
+      "media": [
+       {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HVdwlGFbAAAVxy8.jpg",
+        "expanded_url": "https://x.com/daharleycrypto/status/2114282343309705501/photo/1",
+        "video_url": null
+       }
+      ],
+      "inReplyToUserId": null,
+      "author": {
+       "type": "user",
+       "userName": "daharleycrypto",
+       "url": "https://x.com/daharleycrypto",
+       "id": "1968411077596647424",
+       "name": "Harley Hood",
+       "isVerified": false,
+       "isBlueVerified": true,
+       "profilePicture": "https://pbs.twimg.com/profile_images/2112205865944231936/ZvqXxjIL_normal.jpg",
+       "coverPicture": null,
+       "description": "#Bullrun believer. Hunting for 1000X opportunities before they trend. Investor in #BTC, #SOL, #ETH & #BNB. DMs open for business. @GameOfCatogob",
+       "location": "",
+       "followers": 93058,
+       "following": 2264,
+       "createdAt": "Wed Sep 17 20:25:59 +0000 2025",
+       "canDm": true
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null
+     }
+    ]
+   }
+  }
+ ]
+}

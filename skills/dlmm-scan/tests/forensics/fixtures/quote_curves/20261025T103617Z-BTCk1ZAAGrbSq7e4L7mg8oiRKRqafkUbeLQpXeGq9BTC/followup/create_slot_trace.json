@@ -1,0 +1,21 @@
+{
+ "schema": "holder-scan-create-slot/1",
+ "lane": "create_slot_trace",
+ "mint": "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC",
+ "status": "ok",
+ "reason": null,
+ "check": null,
+ "fetched_at": "2026-10-25T10:42:05Z",
+ "presentation_only": true,
+ "create_tx": {
+  "signature": "3LnauiJsdybfctNv65SPNKAwfAaEKabhnz7ZViBRBGAK85C99k2yFeWbsXaDReJqyZjfwvDD7ji6nUkKMQMDmVhk",
+  "slot": 461153299,
+  "block_time": 1792909218,
+  "method": "pump_create_v2",
+  "deployer": "7Pyr5ojjjVPmKwfg33DQVcJW1sbjgPC4gKB2fh3DD5kH",
+  "creator": "7Pyr5ojjjVPmKwfg33DQVcJW1sbjgPC4gKB2fh3DD5kH",
+  "dev_wallets": [
+   "7Pyr5ojjjVPmKwfg33DQVcJW1sbjgPC4gKB2fh3DD5kH"
+  ]
+ }
+}

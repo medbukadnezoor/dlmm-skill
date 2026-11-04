@@ -1,0 +1,943 @@
+{
+ "count": 1520,
+ "holders": [
+  {
+   "address": "9VHYqLqbGzmaX9MC7A8GwH8zUY56P83u2UeM7iJWbobV",
+   "amount": 918025763.851609,
+   "addressInfo": {
+    "fundingAddress": "6yLudyEeSXif9qthRHQ2ZmW6Gk9qC6hGLcbkLpSipuXa",
+    "fundingAmount": 0.0021082,
+    "fundingBlockTime": "2026-10-14T09:04:07Z"
+   },
+   "holderTags": [],
+   "walletCategories": [],
+   "tags": [
+    {
+     "id": "Pool",
+     "name": "Pumpfun AMM Liquidity Pool"
+    }
+   ]
+  },
+  {
+   "address": "6ezu5h7jztmjEGZVoYSKoiyTY8unSo1tphk5EVuJ6NRy",
+   "amount": 31535582.79234,
+   "addressInfo": {
+    "fundingAddress": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+    "fundingAmount": 0.00917328,
+    "fundingBlockTime": "2026-05-26T19:11:14Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "9FLp2M8Pfo6a4JCzgrpNvMFYcoPBrenjrCgk42aRG1z9",
+   "amount": 5705050.678304,
+   "addressInfo": {
+    "fundingAddress": "237cFpTmcJ3rAGQuky1dNFnEKZhRsgEEL1ca5ZCSTTTF",
+    "fundingAmount": 0.008147253,
+    "fundingBlockTime": "2026-10-14T09:20:41Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "8CjVxYr9i2mv1wgF4P6LYnSfxjsKqgEMiF49qoqENZs3",
+   "amount": 4264050.607851,
+   "addressInfo": {
+    "fundingAddress": "9GPZKKMifEGvkhdBP1wLyJsTYB2PoQiovLwZ1dwC9rQy",
+    "fundingAmount": 0.0787491,
+    "fundingBlockTime": "2026-02-20T17:31:32Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "8DsiTMAX111owenvPMhVc2yZVgaLo5K1rr4hgqrjFBXi",
+   "amount": 1820134.721071,
+   "addressInfo": {
+    "fundingAddress": "5hxgnza5DUGTpGzWB7qNvZSC7zDUyMegpDzeyeMVsjWK",
+    "fundingAmount": 0.016079972,
+    "fundingBlockTime": "2026-10-08T21:41:41Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "Bc7DM69sBBqLGvVQ99QkhNzjpsEikesnu7kYkoTEZb6a",
+   "amount": 1606689.657174,
+   "addressInfo": {
+    "fundingAddress": "J16kwNKqmSC1iE19a8Utz7SBCUp2m32evtGNCy7cdxgh",
+    "fundingAmount": 0.144774,
+    "fundingBlockTime": "2026-01-28T11:32:54Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "8U47swmNPsDYHarbcz2S6HmQYXTdctbEAZu4Xx21JXUT",
+   "amount": 1098065.867261,
+   "addressInfo": {
+    "fundingAddress": "CSEncqtqbmNRjve42sNnbs5cCSmrjUNsAEwc17XY2RCs",
+    "fundingAmount": 5,
+    "fundingBlockTime": "2026-09-29T05:27:34Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "E92CgnSh8knzU5AVr1wRy8kpASuatLgBZW9jGGAL995D",
+   "amount": 838413.135991,
+   "addressInfo": {
+    "fundingAddress": "Do1c3FtwNo1G4iDYTGXJyNuTN9TaErGVTxBq3XWQDJWH",
+    "fundingAmount": 0.00148844,
+    "fundingBlockTime": "2026-10-08T02:36:24Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "CybGqCkSbdqrHy9jnQKyXvVDVCBaX7Q7k6SSZeznLFDv",
+   "amount": 583853.295014,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "Pr1rspcFwTJUnABQtjELmg4gTjWS6Ex3ByZA2iL3dyk",
+   "amount": 553944.491033,
+   "addressInfo": {
+    "fundingAddress": "8Uu589vnZT9vM7z8KtkLoAkWhe7iTN2GVudgrHSr19R5",
+    "fundingAmount": 0.00524256,
+    "fundingBlockTime": "2026-10-14T09:38:45Z"
+   },
+   "holderTags": [],
+   "walletCategories": [],
+   "tags": [
+    {
+     "id": "Pool",
+     "name": "Meteora DLMM Liquidity Pool"
+    }
+   ]
+  },
+  {
+   "address": "Anr6vWSZSLYAyHQ1MQDgrMKVEf7pmjik36Cx6QxXyF6w",
+   "amount": 537033.389224,
+   "addressInfo": {
+    "fundingAddress": "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+    "fundingAmount": 0.01504818,
+    "fundingBlockTime": "2026-10-01T06:40:46Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "4DQfknzpxhDQVKZf1ebQBcQQ1zvSF8ja1ScXYPCS2a6Z",
+   "amount": 522974.265573,
+   "addressInfo": {
+    "fundingAddress": "AC5RDfQFmDS1deWZos921JfqscXdByf8BKHs5ACWjtW2",
+    "fundingAmount": 1,
+    "fundingBlockTime": "2024-12-09T15:57:03Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "3pcm13KCYg5yabAHMCby8uqAvm4WUmEoHJngtN8Fw5hg",
+   "amount": 478455.637401,
+   "addressInfo": {
+    "fundingAddress": "3FpoYhjPkzEMpEAqTvAPBAUaLtvZy3ZXij6NvtoSKJdK",
+    "fundingAmount": 1,
+    "fundingBlockTime": "2026-10-06T08:36:19Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "GcY4Z9co6QxLXpqyoBSkSfTYUYXWhU6zLEM4k7PfvAoG",
+   "amount": 414107.110139,
+   "addressInfo": {
+    "fundingAddress": "3dLaHwhayMqeaW4EveQy2mae3qCc3Wf5aG3JcQYieU7g",
+    "fundingAmount": 0.005689779,
+    "fundingBlockTime": "2026-08-19T05:24:22Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "6ghywZtUHen5cNeEUhhdGgZGGadB9MV4BBZQVJvSqo42",
+   "amount": 387762.960354,
+   "addressInfo": {
+    "fundingAddress": "Ds9ywWYymVWG1fcAYqputiyZ7scNVwBMAJze2pv7EdFg",
+    "fundingAmount": 0.001,
+    "fundingBlockTime": "2026-01-28T14:13:31Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "BCEHNAjYP2G8cTykXZD8X1kNvrCaH5CGKPeJF5yRYLJC",
+   "amount": 366373.602576,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "C74qpTrfVVHVXdE8E5PYZ5PNFhmvhaenyfvC1rgmzgBG",
+   "amount": 280420.113332,
+   "addressInfo": {
+    "fundingAddress": "AswDX1Bo2Mn3WEksNMqDbRe2aaTqPHEJt2sVDMtobLAx",
+    "fundingAmount": 0.002,
+    "fundingBlockTime": "2025-04-25T20:15:46Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "ENkU6oE69bB78ro3iFtNf4q5Hm4oDdEfradjJC2Qv8Kh",
+   "amount": 258371.424862,
+   "addressInfo": {
+    "fundingAddress": "2imVSpnayTxvhyBkBFaaQzQjLbAp8YxXLMbMrpYXzHrm",
+    "fundingAmount": 0.064,
+    "fundingBlockTime": "2024-12-01T08:02:21Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "Et1PnDsDQChHunwuS3Z4FHzza76WzMdJuohNaJUNjPYv",
+   "amount": 231631.618407,
+   "addressInfo": {
+    "fundingAddress": "5hxgnza5DUGTpGzWB7qNvZSC7zDUyMegpDzeyeMVsjWK",
+    "fundingAmount": 0.000803253,
+    "fundingBlockTime": "2026-10-08T21:53:47Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "4yrwcYqEXLK4ExgP5nR4Dt4wLkCJtTcVWM15XboPqSNh",
+   "amount": 227863.684789,
+   "addressInfo": {
+    "fundingAddress": "4B7AZeu19AM3gTYiN8SujiYk7UEnWKAg2Rsvvec2fdbv",
+    "fundingAmount": 0.039923303,
+    "fundingBlockTime": "2026-08-16T12:51:54Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "GB8kLhnhNmNtsU9B4D6SaLFRdxQT5oFFoP6qpPtQdM6q",
+   "amount": 217742.196526,
+   "addressInfo": {
+    "fundingAddress": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+    "fundingAmount": 0.01,
+    "fundingBlockTime": "2026-09-10T11:03:56Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "BDUV631VFJfhj38bJXrTWjGzeFvJ83mLwUfmBz5PnJQy",
+   "amount": 185365.251147,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "5v2c8Tpu4BzBwgx2QJzYpJ2ugqhmw7E4fVmnbecHg18y",
+   "amount": 185143.263518,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "C1jnyzHjbgHKxwSYcK7GLWdP27NGkQy51mPaWZJdsPqx",
+   "amount": 155842.096854,
+   "addressInfo": {
+    "fundingAddress": "6KEUyw5Z8xBC7DhNM6dLxEoraJCBQdXs4WTdf427wnXB",
+    "fundingAmount": 0.095834717,
+    "fundingBlockTime": "2026-10-13T01:23:32Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "6xDyn7RxWbMqrWsQHEstsVTDnwQJB1hArPiCp1nA97Wi",
+   "amount": 154926.383505,
+   "addressInfo": {
+    "fundingAddress": "6LY1JzAFVZsP2a2xKrtU6znQMQ5h4i7tocWdgrkZzkzF",
+    "fundingAmount": 0.34317974,
+    "fundingBlockTime": "2026-08-27T00:52:47Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "BM9CcyErJcu2mjrFvUsRRrD3snGeHDDVirJLvL6EjvMN",
+   "amount": 130125.694533,
+   "addressInfo": {
+    "fundingAddress": "E8aQ18Xbr8FgKq5M7cQnuvJUwU8ZsningNLhcEDAPD8Y",
+    "fundingAmount": 0.015,
+    "fundingBlockTime": "2025-10-29T02:54:00Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "6T7pTSZGPnxp6cay7URbNagRy3aLSuqztqQFqXNL9muJ",
+   "amount": 130062.976203,
+   "addressInfo": {
+    "fundingAddress": "Biw4eeaiYYYq6xSqEd7GzdwsrrndxA8mqdxfAtG3PTUU",
+    "fundingAmount": 0.587032,
+    "fundingBlockTime": "2026-10-13T22:33:30Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "Gin7nwh9uZPxEJjuUeuFE722PvnHaamstzdscbLQiaCr",
+   "amount": 116668.182342,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "4Wf1zw3QNVJQD4cHFF4fmZZ9PtYSfVwYeC8eTQmgeN9W",
+   "amount": 112366.20734,
+   "addressInfo": {
+    "fundingAddress": "DczwJw5Kd32edSeHMnotSNBUEbjrFwNZ4DVGZGND61EB",
+    "fundingAmount": 0.095825075,
+    "fundingBlockTime": "2026-08-17T08:53:43Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "2yeZKAA5BERsYZoqfiqu5jrsrFjZFB83NeVia9BsP5ky",
+   "amount": 107640.3427,
+   "addressInfo": {
+    "fundingAddress": "GnWFhrfgciKVoqgAqarwWEQ79NuD2LnRd9EEYaB1kUoc",
+    "fundingAmount": 0.040611603,
+    "fundingBlockTime": "2025-11-03T21:48:39Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "7L38gFLcAzjkqsJtPbvU9Apz8uMaMRDnZF9rZt5FsZbg",
+   "amount": 103069.299168,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "9bgEEnAbkdqw9c19Bxsg8mY1TBiE6fhig6xwuFuSgcPp",
+   "amount": 98530.747008,
+   "addressInfo": {
+    "fundingAddress": "6tyikjU12JQfAmqxbXCzGwTKMdmUaLyA1JKCn4o9BZE5",
+    "fundingAmount": 0.00912484,
+    "fundingBlockTime": "2026-07-31T22:14:41Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "FPSD7kofDTAerFFBWQQYnrQXR8Jd7toTbCLJGW6kM32V",
+   "amount": 97692.078707,
+   "addressInfo": {
+    "fundingAddress": "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+    "fundingAmount": 0.25357843,
+    "fundingBlockTime": "2026-06-02T19:56:31Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "DGi53wKkb5fVzHNB3P7N1BHFwoMP4kxkVJTBnmFg7p6p",
+   "amount": 97571.54462,
+   "addressInfo": {
+    "fundingAddress": "CMywJS5C1XguGXXQqBKMsC19q58ycyx5rhG4GfsNb4yW",
+    "fundingAmount": 0.000961392,
+    "fundingBlockTime": "2026-09-28T21:01:48Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "4MjRjq5paPZ8A7vAUUdYMVNGNDwPHEZmfs9VQTzfBc94",
+   "amount": 91777.400553,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "2bf6u1jhBxL7KGfNEMenfnbzC1XTNhWn7NQrgxnL7MLa",
+   "amount": 87032.286121,
+   "addressInfo": {
+    "fundingAddress": "2HbyaP84P7KnXngXrkBVm8wnjDFkFR1pTtBAsSywW9Q4",
+    "fundingAmount": 0.001141008,
+    "fundingBlockTime": "2026-10-13T20:26:35Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "mEVVFUQrigBGBipHQmu3hXuavyrQPY3TEsg3o3myjct",
+   "amount": 84483.159737,
+   "addressInfo": {
+    "fundingAddress": "73EneqskiSJtStRQZ3eme3q8oViTjZx8QLxZ9NQzdgUL",
+    "fundingAmount": 1.2,
+    "fundingBlockTime": "2025-05-24T19:59:17Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "DcD3HXEzDtosegFyF9uZ6xe62Dphb6Hyq9mxLTfYuQsq",
+   "amount": 80672.576664,
+   "addressInfo": {
+    "fundingAddress": "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+    "fundingAmount": 0.1248376,
+    "fundingBlockTime": "2026-10-03T20:08:03Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "3QcvfY7Hfu2wFYZzNSQeALVyGNkamtuBwEWrsFzKwNi1",
+   "amount": 79215.118292,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "5iEa5u1nEMm32UiUyoZmMMDPuHfoi8yP6kqNgAwLPEDr",
+   "amount": 78175.265213,
+   "addressInfo": {
+    "fundingAddress": "9cVh7Jven6R6S67VnEumoWyTfsuNqMZrkdyrDoSA7jE6",
+    "fundingAmount": 0.057915286,
+    "fundingBlockTime": "2026-08-08T07:17:52Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "H3waiHCEPTGCEWowEKEQR8k4YQ78xXMgDcK4aL1eJxD6",
+   "amount": 75816.548989,
+   "addressInfo": {
+    "fundingAddress": "u6PJ8DtQuPFnfmwHbGFULQ4u4EgjDiyYKjVEsynXq2w",
+    "fundingAmount": 0.707,
+    "fundingBlockTime": "2026-10-13T00:41:10Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "2ubnPMK6sXamPRe6YkgLttEPoYYmDrhferGgc3FR21tF",
+   "amount": 69440.907689,
+   "addressInfo": {
+    "fundingAddress": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
+    "fundingAmount": 0.228463542,
+    "fundingBlockTime": "2026-10-14T01:12:30Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "HFZFDBEtjJtNydYpFMFgJC7qKVi1ggvpADzXeTJBcfgD",
+   "amount": 68119.191182,
+   "addressInfo": {
+    "fundingAddress": "Biw4eeaiYYYq6xSqEd7GzdwsrrndxA8mqdxfAtG3PTUU",
+    "fundingAmount": 0.193723,
+    "fundingBlockTime": "2026-10-14T09:52:18Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "HhLibYhDKx5ATjZi16NzHuVVHd8S8qbc3wMzTJgeYwwM",
+   "amount": 67105.074996,
+   "addressInfo": {
+    "fundingAddress": "GJRs4FwHtemZ5ZE9x3FNvJ8TMwitKTh21yxdRPqn7npE",
+    "fundingAmount": 1.68185053,
+    "fundingBlockTime": "2026-10-08T15:15:09Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "6zeocBonHe2Ty9qjjSuPc18CDR5vUL28dvzpMA7tSDMD",
+   "amount": 66841.423595,
+   "addressInfo": {
+    "fundingAddress": "26RoY61YdtSuWRGz6gzNH412gAB1D1KMVrEwJCjaoaQM",
+    "fundingAmount": 0.005574049,
+    "fundingBlockTime": "2026-09-22T09:22:53Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "4yLCSndAT9GuJLXj5z9iQ38xUQxHiZBTyzzMzRLpbQYv",
+   "amount": 64041.580955,
+   "addressInfo": {
+    "fundingAddress": "EAxiSeD4tjCdp3B6K9LvJXqi6SpsPAsk6HFfk6pytSFh",
+    "fundingAmount": 0.063928156,
+    "fundingBlockTime": "2026-08-19T02:49:24Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "9F7yD9Knh9CTKqZyr92jLHWTZq7xaDm2F6EehBsbCXro",
+   "amount": 58576.957135,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "GawVm41nwd9RrnQLRStr2ez1ZkBQFscRftm38u3RDiX9",
+   "amount": 57428.925063,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "acYTRBXATKfGKsryDRpQqSCBVruuiAHWzL7a8EYKgoU",
+   "amount": 57152.218907,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "3iQKi4HFb9Y9GHgDde59NocwBaHkPmbQmcF8tQVczv2d",
+   "amount": 55673.622689,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "AZCA6wiMRweHo4tpU6Y57YmhjutRXuV7YU4sgCdDLNW6",
+   "amount": 55106.946817,
+   "addressInfo": {
+    "fundingAddress": "3gPHqfbuSEwSQJ5eFWNtaRhetzk2feethSd4ZCLas2nj",
+    "fundingAmount": 0.001506313,
+    "fundingBlockTime": "2026-09-22T00:44:40Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "AveKre5SkeRje6BK2GKcNW5bGndzK7V31X4CcCZ78fsv",
+   "amount": 54581.643519,
+   "addressInfo": {
+    "fundingAddress": "BFxqyvefcZ6WJii8d5NqT2N8xFwPMnmvAoaDajBqTV55",
+    "fundingAmount": 0.000941506,
+    "fundingBlockTime": "2026-10-12T03:32:01Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "GEWpiB5rkuLutnB5MRR3yvidjiPboMZSiWjY12sFaeSM",
+   "amount": 53483.86835,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "H6QPj9ZnTSjftRbYA5FhUwWfnG91Y6er9hkVVhFZ5uSF",
+   "amount": 53152.659392,
+   "addressInfo": {
+    "fundingAddress": "BGRGMRPAs287dmsA8gzR9A9SDsvXGinbB6UZKa6cdmwn",
+    "fundingAmount": 0.324974787,
+    "fundingBlockTime": "2026-07-17T14:04:05Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "GdKy7WiZ4YXnCukEiLKgiH92uM1f1uE1mpWiW5ZE6TyB",
+   "amount": 52061.389717,
+   "addressInfo": {
+    "fundingAddress": "9xi1cxmNFTkdTg4PLSFp66rf5GbRBdSLFYXicB8cBHEa",
+    "fundingAmount": 1,
+    "fundingBlockTime": "2026-09-10T22:42:13Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "AsmDAeW4NRoktWbyFrzPiTGevMVNaCQi2Dep7zGD64Ei",
+   "amount": 51281.063176,
+   "addressInfo": {
+    "fundingAddress": "9uUncTrWci1NeCyG8C6V8o7ZaaXqGjuAPRbyF59HGewx",
+    "fundingAmount": 0.033050615,
+    "fundingBlockTime": "2026-09-25T15:47:14Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "7iZkZNb8rmyxZe3C7En5oAUc2gM3n6V8fwFYaRSmRx9C",
+   "amount": 48102.807985,
+   "addressInfo": {
+    "fundingAddress": "8TX3RTWoZUjVFCrjXKhee6APyCPjEXqFxBXY5AB9e28X",
+    "fundingAmount": 0.172429773,
+    "fundingBlockTime": "2026-10-07T18:22:54Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "5ZR5GmeVTrm4zkrKnpWVkhHkp4Fa3MgD2C55BX9WomnK",
+   "amount": 47940.194212,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "BkoYf9hAEKvoEbKpkayNhinahwydPYDD4UNHN59Uf5cD",
+   "amount": 47640.395757,
+   "addressInfo": {
+    "fundingAddress": "C9tHsN9ggD94PFhVHxowJm6GtnTSe5PPRRBLsDzUqokM",
+    "fundingAmount": 0.021957052,
+    "fundingBlockTime": "2026-07-29T04:39:03Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "4eL8kHrv2xF7Lbc7emaXZP2cbduvADSd8nbDFUrRtkZD",
+   "amount": 47195.801472,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "8SWWZdXXCVSuAoUkSx8K2b7eZjYcJKzZtn5YEJiT4t7q",
+   "amount": 46102.726579,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "F3HhQyu67ZdNU7ejvow5FQb7vbNsNWwo63cEa2PwGwyc",
+   "amount": 45097.498029,
+   "addressInfo": {
+    "fundingAddress": "4bjXcMSRTEE2gFo4J6ovc9NMGrHPiMcZN1RdJ42ePP2e",
+    "fundingAmount": 0.000931781,
+    "fundingBlockTime": "2026-10-12T19:17:58Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "2vZZvo7rjZZmbEA9XNZmUH9rM1YUcTqWzM3Wd2ohRg4z",
+   "amount": 44846.9332,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "Aqr6mm1ChR48dQ595YYTuHtusPRZZjF4MgRQnhdi2eie",
+   "amount": 42280.539542,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "BDnUe4mvhbyWYLbM6NGu9z3PwpogLLWoD1KEyc5C9Nbd",
+   "amount": 42004.302982,
+   "addressInfo": {
+    "fundingAddress": "8754QnqRmiviZPVkDZey7xx312P74iTXg9yfq2E8wZah",
+    "fundingAmount": 0.00524256,
+    "fundingBlockTime": "2026-10-14T09:35:22Z"
+   },
+   "holderTags": [],
+   "walletCategories": [],
+   "tags": [
+    {
+     "id": "Pool",
+     "name": "Meteora DLMM Liquidity Pool"
+    }
+   ]
+  },
+  {
+   "address": "D8CnQVBH6CEW6AQ5XosXaGJ4yvTXA1C136LRiBbYRjaX",
+   "amount": 41579.561421,
+   "addressInfo": {
+    "fundingAddress": "4N7hyJhYRrwNGJaKknoUdvULqUCvzffx6y3kmjqsXD2A",
+    "fundingAmount": 0.760697031,
+    "fundingBlockTime": "2026-10-02T07:21:30Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "Gn5dnWFE2hZHgeu73TkPRXzLqNns65wJN1k7PL7xQySo",
+   "amount": 41259.470669,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "CHwejf9wH5g8mADYXrHvp7dqZBqiELjgC4Q4SXdZn9c1",
+   "amount": 41153.32659,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "88PAto1xijMnphSvdnbxtpWcwYpNnmKJG6pkc5JYiNMB",
+   "amount": 41149.263372,
+   "addressInfo": {
+    "fundingAddress": "6RbE8DYmQMNcNPzCkggSBrvQT2ygrZZYew91g1NkHj7k",
+    "fundingAmount": 0.135143292,
+    "fundingBlockTime": "2026-06-26T13:56:32Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "FhHotCkQsXh2jA3sbaX1Xj1gkM9swGcD79mBbt7S4RZG",
+   "amount": 40949.559804,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "FpjnJVbW2NnDMGyVXGeQPGz2jcNEiVmUyNgf7pbGM2qn",
+   "amount": 39361.136202,
+   "addressInfo": {
+    "fundingAddress": "7oUBiAaEGZyoX171SbjtTdpas4zwYVtaMgZajbD9WcB1",
+    "fundingAmount": 0.139652761,
+    "fundingBlockTime": "2026-10-14T12:22:18Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "txuTZx59tXoAKAoiMofUYXuWm1t6APpJdvTTijyWrrW",
+   "amount": 38617.092896,
+   "addressInfo": {
+    "fundingAddress": "FYtb35qCECzMupSDbQ4PvBek2Che4GTfb31QbjNCLqQW",
+    "fundingAmount": 0.001672136,
+    "fundingBlockTime": "2026-10-05T16:56:12Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "6ENPsL5dUEyzSJcYDaHcM2ub5c6hcr8VBmKcJZfjmpj2",
+   "amount": 37828.242785,
+   "addressInfo": {
+    "fundingAddress": "FncazAs6omJJjtLVzquzT9KoyXn6tFixr9kGjr42ktLj",
+    "fundingAmount": 0.05,
+    "fundingBlockTime": "2026-10-04T11:28:08Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "Daq2GASWjdQQ7NsVhoK5mfL4vSjn1gjWsPTzs8jaMm7b",
+   "amount": 37601.384347,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "A1LaCr6jASgLeeHB7L53Gtig2r4M4puNhsk5swSpN8Uf",
+   "amount": 36799.333159,
+   "addressInfo": {
+    "fundingAddress": "HR74yFT116KdaTcD4V4FXm2pdDQm9WGkk3mUMgn8sVda",
+    "fundingAmount": 0.029371356,
+    "fundingBlockTime": "2026-09-29T08:37:28Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "GM85mDhbTFsNpnSamXouEpz9tJV9xsfZv93Ac3wDBzSX",
+   "amount": 36554.528752,
+   "addressInfo": {
+    "fundingAddress": "apiGw2YsgNeSRytxhUtWHoX4vA2u6d5vD2Gwfv6YAcz",
+    "fundingAmount": 0.000671451,
+    "fundingBlockTime": "2026-10-10T13:44:57Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "5viT38Jr58xZy4AX2GUwV4Sx8NJf8qFfCDumpkuPuBa6",
+   "amount": 36517.181181,
+   "addressInfo": {
+    "fundingAddress": "AkDF8Sj9x6hHg2megwjrmtfn1aygeRnfGaViyHJPWpNw",
+    "fundingAmount": 0.664828012,
+    "fundingBlockTime": "2026-10-12T08:15:34Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "4WVVJVYM4B3Yk78tXFtprD6JVzoFJXsWBc8cEuRq4BPY",
+   "amount": 35702.197095,
+   "addressInfo": {
+    "fundingAddress": "5F1seMKUqSNhv45f6FhB2cFmgJbk8U1avJw7M6TexUq1",
+    "fundingAmount": 0.190563035,
+    "fundingBlockTime": "2026-10-10T06:48:42Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "ALp1bTenhknWFY2PwfEaVYbZ3msRjjLi41xUNGSkTTsx",
+   "amount": 34741.073633,
+   "addressInfo": {
+    "fundingAddress": "HwAusmqcNGzT5M7h97LpwvNuiBgkvqRXqtvNwaRuBNGu",
+    "fundingAmount": 0.008811413,
+    "fundingBlockTime": "2026-09-18T20:49:44Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "7UX9CMPyvhhRz6VeWvA8G3xGH7sTWGQ2Deh6LFHVVL3w",
+   "amount": 33669.383715,
+   "addressInfo": {
+    "fundingAddress": "14Bg8WiKNu9nq2bChVyHs6gdSEKQYaDopb1vR2J3oaqy",
+    "fundingAmount": 0.003606927,
+    "fundingBlockTime": "2026-10-13T15:24:45Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "GX3rCTb6A2KtRF7aNu4evqtwXQdx4SuY5e1b9ZCbY6V9",
+   "amount": 33410.125616,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "nQ6SPvyBW7vAqKYbvmbs3dCoM8yajQfcfnQGhFyrgye",
+   "amount": 32780.481934,
+   "addressInfo": {
+    "fundingAddress": "51BU6jn8iBkpLHBmRqex5ieCiue7tc3x5d23h2tgmXG6",
+    "fundingAmount": 0.264443351,
+    "fundingBlockTime": "2026-08-14T17:38:59Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "XKjmMvS1CvJqCHqSGebAs6bymxKNBb65A8qoSodKMoG",
+   "amount": 31563.845044,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "6cChiFGSYM1DPq6smu4V7oiZBeJrJsvohvh4ZgwMm6Pr",
+   "amount": 31498.297258,
+   "addressInfo": {
+    "fundingAddress": "Biw4eeaiYYYq6xSqEd7GzdwsrrndxA8mqdxfAtG3PTUU",
+    "fundingAmount": 0.026887,
+    "fundingBlockTime": "2026-09-02T11:11:47Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "C2rJAXuTkQx1HdncZf88GiFBH6f9CMTYZSMWcC883RLw",
+   "amount": 30958.610795,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "99vpUEL61TMXKF3YokQ55BZReAE8g1FqSN17syK7cbef",
+   "amount": 30881.472443,
+   "addressInfo": {
+    "fundingAddress": "BZAeXS9U5W4YnXMMMCam8tD6fTk77SvZMfJQMSfjPjRK",
+    "fundingAmount": 0.04348206,
+    "fundingBlockTime": "2026-08-19T20:07:15Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "6xi8sY6S65ij3CEf5MMfvm76J8wqSwKnjwWKCgdEHCx9",
+   "amount": 30644.502679,
+   "addressInfo": {
+    "fundingAddress": "8QxvyNPJyXMt96adcrDeLNagPY4najaYJ2n8ve4Kpkx1",
+    "fundingAmount": 0.844,
+    "fundingBlockTime": "2026-10-12T17:21:38Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "JBw4dku4tynBFnJifLwy7eyELLhX12GVb5JggqBiUT17",
+   "amount": 29623.482267,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "6bi1sCVRsdbC9Rerd6aeQ1mE2KLtFBVdNEQgAK3pGuvY",
+   "amount": 29006.912085,
+   "addressInfo": {
+    "fundingAddress": "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+    "fundingAmount": 0.10266894,
+    "fundingBlockTime": "2026-10-14T10:07:29Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "3N1Ss6WpP4axePmC4xiKoREgYCF4X7LiX5JUaZ5JraD1",
+   "amount": 28778.994049,
+   "addressInfo": {
+    "fundingAddress": "Biw4eeaiYYYq6xSqEd7GzdwsrrndxA8mqdxfAtG3PTUU",
+    "fundingAmount": 0.1,
+    "fundingBlockTime": "2026-10-10T21:25:33Z"
+   },
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "5ZHqDMDPpjQSENobwYc4Fn611QWizBv2zCrQPyLXWcB5",
+   "amount": 27838.298398,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "CEacgpms2yVrumU2SnuVSRP1NSBnysXVQn35XYPRUixL",
+   "amount": 25356.812183,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "E6t76kTt6NkcU63j7KpJrqT9EsaDah45P1mHgqzq2tcJ",
+   "amount": 25180.12921,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "E6nGQrumyojs44MAFQCxJCPUFc1rURUFWZ1C8DM1TxDG",
+   "amount": 24094.16746,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "AR62dF2n2KZra6s4nErmSRZCSJW6CtFSR54Jjw7r31RR",
+   "amount": 23272.285006,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "4LYUNo66JniM52dX1LF4zDxXKcp19BjKHRxyPj5kG6nQ",
+   "amount": 22926.66291,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "DEC6KMK8U36iic6MAVAcRpDv29Cg7g3T1wZasY1haXN1",
+   "amount": 22339.81929,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "E1q4R9D45FsCU1Zie4RHKqqqqzUApKqeabbJMkGPxAac",
+   "amount": 22126.216254,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "8fsc1kEXp3Pa1hDuLU3rc9E1U6C1uUiugjqcordBsXTZ",
+   "amount": 21645.807662,
+   "holderTags": [],
+   "walletCategories": []
+  },
+  {
+   "address": "369roneZTSGm9Zen9xnjAKo4waCvCxgAPDka7QR1BUKg",
+   "amount": 21319.1233,
+   "holderTags": [],
+   "walletCategories": []
+  }
+ ]
+}

@@ -1,0 +1,353 @@
+{
+ "about": "DS-AMM-VAULTS-T1 citations: for each shared vault authority, the cited lines (verbatim, with line numbers and the sha256 of the whole file) that give its program id and seed. Raydium: public GitHub raydium-io repositories at the pinned commits, raw.githubusercontent.com, read 2026-10-27 without a key. Meteora: the provider-docs cache (fetched 2026-10-21, commit 2a34d8d of that repo). DS-AMM-VAULTS-T2 added the Raydium LaunchLab program (raydium-io/raydium-cpi and raydium-sdk-V2 at the pinned commits, read 2026-10-28 without a key) and mint_vaults: the Meteora Dynamic Vault, whose PDA is derived per mint (provider-docs cache, the same fetch).",
+ "read_on": "2026-10-27",
+ "raydium_commits": {
+  "raydium-cp-swap": "f4b9b26342afe9122d5ff67cd7a4f19ded4ac0a5",
+  "raydium-amm": "91739d8d9f5cf347e0ce14ebe4d2bb7069fb31b6",
+  "raydium-cpi": "115df2779d53bacc7db9d0be2773a4b48a6d372b",
+  "raydium-sdk-V2": "f8549145afe75d4c486e30c43331c2c4da32b1eb"
+ },
+ "programs": [
+  {
+   "name": "Raydium CPMM",
+   "program_id": "CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C",
+   "seed": "vault_and_lp_mint_auth_seed",
+   "cited_authority": null,
+   "sources": [
+    {
+     "kind": "program id and seed",
+     "where": "https://raw.githubusercontent.com/raydium-io/raydium-cp-swap/f4b9b26342afe9122d5ff67cd7a4f19ded4ac0a5/programs/cp-swap/src/lib.rs",
+     "sha256": "d4151c3959d5b066d459e02f8ffcb45c842944231d68aaff659909c232639f7b",
+     "lines": [
+      {
+       "line": 25,
+       "text": "declare_id!(\"CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C\");",
+       "line_above": "#[cfg(not(feature = \"devnet\"))]"
+      },
+      {
+       "line": 82,
+       "text": "pub const AUTH_SEED: &str = \"vault_and_lp_mint_auth_seed\";"
+      }
+     ]
+    },
+    {
+     "kind": "the vaults' authority is the PDA of [AUTH_SEED]",
+     "where": "https://raw.githubusercontent.com/raydium-io/raydium-cp-swap/f4b9b26342afe9122d5ff67cd7a4f19ded4ac0a5/programs/cp-swap/src/instructions/initialize.rs",
+     "sha256": "d198b84c00331774218b43533979443b256089a160f76a4fa9a5e45a51cace20",
+     "lines": [
+      {
+       "line": 30,
+       "text": "    /// pool vault and lp mint authority"
+      },
+      {
+       "line": 33,
+       "text": "            crate::AUTH_SEED.as_bytes(),"
+      },
+      {
+       "line": 37,
+       "text": "    pub authority: UncheckedAccount<'info>,"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Raydium AMM v4",
+   "program_id": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8",
+   "seed": "amm authority",
+   "cited_authority": null,
+   "sources": [
+    {
+     "kind": "program id",
+     "where": "https://raw.githubusercontent.com/raydium-io/raydium-amm/91739d8d9f5cf347e0ce14ebe4d2bb7069fb31b6/program/src/lib.rs",
+     "sha256": "d0f63c766de4898d44043bb4bf69294b5dfdbc5081b284eeb6b40d43ebaa3756",
+     "lines": [
+      {
+       "line": 32,
+       "text": "solana_program::declare_id!(\"675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8\");",
+       "line_above": "#[cfg(not(feature = \"devnet\"))]"
+      }
+     ]
+    },
+    {
+     "kind": "seed, and initialize2 accepts only find_program_address([AUTHORITY_AMM], program_id)",
+     "where": "https://raw.githubusercontent.com/raydium-io/raydium-amm/91739d8d9f5cf347e0ce14ebe4d2bb7069fb31b6/program/src/processor.rs",
+     "sha256": "31eed8ed2736fa2d2ee3a2ad072a4025766ef828bc2ddfbf26a1ec8669c91fe6",
+     "lines": [
+      {
+       "line": 96,
+       "text": "pub const AUTHORITY_AMM: &'static [u8] = b\"amm authority\";"
+      },
+      {
+       "line": 708,
+       "text": "            Pubkey::find_program_address(&[&AUTHORITY_AMM], program_id);"
+      },
+      {
+       "line": 709,
+       "text": "        if *amm_authority_info.key != expect_amm_authority || init.nonce != expect_nonce {"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Meteora DAMM v2",
+   "program_id": "cpamdpZCGKUy5JxQXB4dcpGPiikHawvSWAd6mEn1sGG",
+   "seed": "pool_authority",
+   "cited_authority": "HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC",
+   "sources": [
+    {
+     "kind": "program id and pool authority",
+     "where": "provider-docs current/meteora/fulldocs.pages/developer-guides/damm-v2/index.md",
+     "sha256": "b70c2d50d8e239411a291a2cc69f355802c686cc3081c5ba39e0ee8b604f9450",
+     "lines": [
+      {
+       "line": 65,
+       "text": "| Mainnet Beta | `cpamdpZCGKUy5JxQXB4dcpGPiikHawvSWAd6mEn1sGG` |"
+      },
+      {
+       "line": 72,
+       "text": "| Pool Authority | `HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC` |"
+      }
+     ]
+    },
+    {
+     "kind": "seed",
+     "where": "provider-docs current/meteora/fulldocs.pages/developer-guides/damm-v2/program/accounts.md",
+     "sha256": "1b0675e555df1f3ae933d73ef2fee7cc44f72c351a9e6a3550829cfd89e8dfd6",
+     "lines": [
+      {
+       "line": 21,
+       "text": "| Pool authority | `derivePoolAuthority()` | `pool_authority` |"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Meteora DBC",
+   "program_id": "dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN",
+   "seed": "pool_authority",
+   "cited_authority": "FhVo3mqL8PW5pH5U2CN4XE33DokiyZnUwuGpH2hmHLuM",
+   "sources": [
+    {
+     "kind": "program id and pool authority",
+     "where": "provider-docs current/meteora/fulldocs.pages/developer-guides/dbc/index.md",
+     "sha256": "c05a989438297c4b8681d9a8d70e013d909dfc7d862b37c3f25f179ddbfd5d2f",
+     "lines": [
+      {
+       "line": 67,
+       "text": "| Mainnet Beta | `dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN` |"
+      },
+      {
+       "line": 74,
+       "text": "| Pool Authority | `FhVo3mqL8PW5pH5U2CN4XE33DokiyZnUwuGpH2hmHLuM` |"
+      }
+     ]
+    },
+    {
+     "kind": "seed (and the deployed address)",
+     "where": "provider-docs current/meteora/fulldocs.pages/developer-guides/dbc/program/accounts.md",
+     "sha256": "3b43a11d835d61d0513ed7da13bbd31f3a6a9abd1b2efbc0cc53d02b45de0399",
+     "lines": [
+      {
+       "line": 25,
+       "text": "| Pool authority | PDA from `pool_authority` | Program authority over vaults and migration flows. The deployed address is `FhVo3mqL8PW5pH5U2CN4XE33DokiyZnUwuGpH2hmHLuM`. |"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Raydium LaunchLab",
+   "program_id": "LanMV9sAd7wArD4vJFi2qDdfnVhFxYSUg6eADduJ3uj",
+   "seed": "vault_auth_seed",
+   "cited_authority": "WLHv2UAZm6z4KyaaELi5pjdbJh6RESMva1Rnn8pJVVh",
+   "read_on": "2026-10-28",
+   "sources": [
+    {
+     "kind": "program id and seed",
+     "where": "https://raw.githubusercontent.com/raydium-io/raydium-cpi/115df2779d53bacc7db9d0be2773a4b48a6d372b/programs/launch-cpi/src/lib.rs",
+     "sha256": "6841c9de3184402b54af94da338ea8d73b7803463ffbb5a530f040849bc4b655",
+     "lines": [
+      {
+       "line": 13,
+       "text": "declare_id!(\"LanMV9sAd7wArD4vJFi2qDdfnVhFxYSUg6eADduJ3uj\");",
+       "line_above": "#[cfg(not(feature = \"devnet\"))]"
+      },
+      {
+       "line": 55,
+       "text": "pub const AUTH_SEED: &str = \"vault_auth_seed\";"
+      }
+     ]
+    },
+    {
+     "kind": "Initialize: the authority is the PDA of [AUTH_SEED] and owns the base and quote pool vaults",
+     "where": "https://raw.githubusercontent.com/raydium-io/raydium-cpi/115df2779d53bacc7db9d0be2773a4b48a6d372b/programs/launch-cpi/src/context.rs",
+     "sha256": "21e5e0e796d76718f9f416c9d9344e6c0d41ad742670ecccffcb7f92cdfd1c42",
+     "lines": [
+      {
+       "line": 43,
+       "text": "    /// PDA that acts as the authority for pool vault and mint operations"
+      },
+      {
+       "line": 48,
+       "text": "            crate::AUTH_SEED.as_bytes(),"
+      },
+      {
+       "line": 52,
+       "text": "    pub authority: UncheckedAccount<'info>,"
+      },
+      {
+       "line": 100,
+       "text": "        token::mint = base_mint,"
+      },
+      {
+       "line": 101,
+       "text": "        token::authority = authority,"
+      },
+      {
+       "line": 104,
+       "text": "    pub base_vault: Box<InterfaceAccount<'info, TokenAccount>>,"
+      },
+      {
+       "line": 118,
+       "text": "        token::mint = quote_mint,"
+      },
+      {
+       "line": 119,
+       "text": "        token::authority = authority,"
+      },
+      {
+       "line": 122,
+       "text": "    pub quote_vault: Box<InterfaceAccount<'info, TokenAccount>>,"
+      }
+     ]
+    },
+    {
+     "kind": "the SDK prints the program id and the authority",
+     "where": "https://raw.githubusercontent.com/raydium-io/raydium-sdk-V2/f8549145afe75d4c486e30c43331c2c4da32b1eb/src/common/programId.ts",
+     "sha256": "ded5ae021aa50ee17cc36441d5fcb4d1a242676fe77fd4308b066f688f9b23b4",
+     "lines": [
+      {
+       "line": 37,
+       "text": "export const LAUNCHPAD_PROGRAM = new PublicKey(\"LanMV9sAd7wArD4vJFi2qDdfnVhFxYSUg6eADduJ3uj\");"
+      },
+      {
+       "line": 38,
+       "text": "export const LAUNCHPAD_AUTH = new PublicKey(\"WLHv2UAZm6z4KyaaELi5pjdbJh6RESMva1Rnn8pJVVh\");"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "mint_vaults": [
+  {
+   "name": "Meteora Dynamic Vault (DAMM v1)",
+   "program_id": "24Uqj9JCLxUeoC3hGfh5W3s9FM9uCHDS2SG3LYwBpyTi",
+   "seeds": [
+    "vault",
+    "<token mint>",
+    "HWzXGcGHy4tcpYfaRDCyLNzXqBTv3E6BttpCH2vJxArv"
+   ],
+   "token_vault_seeds": [
+    "token_vault",
+    "<vault>"
+   ],
+   "read_on": "2026-10-28",
+   "sources": [
+    {
+     "kind": "program id",
+     "where": "provider-docs current/meteora/fulldocs.pages/developer-guides/dynamic-vault/index.md",
+     "sha256": "b0615031581e2f90067744b3f22478ddee6e053b9cdc404975ba4bad23ef3e0d",
+     "lines": [
+      {
+       "line": 63,
+       "text": "| Mainnet Beta | `24Uqj9JCLxUeoC3hGfh5W3s9FM9uCHDS2SG3LYwBpyTi` |"
+      }
+     ]
+    },
+    {
+     "kind": "vault and token-vault seeds, base key, and the vault signs the token transfers",
+     "where": "provider-docs current/meteora/fulldocs.pages/developer-guides/dynamic-vault/program/accounts.md",
+     "sha256": "b77a3d27c9dfecff7bd1f890887676aae4009ca3783845836829a53bf08fc0bc",
+     "lines": [
+      {
+       "line": 19,
+       "text": "| Rebalance vault | `getVaultPdas(tokenMint, programId)` | `vault`, token mint, `VAULT_BASE_KEY` |"
+      },
+      {
+       "line": 21,
+       "text": "| Token vault | `getVaultPdas(tokenMint, programId)` | `token_vault`, vault |"
+      },
+      {
+       "line": 28,
+       "text": "The vault signs token transfers and LP minting with the rebalance or idle vault seeds stored in `Vault.bumps`."
+      },
+      {
+       "line": 36,
+       "text": "| `VAULT_BASE_KEY` | `HWzXGcGHy4tcpYfaRDCyLNzXqBTv3E6BttpCH2vJxArv` | Base key for rebalance vault PDA derivation. |"
+      }
+     ]
+    },
+    {
+     "kind": "the Rust derivation, seed order",
+     "where": "provider-docs current/meteora/fulldocs.pages/developer-guides/dynamic-vault/rust-integration/library.md",
+     "sha256": "e0181d029b0b023c780e9c4dbe47f40df571e6b1a0a4b1b4f7377810a317c18e",
+     "lines": [
+      {
+       "line": 48,
+       "text": "let base = Pubkey::from_str(\"HWzXGcGHy4tcpYfaRDCyLNzXqBTv3E6BttpCH2vJxArv\")?;"
+      },
+      {
+       "line": 51,
+       "text": "    &[b\"vault\".as_ref(), token_mint.as_ref(), base.as_ref()],"
+      }
+     ]
+    },
+    {
+     "kind": "permissionless vaults are the rebalance vaults",
+     "where": "provider-docs current/meteora/fulldocs.pages/developer-guides/dynamic-vault/program/instructions.md",
+     "sha256": "fa174c3588278604745a466008f6daf01c3e1cc5579458b16d85446b3333a05e",
+     "lines": [
+      {
+       "line": 52,
+       "text": "| `initialize` | `vault`, `payer`, `token_vault`, `token_mint`, `lp_mint`, `rent`, `token_program`, `system_program` | none | Create a rebalance vault PDA for a token mint using `get_base_address()`. |"
+      },
+      {
+       "line": 113,
+       "text": "| `VaultImpl.createPermissionlessVaultInstruction(...)` | Builds `initialize`. |"
+      }
+     ]
+    },
+    {
+     "kind": "DAMM v1 pools keep each token in the Dynamic Vault of that mint",
+     "where": "provider-docs current/meteora/fulldocs.pages/developer-guides/damm-v1/program/accounts.md",
+     "sha256": "9131f2eccd4fefea5dd6eb82e83e2992aadca7929c48e96eb6e083047945b7c2",
+     "lines": [
+      {
+       "line": 149,
+       "text": "| `a_vault`, `b_vault` | Dynamic Vault state accounts for token A and token B. |"
+      },
+      {
+       "line": 150,
+       "text": "| `a_token_vault`, `b_token_vault` | Token accounts owned by each Dynamic Vault. |"
+      }
+     ]
+    },
+    {
+     "kind": "the DAMM v1 USDC-SOL pool used as the live example",
+     "where": "provider-docs current/meteora/fulldocs.pages/developer-guides/damm-v1/typescript-sdk/reference.md",
+     "sha256": "4e82213ccca2cbefbb588ceba0f791463a34d325b17736cb77c2a408d94ff89b",
+     "lines": [
+      {
+       "line": 73,
+       "text": "| `MAINNET_POOL.USDC_SOL` | `5yuefgbJJpmFNK2iiYbLSpv1aZXq7F9AUKkZKErTYCvs` |"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

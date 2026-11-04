@@ -1,0 +1,378 @@
+{
+ "schema": "holder-scan-create-slot/1",
+ "lane": "create_slot_trace",
+ "mint": "FmuciqKXRRnKqhi7BNin5mYH6fm3oTrfVB5A5Fyrpump",
+ "status": "ok",
+ "reason": null,
+ "check": null,
+ "fetched_at": "2026-10-25T03:20:48Z",
+ "request": {
+  "host": "api.mainnet-beta.solana.com",
+  "path": "/",
+  "methods": [
+   "getSignaturesForAddress",
+   "getTransaction",
+   "getBlock"
+  ],
+  "keys": "none",
+  "calls": [
+   {
+    "method": "getTransaction",
+    "attempts": 1,
+    "reason": null,
+    "http_status": 200,
+    "rpc_error_code": null,
+    "bytes": 23171
+   },
+   {
+    "method": "getBlock",
+    "attempts": 1,
+    "reason": null,
+    "http_status": 200,
+    "rpc_error_code": null,
+    "bytes": 2112960
+   },
+   {
+    "method": "getBlock",
+    "attempts": 1,
+    "reason": null,
+    "http_status": 200,
+    "rpc_error_code": null,
+    "bytes": 1404105
+   },
+   {
+    "method": "getBlock",
+    "attempts": 1,
+    "reason": null,
+    "http_status": 200,
+    "rpc_error_code": null,
+    "bytes": 1623189
+   }
+  ],
+  "requests_sent": 4,
+  "bytes_received": 5163425,
+  "max_calls": 7,
+  "max_requests": 14,
+  "max_bytes": 2097152,
+  "max_block_bytes": 16777216,
+  "slots_after": 2,
+  "max_signature_pages": 3
+ },
+ "sources": {
+  "pump": "provider-docs current/pumpfun/idls.md (pump.json: create, create_v2, bonding-curve, pool-authority, sol-vault seeds; migrate pool seeds) and publicdocs.md (COIN_CREATION.md: account `user` = transaction signer and payer)",
+  "rpc": "provider-docs current/solana/rpc.md (official Solana docs: getBlock transactionDetails accounts, getTransaction, getSignaturesForAddress, token balances, public mainnet limits; Agave custom_error.rs codes)",
+  "solanatracker": "provider-docs current/solanatracker/fulldocs.md (creation object: creator, created_tx, created_time)"
+ },
+ "pointer": {
+  "source": "solanatracker",
+  "status": "ok",
+  "reason": null,
+  "signature": "35P4VLDRkT31GQe5u9WjGemMq5cXmAPbsNqYvHHyRj7VfJ7FUzoQZRh7ZRbGw8GCnPZWQd11qPkZdzQc8Yw5RuHK",
+  "creator": "CMipoWEjjm9he34xrS1nvJmTjfdKSxZKD2CHP1rfa8bo",
+  "created_time": 1792893746
+ },
+ "create_tx": {
+  "signature": "35P4VLDRkT31GQe5u9WjGemMq5cXmAPbsNqYvHHyRj7VfJ7FUzoQZRh7ZRbGw8GCnPZWQd11qPkZdzQc8Yw5RuHK",
+  "slot": 461080543,
+  "block_time": 1792893746,
+  "method": "pump_create_v2",
+  "deployer": "CMipoWEjjm9he34xrS1nvJmTjfdKSxZKD2CHP1rfa8bo",
+  "deployer_signed": true,
+  "creator": "CMipoWEjjm9he34xrS1nvJmTjfdKSxZKD2CHP1rfa8bo",
+  "fee_payer": "CMipoWEjjm9he34xrS1nvJmTjfdKSxZKD2CHP1rfa8bo",
+  "signers": [
+   "CMipoWEjjm9he34xrS1nvJmTjfdKSxZKD2CHP1rfa8bo",
+   "FmuciqKXRRnKqhi7BNin5mYH6fm3oTrfVB5A5Fyrpump"
+  ],
+  "mint_signed": true,
+  "decimals": 6,
+  "supply_at_create_raw": 1000000000000000,
+  "dev_wallets": [
+   "CMipoWEjjm9he34xrS1nvJmTjfdKSxZKD2CHP1rfa8bo"
+  ],
+  "dev_buys_raw": {
+   "CMipoWEjjm9he34xrS1nvJmTjfdKSxZKD2CHP1rfa8bo": 67062499999999
+  },
+  "dev_buy_raw": 67062499999999,
+  "solanatracker_creator_matches": true,
+  "solanatracker_time_offset_s": 0
+ },
+ "supply": {
+  "basis": "scan",
+  "scan_raw": 954385762928214,
+  "scan_source": "holder-analysis.json",
+  "scan_rejected": null,
+  "at_create_raw": 1000000000000000,
+  "decimals": 6
+ },
+ "slots": [
+  {
+   "slot": 461080543,
+   "status": "read",
+   "reason": null,
+   "rpc_error_code": null,
+   "attempts": 1,
+   "bytes": 2112960,
+   "block_time": 1792893746,
+   "transactions_in_block": 422,
+   "touching_mint": 2,
+   "failed_touching_mint": 0,
+   "create_position": 387,
+   "without_meta": 0,
+   "buys": [
+    {
+     "slot": 461080543,
+     "position": 387,
+     "signature": "35P4VLDRkT31GQe5u9WjGemMq5cXmAPbsNqYvHHyRj7VfJ7FUzoQZRh7ZRbGw8GCnPZWQd11qPkZdzQc8Yw5RuHK",
+     "fee_payer": "CMipoWEjjm9he34xrS1nvJmTjfdKSxZKD2CHP1rfa8bo",
+     "signers": [
+      "CMipoWEjjm9he34xrS1nvJmTjfdKSxZKD2CHP1rfa8bo",
+      "FmuciqKXRRnKqhi7BNin5mYH6fm3oTrfVB5A5Fyrpump"
+     ],
+     "credited": {
+      "9SPdiSiw2ABLZdA3uxbgZMtmPq9tKXSdEdGXGF6P96km": 932937500000001,
+      "CMipoWEjjm9he34xrS1nvJmTjfdKSxZKD2CHP1rfa8bo": 67062499999999
+     },
+     "is_create_tx": true
+    },
+    {
+     "slot": 461080543,
+     "position": 391,
+     "signature": "3AUVdisJtx6XLUQcsdAoiXSi6Gz5RoSKs3aQ86LnHsBajwTwfJxwqY3FciwGZDG8y9N1pM4tLe7VPsdsrf1nKdV6",
+     "fee_payer": "CWiNFAEk4M1y6SjvnZkmxWDmhqSmnKFcnop1WoDW3S2J",
+     "signers": [
+      "CWiNFAEk4M1y6SjvnZkmxWDmhqSmnKFcnop1WoDW3S2J"
+     ],
+     "credited": {
+      "CWiNFAEk4M1y6SjvnZkmxWDmhqSmnKFcnop1WoDW3S2J": 30117889162759
+     },
+     "is_create_tx": false
+    }
+   ]
+  },
+  {
+   "slot": 461080544,
+   "status": "read",
+   "reason": null,
+   "rpc_error_code": null,
+   "attempts": 1,
+   "bytes": 1404105,
+   "block_time": 1792893746,
+   "transactions_in_block": 290,
+   "touching_mint": 14,
+   "failed_touching_mint": 5,
+   "create_position": null,
+   "without_meta": 0,
+   "buys": [
+    {
+     "slot": 461080544,
+     "position": 51,
+     "signature": "5mmSZmkchcNpAdVYEiaGrTtV7fJVazKuEuU4tKFTTwMyz3SEeTLZUFogCU88sQ7buqNT5zn6KnP1787JftX4VzTG",
+     "fee_payer": "mJxgiGFDS9ZJttWgVaayMki1eH2XkUBfaWrCZmkCYsU",
+     "signers": [
+      "mJxgiGFDS9ZJttWgVaayMki1eH2XkUBfaWrCZmkCYsU"
+     ],
+     "credited": {
+      "mJxgiGFDS9ZJttWgVaayMki1eH2XkUBfaWrCZmkCYsU": 1458624171046
+     },
+     "is_create_tx": false
+    },
+    {
+     "slot": 461080544,
+     "position": 72,
+     "signature": "4R1MXnTewpinrzKByM5CcYtpujNj1UFcJaYGhQNkcCup9xEZcsudGLMajbzYdgVHpp5dEWdQaTBut8JQERE6eouN",
+     "fee_payer": "FAswud37REawok57WHRoiWDHwAG7GJMr9ErevXRfGREL",
+     "signers": [
+      "FAswud37REawok57WHRoiWDHwAG7GJMr9ErevXRfGREL"
+     ],
+     "credited": {
+      "FAswud37REawok57WHRoiWDHwAG7GJMr9ErevXRfGREL": 87378741033
+     },
+     "is_create_tx": false
+    },
+    {
+     "slot": 461080544,
+     "position": 74,
+     "signature": "Pwm8swLj8H4zbzcJ2Mff6g3LerSu4BxaSCgCAPLM47P85Q25W54nEmn3W8yTRUPJqZMVgWhYSqttHTwtneUDU8o",
+     "fee_payer": "AmN88ff21osxR5CWnawN3GWDbpKtReCzDABdGWQvdLyB",
+     "signers": [
+      "AmN88ff21osxR5CWnawN3GWDbpKtReCzDABdGWQvdLyB"
+     ],
+     "credited": {
+      "AmN88ff21osxR5CWnawN3GWDbpKtReCzDABdGWQvdLyB": 1454009443395
+     },
+     "is_create_tx": false
+    },
+    {
+     "slot": 461080544,
+     "position": 250,
+     "signature": "4zmcsZtdYrwBabVPjgdXu3Uo9Y4yAJyasjCekEEDUvAhDEdow4JciWPiSDYdPKGcuUhDG5NWA3fPDGVor29zXqAw",
+     "fee_payer": "2nU1AogLMqD6iLr8u2itPPimAozyZoyZ24f9TmbRW7vM",
+     "signers": [
+      "2nU1AogLMqD6iLr8u2itPPimAozyZoyZ24f9TmbRW7vM"
+     ],
+     "credited": {
+      "2nU1AogLMqD6iLr8u2itPPimAozyZoyZ24f9TmbRW7vM": 2895037877539
+     },
+     "is_create_tx": false
+    }
+   ]
+  },
+  {
+   "slot": 461080545,
+   "status": "read",
+   "reason": null,
+   "rpc_error_code": null,
+   "attempts": 1,
+   "bytes": 1623189,
+   "block_time": 1792893746,
+   "transactions_in_block": 318,
+   "touching_mint": 16,
+   "failed_touching_mint": 16,
+   "create_position": null,
+   "without_meta": 0,
+   "buys": []
+  }
+ ],
+ "trace": {
+  "wallets": [
+   {
+    "wallet": "CMipoWEjjm9he34xrS1nvJmTjfdKSxZKD2CHP1rfa8bo",
+    "role": "dev",
+    "amount_raw": 67062499999999,
+    "first_slot": 461080543,
+    "first_position": 387,
+    "slots": [
+     461080543
+    ],
+    "txs": [
+     "35P4VLDRkT31GQe5u9WjGemMq5cXmAPbsNqYvHHyRj7VfJ7FUzoQZRh7ZRbGw8GCnPZWQd11qPkZdzQc8Yw5RuHK"
+    ],
+    "fee_payers": [
+     "CMipoWEjjm9he34xrS1nvJmTjfdKSxZKD2CHP1rfa8bo"
+    ],
+    "signed_own_tx": true,
+    "in_create_tx": true,
+    "first_funders": []
+   },
+   {
+    "wallet": "CWiNFAEk4M1y6SjvnZkmxWDmhqSmnKFcnop1WoDW3S2J",
+    "role": "wallet",
+    "amount_raw": 30117889162759,
+    "first_slot": 461080543,
+    "first_position": 391,
+    "slots": [
+     461080543
+    ],
+    "txs": [
+     "3AUVdisJtx6XLUQcsdAoiXSi6Gz5RoSKs3aQ86LnHsBajwTwfJxwqY3FciwGZDG8y9N1pM4tLe7VPsdsrf1nKdV6"
+    ],
+    "fee_payers": [
+     "CWiNFAEk4M1y6SjvnZkmxWDmhqSmnKFcnop1WoDW3S2J"
+    ],
+    "signed_own_tx": true,
+    "in_create_tx": false,
+    "first_funders": []
+   },
+   {
+    "wallet": "mJxgiGFDS9ZJttWgVaayMki1eH2XkUBfaWrCZmkCYsU",
+    "role": "wallet",
+    "amount_raw": 1458624171046,
+    "first_slot": 461080544,
+    "first_position": 51,
+    "slots": [
+     461080544
+    ],
+    "txs": [
+     "5mmSZmkchcNpAdVYEiaGrTtV7fJVazKuEuU4tKFTTwMyz3SEeTLZUFogCU88sQ7buqNT5zn6KnP1787JftX4VzTG"
+    ],
+    "fee_payers": [
+     "mJxgiGFDS9ZJttWgVaayMki1eH2XkUBfaWrCZmkCYsU"
+    ],
+    "signed_own_tx": true,
+    "in_create_tx": false,
+    "first_funders": []
+   },
+   {
+    "wallet": "FAswud37REawok57WHRoiWDHwAG7GJMr9ErevXRfGREL",
+    "role": "wallet",
+    "amount_raw": 87378741033,
+    "first_slot": 461080544,
+    "first_position": 72,
+    "slots": [
+     461080544
+    ],
+    "txs": [
+     "4R1MXnTewpinrzKByM5CcYtpujNj1UFcJaYGhQNkcCup9xEZcsudGLMajbzYdgVHpp5dEWdQaTBut8JQERE6eouN"
+    ],
+    "fee_payers": [
+     "FAswud37REawok57WHRoiWDHwAG7GJMr9ErevXRfGREL"
+    ],
+    "signed_own_tx": true,
+    "in_create_tx": false,
+    "first_funders": []
+   },
+   {
+    "wallet": "AmN88ff21osxR5CWnawN3GWDbpKtReCzDABdGWQvdLyB",
+    "role": "wallet",
+    "amount_raw": 1454009443395,
+    "first_slot": 461080544,
+    "first_position": 74,
+    "slots": [
+     461080544
+    ],
+    "txs": [
+     "Pwm8swLj8H4zbzcJ2Mff6g3LerSu4BxaSCgCAPLM47P85Q25W54nEmn3W8yTRUPJqZMVgWhYSqttHTwtneUDU8o"
+    ],
+    "fee_payers": [
+     "AmN88ff21osxR5CWnawN3GWDbpKtReCzDABdGWQvdLyB"
+    ],
+    "signed_own_tx": true,
+    "in_create_tx": false,
+    "first_funders": []
+   },
+   {
+    "wallet": "2nU1AogLMqD6iLr8u2itPPimAozyZoyZ24f9TmbRW7vM",
+    "role": "wallet",
+    "amount_raw": 2895037877539,
+    "first_slot": 461080544,
+    "first_position": 250,
+    "slots": [
+     461080544
+    ],
+    "txs": [
+     "4zmcsZtdYrwBabVPjgdXu3Uo9Y4yAJyasjCekEEDUvAhDEdow4JciWPiSDYdPKGcuUhDG5NWA3fPDGVor29zXqAw"
+    ],
+    "fee_payers": [
+     "2nU1AogLMqD6iLr8u2itPPimAozyZoyZ24f9TmbRW7vM"
+    ],
+    "signed_own_tx": true,
+    "in_create_tx": false,
+    "first_funders": []
+   }
+  ],
+  "excluded": [
+   {
+    "address": "9SPdiSiw2ABLZdA3uxbgZMtmPq9tKXSdEdGXGF6P96km",
+    "kind": "program",
+    "name": "pump bonding curve of this mint",
+    "amount_raw": 932937500000001,
+    "slots": [
+     461080543
+    ]
+   }
+  ],
+  "cosigned": [],
+  "shared_fee_payers": [],
+  "shared_funders": [],
+  "buy_transactions": 6
+ },
+ "funded_by_read": {
+  "funders.json": "read",
+  "holder-analysis.json": "read"
+ },
+ "presentation_only": true,
+ "note": "presentation only: what was seen in the create slot; never an engine input, never changes a FLAG, verdict or threshold and never counts toward NO_ALARM; nothing seen here is an all-clear",
+ "wording": "same-slot buyers can be the dev's own wallets or ordinary snipers and bots: this block says what was seen on-chain, not who controls the wallets",
+ "cannot_see": "only the create slot and the next 2 slots (a second wave of buys in later slots is not read); balances that rose, not who controls a wallet; a buy routed through a program account (a trading-app vault, for example) shows as that program account; the first-funder join uses only this scan's saved funded-by rows (top holders), so a wallet that sold or sits outside them reads 'not in this scan's funded-by data'; without Solana Tracker's creation tx the create is found only for pump.fun coins whose create-time account (mayhem_state, Metaplex metadata, or the bonding curve) has at most 3,000 signatures; sells, where the dev's tokens went next, funder chains and lookup-table authorities are not read"
+}

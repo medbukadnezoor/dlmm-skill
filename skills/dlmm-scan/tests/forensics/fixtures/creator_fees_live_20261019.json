@@ -1,0 +1,1171 @@
+{
+ "note": "Public data read live on 2026-10-19 by creator_fees.py's own requests (HS-FEES-T1, 7 calls: 3 Dexscreener GET /token-pairs/v1/solana/<MINT>, 4 public Solana RPC getMultipleAccounts). Dexscreener answers are trimmed to the fields the script reads (chainId, dexId, pairAddress, baseToken.address, quoteToken.address); the full answers' sha256 and byte length are kept. RPC answers are as returned (base64, dataSlice 0..1024).",
+ "cases": {
+  "simulator": {
+   "mint": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4",
+   "dexscreener": {
+    "at_utc": "2026-10-19T15:59:41Z",
+    "url": "https://api.dexscreener.com/token-pairs/v1/solana/8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4",
+    "answer_sha256": "28c587a382b9d53f2f1c631bb9b5c92734620be83d4c4737c1c83e07eba68236",
+    "answer_bytes": 25995,
+    "answer_trimmed": [
+     {
+      "chainId": "solana",
+      "dexId": "pumpswap",
+      "pairAddress": "EzJV2yGpbS3VM5qWmgqYQ4GPVi77LdhwgFhAy6u4ts1U",
+      "baseToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      },
+      "quoteToken": {
+       "address": "So11111111111111111111111111111111111111112"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "meteora",
+      "pairAddress": "GFKksyQkFs4ndLQ46MT9MHbda2iHvY39FjEaYU9ikAfU",
+      "baseToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      },
+      "quoteToken": {
+       "address": "So11111111111111111111111111111111111111112"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "orca",
+      "pairAddress": "9wTbzDJswD4EYe2ATxW6Jj7TQoY19DuBWy46xq5CH4v5",
+      "baseToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      },
+      "quoteToken": {
+       "address": "So11111111111111111111111111111111111111112"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "meteora",
+      "pairAddress": "AobwQMd2g2UTTMEMHeX9w6WJvasiFyF9JpmRJ54Cepw3",
+      "baseToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      },
+      "quoteToken": {
+       "address": "So11111111111111111111111111111111111111112"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "pairAddress": "5pFQi6MrqKn7V9V7aRZVCsxPau7epu4qscA885CFbTs6",
+      "baseToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      },
+      "quoteToken": {
+       "address": "So11111111111111111111111111111111111111112"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "2Jti2kFigPketCqRFWUouMfhWK7WMJDCkkTn5hSyAzMN",
+      "baseToken": {
+       "address": "7xKkERksXXPhXcEFTai2Dec5LYjhD54yWRVUMwGypump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "CJaR3XmjnEHjyiSurgLNRz7i5G4yNBSzAkGJbZQxBRV",
+      "baseToken": {
+       "address": "4FKAVy9RgNZatN5gcRgJurQaPnDPjt5ncdT8z3NQpump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "HvJfqXwkgM4D1v3MHSCEnf7Cig1Fq8oWtgAmo3PWrjwc",
+      "baseToken": {
+       "address": "8H2JX7XDFee1EkZgoJpsRrBF8dz1oNsV9TWcXZ4wpump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpswap",
+      "pairAddress": "5ZZ9317ooKSHzUuyErVLG1RccEnpa5N64fUyWrk6Atzk",
+      "baseToken": {
+       "address": "6NLUC3veg7NGuQBNewE1UM7G6ir2mymJM4PvwdkGpump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "CND2X2oAwUXGkBpzDYh21ZKquV9bthNKHzgTG5ZG7skp",
+      "baseToken": {
+       "address": "DAHp2YFPo5E3paz9gZAG53Log4BgKfAf9yirz7g9pump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpswap",
+      "pairAddress": "BYw5pTCLjHXN5HK7guadVHGBid9QnkDxCpwWy7KFmfbR",
+      "baseToken": {
+       "address": "7PNU6tf3zoGoTAS2JecEByKgZwx4sA5aGBt4z3kMpump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "HZn4KKNyroAtadEKpGB8fqU9pvS16HWF79Q1NfrJiV3h",
+      "baseToken": {
+       "address": "GPxNaS7Mkt625b6pNPP6cSnah1C4CudeMHpDq1VHpump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "65AsUCYeUrQaWTdcHEh2ch7KMxVrUCSkNMtYY6Hr5sNB",
+      "baseToken": {
+       "address": "4SZfKMd1coW1hfbcmBWGoGmGHX5WdnXB1yhjXosLpump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpswap",
+      "pairAddress": "Hkq7K5PbrCtuo2jPTxDs4QPABBiAAH8SHeA7LagZpQMN",
+      "baseToken": {
+       "address": "5aUNqU9SH54cG2PqGNwjLARzDpUj2JDnkhWhZ6yfpump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpswap",
+      "pairAddress": "37eKLKc7uYaQNcKBBhhch9xDdcZhr2WCwU6SWNWvAoz2",
+      "baseToken": {
+       "address": "DRW7bZx9rHXo5WAAGchZ9HgVR5rjNXm6aHHqMAhvpump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "5BAT3tvm5vhBjsNKZDR2oZS2CGWhnNZaBzaZyUtpx5sB",
+      "baseToken": {
+       "address": "HxHtqajK8yt4xrB5C2KFthBWqcHLRqwzxRhkihhopump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "67HXq7nNbPmWdrur7dvrrPPTmmYg8s1TWC1A12eNdYTU",
+      "baseToken": {
+       "address": "CQTGaXpAtzgvnp8eFwLRi9ATzz5C5Jm6s1fMWHYppump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpswap",
+      "pairAddress": "AZcocPLmG1kAsMKFGq81uW9ksAeHUbpTgsXMuMnjs5La",
+      "baseToken": {
+       "address": "66LPmREAYBqPeyidL7LMW7RaJjKbfADbuUMsqatkpump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpswap",
+      "pairAddress": "CZrthit24BBurbii8KAzHBejuiCCZLS3y7g79Ud1LAjX",
+      "baseToken": {
+       "address": "4xFcvQ46GNH47Rhetk9cUGHGzWiQENp4DQRhJEFMpump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "7dGcd1kpSnXsAxeciiBbJQdpuF8DLCNAhTTbpqyyBgwX",
+      "baseToken": {
+       "address": "8eEVuwGSaxb7drwMMLaxxc2167Nj7rKSuAFzmTxvpump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "EU4my5ZE7MBkR563itiV8L9pfaNS5DMcvLcCvpLiMsJ3",
+      "baseToken": {
+       "address": "4FoWEbBsiwUrbnfyWxfq27xrqmuBEaLkB66sgFZBpump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "3kec5ty1chG9aP9jmTes7v1KcfoCNCwzc5sry9uzYsnC",
+      "baseToken": {
+       "address": "DbgdTrUzRKCzmYXnfsuD1z5CPSQCznFkSW8EW1eVpump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "HsKZV55wUUPKojK8VGfdHExKZWUmi9ETGmkBCHoUnzz",
+      "baseToken": {
+       "address": "6E1eYdLYxz3xt5gUoQFZcD1t7ZjDk55knJNATg77pump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "BL6Uww3DDohwn9N9Vrz3u918y1Vatwyzsjn7gvBdzL1z",
+      "baseToken": {
+       "address": "9Ju7L7jRRJinCii64cUR1E5csNMcZJ7Trbtw1vJUpump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "F1CkkMMpdHVERbds13ig34JYyD9NNgvuAS1FS9s3HSGf",
+      "baseToken": {
+       "address": "8h8rmBRcKrhb3rSdCY9yfiJBfYvCPUoRLhYeFUPspump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "2HuL97fQV1knZ6ccz4J2WLQoCHgX6SwyXLiXgjAVSKdh",
+      "baseToken": {
+       "address": "6TQS9ZY9pi2dznBVLLd8rrJeYrStdvU2xsYfjd3epump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "BqpHwAAA2zAh3JbVKqBrqtDegKka2HKrZ2LNx6y1JFmb",
+      "baseToken": {
+       "address": "4HCMhcGM1z8DLbuGdhgkTHT3uosxYcmauGijJKt8pump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "A4T2h7nF27spkXeZWk46zg4o94VVkNKsx6yAUmAD7JJA",
+      "baseToken": {
+       "address": "DkjW9DTYjUWXD3ccMijrmVmoierfNB7C1iPf4pVbpump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "EQzfx8FUmjJ8jpdaz6JiQkk2zUrA5HjaKBVcyMGrHM7o",
+      "baseToken": {
+       "address": "B6GPpd8e8jgosa5Q5dh2e91Jmaj3asGuUdXTbmU8pump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "3v6HMhAvXYoGEC4grTfjeXvFEiyHmbrtug8CxQWcPDjj",
+      "baseToken": {
+       "address": "HWTfWt8CgdByExMYbHPDGTFgMWMPZTCAG1Uoa71Upump"
+      },
+      "quoteToken": {
+       "address": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4"
+      }
+     }
+    ]
+   },
+   "rpc": [
+    {
+     "at_utc": "2026-10-19T15:59:42Z",
+     "request_body": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "getMultipleAccounts",
+      "params": [
+       [
+        "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4",
+        "4ijSoN1WyDaedbgLwdVxNPAuFDrpm7j2euMwFJiPR3k3",
+        "EzJV2yGpbS3VM5qWmgqYQ4GPVi77LdhwgFhAy6u4ts1U"
+       ],
+       {
+        "encoding": "base64",
+        "commitment": "confirmed",
+        "dataSlice": {
+         "offset": 0,
+         "length": 1024
+        }
+       }
+      ]
+     },
+     "answer_body": {
+      "jsonrpc": "2.0",
+      "result": {
+       "context": {
+        "apiVersion": "4.3.0",
+        "slot": 458891853
+       },
+       "value": [
+        {
+         "data": [
+          "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAn/B370eMAwAGAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARIAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHJ0U0RWA5IkvOXSjF2wYI3Yr5UKGbzuoqjSlCl2A25dEwCxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcnRTRFYDkiS85dKMXbBgjdivlQoZvO6iqNKUKXYDbl0JAAAAc2ltdWxhdG9yCQAAAHNpbXVsYXRvck8AAABodHRwczovL2lwZnMyLmV4dHJhY3Rpb24ubGl2ZS9pcGZzLzhobk1mRjRYTDcxN0dWd3pEbXZxakp2VUxvektXNnc3QmhIRkFCanZIamU0AAAAAA==",
+          "base64"
+         ],
+         "executable": false,
+         "lamports": 3779280,
+         "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+         "rentEpoch": 18446744073709551615,
+         "space": 415
+        },
+        {
+         "data": [
+          "2EoJADiMXUv+AgFydFNEVgOSJLzl0oxdsGCN2K+VChm87qKo0pQpdgNuXcW+b00uu9qVJXv8fnK1JT1jJE2oiG1nVwGMYKF7ULumAQEAAABBmI2Xt1DIHvOCIDPe33ZiNZN4OOtGMFXSFtWEPwGhqxAnAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+          "base64"
+         ],
+         "executable": false,
+         "lamports": 8017920,
+         "owner": "pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ",
+         "rentEpoch": 18446744073709551615,
+         "space": 1024
+        },
+        {
+         "data": [
+          "8ZptBBGxbbz9AADXr2Hn9lEtYacMcbRojOEx21hvR2+RuogI7OHsFIVXJ3J0U0RWA5IkvOXSjF2wYI3Yr5UKGbzuoqjSlCl2A25dBpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAFQLHzQu2cDTtuZdgWpZm5UHRQsVwkAUhT8NgdJm9P4Cyg/v7VezSOZro4tCE2ZOgHjHQYc97+WAKPd4pQiWDUrkpVnPmyG7HR8K5UYhWxFWVwmdMuFS9dkXLLO63lJaikxZmtZ0AMAADdD3dAw3HrOe25wAuihaCw3rzzb81twq6LsQawHTVEIAADgr939////////////////AAAAAAAAAAAAAH+fEQAAAAAAobAQAgAAAAAAAAAAAAAAAAAAAAAAAA==",
+          "base64"
+         ],
+         "executable": false,
+         "lamports": 2985840,
+         "owner": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+         "rentEpoch": 18446744073709551615,
+         "space": 301
+        }
+       ]
+      },
+      "id": 1
+     }
+    }
+   ]
+  },
+  "aloooong": {
+   "mint": "1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp",
+   "dexscreener": {
+    "at_utc": "2026-10-19T15:59:48Z",
+    "url": "https://api.dexscreener.com/token-pairs/v1/solana/1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp",
+    "answer_sha256": "2e777bf97455a3e725544525627993d3e689dcf8b9f1cbeec4bec227eb717d8f",
+    "answer_bytes": 12500,
+    "answer_trimmed": [
+     {
+      "chainId": "solana",
+      "dexId": "pumpswap",
+      "pairAddress": "6CWeZYjCrn2ZQEDjD7NKE38NiDN99H9wy48zBHyqbvPw",
+      "baseToken": {
+       "address": "1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp"
+      },
+      "quoteToken": {
+       "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "meteora",
+      "pairAddress": "75SSyTCyZdRGdZNRF4Ug972hMKyQY8BqAPd8GmT4o6HB",
+      "baseToken": {
+       "address": "1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp"
+      },
+      "quoteToken": {
+       "address": "So11111111111111111111111111111111111111112"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "meteora",
+      "pairAddress": "F5UkfWgsinc54dsckrccqLnuocX9WNHKqb4ELmENvGGd",
+      "baseToken": {
+       "address": "1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp"
+      },
+      "quoteToken": {
+       "address": "So11111111111111111111111111111111111111112"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "meteora",
+      "pairAddress": "2GvdZLKhB7Lhun1J66dXu2DD6Ki39S3eRC6cqxCmc8Ki",
+      "baseToken": {
+       "address": "1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp"
+      },
+      "quoteToken": {
+       "address": "So11111111111111111111111111111111111111112"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "G3mshBHjpzvaUf4oUKTKcHe6pMgcGDGrTPWVj16cQCno",
+      "baseToken": {
+       "address": "GLkZxvV8nxabHHLJSKbFQ9otG1DzyYRxsXjvJkR7pump"
+      },
+      "quoteToken": {
+       "address": "1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "8UGTbH73TzHjmV8QLRxpYHkYUGgW7pnVwKHDF3ZDVgU1",
+      "baseToken": {
+       "address": "23KvGFeG42yZzwFmYVTQPL11UiRC3XEwyUKHppPRpurp"
+      },
+      "quoteToken": {
+       "address": "1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpswap",
+      "pairAddress": "J4KJkjaLB3wbpMV6RUyhPpAPqakPHfYsoxyAjkdaZqqR",
+      "baseToken": {
+       "address": "Hukxg44mFqJ8AeVbtSebpGuJD9cF3XHzCCyDp9rapump"
+      },
+      "quoteToken": {
+       "address": "1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "5ACDA9Vmjp1DUHUaxu4957S31bKyqKd2GfUNdAVmsZNn",
+      "baseToken": {
+       "address": "CsFwBX29doHaxBPkbAgCh2BodEwhWtRefntBGpKdpump"
+      },
+      "quoteToken": {
+       "address": "1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "BYKE9m5YXw9MPAToyumjymssPwdxC5tMUMnP4hKKmrXK",
+      "baseToken": {
+       "address": "C9RhU8PDSgwKHoa9n2q4ogm6UJzA1yrh3KaUAW3Dpump"
+      },
+      "quoteToken": {
+       "address": "1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "2V4k8as2v6LHitW8Xypr2yqgby75BhmPqx2fyVgRUGF2",
+      "baseToken": {
+       "address": "ryxFoYcTHrU6yM3kJ4MW8v2HqSrPAhUegDU8NS9pump"
+      },
+      "quoteToken": {
+       "address": "1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "9jXDoj8vy99K82kR8YRuoWxsfR9PFxJv11ZPzsdsLVLq",
+      "baseToken": {
+       "address": "CX2sW21S35a1tf3KH9WUCSBjS7XpqF78Ddw36QxLpump"
+      },
+      "quoteToken": {
+       "address": "1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "GPopZDaPXCCV5SbHCMYHkwGWjqi8bu7u8kxfazWChSB",
+      "baseToken": {
+       "address": "AFH5xeX5PrupWooKTy78rMVZT7WES7KkiVe5vVrdpump"
+      },
+      "quoteToken": {
+       "address": "1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "86Q7rE7u4xLoss2V8QfWjR8v2Au4sgQ2C1mGYNk4zKir",
+      "baseToken": {
+       "address": "4u4KL8t6aBXFmaAKmp2DwCUFLbShRzJm8gdSkeJspump"
+      },
+      "quoteToken": {
+       "address": "1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "9cJifFaAj5r8SvVfhoMdNkvzRVX2mV7yuyLVsQ41nYdt",
+      "baseToken": {
+       "address": "2nJaDtUSJnWqyDt7Vak5eYxrysZM9kBebU13sMXYpump"
+      },
+      "quoteToken": {
+       "address": "1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "7GkAMWiqLWK4YSVf1UALN4Upb54UBELsBLhTAU3XnNjn",
+      "baseToken": {
+       "address": "6qCLB8dbEeuetFoXD8dUhadLiw3H7d9vU9GyiagHpump"
+      },
+      "quoteToken": {
+       "address": "1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp"
+      }
+     }
+    ]
+   },
+   "rpc": [
+    {
+     "at_utc": "2026-10-19T15:59:48Z",
+     "request_body": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "getMultipleAccounts",
+      "params": [
+       [
+        "1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp",
+        "6AZMenMCNmVbe7L1RKs1ZRvDLWhePEY25zogn3eh8u1z",
+        "6CWeZYjCrn2ZQEDjD7NKE38NiDN99H9wy48zBHyqbvPw",
+        "3pbqneeGiWcukRnxSMhNtzzdWAqPs9n8WpVYsG6KhotA"
+       ],
+       {
+        "encoding": "base64",
+        "commitment": "confirmed",
+        "dataSlice": {
+         "offset": 0,
+         "length": 1024
+        }
+       }
+      ]
+     },
+     "answer_body": {
+      "jsonrpc": "2.0",
+      "result": {
+       "context": {
+        "apiVersion": "4.3.0",
+        "slot": 458891884
+       },
+       "value": [
+        {
+         "data": [
+          "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMXxWs05uAwAGAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARIAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuPX9FMKA0xP+/FZTw0epTTD4M63Bvjl4pszlliG4REwClAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC49f0UwoDTE/78VlPDR6lNMPgzrcG+OXimzOWWIbhEIAAAAQWxvb29vbmcIAAAAQWxvb29vbmdFAAAAaHR0cHM6Ly9nYXRld2F5LmlyeXMueHl6L0RDYldCcVYyQ2ZHSm5HVGdhUVlMMWJRWFFFUFM3Sm9kVFo2Y0RIbUZnNXlYAAAAAA==",
+          "base64"
+         ],
+         "executable": false,
+         "lamports": 150637480,
+         "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+         "rentEpoch": 18446744073709551615,
+         "space": 403
+        },
+        {
+         "data": [
+          "2EoJADiMXUv6AgEALj1/RTCgNMT/vxWU8NHqU0w+DOtwb45eKbM5ZYhuEbp/6pNpex4Rtl4TvTNNU26PBYBNKzys++DVx3ZcbDV5AQEAAAAkr6yNhvMl1JkfzJulPcnI+hLmKH2YnxlGTDlPKr/a/hAnAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+          "base64"
+         ],
+         "executable": false,
+         "lamports": 5852160,
+         "owner": "pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ",
+         "rentEpoch": 18446744073709551615,
+         "space": 1024
+        },
+        {
+         "data": [
+          "8ZptBBGxbbz/AABMtnwSZNjlZUlFcIOJPpJCHrVuRHOoZQ7avKOPpyS8jAAuPX9FMKA0xP+/FZTw0epTTD4M63Bvjl4pszlliG4RDEX3342ecpVihJM/bZi3VwMug9+EYE+14Rf/9h1bEvmPLTxYE83+4z3lad3+hVGkCEgV1jmgTTe1ULpUjgxqxPvGf+R43MssNqRrkNi8S7hLD1aBojKucgia22nRyIqOqwOvPeue+6r0k1zmeP9uVosZd3dRbPdDTpjVl1mDdsTs0S0FCxMAAEy9Pz0U2JY98F3js+lFr3yKWNlmXqmckFUFLrh+6tlBAACLuzsQZgAAAAAAAAAAAAAAAAAAAAAAAAAAAPrX2gAAAAAA7K+1AQAAAAAAAAAAAAAAAAAAAAAAAA==",
+          "base64"
+         ],
+         "executable": false,
+         "lamports": 2179320,
+         "owner": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+         "rentEpoch": 18446744073709551615,
+         "space": 301
+        },
+        null
+       ]
+      },
+      "id": 1
+     }
+    }
+   ]
+  },
+  "mucron": {
+   "mint": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+   "dexscreener": {
+    "at_utc": "2026-10-19T15:59:48Z",
+    "url": "https://api.dexscreener.com/token-pairs/v1/solana/3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+    "answer_sha256": "d864156a741971451845f524b15f58e83ff3b9d1fabc1b2bbfc2000c86e6d35d",
+    "answer_bytes": 14668,
+    "answer_trimmed": [
+     {
+      "chainId": "solana",
+      "dexId": "pumpswap",
+      "pairAddress": "Af7W724Kw2A7Z5PbaCAS6RNQ8ubiKEWqiSa715bxgbFA",
+      "baseToken": {
+       "address": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump"
+      },
+      "quoteToken": {
+       "address": "So11111111111111111111111111111111111111112"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "meteora",
+      "pairAddress": "EXQiV8m3EVpe8QkMwZGwoTaJU8LrsKbZoF7AvebyshBQ",
+      "baseToken": {
+       "address": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump"
+      },
+      "quoteToken": {
+       "address": "So11111111111111111111111111111111111111112"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "meteora",
+      "pairAddress": "FRD5gkYEqA9ZAdw8cCpDFbm2epqqWKmoDFqQbHTS4vQ3",
+      "baseToken": {
+       "address": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump"
+      },
+      "quoteToken": {
+       "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "meteora",
+      "pairAddress": "BJyTcxEZm3m4oNi3nvxBV74Ubm88MGjG3LAD7xd8TqbS",
+      "baseToken": {
+       "address": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump"
+      },
+      "quoteToken": {
+       "address": "So11111111111111111111111111111111111111112"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "FrL5s3UCyLTLVx8MUdUywQWHs7AHpGcKug1nDnMAHr3r",
+      "baseToken": {
+       "address": "FPCvMYyTrm1brrvi2Dq3nheaxY79MrG7zTUbKm7Jpump"
+      },
+      "quoteToken": {
+       "address": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "2dvrPFmaFpVghWSayx3jYdrquKr7b3VR77y1478KpHKb",
+      "baseToken": {
+       "address": "8bfxdDF7sujxcShL5oq4p84JPdbCt4wP8XG9LA2rpump"
+      },
+      "quoteToken": {
+       "address": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "34JgdhamvtzGQk4SMhehDCF8aBySYZWw4AGpTRtFhpzF",
+      "baseToken": {
+       "address": "3iEtTKcjWum91nrbgd2GmoSMHzbV4MDDSPayR8Cvpump"
+      },
+      "quoteToken": {
+       "address": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "6SfUu3oTAZ8ugVGf3aoDDRCJuEjFEJwnZuPa4HGAR4Tw",
+      "baseToken": {
+       "address": "NFV8jyFZTLUVDycqmAHBLGRnyRsLrikj6uejHBgpump"
+      },
+      "quoteToken": {
+       "address": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "G17JwTbYn17qgKADoHQQn1mmUywZf9Jst5TigqJZDuP1",
+      "baseToken": {
+       "address": "69aAxhza8cpRXcvudqePeRGjiPQK7wYwdi9UrXa8pump"
+      },
+      "quoteToken": {
+       "address": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "Ga7dDft6k2mEiSG8imKv4VfjBq2w3nGEUPYuYKRvVV2P",
+      "baseToken": {
+       "address": "CBVuW6ZNM3kU2qUWe5m2ebyVWnfmQzhApe69X2CJpump"
+      },
+      "quoteToken": {
+       "address": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "DWyLFCXEYMAcUCQY2gBwpXw7JaRqNDoXkSDmuYcArV3T",
+      "baseToken": {
+       "address": "FJbJMyx9jRh7ajs5Z1xDqDx5tjHFg8UUjgchUsZLpump"
+      },
+      "quoteToken": {
+       "address": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "CTU9rkJrYoq9QSaw1VbKJHitA2pRbScFE23jv8EsGj6L",
+      "baseToken": {
+       "address": "qPenJW3s11XuTHPSDLoLkf11X79goN8dyBcAUBgkX3c"
+      },
+      "quoteToken": {
+       "address": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "13gXznpUgg5twvXtCJbVcEpk9H89tDVgESXZ7Rwt53wP",
+      "baseToken": {
+       "address": "CTwHkJep2AW5U4Vkw7sL5WvtRRycWVdGEJ62UYz8pump"
+      },
+      "quoteToken": {
+       "address": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "2YBU4ehfn1xdspWPBG5soqGEVysNExcjbdMGEetDzaSp",
+      "baseToken": {
+       "address": "GBpNkTEx61TujucKXXrmi9KaAA9CEUCSvsT5qRe9pump"
+      },
+      "quoteToken": {
+       "address": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "EBAjepmswmwFVkPq8QwoBjCfxNsb21i4SCM4rhh585cU",
+      "baseToken": {
+       "address": "8qeyu4q3R75836dTVYJCR5CwbhjAvH6eYPdHL8mipump"
+      },
+      "quoteToken": {
+       "address": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "EJxi8kZdBL1CUJ8uzaWad3e1wEQuB6m9bqcyd9QMoqct",
+      "baseToken": {
+       "address": "4m47grURAEDzSDsN4XgSWfdvwwfgLCYYTDJssTSQpump"
+      },
+      "quoteToken": {
+       "address": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "FxLrUYAxJSuF3ZnLDRum2WyyRiC1HkncQEoEtQiYp5Sj",
+      "baseToken": {
+       "address": "5c8PKgjfwdcg9gd4BV1K4KpKWmq6TWhYS55j9ekppump"
+      },
+      "quoteToken": {
+       "address": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "HEEd73yXGEStC8c3tJCFtpUj6gNZkUcThw6eCFvFQwJb",
+      "baseToken": {
+       "address": "9tZ6csiHbfrjHdriZYACm5TqYGim2SAazvZ4nDxKpump"
+      },
+      "quoteToken": {
+       "address": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump"
+      }
+     },
+     {
+      "chainId": "solana",
+      "dexId": "pumpfun",
+      "pairAddress": "vW8YsNdekcLYJpXBn2NBfkk7wnBYvBVya4p2dPat6ru",
+      "baseToken": {
+       "address": "GNaR5pB1y9z2MfEMMGjRGZm9HZX3mC5ixFg7moGpKCQa"
+      },
+      "quoteToken": {
+       "address": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump"
+      }
+     }
+    ]
+   },
+   "rpc": [
+    {
+     "at_utc": "2026-10-19T15:59:48Z",
+     "request_body": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "getMultipleAccounts",
+      "params": [
+       [
+        "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+        "7nsdj66J73DccezBoAtui7eA368Ly4aQ4Gy6TBgfpKb3",
+        "Af7W724Kw2A7Z5PbaCAS6RNQ8ubiKEWqiSa715bxgbFA"
+       ],
+       {
+        "encoding": "base64",
+        "commitment": "confirmed",
+        "dataSlice": {
+         "offset": 0,
+         "length": 1024
+        }
+       }
+      ]
+     },
+     "answer_body": {
+      "jsonrpc": "2.0",
+      "result": {
+       "context": {
+        "apiVersion": "4.3.0",
+        "slot": 458891884
+       },
+       "value": [
+        {
+         "data": [
+          "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtz+QPYBiAwAGAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARIAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAI0Au8P8I5ke1Cztoobcv3er31oaHb0Ak6iIr/QGPPEwCkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAjQC7w/wjmR7ULO2ihty/d6vfWhodvQCTqIiv9AY88OAAAAaW1hbnVlbCBtdWNyb24GAAAAbXVjcm9uQAAAAGh0dHBzOi8vbWV0YS51eGVudG8uaW8vZGF0YS9lMThmMzk5Mi1kM2NmLTQ3YWEtYjcxYS01MGExZmI0YThiODQAAAAA",
+          "base64"
+         ],
+         "executable": false,
+         "lamports": 2692400,
+         "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+         "rentEpoch": 18446744073709551615,
+         "space": 402
+        },
+        null,
+        {
+         "data": [
+          "8ZptBBGxbbz/AABgoNs9Gwd20JYbfTyacKGfF9VcU+RkbbtwSr/d3ju3fiAI0Au8P8I5ke1Cztoobcv3er31oaHb0Ak6iIr/QGPPBpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAF3SjEV3DjOaMRcbGPoXI6PXxit2vskOmsu3PXgXBzTbCLt0SPOhtRGNSRq79mHMBY/9XCXRjUgJ38+s8dirLOXeEqweIpmeP0WUePUd/3cOPojkHcjdt8g3UuHXtlThrRYuGxZ0AMAAJBhiCsW7Y14egeCfs3zl+4YJ53pn2gZ66IzQEQY/TE/AAAxnysVBAAAAAAAAAAAAAAAAAAAAAAAAAAAAZtZEwAAAAAAHkzfAgAAAAAAAAAAAAAAAAAAAAAAAA==",
+          "base64"
+         ],
+         "executable": false,
+         "lamports": 2179320,
+         "owner": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+         "rentEpoch": 18446744073709551615,
+         "space": 301
+        }
+       ]
+      },
+      "id": 1
+     }
+    },
+    {
+     "at_utc": "2026-10-19T15:59:48Z",
+     "request_body": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "getMultipleAccounts",
+      "params": [
+       [
+        "Aiby3GTyV17PrBLHGYdUHvcb74VRtcoMuRew2aVj4Mh8"
+       ],
+       {
+        "encoding": "base64",
+        "commitment": "confirmed",
+        "dataSlice": {
+         "offset": 0,
+         "length": 1024
+        }
+       }
+      ]
+     },
+     "answer_body": {
+      "jsonrpc": "2.0",
+      "result": {
+       "context": {
+        "apiVersion": "4.3.0",
+        "slot": 458891884
+       },
+       "value": [
+        {
+         "data": [
+          "",
+          "base64"
+         ],
+         "executable": false,
+         "lamports": 4990813,
+         "owner": "11111111111111111111111111111111",
+         "rentEpoch": 18446744073709551615,
+         "space": 0
+        }
+       ]
+      },
+      "id": 1
+     }
+    }
+   ]
+  }
+ },
+ "note_repair1": "Repair round 1 (3 more public calls, 10 of 10): Aloooong run end to end by the final script with Dexscreener answered locally with [] (never sent): the batch read and the follow-up read of the pool its bonding curve names; and one read of the simulator and mucron bonding curves.",
+ "repair1": {
+  "aloooong_dexscreener_empty": {
+   "mint": "1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp",
+   "dexscreener_served_locally": [],
+   "rpc": [
+    {
+     "at_utc": "2026-10-19T17:03:32Z",
+     "request_body": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "getMultipleAccounts",
+      "params": [
+       [
+        "1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp",
+        "6AZMenMCNmVbe7L1RKs1ZRvDLWhePEY25zogn3eh8u1z",
+        "Hf4jaRNKzQ2QFJyXhYENa2eqcPLch2WvMuymZki4fBm1",
+        "3pbqneeGiWcukRnxSMhNtzzdWAqPs9n8WpVYsG6KhotA"
+       ],
+       {
+        "encoding": "base64",
+        "commitment": "confirmed",
+        "dataSlice": {
+         "offset": 0,
+         "length": 1024
+        }
+       }
+      ]
+     },
+     "answer_body": {
+      "jsonrpc": "2.0",
+      "result": {
+       "context": {
+        "apiVersion": "4.3.0",
+        "slot": 458909460
+       },
+       "value": [
+        {
+         "data": [
+          "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMXxWs05uAwAGAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARIAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuPX9FMKA0xP+/FZTw0epTTD4M63Bvjl4pszlliG4REwClAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC49f0UwoDTE/78VlPDR6lNMPgzrcG+OXimzOWWIbhEIAAAAQWxvb29vbmcIAAAAQWxvb29vbmdFAAAAaHR0cHM6Ly9nYXRld2F5LmlyeXMueHl6L0RDYldCcVYyQ2ZHSm5HVGdhUVlMMWJRWFFFUFM3Sm9kVFo2Y0RIbUZnNXlYAAAAAA==",
+          "base64"
+         ],
+         "executable": false,
+         "lamports": 150637480,
+         "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+         "rentEpoch": 18446744073709551615,
+         "space": 403
+        },
+        {
+         "data": [
+          "2EoJADiMXUv6AgEALj1/RTCgNMT/vxWU8NHqU0w+DOtwb45eKbM5ZYhuEbp/6pNpex4Rtl4TvTNNU26PBYBNKzys++DVx3ZcbDV5AQEAAAAkr6yNhvMl1JkfzJulPcnI+hLmKH2YnxlGTDlPKr/a/hAnAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+          "base64"
+         ],
+         "executable": false,
+         "lamports": 5852160,
+         "owner": "pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ",
+         "rentEpoch": 18446744073709551615,
+         "space": 1024
+        },
+        {
+         "data": [
+          "F7f4N2DYrGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAxqR+jQMAAUy9Pz0U2JY98F3js+lFr3yKWNlmXqmckFUFLrh+6tlBAAAMRfffjZ5ylWKEkz9tmLdXAy6D34RgT7XhF//2HVsS+QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMiMgxyuAAAA1KVEGKECAAD/qLH9BgAAAA==",
+          "base64"
+         ],
+         "executable": false,
+         "lamports": 1493520,
+         "owner": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+         "rentEpoch": 18446744073709551615,
+         "space": 166
+        },
+        null
+       ]
+      },
+      "id": 1
+     }
+    },
+    {
+     "at_utc": "2026-10-19T17:03:32Z",
+     "request_body": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "getMultipleAccounts",
+      "params": [
+       [
+        "6CWeZYjCrn2ZQEDjD7NKE38NiDN99H9wy48zBHyqbvPw"
+       ],
+       {
+        "encoding": "base64",
+        "commitment": "confirmed",
+        "dataSlice": {
+         "offset": 0,
+         "length": 1024
+        }
+       }
+      ]
+     },
+     "answer_body": {
+      "jsonrpc": "2.0",
+      "result": {
+       "context": {
+        "apiVersion": "4.3.0",
+        "slot": 458909459
+       },
+       "value": [
+        {
+         "data": [
+          "8ZptBBGxbbz/AABMtnwSZNjlZUlFcIOJPpJCHrVuRHOoZQ7avKOPpyS8jAAuPX9FMKA0xP+/FZTw0epTTD4M63Bvjl4pszlliG4RDEX3342ecpVihJM/bZi3VwMug9+EYE+14Rf/9h1bEvmPLTxYE83+4z3lad3+hVGkCEgV1jmgTTe1ULpUjgxqxPvGf+R43MssNqRrkNi8S7hLD1aBojKucgia22nRyIqOqwOvPeue+6r0k1zmeP9uVosZd3dRbPdDTpjVl1mDdsTs0S0FCxMAAEy9Pz0U2JY98F3js+lFr3yKWNlmXqmckFUFLrh+6tlBAABJQuQRZgAAAAAAAAAAAAAAAAAAAAAAAAAAALxVTQAAAAAAbKuaAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+          "base64"
+         ],
+         "executable": false,
+         "lamports": 2179320,
+         "owner": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+         "rentEpoch": 18446744073709551615,
+         "space": 301
+        }
+       ]
+      },
+      "id": 1
+     }
+    }
+   ]
+  },
+  "curves": {
+   "rpc": [
+    {
+     "at_utc": "2026-10-19T17:03:32Z",
+     "request_body": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "getMultipleAccounts",
+      "params": [
+       [
+        "9sT8VroCnPGv3UJodae6f4hvRgWEqGHH1nNqat8uayMM",
+        "GpJD5tkaEYhgvPGvefb4V8NErCGLaeHchFkbSTsQfLKg"
+       ],
+       {
+        "encoding": "base64",
+        "commitment": "confirmed",
+        "dataSlice": {
+         "offset": 0,
+         "length": 1024
+        }
+       }
+      ]
+     },
+     "answer_body": {
+      "jsonrpc": "2.0",
+      "result": {
+       "context": {
+        "apiVersion": "4.3.0",
+        "slot": 458909459
+       },
+       "value": [
+        {
+         "data": [
+          "F7f4N2DYrGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAxqR+jQMAATdD3dAw3HrOe25wAuihaCw3rzzb81twq6LsQawHTVEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+          "base64"
+         ],
+         "executable": false,
+         "lamports": 1941840,
+         "owner": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+         "rentEpoch": 18446744073709551615,
+         "space": 151
+        },
+        {
+         "data": [
+          "F7f4N2DYrGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAxqR+jQMAAZBhiCsW7Y14egeCfs3zl+4YJ53pn2gZ66IzQEQY/TE/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAACsI/wGAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+          "base64"
+         ],
+         "executable": false,
+         "lamports": 1493520,
+         "owner": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+         "rentEpoch": 18446744073709551615,
+         "space": 166
+        }
+       ]
+      },
+      "id": 1
+     }
+    }
+   ]
+  }
+ }
+}

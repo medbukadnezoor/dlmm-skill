@@ -1,0 +1,11 @@
+{
+  "key": "gyycx5q47qdu7ctwcjzv7kkgw2l3788f4vtdr3kjmeta",
+  "kind": "theses",
+  "available": false,
+  "theses": [],
+  "reason": "upstream-unavailable",
+  "retryable": true,
+  "message": "We could not reach upstream for this, so this is NOT an empty result - we did not get to look. Retry in a moment.",
+  "note": "We could not reach upstream for this, so this is NOT an empty result - we did not get to look. Retry in a moment.",
+  "threshold": 0
+}

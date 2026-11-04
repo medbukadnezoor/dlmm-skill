@@ -1,0 +1,45 @@
+{
+ "token": "CXuxsSC2CeyszHZNAQAgwguWzaNhWvbGD7J8xpxwpump",
+ "scope": "live-top-holders",
+ "source": "live-fomo",
+ "count": 2,
+ "totalHolders": 208,
+ "holders": [
+  {
+   "handle": "HerrOdinn",
+   "wallet": {
+    "solana": null,
+    "evm": null,
+    "verified": false,
+    "status": "resolving",
+    "note": "we only return a wallet we have verified on chain. FOMO publishes an address that is not the trading wallet, so it is withheld rather than passed on."
+   },
+   "amount": 5705050.68,
+   "valueUsd": 16.8861,
+   "priceUsd": 2.95984791811e-06,
+   "pnlUsd": -977.669,
+   "unrealizedPnlUsd": -977.669,
+   "costBasisUsd": 994.556,
+   "isDev": false,
+   "verified": false
+  },
+  {
+   "handle": "Duki13",
+   "wallet": {
+    "solana": null,
+    "evm": null,
+    "verified": false,
+    "status": "resolving",
+    "note": "we only return a wallet we have verified on chain. FOMO publishes an address that is not the trading wallet, so it is withheld rather than passed on."
+   },
+   "amount": 1820134.72,
+   "valueUsd": 5.38732,
+   "priceUsd": 2.95984791811e-06,
+   "pnlUsd": -1668.73,
+   "unrealizedPnlUsd": -1515.61,
+   "costBasisUsd": 2455.5,
+   "isDev": false,
+   "verified": false
+  }
+ ]
+}

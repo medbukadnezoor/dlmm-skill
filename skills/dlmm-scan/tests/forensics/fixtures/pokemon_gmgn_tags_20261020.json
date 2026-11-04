@@ -1,0 +1,670 @@
+{
+ "note": "trimmed from the run's gmgn_top100.json: address, tags, maker_token_tags (GMGN's claims)",
+ "list": [
+  {
+   "address": "CxyUG8PvWbbKW41MLAq7J87ft3dryDJZV2A5pgwb31an",
+   "tags": [],
+   "maker_token_tags": [
+    "top_holder"
+   ]
+  },
+  {
+   "address": "5jmKohrtreUNYxkPfJr2Ycr4cAyXTyTmh1d3te6x2pXs",
+   "tags": [],
+   "maker_token_tags": [
+    "top_holder",
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "EATmaY5h2szFxGi5BsNZpzrVaQ4iYaDNDV7YBeEo57aP",
+   "tags": [],
+   "maker_token_tags": [
+    "top_holder",
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "DuARUpsEzdVbVpSnbGipLJvWxaXUCPLDJDjNov6Rc6s6",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler",
+    "top_holder",
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "Be24Gbf5KisDk1LcWWZsBn8dvB816By7YzYF5zWZnRR6",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler",
+    "top_holder",
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "6DQAGJT7VZPVBsuG4kn3AvpyHCEi7B2RFFvMZdbqQqqP",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler",
+    "top_holder",
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "79nMjs72wH4wDJXrHMK71UnfKPSaBmNHJ21kfh3KCDV3",
+   "tags": [],
+   "maker_token_tags": [
+    "top_holder",
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "5i8MRhUYxV9qFN3NAiacwBr4udrp2WTBZqTGc6XinW14",
+   "tags": [],
+   "maker_token_tags": [
+    "top_holder"
+   ]
+  },
+  {
+   "address": "8H14bK23kreBrsiXrjXJ5TGuB4n4V3xA9XoSJb5RAnHR",
+   "tags": [],
+   "maker_token_tags": [
+    "top_holder"
+   ]
+  },
+  {
+   "address": "HVUij9h5SM7ikKMgi9q4wSScEd5zVvCTL4jjuYPotqsT",
+   "tags": [],
+   "maker_token_tags": [
+    "top_holder"
+   ]
+  },
+  {
+   "address": "BuVKPj4NWbcCkh4gnHoXTcG23j9oGa7BtdBgJQUNgFLa",
+   "tags": [],
+   "maker_token_tags": [
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "7fEXteaTtmX1uR8fpChEXsevM4icH5vq8LNL9dzDupX2",
+   "tags": [],
+   "maker_token_tags": [
+    "top_holder"
+   ]
+  },
+  {
+   "address": "CE44oKS3wpUerx8afyeii56u5oQjBLZknzm4Q2CYHUz9",
+   "tags": [],
+   "maker_token_tags": [
+    "top_holder",
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "5ppcc7wMNd7uHeMSu8ZyvdYCNnBgWzskJoxxHcHmz2kP",
+   "tags": [],
+   "maker_token_tags": [
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "59WwRHJyoFDL4D9fBBkG71dzZEZgyPmSFPNAsbTZRay6",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler"
+   ]
+  },
+  {
+   "address": "F8Atrfuc1qZs5G3HvGyF9UriwXmGbgGVEfqScDSCz8Nv",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler",
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "4xBN9y8kk6SuMRv9Ao1xWjDdSprETwYo4qWH37vMgBaT",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler"
+   ]
+  },
+  {
+   "address": "C8XfXrChczdqWcEpByKiHj15gSyFpscSGAGN1a6EQdA1",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler"
+   ]
+  },
+  {
+   "address": "3piLzXrYpjWscuameNM33k1acfC4Ys3TT2kLanXCz12F",
+   "tags": [],
+   "maker_token_tags": [
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "6bbdG6BVv49tonrKcFSGCmRenyfP8zU1EEPNq3DsmxdQ",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "69aiAKU3uJMxMLRkUEGFNt6nQ43PiVimE4ZbErJ7VSM1",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "CrCAvyQ78362N7ar7frofog2zyTphdMrUUXZerACnKtT",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "AAqfSn7JJ9h5irXv5ucxkhCw1CjVQAV6aDDabSvidnQk",
+   "tags": [
+    "fresh_wallet"
+   ],
+   "maker_token_tags": []
+  },
+  {
+   "address": "HtJsy6zMfNG4MA9KGbnA4G6f34YMZ32rswpdCPt2uwb8",
+   "tags": [],
+   "maker_token_tags": [
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "8f7RGyUZenkKsK44WifchZoVQfZbXf8YuqDtrhUZvQtC",
+   "tags": [],
+   "maker_token_tags": [
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "3DQhhpTdLkLc94gzepNHtD7HAyLsFeapCDuobBkH3tXD",
+   "tags": [],
+   "maker_token_tags": [
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "Ar2Y6o1QmrRAskjii1cRfijeKugHH13ycxW5cd7rro1x",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler",
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "9BfKBN91Eae5tv2ofiqXvVYD9pR8nHGWqJe53gRtMoZE",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "EGiTNq9rwCpm6bhKURuswVbxCG7zT1xKfMgLXMzm67gQ",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler"
+   ]
+  },
+  {
+   "address": "83Jv4PrmGzcWTvCySBDttqLHXHwnC9KvKSu789BfbcXy",
+   "tags": [],
+   "maker_token_tags": [
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "5DbP2Ry4iLFCzBWCFAw9ro6HQp7BodMPqmPKEr7t91AJ",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "5YAmY28CN9cSYQokWXn1hosS1qzjZGbbncbtCLPDTrFE",
+   "tags": [],
+   "maker_token_tags": [
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "3nLh14fRyZr1EBpp7jJqwBqKt8uLBFZ1rTmVTfLvnkfj",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "HwaMKcLzz2kUKQvo12GQx9hgowefUWe66EPH7qV8iSxx",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "DB9KiMmNXAYx94bvMLaCwgNbZ14HtF3wjdaHgU1F6ai4",
+   "tags": [
+    "fresh_wallet"
+   ],
+   "maker_token_tags": []
+  },
+  {
+   "address": "3aQVh49CtuKG7DEstdf4xCLXTcprqHDaehiLBYjnCvq4",
+   "tags": [
+    "fresh_wallet"
+   ],
+   "maker_token_tags": []
+  },
+  {
+   "address": "AyFUqq6VKcwF4MSxShKK4fsUWwhyersWUXATmvmy2Kui",
+   "tags": [
+    "fresh_wallet"
+   ],
+   "maker_token_tags": []
+  },
+  {
+   "address": "52houUTLXsy3a26PtkwShmUUoDBjyVmQCZkZ7syjjMS",
+   "tags": [],
+   "maker_token_tags": [
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "9W8fdvbYqBY7SGB6AvUzY1AXsChGthPNQN93CEVFGAoT",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "4HMQQgTWG8K3VEEhCN8HB7j8z4SeMZxHH5NFCAeqPgvM",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "8QK5YvxmXtgE1TeiquhuB8aEuv1C2pWFUV9tdqQmgxZE",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "EpzcEoamvD8Rwhzb2KGTcit2PeDh5ZrDMvCeeEiXveos",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler",
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "XSbNUiHG8uaTDDz6HBR5FYwE9WVjhZxzxjdFzT1UV5a",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "2C4hxmkP7nRH1EGpXWxcKKN1LzzC8iFEbTRgjVLmGGrh",
+   "tags": [],
+   "maker_token_tags": [
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "DPzxSdVPbju8p8NtzGukaPRM2HVNSrStsxuEeSHod3o6",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler"
+   ]
+  },
+  {
+   "address": "3PB8yZJQjVmqidcCabHTMbNYuCNeYdA6yAjrEL45xEue",
+   "tags": [],
+   "maker_token_tags": [
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "3hrYmGuSV9J3p1hrQDwgsW6Ln3LfhPoizRBispNYtvr3",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler"
+   ]
+  },
+  {
+   "address": "9VLQbbLgntNRunG841upcR5wnFVLKbPC3YsVdfxLMzrg",
+   "tags": [
+    "fresh_wallet"
+   ],
+   "maker_token_tags": []
+  },
+  {
+   "address": "2PqXWjPHssTg1dKJVoydFJwc2wC3SBonwvoPnbjJrkLC",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler"
+   ]
+  },
+  {
+   "address": "52kTsxE8aia9VGwLj86NYKC58dAtis4AbE49LsmUTz37",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler"
+   ]
+  },
+  {
+   "address": "GMTgfzNqTF7Y9oMk6RCMrHzEiAJQ3UEJy7kCacG4tAVU",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler"
+   ]
+  },
+  {
+   "address": "DxBSYKmc7FH1BYHYNoaUM5mBBMoHyP5g3Q7FMRmjKQHR",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler"
+   ]
+  },
+  {
+   "address": "AXYUeq2SYUV9kgr4UcvfJ1uAwvY1iPRkCX94PsJ7WR85",
+   "tags": [
+    "fresh_wallet"
+   ],
+   "maker_token_tags": []
+  },
+  {
+   "address": "CMGiusC1ACTWZCPZfsJABNk9v6yRTCv1W9NikNUnbhfk",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler"
+   ]
+  },
+  {
+   "address": "4b3ZctHLzPBQt3biFbDWp12hf6ADkaruQx4aj9kiDQKh",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "Gzd2H2FNtzBADphpZLqYTJLyPZn6M25WT4DecoTZQSTf",
+   "tags": [
+    "fresh_wallet"
+   ],
+   "maker_token_tags": []
+  },
+  {
+   "address": "Bn6Gygbqnm28eE72iaDFwtvPjXtxhbudiNnFbHFhDTMC",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler"
+   ]
+  },
+  {
+   "address": "83cYyTzw8hbinEhYKSW6UX1QKyzJC6dfL7ZvovSq4U9Z",
+   "tags": [
+    "fresh_wallet"
+   ],
+   "maker_token_tags": [
+    "bundler"
+   ]
+  },
+  {
+   "address": "66jeAckxq8oatXrfNRLvGc3KHHc7oGvaMWyYhxzgGrjN",
+   "tags": [
+    "fresh_wallet"
+   ],
+   "maker_token_tags": []
+  },
+  {
+   "address": "EDoC5jLgZVtTZkapj7r7rGeUHQbRpVTkm4ksr8nvt9kZ",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler"
+   ]
+  },
+  {
+   "address": "AWR2PZ2WKirChLxSPpnffqQRCjQPRaidAjNmxaBe7Fz6",
+   "tags": [],
+   "maker_token_tags": [
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "3PhVQs4expTDHRSsURN2F1RVNYxaCpN4BuWM6LYREgPe",
+   "tags": [],
+   "maker_token_tags": [
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "B5WCJAFwGwWqS9g3Ma48UczqrvWTXwU9rJ4HbM4xZDpV",
+   "tags": [
+    "fresh_wallet"
+   ],
+   "maker_token_tags": []
+  },
+  {
+   "address": "7hcjqz5Q7UKBcv57mg9ekgkNgn8TqnUKcdSvq6fwxqHU",
+   "tags": [],
+   "maker_token_tags": [
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "371DC6QmX3JxckpBNPdgv8TD78witHFfRhBAZDjZdJ1z",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "CWqBXfsB5c7DuofFo89zRd5HpdyffG7aja8ZD4qZP2ky",
+   "tags": [],
+   "maker_token_tags": [
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "2omDzbAVzdT6FjccNtd3rBbSoa6b4bVmidyCyR77swQd",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler",
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "GpiY1js36rZ1PeEqAACxK51syvqLT2tUykSvsBpP84uj",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "Fjx9ordWfAC2SVLoMdreg75bG952jfjvudu9rveEcbCr",
+   "tags": [],
+   "maker_token_tags": [
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "EJa8hKLxkSBvxT5ipKPyTfAvQCoSVUP87YoicTeuZ5xp",
+   "tags": [
+    "fresh_wallet"
+   ],
+   "maker_token_tags": []
+  },
+  {
+   "address": "HTdX257JFSBPdAQxf4n1EdHMxVedw8XZTQK4k7mYELQ",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "7TjhzPLMWe9fK9Y4uX5zqkjFH8QXvrK3HWrCQEr72aJL",
+   "tags": [],
+   "maker_token_tags": [
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "HWJt9K4mfY2h86XjcZQsgEHGmGPgwQY2zX6p9MYUkBzd",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "8kG2FwgJFFyakCugWqCR8WbgA4uHDJufJ3iWssoGMPmQ",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "EQEu6NyEq8nECAiem1YkTu3uDBiGTEA2tYBLBmr9YJ7Y",
+   "tags": [
+    "fresh_wallet"
+   ],
+   "maker_token_tags": []
+  },
+  {
+   "address": "2Za1iBfeMfXEYU6Nom7xPMno7k3QMJhPbKAWBkEaATGK",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler"
+   ]
+  },
+  {
+   "address": "4xf3fbcJCaNSyHYWbTk1LypFtTma2tkuC5acH6wTqPic",
+   "tags": [],
+   "maker_token_tags": [
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "A1LtK6Mw5QWSb9hkUkhMW2efiZcZ8F6NogRYMLiP2qp5",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler",
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "Hhhs7SZcgAnXM4iP6GhbvJbfkkiNq8bvL5tJP1fMycTb",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "GATfRqFtTxnPRbW1t76jkqnZMCs9vMqWofWM68UpqXrC",
+   "tags": [
+    "fresh_wallet"
+   ],
+   "maker_token_tags": []
+  },
+  {
+   "address": "BEQcyjDafrZvbyLP3XAxzztjjh27wkVDRzG7U6PdBpn8",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler"
+   ]
+  },
+  {
+   "address": "9RcXF5UFut8R2dYYcqAFvcrFgrCdV6uuJQwAeAmFDJ7M",
+   "tags": [],
+   "maker_token_tags": [
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "4ng4mJcYdQ3Xkc1qiVYe9gouBTsEw1K5KCHFMDhqvtMz",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler"
+   ]
+  },
+  {
+   "address": "BFQ3KHMMGfQfWCXzRGbuQ3HYu6AHBRYq6b8e5kHtpWNv",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler"
+   ]
+  },
+  {
+   "address": "EeZYt9U7Z5ui2JF86yRD914uKYzgJnGSUn9ZNZVd4BPB",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler"
+   ]
+  },
+  {
+   "address": "Ec5XbLYdEjtMxZJx74zNsk32zMbJD1QtjJ45svwYiBA7",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "CjWcv8eE63YwxN6Ue6zRJeFHdbnh5LNqwr22GHcq7GNd",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "DFat8prxzyRtdNP1wF7ePzoLEx7Y3khJg7vb8FnWauNZ",
+   "tags": [],
+   "maker_token_tags": [
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "55jvwg7eLygsJKptBEba5SmpW9qicSMmsBykPobZWDQt",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "FdNWmUK3tcEf4jzcfKrUcg6VqAQd8egz1v8VnBxE8nPf",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "9eZU9vEvMEvYjV6NC7xAuwSFSsQ7vuvZGczbJ2Niqhze",
+   "tags": [],
+   "maker_token_tags": [
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "E3US7ZiuYMRmrxWByjVMpyrkJE7tAyXaBfdJi1CKo6Bn",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "2rLGRvwcBEwR1i6xVt9KMKj1BYKD4SPvU3sBK2f35rkH",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "6uWKDisJKNzHtckuTXeUvkfXZ84USNZhabsvEkNmzriH",
+   "tags": [
+    "fresh_wallet"
+   ],
+   "maker_token_tags": []
+  },
+  {
+   "address": "3vKC1m1CgNL3AU27NTYZ93zfpPeFV9JSAV9k9oMuD4HW",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler"
+   ]
+  },
+  {
+   "address": "Dgb14LGmMnWzyzc6pJtKm3iEPDJVaCBBUTWktUnTdHgN",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "3BpXnfJaUTiwXnJNe7Ej1rcbzqTTQUvLShZaWazebsVR",
+   "tags": [],
+   "maker_token_tags": [
+    "transfer_in"
+   ]
+  },
+  {
+   "address": "Hj4VpUUt5dqTKHbCDNBhR6wpivcG4uVBdUoFv3YPm9sk",
+   "tags": [],
+   "maker_token_tags": []
+  },
+  {
+   "address": "DqhwoMKpN2kPfSqRpuHovfoqBT8oweYgBdYfMzJ6jMDB",
+   "tags": [],
+   "maker_token_tags": [
+    "bundler"
+   ]
+  },
+  {
+   "address": "Ez9twf5UMakR5TWmEdfdxw9ddYrLNySZbcv2E4cSNnNG",
+   "tags": [],
+   "maker_token_tags": [
+    "transfer_in"
+   ]
+  }
+ ]
+}

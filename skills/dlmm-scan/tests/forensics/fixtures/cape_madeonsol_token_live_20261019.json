@@ -1,0 +1,235 @@
+{
+ "token": {
+  "mint": "CXuxsSC2CeyszHZNAQAgwguWzaNhWvbGD7J8xpxwpump",
+  "name": "CAT PEPE",
+  "symbol": "CAPE",
+  "twitter_reuse": null,
+  "price_usd": 2.96e-06,
+  "price_sol": 2.802740503001e-08,
+  "market_cap": 2889,
+  "vwap_price_usd": 2.95997424521919e-06,
+  "vwap_price_sol": 2.802740503001e-08,
+  "vwap_status": "ok",
+  "fdv_usd": 2888.87301663,
+  "liquidity_usd": 1825.50262289,
+  "liquidity_to_mc_ratio": 0.6319,
+  "primary_dex": "pumpswap",
+  "launchpad": "pumpfun",
+  "primary_pool_address": "Mn7ZKwaHBxxxiB9KzWtTwDQJSRGknVvbEzPUybzmFsF",
+  "is_token_2022": true,
+  "transfer_fee_bps": 0,
+  "mint_authority_revoked": true,
+  "freeze_authority_revoked": true,
+  "burn_detected": true,
+  "token_supply_burn_detected": true,
+  "lp_burn_status": "unknown",
+  "volume_24h_usd": 0,
+  "volume_24h_sol": 0.0023,
+  "trades_24h": null,
+  "last_trade_at": "2026-10-19T04:50:10.595Z",
+  "price_source": "mc_tracker",
+  "price_observed_at": "2026-10-19T04:50:10.595Z",
+  "price_age_seconds": 3344,
+  "price_is_stale": true,
+  "first_seen_at": "2026-10-14T09:04:08.269961+00:00",
+  "age_seconds": 420107,
+  "is_blacklisted": false,
+  "blacklist_category": null,
+  "launch_cohort_sol": 91.288433,
+  "launch_cohort_size": 20,
+  "early_buyer_exit": {
+   "cohort": 20,
+   "still_holding": 4,
+   "sold": 16,
+   "still_holding_pct": 20
+  },
+  "deployer": {
+   "wallet": "DhetAKJMgunfD7zYxBQnWsWYdFF8zpdTCYaKWkJSMK2Q",
+   "tier": "unranked",
+   "bonding_rate": 1,
+   "total_deployed": 1,
+   "total_bonded": 1,
+   "recent_bond_rate": 1,
+   "address": "DhetAKJMgunfD7zYxBQnWsWYdFF8zpdTCYaKWkJSMK2Q",
+   "identity_status": "resolved",
+   "identity_source": "deployer_tokens",
+   "history_status": "limited_history",
+   "first_seen_at": "2026-10-14T09:04:08.249+00:00",
+   "observed_launch_count": 1,
+   "resolved_outcome_count": 1,
+   "stats_computed_at": "2026-10-19T04:15:40.602164+00:00"
+  },
+  "deployer_identity": {
+   "identity_status": "resolved",
+   "history_status": "limited_history",
+   "address": "DhetAKJMgunfD7zYxBQnWsWYdFF8zpdTCYaKWkJSMK2Q",
+   "source": "deployer_tokens"
+  },
+  "kol_activity": {
+   "status": "ok",
+   "buying_kols": 4,
+   "selling_kols": 4,
+   "net_flow_sol": 9.84878,
+   "signal": "accumulating",
+   "top_buyers": [
+    {
+     "name": "",
+     "sol_amount": 18.667986
+    },
+    {
+     "name": "",
+     "sol_amount": 18.007482
+    },
+    {
+     "name": "",
+     "sol_amount": 7.947685
+    },
+    {
+     "name": "",
+     "sol_amount": 7.781978
+    }
+   ],
+   "window_hours": 168,
+   "window_start": "2026-10-12T05:45:55.494Z",
+   "computed_at": "2026-10-19T05:45:55.497Z",
+   "last_trade_at": "2026-10-14T10:22:17.000Z",
+   "unique_kols": 4,
+   "unique_wallets": 4,
+   "buys": 10,
+   "sells": 9,
+   "buy_sol": 52.405131,
+   "sell_sol": 42.55635,
+   "counts_basis": "complete_window"
+  },
+  "data_status": {
+   "market": "ok",
+   "deployer": "ok",
+   "kol_activity": "ok",
+   "first_seen": "ok",
+   "blacklist": "ok",
+   "metadata": "ok",
+   "launch_cohort": "ok",
+   "sniper_footprint": "ok",
+   "volume_candles": "ok",
+   "twitter_reuse": "ok"
+  },
+  "mc_change_pct": {
+   "5m": -0.31,
+   "15m": -0.31,
+   "1h": 0.38
+  },
+  "volume_usd": {
+   "5m": 0,
+   "15m": 0,
+   "1h": 0
+  },
+  "mev_volume_pct": {
+   "5m": 0,
+   "15m": 0,
+   "1h": 0
+  },
+  "history_age_seconds": 6185
+ },
+ "as_of": "2026-10-19T05:45:55.488Z",
+ "buyer_quality": {
+  "mint": "CXuxsSC2CeyszHZNAQAgwguWzaNhWvbGD7J8xpxwpump",
+  "score": 0,
+  "confidence": "insufficient_data",
+  "signal": "negative",
+  "breakdown": {
+   "alpha_wallet_count": 0,
+   "kol_count": 0,
+   "bundle_buyer_count": 20,
+   "avg_historical_win_rate": null,
+   "bot_dominated": false,
+   "wallets_with_history": 2,
+   "qualified_win_rate_wallets": 0,
+   "dump_cluster_count": 1,
+   "recycled_early_buyer_count": 15
+  },
+  "cached_at": "2026-10-19T05:45:55.513Z",
+  "coverage": {
+   "history_start": 1775984757,
+   "scope": "pump.fun pipeline (pump.fun, LaunchLab/bonk, bags)",
+   "in_scope": true,
+   "data_observed": true,
+   "eligibility": "admitted_previously",
+   "eligibility_basis": "persisted_rows",
+   "completeness": "not_verified",
+   "size_floor": {
+    "min_sol": 0.05,
+    "min_stable_usd": 3.5,
+    "applies_to": "buys and SOL-spending legs; SOL-receiving sells of any size are kept"
+   },
+   "note": "Presence of rows does not prove every trade in a window was captured (ingest gaps and indexing lag of a few seconds are not tracked per subject). Stored trades exclude small buys: a buy under 0.05 SOL (under $3.50 when paid in USDC/USDT) is not persisted; sells that receive SOL are kept at any size. Counts, volumes and wallet stats derived from this data therefore omit sub-floor buys. Live streams, prices and candles are not subject to this floor."
+  },
+  "signal_stats": {
+   "dump_cluster_count": {
+    "value": 1,
+    "bucket": "k>=1",
+    "outcome": "dump",
+    "hit_rate": 0.8022,
+    "base_rate": 0.7189622385221407,
+    "lift": 1.116,
+    "sample_n": 2760,
+    "window_days": 14,
+    "as_of": "2026-10-19T05:10:00.007262+00:00",
+    "summary": "dump_cluster_count=1 (k>=1): 80% of such tokens dumped vs 72% base (1.12\u00d7 lift), n=2760, 14d OOS"
+   }
+  }
+ },
+ "deployer_profile": {
+  "is_deployer": true,
+  "deployer": {
+   "wallet_address": "DhetAKJMgunfD7zYxBQnWsWYdFF8zpdTCYaKWkJSMK2Q",
+   "total_tokens_deployed": 1,
+   "total_bonded": 1,
+   "instant_bonds": 1,
+   "bonding_rate": 1,
+   "recent_bond_rate": 1,
+   "tier": "unranked",
+   "is_tracked": false,
+   "avg_time_to_bond_minutes": 0,
+   "best_token_peak_mc": 1213791.76,
+   "avg_peak_mc": 1213791.76,
+   "recent_outcomes": "B",
+   "runner_rate": null,
+   "runner_tokens": 0,
+   "labeled_tokens": 0,
+   "post_bond_survival_rate": 1,
+   "post_bond_2x_rate": 1,
+   "post_bond_labeled_count": 1,
+   "first_seen_at": "2026-10-14T09:04:08.249483+00:00",
+   "first_deploy_at": "2026-10-14T09:04:08.249+00:00",
+   "last_deploy_at": "2026-10-14T09:04:08.249+00:00",
+   "last_bond_at": "2026-10-14T09:04:08.46+00:00",
+   "label": null
+  },
+  "pump_stats": {
+   "total": 1,
+   "bonded": 1,
+   "bondingRate": 1,
+   "bestAthMc": 1242489.4453050068,
+   "avgAthMc": 1242489.4453050068
+  },
+  "pump_tokens": [
+   {
+    "mint": "CXuxsSC2CeyszHZNAQAgwguWzaNhWvbGD7J8xpxwpump",
+    "symbol": "CAPE",
+    "creator": "DhetAKJMgunfD7zYxBQnWsWYdFF8zpdTCYaKWkJSMK2Q",
+    "complete": true,
+    "created_timestamp": 1791968647000
+   }
+  ],
+  "pump_error": false,
+  "launchpad_tokens": [],
+  "coverage": {
+   "scope": "launchpad pipeline (pump.fun and LaunchLab/bonk deploys; bags.fm tokens are covered in trade data but their deploys are not attributed here; no direct-to-DEX launches)",
+   "note": "This dataset is built from launchpad ingest. A wallet or token absent here, an empty profile, or a `false` reputation flag means 'not observed by this pipeline', not 'clean' or 'no activity'."
+  }
+ },
+ "included": [
+  "deployer",
+  "buyer_quality"
+ ]
+}
