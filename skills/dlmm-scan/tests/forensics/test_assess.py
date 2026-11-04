@@ -139,8 +139,11 @@ def run_assess(mint, run_dir, extra=(), out=None, calls=None):
 
 
 def solscanner_cli(mint, out_path, result):
+    """The solscanner collector's command line with its key loader stubbed to "no key" (DS-SCANNER-API-T1: offline even
+    in a checkout whose .env holds a Scanner key), so it takes the legacy keyless path, like the engine's --solscanner."""
     o, e = io.StringIO(), io.StringIO()
-    with mock.patch.object(ss, "collect_solscanner", return_value=copy.deepcopy(result)) as call, contextlib.redirect_stdout(o), contextlib.redirect_stderr(e):
+    with mock.patch.object(ss, "load_key", return_value=(None, "no_key", None)), mock.patch.object(ss, "env_key_set", return_value=False), \
+         mock.patch.object(ss, "collect_solscanner", return_value=copy.deepcopy(result)) as call, contextlib.redirect_stdout(o), contextlib.redirect_stderr(e):
         code = ss.main([mint, "--out", str(out_path)])
     call.assert_called_once_with(mint)
     return code, o.getvalue()
@@ -205,7 +208,11 @@ def equivalence(case: Case, keep_dir: Path | None = None) -> dict:
                 shutil.copy2(a_dir / name, c_src / name)
         c_inputs = list(inputs)
         if case.live_solscanner is not None:
-            (c_src / "solscanner.json").write_text(json.dumps(case.live_solscanner))
+            # DS-SCANNER-API-T1: the engine's --solscanner read is labelled like the collector's file (keyless, no key), so
+            # the file C feeds assess is that labelled result, built through the same keyless path with no network
+            with mock.patch.object(ss, "collect_solscanner", return_value=copy.deepcopy(case.live_solscanner)):
+                labelled = ss.collect_scanner(case.mint, None, key_reason="no_key")
+            (c_src / "solscanner.json").write_text(json.dumps(labelled))
             c_inputs += ["--solscanner-json", str(c_src / "solscanner.json")]
         code_c, _, _ = run_assess(case.mint, c_src, c_inputs, out=c_out, calls=calls)
         fa, fb, fc = _files(a_dir), _files(b_dir), _files(c_out)

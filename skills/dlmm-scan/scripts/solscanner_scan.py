@@ -1,13 +1,25 @@
-"""SolScanner public scan reader for dlmm-scan (one bounded, unauthenticated SSE observation).
+"""Scanner (formerly SolScanner) token scan reader for dlmm-scan: the Scanner API with the owner's key first, the
+legacy keyless SolScanner endpoint as the fallback (each one bounded SSE observation).
 
 SELF-CONTAINED COPY. This module is a deliberate duplicate of
 skills/lp-research-companion/scripts/lp_research/solscanner.py (collect_solscanner and solscanner_finding, merged
 and reviewed there), with its two helpers (the no-redirect handler and timestamp parsing) inlined so dlmm-scan
 imports nothing from the sibling skill (an older, conflicting copy of that package can exist in a local checkout).
-Only the User-Agent differs, plus a small command line at the end of this file (`main`: one call of collect_solscanner,
-result saved as JSON) that the dlmm-scan `solscanner` collector runs. The two copies are kept in sync by tests/forensics/test_solscanner_report.py, which feeds both
+Only the User-Agent differs; the legacy read's body lives in _collect, which collect_solscanner calls with exactly the
+sibling's URL and headers. The parts at the end of this file are not in the sibling copy: the Scanner API read
+(DS-SCANNER-API-T1: the key loader, collect_scanner, which tries the API and then collect_solscanner, and the source
+wording) and a small command line (`main`: one call of collect_scanner, result saved as JSON) that the dlmm-scan
+`solscanner` collector runs. The two copies are kept in sync by tests/forensics/test_solscanner_report.py, which feeds both
 parsers the same fixtures when the sibling skill is present in the checkout and compares their output (skipped when it
 is not). Change both together.
+
+Scanner API (owner decision 2026-11-04, "New API, old as fallback (Recommended)"): GET
+https://api.scanner.net/contracts/<MINT>/scan/stream with the owner's key only in the x-api-key header (one credential;
+never in the URL); the key is SCANNER_NET_API_KEY, else the owner's spelling scanner_net_api_key, from the environment
+first, then exactly that one variable from the repository .env; it is never printed, logged, saved or put in an error, and a
+saved string sharing 8 or more consecutive characters with it is dropped. A token scan spends 1 of the plan's scans,
+cached results are free (provider-docs current/scanner/fulldocs.pages/docs/api/keys.md). When the API cannot answer, the
+legacy keyless endpoint is read once and the saved file says which one answered and why.
 
 Only normalized allowlisted facts leave this module. The public endpoint is
 observed behavior without a cached API specification, so unknown shapes fail
@@ -45,6 +57,7 @@ import argparse
 import datetime as dt
 import json
 import math
+import os
 import queue
 import re
 import socket
@@ -303,6 +316,15 @@ class _BoundedResponse:
 def collect_solscanner(mint: str, *, opener: Any | None = None,
                        clock: Any = time.monotonic, now: Any = utc_now) -> dict[str, Any]:
     """Attempt the exact public URL once; return a bounded observation or reason."""
+    return _collect(mint, BASE_URL, {}, opener=opener, clock=clock, now=now, http=None)
+
+
+def _collect(mint: str, base_url: str, extra_headers: dict[str, str], *, opener: Any | None, clock: Any, now: Any,
+             http: dict[str, Any] | None) -> dict[str, Any]:
+    """One bounded read of <base_url>/<mint>/scan/stream. collect_solscanner passes the legacy keyless URL and no extra
+    header (http=None: exactly the sibling copy's behavior); collect_scanner passes the Scanner API URL, the key header
+    and an `http` dict that receives the HTTP status, a validated Retry-After, Scanner's documented error code and
+    whether a cache_hit event arrived (never a body, a message or a header value)."""
     fetched_at = now().isoformat().replace("+00:00", "Z")
     result = _empty(mint, fetched_at, "not_attempted")
     if not isinstance(mint, str) or not 32 <= len(mint) <= 44 or any(c not in _BASE58 for c in mint):
@@ -311,8 +333,8 @@ def collect_solscanner(mint: str, *, opener: Any | None = None,
     started = clock()
     deadline = started + DEADLINE_SECONDS
     request = urllib.request.Request(
-        f"{BASE_URL}/{mint}/scan/stream",
-        headers={"Accept": "text/event-stream", "User-Agent": "holder-forensics/1.0"},
+        f"{base_url}/{mint}/scan/stream",
+        headers={"Accept": "text/event-stream", "User-Agent": "holder-forensics/1.0", **extra_headers},
         method="GET",
     )
     # No environment proxy credentials, redirects, cookies, bearer tokens or retries.
@@ -334,6 +356,8 @@ def collect_solscanner(mint: str, *, opener: Any | None = None,
             if not isinstance(payload, dict):
                 raise _ShapeError
             _scan_facts(payload, mint, facts)
+            if http is not None and event_name == "cache_hit":
+                http["cache_hit"] = True
             if event_name in {"bundle_groups", "complete"}:
                 key = "groups" if event_name == "bundle_groups" else "bundleGroups"
                 if event_name == "complete":
@@ -357,6 +381,10 @@ def collect_solscanner(mint: str, *, opener: Any | None = None,
         opened = _bounded_call(lambda: transport.open(request, timeout=remaining), remaining)
         with _BoundedResponse(opened, lambda: deadline - clock()) as response:
             status = int(getattr(response, "status", 200) or 200)
+            if http is not None:
+                http["status"] = status
+                if status != 200:
+                    http["retry_after"] = _retry_after(getattr(response, "headers", None))
             if 300 <= status < 400:
                 result["reason"] = "redirect_disallowed"
                 return result
@@ -416,6 +444,13 @@ def collect_solscanner(mint: str, *, opener: Any | None = None,
             dispatch()
     except urllib.error.HTTPError as exc:
         result["reason"] = "redirect_disallowed" if 300 <= exc.code < 400 else "http_error"
+        if http is not None:  # the Scanner API path only: the status, Retry-After and the documented error code
+            http["status"] = exc.code
+            http["retry_after"] = _retry_after(exc.headers)
+            try:
+                http["error_code"] = _error_code(_bounded_call(lambda: exc.read(API_ERROR_BODY_MAX), max(0.0, deadline - clock())))
+            except Exception:
+                http["error_code"] = None
         # Error-body cleanup is untrusted transport code too; it cannot extend
         # the absolute deadline or expose a raw body after the caller returns.
         try:
@@ -584,37 +619,329 @@ def solscanner_finding(result: Any, now: dt.datetime | None = None) -> dict[str,
     return finding
 
 
-# Command line (dlmm-scan collector `solscanner`; not part of the sibling copy kept in sync above). It only calls
-# collect_solscanner once and saves its result as JSON, the file `helius_forensics.py assess --solscanner-json` (and
-# `report --solscanner-json`) reads and revalidates. No key, no credits, no retries.
+# ----------------------------------------------------------------------------- Scanner API key (DS-SCANNER-API-T1)
+# Not part of the sibling copy kept in sync above. SolScanner became Scanner (scanner.net) in 2026-11; the owner's key
+# is read by this file's own single-variable loader and sent only to the Scanner API (see collect_scanner below).
+
+API_KEY_NAMES = ("SCANNER_NET_API_KEY", "scanner_net_api_key")  # the documented upper-case name, then the owner's spelling
+API_KEY_RE = re.compile(r"^sk_live_[A-Za-z0-9]{43}$")  # provider-docs current/scanner/fulldocs.pages/docs/api/keys.md
+KEY_PIECE = 8  # a saved string sharing this many consecutive characters with the key is dropped
+
+
+def find_env_file(explicit: str | None = None) -> Path | None:
+    """Locate the repository .env without reading it: --env-file, then HOLDER_FORENSICS_ENV, then the base checkout of a
+    .claude/worktrees checkout, then <repo>/.env. Only known locations, never an arbitrary ancestor."""
+    skill_dir = Path(__file__).resolve().parents[1]
+    candidates: list[Path] = []
+    if explicit:
+        candidates.append(Path(explicit))
+    if os.environ.get("HOLDER_FORENSICS_ENV"):
+        candidates.append(Path(os.environ["HOLDER_FORENSICS_ENV"]))
+    marker = f"{os.sep}.claude{os.sep}worktrees{os.sep}"
+    if marker in str(skill_dir):
+        candidates.append(Path(str(skill_dir).split(marker)[0]) / ".env")
+    candidates.append(skill_dir.parents[1] / ".env")
+    for path in candidates:
+        if path.is_file():
+            return path
+    return None
+
+
+def _clean_env_value(value: str) -> str:
+    value = value.strip()
+    if value[:1] in ("'", '"') and value[-1:] == value[:1] and len(value) >= 2:
+        return value[1:-1].strip()
+    return re.split(r"\s+#", value, maxsplit=1)[0].strip()  # drop an unquoted inline comment
+
+
+def env_key_set() -> bool:
+    """True when one of the two key names is set (non-empty) in the environment; the value is not returned."""
+    return any(os.environ.get(name, "").strip() for name in API_KEY_NAMES)
+
+
+def load_key(env_file: Path | None) -> tuple[str | None, str | None, str | None]:
+    """(key, None, variable name) or (None, reason, None). SCANNER_NET_API_KEY, else scanner_net_api_key, from the
+    environment first; then exactly that one variable from the .env (the upper-case line first, else the lower-case
+    one); no other line is kept. Never logs or returns the value in a reason."""
+    key, found = "", None
+    for name in API_KEY_NAMES:
+        key = os.environ.get(name, "").strip()
+        if key:
+            found = name
+            break
+    if not key and env_file is not None:
+        try:
+            text = env_file.read_text(encoding="utf-8", errors="replace")
+        except OSError:
+            return None, "env_file_unreadable", None
+        lines: dict[str, str] = {}
+        for raw in text.splitlines():
+            line = raw.strip()
+            if line.startswith("export "):
+                line = line[7:].lstrip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            name, _, value = line.partition("=")
+            name = name.strip()
+            if name in API_KEY_NAMES and name not in lines:
+                lines[name] = _clean_env_value(value)
+        for name in API_KEY_NAMES:
+            if lines.get(name):
+                key, found = lines[name], name
+                break
+    if not key:
+        return None, "no_key", None
+    if not API_KEY_RE.match(key):
+        return None, "key_format", None
+    return key, None, found
+
+
+def shares_key_piece(text: Any, key: str | None) -> bool:
+    """True when `text` and the key share any run of KEY_PIECE (8) or more consecutive characters."""
+    if not key or not isinstance(text, str) or not text:
+        return False
+    if len(key) < KEY_PIECE:
+        return key in text
+    return any(key[i:i + KEY_PIECE] in text for i in range(len(key) - KEY_PIECE + 1))
+
+
+# ----------------------------------------------------------------------------- Scanner API read (DS-SCANNER-API-T1)
+# The owner's decision of 2026-11-04 ("New API, old as fallback (Recommended)"): the Scanner API with the owner's key
+# first; when it cannot answer, the legacy keyless endpoint (collect_solscanner above, unchanged), and the saved file says
+# which one answered. Route: the cached docs (provider-docs current/scanner/fulldocs.pages/docs/api/keys.md, api.md) list
+# the token scans under /contracts on https://api.scanner.net; on 2026-11-04 GET /contracts/<MINT>/scan/stream on that
+# host answered with the same event stream as the legacy host (cache_hit, then complete with bundleGroups).
+
+API_HOST = "api.scanner.net"
+API_BASE_URL = "https://api.scanner.net/contracts"
+LEGACY_HOST = "api.solscanner.app"
+SCAN_PATH = "/contracts/<MINT>/scan/stream"
+API_KEY_HEADER = "x-api-key"  # exactly one credential per request (keys.md): never Authorization, never in the URL
+API_RETRY_MAX_WAIT_S = 5.0  # one retry, only after a 429 whose Retry-After is at most this, or a 503
+API_503_WAIT_S = 1.0  # the wait before the one retry after a 503 without a Retry-After
+API_ERROR_BODY_MAX = 4096  # an API error body is read only for its documented code, at most this many bytes
+API_ERROR_CODES = frozenset({  # keys.md "Errors"; any other code is not kept
+    "API_KEY_IN_URL", "INVALID_INPUT", "API_KEY_INVALID", "API_KEY_REVOKED", "API_KEY_BROWSER_NOT_ALLOWED",
+    "API_KEY_ROUTE_NOT_ALLOWED", "API_KEY_IP_NOT_ALLOWED", "API_PLAN_REQUIRED", "FORBIDDEN", "INSUFFICIENT_CREDITS",
+    "API_KEY_RATE_LIMITED", "RATE_LIMITED", "INTERNAL_ERROR",
+})
+_ERROR_REASONS = {  # Scanner's documented code -> this tool's reason
+    "API_KEY_IN_URL": "key_in_url", "INVALID_INPUT": "invalid_input", "API_KEY_INVALID": "authentication_failed",
+    "API_KEY_REVOKED": "key_revoked", "API_KEY_BROWSER_NOT_ALLOWED": "browser_not_allowed",
+    "API_KEY_ROUTE_NOT_ALLOWED": "route_not_allowed", "API_KEY_IP_NOT_ALLOWED": "ip_not_allowed",
+    "API_PLAN_REQUIRED": "plan_required", "FORBIDDEN": "access_denied", "INSUFFICIENT_CREDITS": "insufficient_credits",
+    "API_KEY_RATE_LIMITED": "rate_limited", "RATE_LIMITED": "rate_limited", "INTERNAL_ERROR": "server_error",
+}
+_STATUS_REASONS = {400: "bad_request", 401: "authentication_failed", 402: "insufficient_credits", 403: "access_denied",
+                   404: "route_not_found", 429: "rate_limited"}
+SOURCES = frozenset({"scanner_api", "legacy_keyless"})
+READ_STATUSES = frozenset({"answered", "failed", "not_sent"})
+_CODE = re.compile(r"[a-z_]{1,40}")
+
+
+def _retry_after(headers: Any) -> float | None:
+    """Retry-After in seconds when it is a plain non-negative number (at most an hour), else None."""
+    try:
+        value = headers.get("Retry-After") if headers is not None else None
+    except Exception:
+        return None
+    number = _finite_number(value.strip()) if isinstance(value, str) else None
+    return number if number is not None and 0 <= number <= 3600 else None
+
+
+def _error_code(body: Any) -> str | None:
+    """Scanner's documented error code from a JSON error body; nothing else of the body is kept."""
+    if not isinstance(body, bytes):
+        return None
+    try:
+        data = json.loads(body.decode("utf-8"))
+    except (ValueError, UnicodeError, RecursionError):
+        return None
+    code = data.get("code") if isinstance(data, dict) else None
+    return code if isinstance(code, str) and code in API_ERROR_CODES else None
+
+
+def _api_reason(result: dict[str, Any], http: dict[str, Any]) -> str:
+    status = http.get("status")
+    if isinstance(status, int) and status != 200 and not 300 <= status < 400:
+        code = http.get("error_code")
+        if code in _ERROR_REASONS:
+            return _ERROR_REASONS[code]
+        if status in _STATUS_REASONS:
+            return _STATUS_REASONS[status]
+        return "server_error" if status >= 500 else "http_error"
+    return result.get("reason") or "unreadable_result"
+
+
+def _usable(result: dict[str, Any]) -> bool:
+    return bool(result.get("groups")) or result.get("reason") in _GROUPS_USABLE_REASONS
+
+
+def _drop_key_echoes(result: dict[str, Any], key: str | None) -> int:
+    """Drop every saved provider string sharing KEY_PIECE consecutive characters with the key (wallet rows by address,
+    a bundle type); returns how many were dropped."""
+    dropped = 0
+    for group in result.get("groups") or []:
+        kept = [w for w in group.get("wallets", []) if not shares_key_piece(w.get("address"), key)]
+        dropped += len(group.get("wallets", [])) - len(kept)
+        group["wallets"] = kept
+        if shares_key_piece(group.get("bundle_type"), key):
+            group["bundle_type"] = None
+            dropped += 1
+    if shares_key_piece(result.get("scanned_at"), key):
+        result["scanned_at"] = None
+        dropped += 1
+    return dropped
+
+
+def collect_scanner(mint: str, key: str | None, *, key_reason: str | None = None, key_variable: str | None = None,
+                    opener: Any | None = None, clock: Any | None = None, now: Any | None = None,
+                    sleep: Any = time.sleep) -> dict[str, Any]:
+    """The Scanner API first (with a key), the legacy keyless endpoint when the API cannot answer.
+
+    With a key: at most 1 Scanner API token-scan request, plus at most 1 retry, only after a 429 whose Retry-After is at
+    most API_RETRY_MAX_WAIT_S or after a 503. Without a key, or when the API did not answer with usable bundle groups
+    (any HTTP error, a timeout, a network error, a renamed field), exactly 1 legacy keyless request. Each request has
+    the same bounds as collect_solscanner (1 MiB, 10 s, no redirects, no environment proxy). Returns collect_solscanner's
+    result fields plus which source answered and why the other was not read; the key never enters the result."""
+    kw = {k: v for k, v in (("clock", clock), ("now", now)) if v is not None}
+    transport = opener or urllib.request.build_opener(urllib.request.ProxyHandler({}), NoRedirect)
+    api: dict[str, Any] = {"status": "not_sent", "reason": key_reason or "no_key", "http_status": None, "error_code": None,
+                           "requests": 0, "cache_hit": None}
+    chosen: dict[str, Any] | None = None
+    if key is not None:
+        if not API_KEY_RE.match(key):
+            api["reason"] = "key_format"
+        else:
+            for attempt in (1, 2):
+                http: dict[str, Any] = {}
+                api["requests"] += 1
+                try:
+                    res = _collect(mint, API_BASE_URL, {API_KEY_HEADER: key}, opener=transport, clock=clock or time.monotonic,
+                                   now=now or utc_now, http=http)
+                except Exception:  # noqa: BLE001 - defensive: no exception text leaves this function
+                    res, http = _empty(mint, (now or utc_now)().isoformat().replace("+00:00", "Z"), "network_error"), {}
+                api.update(http_status=http.get("status"), error_code=http.get("error_code"), cache_hit=http.get("cache_hit", False))
+                if res.get("reason") == "invalid_mint":
+                    api["requests"] -= 1  # nothing was sent
+                if _usable(res):
+                    api.update(status="answered", reason=None)
+                    chosen = res
+                    break
+                api.update(status="failed", reason=_api_reason(res, http))
+                wait = http.get("retry_after")
+                status = http.get("status")
+                retry = attempt == 1 and ((status == 429 and wait is not None and wait <= API_RETRY_MAX_WAIT_S)
+                                          or (status == 503 and (wait is None or wait <= API_RETRY_MAX_WAIT_S)))
+                if not retry:
+                    break
+                sleep(API_503_WAIT_S if wait is None else wait)
+    legacy: dict[str, Any] = {"status": "not_sent", "reason": None, "requests": 0}
+    if chosen is None:
+        try:
+            res = collect_solscanner(mint, **({"opener": opener} if opener is not None else {}), **kw)
+        except Exception:  # noqa: BLE001 - defensive: never let the corroboration source crash the collector
+            res = _empty(mint, (now or utc_now)().isoformat().replace("+00:00", "Z"), "network_error")
+        legacy["requests"] = 0 if res.get("reason") == "invalid_mint" else 1
+        legacy.update(status="answered" if _usable(res) else "failed", reason=None if _usable(res) else res.get("reason"))
+        chosen = res
+    result = dict(chosen)
+    result.update({
+        "source": "scanner_api" if api["status"] == "answered" else "legacy_keyless" if legacy["status"] == "answered" else None,
+        "api_status": api["status"], "api_reason": api["reason"], "api_http_status": api["http_status"],
+        "api_error_code": api["error_code"], "api_cache_hit": api["cache_hit"] if api["status"] == "answered" else None,
+        "legacy_status": legacy["status"], "legacy_reason": legacy["reason"],
+        "scans_spent": None,  # Scanner reports no per-request count (keys.md); never 0 when not reported
+        "request": {
+            "api": {"host": API_HOST, "method": "GET", "path": SCAN_PATH, "auth_header": API_KEY_HEADER,
+                    "key_variable": key_variable if key is not None else None, "requests_sent": api["requests"]},
+            "legacy": {"host": LEGACY_HOST, "method": "GET", "path": SCAN_PATH, "auth_header": None,
+                       "requests_sent": legacy["requests"]},
+        },
+    })
+    if key is not None:
+        result["key_echo_dropped"] = _drop_key_echoes(result, key)
+    return result
+
+
+def _code_text(value: Any) -> str:
+    return value if isinstance(value, str) and _CODE.fullmatch(value) else "unreadable"
+
+
+def source_text(result: Any) -> str | None:
+    """One plain line naming which endpoint answered (None for a result without the source facts). Built only from
+    fixed words and validated reason codes, so a saved file cannot put text into the report."""
+    if not isinstance(result, dict) or "source" not in result:
+        return None
+    source = result.get("source")
+    api_reason = _code_text(result.get("api_reason"))
+    if source == "scanner_api":
+        spent = result.get("scans_spent")
+        if type(spent) is int and spent >= 0:
+            cost = f"scans spent: {spent}"
+        elif result.get("api_cache_hit") is True:
+            cost = "scans spent: not reported by Scanner; a cached result, free by Scanner's docs"
+        else:
+            cost = "scans spent: not reported by Scanner; at most 1 token scan"
+        return f"source: Scanner API (api.scanner.net, the owner's key; {cost})"
+    if source == "legacy_keyless":
+        return (f"source: legacy keyless SolScanner endpoint (Scanner API not read: {api_reason}; "
+                "the keyless read uses none of the plan's scans)")
+    return (f"source: none answered (Scanner API not read: {api_reason}; legacy keyless SolScanner endpoint not read: "
+            f"{_code_text(result.get('legacy_reason') or result.get('reason'))})")
+
+
+def status_line(result: dict[str, Any]) -> str:
+    groups, reason = result.get("groups") or [], result.get("reason")
+    if "source" not in result:  # the key-echo backstop or a crash: nothing was kept
+        return f"unavailable ({_code_text(reason)}; the result file records it)"
+    if result.get("source") == "scanner_api":
+        where = "Scanner API" + ("; cached result" if result.get("api_cache_hit") is True else "")
+    else:
+        where = f"legacy keyless SolScanner endpoint, Scanner API not read: {_code_text(result.get('api_reason'))}"
+    if result.get("source") in SOURCES:
+        return f"ok ({len(groups)} bundle group{'' if len(groups) == 1 else 's'}; {reason or 'fresh scan'}; {where}; corroboration only)"
+    return f"unavailable ({_code_text(reason)}; Scanner API not read: {_code_text(result.get('api_reason'))}; the result file records it)"
+
+
+# Command line (dlmm-scan collector `solscanner`; not part of the sibling copy kept in sync above). It calls
+# collect_scanner once and saves its result as JSON, the file `helius_forensics.py assess --solscanner-json` (and
+# `report --solscanner-json`) reads and revalidates. The key is read by this file's own single-variable loader.
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Read the public SolScanner scan for a Solana mint once (bounded: 1 MiB, 10 s, no redirects, no env proxy, "
-                                                 "no key, no credits) and save the result for helius_forensics.py assess --solscanner-json. Corroboration only.")
+    parser = argparse.ArgumentParser(description="Read the Scanner (formerly SolScanner) token scan for a Solana mint and save it for "
+                                                 "helius_forensics.py assess --solscanner-json. The Scanner API first, with the owner's "
+                                                 "key (SCANNER_NET_API_KEY, else scanner_net_api_key) in the x-api-key header: at most "
+                                                 "1 token scan (1 of the plan's scans; cached results free), one retry only after a short "
+                                                 "429 or a 503; when it cannot answer, the legacy keyless endpoint once (no key, no "
+                                                 "credits). Each request bounded: 1 MiB, 10 s, no redirects, no env proxy. Corroboration only.")
     parser.add_argument("mint")
     parser.add_argument("--out", required=True, metavar="PATH", help="file to save the result JSON into (for example <RUN>/solscanner.json)")
+    parser.add_argument("--env-file", metavar="PATH", help="the repository .env (SCANNER_NET_API_KEY or scanner_net_api_key in the environment is used first)")
     args = parser.parse_args(argv)
     mint = args.mint
     if not 32 <= len(mint) <= 44 or any(c not in _BASE58 for c in mint):
         print("error: mint is not a valid base58 Solana address", file=sys.stderr)
         return 2
+    key: str | None = None
     try:
-        result = collect_solscanner(mint)
-    except Exception:  # noqa: BLE001 - collect_solscanner already reduces failures to a reason; never print a traceback
+        key, key_reason, key_variable = load_key(None if env_key_set() else find_env_file(args.env_file))
+        result = collect_scanner(mint, key, key_reason=key_reason, key_variable=key_variable)
+    except Exception:  # noqa: BLE001 - collect_scanner already reduces failures to a reason; never print a traceback
         result = _empty(mint, utc_now().isoformat().replace("+00:00", "Z"), "network_error")
+    text = json.dumps(result, indent=1)
+    if shares_key_piece(text, key):  # backstop: the provider strings were already checked one by one
+        result = _empty(mint, result.get("fetched_at") or utc_now().isoformat().replace("+00:00", "Z"), "key_echo_withheld")
+        text = json.dumps(result, indent=1)
     try:
         out = Path(args.out)
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(json.dumps(result, indent=1), encoding="utf-8")
+        out.write_text(text, encoding="utf-8")
     except OSError:
         print("error: --out is not a writable file path", file=sys.stderr)
         return 2
-    groups, reason = result.get("groups") or [], result.get("reason")
-    if groups or reason in _GROUPS_USABLE_REASONS:
-        print(f"ok ({len(groups)} bundle group{'' if len(groups) == 1 else 's'}; {reason or 'fresh scan'}; corroboration only)")
-    else:
-        print(f"unavailable ({reason}; the result file records it)")
+    print(status_line(result))
     return 0
 
 

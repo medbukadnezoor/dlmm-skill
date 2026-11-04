@@ -96,6 +96,10 @@ DISPLAY_ONLY_HOSTS: dict[str, frozenset[str]] = {"scripts/pool_discovery.py": fr
 # - lp_smart_money: owner decision 2026-10-26 (DS-LP-SMART-T1; answer "1 + 3 wallets (Recommended)": 1 pool-positions call + the
 #   lifetime records of the 3 biggest wallets, 4 extra LP Agent calls per scan, about +50 s): the follow-up lane reads the same
 #   LP Agent key as lpagent_pools, at most 4 calls per scan, at least 12.5 s apart.
+# - solscanner: owner decision 2026-11-04 (DS-SCANNER-API-T1; answers "Every scan (Recommended)" and "New API, old as fallback
+#   (Recommended)", "do all suggested"): the Scanner (formerly SolScanner) collector runs in every scan's first wave with the
+#   owner's Scanner key, at most 1 token scan per DLMM scan (1 of the paid plan's scans; cached free), the legacy keyless
+#   endpoint as the fallback; it spends the owner's paid plan, so the pin keeps cost "paid" (ScannerApiCollectorTests).
 TRIAL_SCOPE = "trial; free tier only; review after about 20 scans"
 TRIAL_WORDS = "MadeOnSol (free), Solana Tracker"
 LPAGENT_WORDS = "On every scan (Recommended)"
@@ -105,6 +109,9 @@ FOMO_THESES_SCOPE = "1 Fomo API thesis request per scan"
 X_SEARCH_SCOPE = "at most 4 GetXAPI advanced searches per scan"
 LP_SMART_WORDS = "1 + 3 wallets (Recommended)"
 LP_SMART_SCOPE = "at most 4 LP Agent calls per scan"
+SCANNER_WORDS = "Every scan (Recommended)"
+SCANNER_SCOPE = "at most 1 Scanner token scan per DLMM scan"
+SCANNER_FALLBACK = {"date": "2026-11-04", "words": "New API, old as fallback (Recommended)"}
 OWNER_APPROVED_PAID_DEFAULT_ON = {
     "gmgn_rows": {"date": "2026-10-19", "words": "gmgn is on by default", "keys": {"GMGN_API_KEY"}},
     "madeonsol": {"date": "2026-10-19", "words": TRIAL_WORDS, "keys": {"MADEONSOL_API_KEY"}, "cost": "free", "scope_has": TRIAL_SCOPE},
@@ -113,6 +120,7 @@ OWNER_APPROVED_PAID_DEFAULT_ON = {
     "fomo_theses": {"date": "2026-10-25", "words": FOMO_THESES_WORDS, "keys": {"FOMOAPI_KEY"}, "cost": "free", "scope_has": FOMO_THESES_SCOPE},
     "x_search": {"date": "2026-10-25", "words": FOMO_THESES_WORDS, "keys": {"GETXAPI_KEY"}, "cost": "paid", "scope_has": X_SEARCH_SCOPE},
     "lp_smart_money": {"date": "2026-10-26", "words": LP_SMART_WORDS, "keys": {"LPAGENT_API_KEY"}, "cost": "free", "scope_has": LP_SMART_SCOPE},
+    "solscanner": {"date": "2026-11-04", "words": SCANNER_WORDS, "keys": {"SCANNER_NET_API_KEY"}, "cost": "paid", "scope_has": SCANNER_SCOPE},
 }
 # HS-GRAPH-T1 (additions only): the transfer_graph follow-up lane spends Helius credits and reads only HELIUS_API_KEY, so the
 # cost rule above would allow it on by default without a record; the owner approved it on by default anyway, with a raised
@@ -647,9 +655,11 @@ class FirstWaveTests(unittest.TestCase):
         body = text.split(SYNTHESIS_HEADING, 1)[1].split("\n## ", 1)[0]
         self.assertIn("helius_forensics.py assess <MINT> --from <RUN>", body)
 
-    def test_solscanner_is_its_own_first_wave_collector_and_stays_opt_in(self):
+    def test_solscanner_is_its_own_first_wave_collector_on_by_the_owner_decision(self):
+        """DS-SCANNER-API-T1 (was: stays opt-in, free, keyless): on by default by the owner's decision of 2026-11-04, the
+        owner's Scanner key, paid plan (ScannerApiCollectorTests pins the record)."""
         entry = self.by["solscanner"]
-        self.assertEqual((entry["wave"], entry["script_status"], entry["default_on"], entry["cost"], entry["keys"]), ("first", "script", False, "free", []))
+        self.assertEqual((entry["wave"], entry["script_status"], entry["default_on"], entry["cost"], entry["keys"]), ("first", "script", True, "paid", ["SCANNER_NET_API_KEY"]))
         self.assertIn("skills/dlmm-scan/scripts/solscanner_scan.py <MINT> --out <RUN>/solscanner.json", entry["command"])
 
     def test_synthesis_copies_the_forensics_flag_only_after_assess(self):
@@ -689,7 +699,8 @@ class CostTests(unittest.TestCase):
         """Negative checks, inside the test: each throwaway change below must be caught."""
         reg0 = registry()
         record = next(e for e in reg0["entries"] if e["id"] == "gmgn_rows")["owner_default_on_approval"]
-        self.assertEqual(set(OWNER_APPROVED_PAID_DEFAULT_ON), {"gmgn_rows", "madeonsol", "solanatracker", "lpagent_pools", "fomo_theses", "x_search", "lp_smart_money"})
+        self.assertEqual(set(OWNER_APPROVED_PAID_DEFAULT_ON), {"gmgn_rows", "madeonsol", "solanatracker", "lpagent_pools", "fomo_theses", "x_search", "lp_smart_money",
+                                                              "solscanner"})
         self.assertTrue(owner_approved_default_on(next(e for e in collectors(reg0) if e["id"] == "gmgn_rows")))
 
         def edit(entry_id, **fields):
@@ -1024,7 +1035,7 @@ class NewProviderCollectorTests(unittest.TestCase):
         info = self.facts["scripts/solanatracker.py"]
         self.assertEqual((info["credentials"], info["hosts"]), ({"SOLANATRACKER_API_KEY"}, {"data.solanatracker.io"}))
         self.assertLessEqual(info["env_reads"], set(self.reg["settings_env"]))
-        self.assertEqual(set(OWNER_APPROVED_PAID_DEFAULT_ON), {"gmgn_rows", "madeonsol", "solanatracker", "lpagent_pools", "fomo_theses", "x_search", "lp_smart_money"}, "HS-OWNER-1019-T1 adds the MadeOnSol / Solana Tracker trial; none for Jupiter")
+        self.assertEqual(set(OWNER_APPROVED_PAID_DEFAULT_ON), {"gmgn_rows", "madeonsol", "solanatracker", "lpagent_pools", "fomo_theses", "x_search", "lp_smart_money", "solscanner"}, "HS-OWNER-1019-T1 adds the MadeOnSol / Solana Tracker trial; none for Jupiter")
 
     def test_turning_solanatracker_on_without_an_owner_decision_fails(self):
         """Negative checks, inside the test: each throwaway change below must be caught."""
@@ -1121,7 +1132,7 @@ class MadeOnSolAndFomoCollectorTests(unittest.TestCase):
         self.assertLessEqual(self.by["madeonsol"]["credits"]["calls_per_scan"], 5, "criterion 3: at most 5 MadeOnSol calls per scan")
         self.assertEqual(self.by["madeonsol"]["credits"]["not_called"], ["/api/v1/tokens/<MINT>/cap-table", "/api/v1/tokens/<MINT>/fee-shares"])
         self.assertEqual((self.by["fomoapi"]["credits"]["calls_per_scan"], self.by["fomoapi"]["credits"]["credits_per_call"], self.by["fomoapi"]["credits"]["free_credits_per_month"]), (1, 250, 250000))
-        self.assertEqual(set(OWNER_APPROVED_PAID_DEFAULT_ON), {"gmgn_rows", "madeonsol", "solanatracker", "lpagent_pools", "fomo_theses", "x_search", "lp_smart_money"}, "HS-OWNER-1019-T1 adds the MadeOnSol trial; none for the Fomo API holders collector fomoapi (fomo_theses is DS-FOMO-THESES-T1's pin)")
+        self.assertEqual(set(OWNER_APPROVED_PAID_DEFAULT_ON), {"gmgn_rows", "madeonsol", "solanatracker", "lpagent_pools", "fomo_theses", "x_search", "lp_smart_money", "solscanner"}, "HS-OWNER-1019-T1 adds the MadeOnSol trial; none for the Fomo API holders collector fomoapi (fomo_theses is DS-FOMO-THESES-T1's pin)")
         covering = {k for e in collectors(self.reg) if "scripts/helius_forensics.py" in e["covers"] for k in e["keys"]}
         self.assertFalse({"MADEONSOL_API_KEY", "FOMOAPI_KEY"} & covering, "negative check: naming either key in the forensics engine would fail the per-file binding")
 
@@ -1227,6 +1238,8 @@ class OwnerTrialDefaultOnTests(unittest.TestCase):
                          "scope_has": "at most 4 GetXAPI advanced searches per scan"},
             "lp_smart_money": {"date": "2026-10-26", "words": "1 + 3 wallets (Recommended)", "keys": {"LPAGENT_API_KEY"}, "cost": "free",
                                "scope_has": "at most 4 LP Agent calls per scan"},
+            "solscanner": {"date": "2026-11-04", "words": "Every scan (Recommended)", "keys": {"SCANNER_NET_API_KEY"}, "cost": "paid",  # DS-SCANNER-API-T1
+                           "scope_has": "at most 1 Scanner token scan per DLMM scan"},
         })
 
     def test_the_trial_collectors_are_on_free_and_recorded_and_fomo_stays_off(self):
@@ -1247,7 +1260,7 @@ class OwnerTrialDefaultOnTests(unittest.TestCase):
         self.assertFalse(owner_approved_default_on(fomo))
         self.assertEqual(cost_violations(self.reg), [])
         keyed_on = sorted(e["id"] for e in collectors(self.reg) if e["default_on"] and (set(e["keys"]) - {CORE_KEY} or e["cost"] == "paid"))
-        self.assertEqual(keyed_on, ["fomo_theses", "gmgn_rows", "lp_smart_money", "lpagent_pools", "madeonsol", "solanatracker", "x_search"])
+        self.assertEqual(keyed_on, ["fomo_theses", "gmgn_rows", "lp_smart_money", "lpagent_pools", "madeonsol", "solanatracker", "solscanner", "x_search"])
 
     def test_the_check_catches_every_throwaway_change(self):
         """Negative checks, inside the test: each throwaway change below must be caught."""
@@ -1804,8 +1817,10 @@ class WatchlistVerifyMaintenanceTests(unittest.TestCase):
         "follow_up": ["insightx", "wallet_rpc_reads", "pda_identity_reads", "create_slot_trace", "transfer_graph", "fomo_browser", "quote_curves", "lp_smart_money"],
     }
     SCAN_DEFAULT_ON = {
-        "first": ["bubblemaps_map", "forensics_helius", "analysis_component", "jupiter_rows", "gmgn_rows", "solanatracker", "madeonsol", "creator_fees", "meteora_pools", "lpagent_pools",
-                  "fomo_theses", "x_search"],
+        # DS-SCANNER-API-T1 (the update this docstring prescribes for an owner decision that changes a scan lane): solscanner, on by
+        # default by the owner's decision of 2026-11-04 ("Every scan (Recommended)"), pinned in OWNER_APPROVED_PAID_DEFAULT_ON.
+        "first": ["bubblemaps_map", "forensics_helius", "solscanner", "analysis_component", "jupiter_rows", "gmgn_rows", "solanatracker", "madeonsol", "creator_fees", "meteora_pools",
+                  "lpagent_pools", "fomo_theses", "x_search"],
         "follow_up": ["wallet_rpc_reads", "pda_identity_reads", "create_slot_trace", "transfer_graph", "fomo_browser", "quote_curves", "lp_smart_money"],
     }
 
@@ -2525,6 +2540,179 @@ class XSearchCollectorTests(unittest.TestCase):
         self.assertEqual(offending(self.text), [])
         self.assertTrue(offending("| `x_search` | no script yet (GetXAPI; lane reserved) | paid | off (owner asks) | `x_search.json` |"), "negative check")
         self.assertTrue(offending("- `x_search` (paid; narrative and promoter questions through GetXAPI): only when the owner asks"), "negative check")
+
+
+def scanner_fallback_violations(reg: dict) -> list[str]:
+    """DS-SCANNER-API-T1: the solscanner record keeps the owner's second answer of 2026-11-04 (the Scanner API first, the legacy
+    keyless endpoint as the fallback) as `fallback_decision`, and the collector keeps both hosts."""
+    e = next((x for x in collectors(reg) if x["id"] == "solscanner"), None)
+    if e is None:
+        return ["solscanner is not registered"]
+    found = []
+    fallback = (e.get("owner_default_on_approval") or {}).get("fallback_decision")
+    if not (isinstance(fallback, dict) and fallback.get("date") == SCANNER_FALLBACK["date"] and fallback.get("words") == SCANNER_FALLBACK["words"]):
+        found.append("solscanner lost or changed the pinned fallback decision")
+    if e.get("hosts") != ["api.scanner.net", "api.solscanner.app"]:
+        found.append("solscanner must list the Scanner API host and the legacy host")
+    return found
+
+
+class ScannerApiCollectorTests(unittest.TestCase):
+    """DS-SCANNER-API-T1 (additions only): `solscanner` (scripts/solscanner_scan.py) reads the owner's Scanner key
+    (SCANNER_NET_API_KEY, else the owner's spelling scanner_net_api_key; the registry holds the upper-case NAME, the only
+    form a key field may take) and spends the owner's paid Scanner plan, so it is on by default only through the owner's
+    decision of 2026-11-04 ("Every scan (Recommended)"), recorded on its registry entry with the fallback decision ("New API,
+    old as fallback (Recommended)") and pinned in OWNER_APPROVED_PAID_DEFAULT_ON with cost "paid". It waits for nothing, sends
+    at most 1 Scanner API token-scan request (plus 1 retry after a short 429 or a 503) and then at most 1 legacy keyless
+    request, and stays corroboration only: the synthesis passes its file to assess with --solscanner-json, as before."""
+
+    ID = "solscanner"
+    COMMAND = "python3 -I skills/dlmm-scan/scripts/solscanner_scan.py <MINT> --out <RUN>/solscanner.json 2> <RUN>/solscanner.err"
+    COST = "the owner's Scanner key: at most 1 token scan (1 of the plan's scans; cached free) per DLMM scan; legacy fallback free"
+    HEADING = ("## Collector `solscanner`: the Scanner (formerly SolScanner) token scan (the Scanner API with the owner's key, the legacy "
+               "keyless endpoint as the fallback; corroboration only; on by default by the owner's decision)")
+
+    @classmethod
+    def setUpClass(cls):
+        cls.reg = registry()
+        cls.by = {e["id"]: e for e in cls.reg["entries"]}
+        cls.facts = scan()
+        cls.text = SKILL_MD.read_text(encoding="utf-8")
+
+    def test_registered_on_by_the_pinned_owner_decision_with_both_hosts(self):
+        e = self.by[self.ID]
+        self.assertEqual((e["role"], e["wave"], e["script_status"], e["lane"], e["tier"], e["cost"], e["default_on"], e["keys"], e["internal"], e["depends_on"], e["exception"]),
+                         ("collector", "first", "script", "parallel", "fast", "paid", True, ["SCANNER_NET_API_KEY"], "single_request", [], None))
+        self.assertEqual((e["command"], e["entry_script"], e["covers"], e["hosts"], e["output"]),
+                         (self.COMMAND, "scripts/solscanner_scan.py", ["scripts/solscanner_scan.py"], ["api.scanner.net", "api.solscanner.app"], ["solscanner.json", "solscanner.err"]))
+        credits = e["credits"]
+        self.assertEqual((credits["api_token_scans_per_scan"], credits["max_api_requests_per_scan"], credits["legacy_requests_per_scan"], credits["scans_per_token_scan"],
+                          credits["cached_results_free"], credits["cost_text"]), (1, 2, 1, 1, True, self.COST))
+        record = e["owner_default_on_approval"]
+        self.assertEqual((record["date"], record["words"]), ("2026-11-04", "Every scan (Recommended)"))
+        self.assertEqual(record["option_text"], "runs in every scan's first wave: at most 1 Scanner token scan per DLMM scan (free when Scanner has it cached)")
+        self.assertEqual(record["fallback_decision"], {"date": "2026-11-04", "words": "New API, old as fallback (Recommended)",
+                                                       "option_text": "uses api.scanner.net with your key first; if it fails, tries the legacy keyless endpoint and labels which one answered"})
+        for needle in ("at most 1 Scanner token scan per DLMM scan", "1 of the plan's scans; cached results free", "sent only in the x-api-key header",
+                       "exactly 1 request to the legacy keyless endpoint", "corroboration only", "scanner_net_api_key"):
+            self.assertIn(needle, record["scope"], needle)
+        self.assertIn("DS-SCANNER-API-T1", record["recorded"])
+        self.assertIn("do all suggested", record["recorded"])
+        self.assertTrue(owner_approved_default_on(e))
+        self.assertIn("ON by default by the owner's decision of 2026-11-04", e["notes"])
+        self.assertEqual((cost_violations(self.reg), helius_record_violations(self.reg), scanner_fallback_violations(self.reg)), ([], [], []))
+
+    def test_turning_it_on_needs_its_own_pinned_record(self):
+        """Negative checks, inside the test: each throwaway change below must be caught."""
+        record = self.by[self.ID]["owner_default_on_approval"]
+        changes = [{"owner_default_on_approval": None}, {"owner_default_on_approval": dict(record, words="Every scan")},
+                   {"owner_default_on_approval": dict(record, date="2026-11-03")}, {"owner_default_on_approval": dict(record, scope="every scan")},
+                   {"owner_default_on_approval": dict(self.by["x_search"]["owner_default_on_approval"])},  # another collector's record approves nothing
+                   {"owner_default_on_approval": dict(self.by["gmgn_rows"]["owner_default_on_approval"])},
+                   {"keys": ["SCANNER_NET_API_KEY", "GETXAPI_KEY"]}, {"keys": ["GETXAPI_KEY"]}, {"cost": "free"}]
+        for fields in changes:
+            reg = json.loads(json.dumps(self.reg))
+            entry = next(x for x in reg["entries"] if x["id"] == self.ID)
+            for k, v in fields.items():
+                if v is None:
+                    entry.pop(k, None)
+                else:
+                    entry[k] = v
+            self.assertTrue(cost_violations(reg), fields)
+        for cid in ("fomoapi", "lp_research_scan", "insightx"):  # the record copied to another collector approves nothing
+            reg = json.loads(json.dumps(self.reg))
+            next(x for x in reg["entries"] if x["id"] == cid).update(default_on=True, owner_default_on_approval=dict(record))
+            self.assertTrue(cost_violations(reg) or helius_record_violations(reg), cid)
+        for change in ({"fallback_decision": None}, {"fallback_decision": dict(record["fallback_decision"], words="New API only")},
+                       {"fallback_decision": dict(record["fallback_decision"], date="2026-11-05")}):
+            reg = json.loads(json.dumps(self.reg))
+            rec = next(x for x in reg["entries"] if x["id"] == self.ID)["owner_default_on_approval"]
+            for k, v in change.items():
+                if v is None:
+                    rec.pop(k)
+                else:
+                    rec[k] = v
+            self.assertTrue(scanner_fallback_violations(reg), change)
+        for hosts in (["api.scanner.net"], ["api.solscanner.app"]):
+            reg = json.loads(json.dumps(self.reg))
+            next(x for x in reg["entries"] if x["id"] == self.ID)["hosts"] = hosts
+            self.assertTrue(scanner_fallback_violations(reg), hosts)
+        saved = OWNER_APPROVED_PAID_DEFAULT_ON.pop(self.ID)
+        try:
+            self.assertTrue(cost_violations(self.reg), "the record alone approves nothing: without the pin the registry fails")
+        finally:
+            OWNER_APPROVED_PAID_DEFAULT_ON[self.ID] = saved
+
+    def test_the_key_is_named_only_in_its_own_file_in_both_spellings(self):
+        info = self.facts["scripts/solscanner_scan.py"]
+        self.assertTrue(info["reasons"], "solscanner_scan.py must be seen as network code")
+        self.assertEqual(info["credentials"], {"SCANNER_NET_API_KEY"})
+        self.assertEqual(info["hosts"], {"api.scanner.net", "api.solscanner.app"})
+        self.assertLessEqual(info["env_reads"], set(self.reg["settings_env"]))
+        self.assertEqual([e["id"] for e in collectors(self.reg) if "scripts/solscanner_scan.py" in e["covers"]], [self.ID])
+        naming = sorted(path for path, i in self.facts.items() if "SCANNER_NET_API_KEY" in i["credentials"])
+        self.assertEqual(naming, ["scripts/solscanner_scan.py"], "per-file key binding: the key is named only in its own collector")
+        # The detector's credential and environment patterns are upper-case only, so the owner's lower-case spelling is pinned
+        # here by hand: it may appear in no other runnable file of the skill.
+        lower = sorted(rel(f) for f in skill_files() if f.suffix not in DOC_SUFFIXES and "scanner_net_api_key" in f.read_text(encoding="utf-8", errors="replace"))
+        self.assertEqual(lower, ["scripts/solscanner_scan.py"])
+        code = (SKILL / "scripts" / "solscanner_scan.py").read_text(encoding="utf-8")
+        self.assertIn('API_KEY_NAMES = ("SCANNER_NET_API_KEY", "scanner_net_api_key")', code)
+        covering = {k for e in collectors(self.reg) if "scripts/helius_forensics.py" in e["covers"] for k in e["keys"]}
+        self.assertNotIn("SCANNER_NET_API_KEY", covering, "the forensics engine reads no Scanner key")
+        reg = json.loads(json.dumps(self.reg))
+        next(x for x in reg["entries"] if x["id"] == self.ID)["keys"] = []
+        self.assertTrue(info["credentials"] - {k for x in collectors(reg) if "scripts/solscanner_scan.py" in x["covers"] for k in x["keys"]}, "negative check: the key must be registered")
+        reg = json.loads(json.dumps(self.reg))
+        next(x for x in reg["entries"] if x["id"] == self.ID)["hosts"] = ["api.solscanner.app"]
+        covered = {}
+        for x in collectors(reg):
+            for path in x["covers"]:
+                covered.setdefault(path, []).append(x)
+        self.assertTrue(host_violations(self.facts, covered), "negative check: the Scanner API host must be registered")
+
+    def test_it_waits_for_nothing(self):
+        self.assertEqual(first_wave_waits(self.reg), [])
+        self.assertEqual(run_paths(self.by[self.ID]["command"]), {"solscanner.json", "solscanner.err"})
+        code = (SKILL / "scripts" / "solscanner_scan.py").read_text(encoding="utf-8")
+        body = code.split("def collect_scanner(", 1)[1].split("\ndef ", 1)[0]
+        for name in ("holders.json", "bubblemaps_map.json", "read_text", "Path(", "open("):
+            self.assertNotIn(name, body, name)
+
+    def test_skill_file_documents_the_collector_the_cost_and_the_approval(self):
+        self.assertIn(self.HEADING, self.text)
+        body = self.text.split(self.HEADING, 1)[1].split("\n## ", 1)[0]
+        for needle in (self.COMMAND.split(" 2>")[0], "On by default, by the owner's decisions of 2026-11-04", "\"Every scan (Recommended)\"",
+                       "\"New API, old as fallback (Recommended)\"", "pinned in `tests/test_execution_rule.py`", "`owner_default_on_approval`",
+                       "`GET /contracts/<MINT>/scan/stream` on `api.scanner.net`", "`x-api-key`", "`SCANNER_NET_API_KEY`", "`scanner_net_api_key`",
+                       "API_PLAN_REQUIRED", "8 or more consecutive characters with the key is dropped", "never 0", "What it cannot see:",
+                       "its own labels and its cluster method", "Scale or Enterprise", "Corroboration only", "--solscanner-json",
+                       "tests/forensics/test_scanner_api.py"):
+            self.assertIn(needle, body, needle)
+        self.assertIsNone(re.search(r"(?i)\b(clean|safe|low)\b", body))
+        rule = self.text.split(EXECUTION_HEADING, 1)[1].split("\n## ", 1)[0]
+        for needle in ("the Scanner (formerly SolScanner) collector `solscanner`, 2026-11-04", "on by default by the owner's decision of 2026-11-04 (\"Every scan (Recommended)\""):
+            self.assertIn(needle, rule, needle)
+        self.assertIn(f"| `solscanner` | `scripts/solscanner_scan.py` (Scanner, formerly SolScanner", self.text)
+        self.assertIn(f"| {self.COST} | on (owner decision 2026-11-04) | `solscanner.json` |", self.text)
+        self.assertIn("Capped paid calls per scan (GMGN 1, Fomo theses 1 page, GetXAPI up to 4, LP Agent up to 5, Scanner 1).", self.text.split("---", 2)[1])
+        self.assertNotIn("only when the owner wants the SolScanner corroboration", self.text)
+
+    def test_skill_file_never_calls_solscanner_off_or_optional(self):
+        """solscanner is on by default (owner decision 2026-11-04): no mention of it may call it optional, off by default or
+        owner-asked. Checks the rest of the line after every mention, plus negative checks with the old wording."""
+
+        def offending(text):
+            found = []
+            for m in re.finditer(r"`solscanner`", text):
+                after = text[m.end(): m.end() + 80].split("\n", 1)[0]
+                if re.search(r"(?i)\boff \(optional\)|\boff (?:by default|until)|\bowner asks\b|owner-asked|only when the owner|\(first wave, only when", after):
+                    found.append(after)
+            return found
+
+        self.assertEqual(offending(self.text), [])
+        self.assertTrue(offending("| `solscanner` | x | free | off (optional) | `solscanner.json` |"), "negative check")
+        self.assertTrue(offending("- `solscanner` (first wave, only when the owner wants the SolScanner corroboration)"), "negative check")
 
 
 class FomoBrowserLaneTests(unittest.TestCase):

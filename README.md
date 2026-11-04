@@ -1,5 +1,7 @@
 # dlmm-skill
 
+Coding agents: start with [`AGENTS.md`](AGENTS.md). It lists the setup steps, checks and rules for running this skill.
+
 An agent skill that checks a Solana token before you provide liquidity in a Meteora DLMM pool: holder forensics and concentration (funding clusters, bundled wallets, Helius vs Bubblemaps, Jupiter, GMGN), the EXIT OVERHANG check, a 24h fee/TVL rule on Meteora DLMM pools, Fomo theses and X posts, a price-outcome tracker and a free pool discovery.
 
 The skill is the folder `skills/dlmm-scan/`. Its instructions for the agent are `skills/dlmm-scan/SKILL.md`; the registered collectors (commands, hosts, keys, costs) are `skills/dlmm-scan/collectors.json`; the provider catalogue is `skills/dlmm-scan/references/providers.md`.
@@ -22,17 +24,28 @@ The skill is the folder `skills/dlmm-scan/`. Its instructions for the agent are 
 
 Copy `.env.example` to `.env` in the repository root and fill only the keys you use. Each script reads only its own variable, from the environment first, then from that `.env` through a single-variable parser; a key is never printed, logged or saved. `HOLDER_FORENSICS_ENV` or `HOLDER_ANALYSIS_ENV` can point at another `.env` file.
 
-| Variable | Used for | Cost |
-| --- | --- | --- |
-| `HELIUS_API_KEY` | Helius holder list, funded-by rows, transfers | paid credits (a full scan is about 20k credits) |
-| `GMGN_API_KEY` | GMGN top-100 holder rows | paid, one call per scan |
-| `GETXAPI_KEY` | GetXAPI X search | paid, at most 4 calls ($0.004) per scan |
-| `LPAGENT_API_KEY` | LP Agent pool cross-check and LP smart money | paid plan (not per call; rate limited) |
-| `FOMOAPI_KEY` | Fomo API theses (and holders, off by default) | free key with monthly credits |
-| `SOLANATRACKER_API_KEY` | Solana Tracker risk numbers | free plan |
-| `MADEONSOL_API_KEY` | MadeOnSol dev and launch-bundle data | free tier |
+| Variable | Used for | Cost | Get a key | Docs |
+| --- | --- | --- | --- | --- |
+| `HELIUS_API_KEY` | Helius holder list, funded-by rows, transfers | paid credits (a full scan is about 20k credits) | [Helius dashboard](https://dashboard.helius.dev/api-keys) | [Helius docs](https://www.helius.dev/docs) |
+| `GMGN_API_KEY` | GMGN top-100 holder rows | paid, one call per scan | [GMGN API page](https://gmgn.ai/ai) | [GMGN Agent API](https://docs.gmgn.ai/index/gmgn-agent-api) |
+| `GETXAPI_KEY` | GetXAPI X search | paid, at most 4 calls ($0.004) per scan | [GetXAPI key page](https://www.getxapi.com/twitter-api-key) | [GetXAPI docs](https://docs.getxapi.com/docs) |
+| `LPAGENT_API_KEY` | LP Agent pool cross-check and LP smart money | paid plan (not per call; rate limited) | [LP Agent Portal](https://portal.lpagent.io/) | [LP Agent API reference](https://docs.lpagent.io/api-reference/introduction) |
+| `FOMOAPI_KEY` | Fomo API theses (and holders, off by default); Fomo API is an independent, unofficial service, not fomo.family | free key with monthly credits | [Fomo API dashboard](https://fomoapi.io/dashboard) | [Fomo API docs](https://fomoapi.io/docs) |
+| `SOLANATRACKER_API_KEY` | Solana Tracker risk numbers | free plan | [Solana Tracker Data API page](https://www.solanatracker.io/account/data-api) | [Solana Tracker docs](https://docs.solanatracker.io/) |
+| `MADEONSOL_API_KEY` | MadeOnSol dev and launch-bundle data | free tier | [MadeOnSol developer page](https://madeonsol.com/developer) | [MadeOnSol API docs](https://madeonsol.com/api-docs) |
+| `SCANNER_NET_API_KEY` | Scanner (formerly SolScanner) token scan, a holder cross-check on every scan | paid plan (API access needs Scale or Enterprise; at most 1 scan per DLMM scan, cached results free; without API access the check uses the legacy keyless endpoint and says so) | [Scanner dashboard, API page](https://www.scanner.net/dashboard/api) | [Scanner API keys](https://www.scanner.net/docs/api/keys) |
 
-No key needed: Meteora DLMM datapi, Jupiter datapi, Dexscreener, the public Solana RPC, SolScanner, GeckoTerminal and the Bubblemaps web map (browser). The paid Bubblemaps API, CabalSpy and Arkham belong to an optional companion research skill that is not included here.
+No key needed (free sources):
+
+- Meteora DLMM datapi (`dlmm.datapi.meteora.ag`): [Meteora DLMM API reference](https://docs.meteora.ag/api-reference/dlmm/pools/pools)
+- Jupiter datapi (`datapi.jup.ag`): not publicly documented; Jupiter's [developer docs](https://developers.jup.ag/docs) cover its official APIs
+- Dexscreener (`api.dexscreener.com`): [Dexscreener API reference](https://docs.dexscreener.com/api/reference)
+- The public Solana RPC (`api.mainnet-beta.solana.com`): [Solana RPC docs](https://solana.com/docs/rpc)
+- SolScanner, now called Scanner (`api.solscanner.app`): the legacy keyless fallback of the Scanner check, used when `SCANNER_NET_API_KEY` is not set or Scanner's API cannot answer (for example a plan without API access); the report names which endpoint answered; [Scanner docs](https://www.scanner.net/docs)
+- GeckoTerminal (`api.geckoterminal.com`, used by the price-outcome tracker): [GeckoTerminal DEX API](https://www.geckoterminal.com/dex-api)
+- Bubblemaps, the free web map read in the browser (`app.bubblemaps.io`): [Bubblemaps](https://app.bubblemaps.io/) and [its docs](https://docs.bubblemaps.io/introduction); the paid Bubblemaps Data API is not used here
+
+The paid Bubblemaps API, CabalSpy and Arkham belong to an optional companion research skill that is not included here.
 
 ## Run
 
