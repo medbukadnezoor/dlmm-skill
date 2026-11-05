@@ -177,7 +177,9 @@ class CliTests(unittest.TestCase):
         res = dict(result_for("space-inu", SPACE, NOW_SPACE), mint=MINT)
         with mock.patch.object(ss, "collect_solscanner", return_value=res) as call:
             code, out, _ = self._main(["report", MINT, "--top", "5", "--solscanner", "--out", tempfile.mkdtemp()])
-        call.assert_called_once_with(MINT)
+        call.assert_called_once()  # DS-SCANNER-FREE-T1: through collect_keyless, which adds only its `http` hook
+        self.assertEqual(call.call_args.args, (MINT,))
+        self.assertEqual(set(call.call_args.kwargs), {"http"})
         self.assertIn("8 bundle groups listed", out)
 
     def test_both_flags_and_bad_files_are_rejected_before_any_call(self):

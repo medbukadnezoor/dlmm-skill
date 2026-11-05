@@ -1,7 +1,8 @@
 """HS-ASSESS-T1: SolScanner as its own first-wave collector (solscanner_scan.py command line). Offline: the bounded read
 is replaced by the real parser over saved streams (fake transport) or by a refusing stub; no network, no key.
-DS-SCANNER-API-T1: the command line now tries the Scanner API first when a key is set; these tests run it with the key
-loader stubbed to "no key" (the legacy keyless path), so they never read a real .env (test_scanner_api.py covers the API)."""
+DS-SCANNER-FREE-T1: the command line reads only the free keyless endpoint (no key, no paid API) and classifies the answer
+(source legacy_keyless, or a reason with needs_browser); test_scanner_keyless.py covers the classification and
+test_scanner_browser.py the follow-up lane that reads a token the keyless endpoint cannot."""
 
 from __future__ import annotations
 
@@ -36,14 +37,21 @@ def parsed(name, mint, now):
     return ss.collect_solscanner(mint, opener=Opener(Response(stream(name))), now=lambda: now)
 
 
-NO_KEY = "Scanner API not read: no_key"
-LEGACY = f"legacy keyless SolScanner endpoint, {NO_KEY}"
+KEYLESS = "free keyless endpoint, cached by Scanner"
+BROWSER = "needs_browser: the scanner_browser follow-up lane reads it"
 
 
 def cli(argv, collect):
+    """The command line with collect_solscanner (the one bounded read) replaced; collect_keyless calls it with only the mint
+    and its `http` hook (DS-SCANNER-FREE-T1), which a replaced read leaves empty."""
+    def read(m, **_kw):
+        if isinstance(collect, BaseException):
+            raise collect
+        return collect(m)
+
     out, err = io.StringIO(), io.StringIO()
-    with mock.patch.object(ss, "load_key", return_value=(None, "no_key", None)), mock.patch.object(ss, "env_key_set", return_value=False), \
-         mock.patch.object(ss, "collect_solscanner", side_effect=collect) as call, contextlib.redirect_stdout(out), contextlib.redirect_stderr(err):
+    with mock.patch.object(ss, "collect_solscanner", side_effect=read) as call, contextlib.redirect_stdout(out), \
+         contextlib.redirect_stderr(err):
         code = ss.main(argv)
     return code, out.getvalue(), err.getvalue(), call
 
@@ -58,20 +66,21 @@ class SolScannerCliTests(unittest.TestCase):
         shutil.rmtree(self.tmp, ignore_errors=True)
 
     def test_one_bounded_read_saved_as_the_file_assess_accepts(self):
-        for name, mint, now, expect in (("cape", CAPE, NOW_CAPE, f"ok (1 bundle group; fresh scan; {LEGACY}; corroboration only)"),
-                                        ("space-inu", SPACE, NOW_SPACE, f"ok (8 bundle groups; provider_stale; {LEGACY}; corroboration only)"),
-                                        ("altai-the-tiger", ALTAI, NOW_ALTAI, f"ok (5 bundle groups; expired_scan; {LEGACY}; corroboration only)")):
+        for name, mint, now, expect in (("cape", CAPE, NOW_CAPE, f"ok (1 bundle group; fresh scan; {KEYLESS}; corroboration only)"),
+                                        ("space-inu", SPACE, NOW_SPACE, f"ok (8 bundle groups; provider_stale; {KEYLESS}; corroboration only)"),
+                                        ("altai-the-tiger", ALTAI, NOW_ALTAI, f"ok (5 bundle groups; expired_scan; {KEYLESS}; corroboration only)")):
             with self.subTest(name):
                 result = parsed(name, mint, now)
                 path = self.tmp / name / "solscanner.json"
                 code, out, err, call = cli([mint, "--out", str(path)], lambda m, r=result: copy.deepcopy(r))
                 self.assertEqual(code, 0, err)
-                call.assert_called_once_with(mint)  # one read, no retry, no second request
+                call.assert_called_once()  # one read, no retry, no second request
+                self.assertEqual(call.call_args.args, (mint,))
                 self.assertEqual(out.strip(), expect)
                 saved = json.loads(path.read_text())
                 self.assertEqual({k: saved[k] for k in result}, result)  # the result exactly as the parser returned it
-                self.assertEqual((saved["source"], saved["api_status"], saved["api_reason"], saved["legacy_status"], saved["scans_spent"]),
-                                 ("legacy_keyless", "not_sent", "no_key", "answered", None))  # plus which endpoint answered
+                self.assertEqual((saved["source"], saved["keyless_status"], saved["keyless_reason"], saved["needs_browser"], saved["scans_spent"]),
+                                 ("legacy_keyless", "answered", None, False, 0))  # plus where it was read
                 hf.validate_solscanner_result(saved)  # the same strict revalidation report and assess apply
                 args = types.SimpleNamespace(solscanner_json=str(path))
                 self.assertEqual(hf.load_solscanner(args, mint), saved)
@@ -83,7 +92,7 @@ class SolScannerCliTests(unittest.TestCase):
         path = self.tmp / "solscanner.json"
         code, out, err, _ = cli([CAPE, "--out", str(path)], boom)
         self.assertEqual(code, 0)
-        self.assertEqual(out.strip(), f"unavailable (network_error; {NO_KEY}; the result file records it)")
+        self.assertEqual(out.strip(), f"unavailable (network_error; {BROWSER}; the result file records it)")
         self.assertNotIn("SECRETVALUE", out + err + path.read_text())
         self.assertNotIn("Traceback", out + err)
         saved = json.loads(path.read_text())
@@ -98,7 +107,7 @@ class SolScannerCliTests(unittest.TestCase):
                 path = self.tmp / f"{reason}.json"
                 code, out, _, _ = cli([CAPE, "--out", str(path)], lambda m, r=result: copy.deepcopy(r))
                 self.assertEqual(code, 0)
-                self.assertEqual(out.strip(), f"unavailable ({reason}; {NO_KEY}; the result file records it)")
+                self.assertEqual(out.strip(), f"unavailable ({reason}; {BROWSER}; the result file records it)")
                 hf.validate_solscanner_result(json.loads(path.read_text()))
 
     def test_bad_mint_exits_2_before_any_read(self):
@@ -119,21 +128,17 @@ class SolScannerCliTests(unittest.TestCase):
             ss.main([CAPE])
         self.assertEqual(ctx.exception.code, 2)
 
-    def test_runnable_from_the_command_line_and_reads_only_its_key_names(self):
-        """DS-SCANNER-API-T1 (was: reads no environment): the only environment variables read are the two spellings of the
-        Scanner key and the HOLDER_FORENSICS_ENV setting that points at the repository .env."""
+    def test_runnable_from_the_command_line_and_reads_no_environment(self):
+        """DS-SCANNER-FREE-T1 restores HS-ASSESS-T1's check: no key, no environment variable, no .env (the paid API path of
+        DS-SCANNER-API-T1 is gone)."""
         proc = subprocess.run([sys.executable, "-I", str(SCRIPTS / "solscanner_scan.py"), "--help"], capture_output=True, text=True, timeout=60, env={"PATH": os.environ.get("PATH", "")})
         self.assertEqual(proc.returncode, 0, proc.stderr)
         self.assertIn("--out PATH", proc.stdout)
-        self.assertIn("--env-file PATH", proc.stdout)
-        self.assertIn("x-api-key", proc.stdout)
-        self.assertIn("no key, no", proc.stdout)  # the legacy fallback: no key, no credits
+        self.assertIn("no key, no credits", proc.stdout)
+        self.assertNotIn("--env-file", proc.stdout)
         text = (SCRIPTS / "solscanner_scan.py").read_text()
-        reads = set(re.findall(r"os\.environ\.get\(([^,)]+)", text)) | set(re.findall(r"os\.environ\[([^\]]+)\]", text))
-        self.assertEqual(reads, {"name", '"HOLDER_FORENSICS_ENV"'})  # `name` loops over API_KEY_NAMES only
-        self.assertEqual(ss.API_KEY_NAMES, ("SCANNER_NET_API_KEY", "scanner_net_api_key"))
-        self.assertEqual(len(re.findall(r"for name in API_KEY_NAMES", text)), 3)
-        self.assertIsNone(re.search(r"\bgetenv\(|os\.environ\.items|os\.environ\.copy|dict\(os\.environ", text))
+        self.assertIsNone(re.search(r"(?m)^\s*(import os|from os\b)|\bos\.(environ|getenv)|\bgetenv\(|\benviron\[", text), "solscanner_scan.py must read no environment variable (no key)")
+        self.assertIsNone(re.search(r"(?i)scanner_net_api_key|x-api-key|authorization|\.env\b|api\.scanner\.net", text), "no key, no credential header, no paid API host")
 
     def test_cli_plus_assess_matches_report_with_live_solscanner_when_the_read_fails(self):
         """The unreachable case: `report --solscanner` (whose fetch raises) and solscanner CLI + funders + assess give the
@@ -150,13 +155,13 @@ class SolScannerCliTests(unittest.TestCase):
             code_c, out, _, _ = cli([case.mint, "--out", str(tmp / "b" / "solscanner.json")], boom)
             code_s, _, err = ta.run_assess(case.mint, tmp / "b", ["--solscanner-json", str(tmp / "b" / "solscanner.json")])
             self.assertEqual((code_a, code_b, code_c, code_s), (0, 0, 0, 0), err)
-            self.assertEqual(out.strip(), f"unavailable (network_error; {NO_KEY}; the result file records it)")
+            self.assertEqual(out.strip(), f"unavailable (network_error; {BROWSER}; the result file records it)")
             a, b = ta._files(tmp / "a"), ta._files(tmp / "b")
             self.assertEqual(a["assessment.json"], b["assessment.json"])
             self.assertEqual(ta.undocumented(ta.report_differences(a["report.md"], b["report.md"])), [])
             self.assertIn("SolScanner public scan: unavailable", b["report.md"])
-            # DS-SCANNER-API-T1: both name the source the same way (the engine's own --solscanner read is keyless too)
-            line = "source: none answered (Scanner API not read: no_key; legacy keyless SolScanner endpoint not read: network_error)"
+            # DS-SCANNER-FREE-T1: both name the source the same way (the engine's own --solscanner read is the same keyless read)
+            line = "source: free endpoint not read: network_error; the scanner_browser follow-up lane reads it from the logged-in scanner.net page"
             self.assertIn(line, a["report.md"])
             self.assertIn(line, b["report.md"])
 

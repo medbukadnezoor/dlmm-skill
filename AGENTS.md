@@ -35,9 +35,9 @@ python3 -m venv .venv
 
 Expected: `pytest 8` or newer. `.venv` is ignored by git.
 
-### 3.2 Optional: the browser environment (the free Bubblemaps map and the Fomo browser fallback)
+### 3.2 Optional: the browser environment (the free Bubblemaps map, the Fomo browser fallback and the Scanner browser lane)
 
-Only the `bubblemaps_map` collector and the `fomo_browser` fallback need this. Without it, a scan reports those two lanes as not read.
+Only the `bubblemaps_map` collector, the `fomo_browser` fallback and the `scanner_browser` lane need this. Without it, a scan reports those lanes as not read.
 
 ```
 python3 -m venv .venv-browser
@@ -60,6 +60,8 @@ Expected: the map script's usage text, starting `usage: bubblemaps_map.py`. If a
 
 The Fomo fallback also needs a signed-in fomo.family profile. The user, not you, runs this once and signs in: `"$HOLDER_PYTHON" -I skills/dlmm-scan/scripts/fomo_browser.py --login`. Never sign in for the user.
 
+The Scanner browser lane reads a token that Scanner's free keyless endpoint cannot read (one Scanner never scanned before) through a signed-in scanner.net profile. It needs a free scanner.net account. The user, not you, runs this once and signs in: `"$HOLDER_PYTHON" -I skills/dlmm-scan/scripts/scanner_browser.py --login`. Both login commands return when the user closes the browser window.
+
 ## 4. Keys
 
 ```
@@ -67,15 +69,9 @@ cp .env.example .env
 ```
 
 - The user fills in only the keys they want and leaves the others empty. The "Keys" table in `README.md` lists each key, what it is for, what it costs, where to get it, and its docs.
-- Without a key, the lane that needs it reports `unavailable (...)` and the scan goes on. The Scanner check is the exception: it falls back to its legacy keyless endpoint and says so. Each lane's keys are listed under `keys` in `skills/dlmm-scan/collectors.json`.
+- Without a key, the lane that needs it reports `unavailable (...)` and the scan goes on. Each lane's keys are listed under `keys` in `skills/dlmm-scan/collectors.json`. The Scanner check needs no key.
 - Never print, log, paste or commit a key, and never `cat .env`. Each script reads only its own variable: from the environment first, then that one line of `.env`.
-- Only check a key where the provider offers a free check. Scanner's `GET /v1/whoami` spends no scans. With the key exported in the shell (do not echo it), run:
-
-```
-curl -s -o /dev/null -w "%{http_code}\n" -H "x-api-key: $SCANNER_NET_API_KEY" https://api.scanner.net/v1/whoami
-```
-
-  Expected: `200`. A `401` means the key is not valid. A `403` means the plan has no API access; API access needs Scale or Enterprise. Without it, every scan's Scanner check uses the legacy keyless endpoint and says so. This command prints only the status code. For the other providers, do not spend a paid call just to test a key: the first scan shows each lane's status.
+- Do not spend a paid call just to test a key: the first scan shows each lane's status.
 
 ## 5. Verify
 
@@ -128,7 +124,7 @@ ln -s ../../skills/dlmm-scan .claude/skills/dlmm-scan
   - Fomo theses: 1 page;
   - GetXAPI: at most 4 calls ($0.004);
   - LP Agent: at most 5 calls;
-  - Scanner: at most 1 token scan through the API (cached results are free; the legacy keyless fallback is free).
+  - Scanner: free (the keyless endpoint). The optional logged-in lane may spend 1 of the free account's 30 monthly scans per never-scanned token (cached results are free).
 
   Every other paid call is off. Ask the user before any paid call beyond these defaults, and never raise a cap yourself.
 - **Helius budget.** Follow the rules in `SKILL.md`: free checks first, reuse a recent run folder instead of re-scanning the same mint, and ask before extra full scans.

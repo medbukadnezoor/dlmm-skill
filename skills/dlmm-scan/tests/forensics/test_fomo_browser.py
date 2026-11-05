@@ -940,12 +940,21 @@ OLD_DONE = "Browser closed. Session stayed in the profile directory."
 
 
 class LoginPage:
-    def __init__(self):
+    def __init__(self, window: "LoginWindow | None" = None):
+        self.window = window
         self.gotos: list = []
         self.forbidden: list[str] = []
 
     def goto(self, url, wait_until=None, timeout=None):
         self.gotos.append((url, wait_until))
+
+    def is_closed(self) -> bool:
+        return self.window is not None and self not in self.window.windows
+
+    def wait_for_timeout(self, ms):  # DS-SCANNER-FREE-T1 A2: the login waits through Playwright (each wait one tick)
+        if self.is_closed() or self.window.gone:
+            raise RuntimeError("Target page, context or browser has been closed")
+        self.window.sleep(ms / 1000.0)
 
     def __getattr__(self, name):
         self.__dict__.setdefault("forbidden", []).append(name)
@@ -957,12 +966,18 @@ class LoginWindow:
     login loop's one-second waits the owner closes the OLDEST window, so the first page closes before the others."""
 
     def __init__(self, windows: int = 2, closes_at=(2, 5)):
-        self.windows = [LoginPage() for _ in range(windows)]
+        self.windows = [LoginPage(self) for _ in range(windows)]
         self.page = self.windows[0] if self.windows else None
         self.closes_at = list(closes_at)
         self.sleeps: list = []
         self.new_pages = self.exited = 0
+        self.handlers: dict = {}
+        self.gone = False  # the browser process quit without telling the window list (DS-SCANNER-FREE-T1 A2)
+        self.browser = None  # a persistent context has no separate browser object
         self.forbidden: list[str] = []
+
+    def on(self, event, handler):
+        self.handlers[event] = handler
 
     @property
     def pages(self):
@@ -970,7 +985,7 @@ class LoginWindow:
 
     def new_page(self):
         self.new_pages += 1
-        self.page = LoginPage()
+        self.page = LoginPage(self)
         self.windows.append(self.page)
         return self.page
 
@@ -1016,6 +1031,10 @@ def fake_camoufox(window: LoginWindow | None = None, enter_error: Exception | No
         yield calls
 
 
+def no_plain_sleep(*_a, **_k):
+    raise AssertionError("the login waits through Playwright; a plain time.sleep never sees the browser quit (DS-SCANNER-FREE-T1 A2)")
+
+
 def profile_files(profile: Path) -> list:
     return sorted(p.relative_to(profile).as_posix() for p in profile.rglob("*")) if profile.exists() else []
 
@@ -1024,7 +1043,7 @@ class LoginTests(TempRun):
     def run_main(self, argv, window: LoginWindow | None = None, profile: Path | None = None) -> tuple[int, str, str, list]:
         out, err = io.StringIO(), io.StringIO()
         with fake_camoufox(window) as calls, mock.patch.object(fb, "PROFILE_DIR", profile or self.profile), \
-                mock.patch.object(fb.time, "sleep", window.sleep if window else refuse_launch), contextlib.redirect_stdout(out), contextlib.redirect_stderr(err):
+                mock.patch.object(fb.time, "sleep", no_plain_sleep), contextlib.redirect_stdout(out), contextlib.redirect_stderr(err):
             code = fb.main(argv)
         return code, out.getvalue(), err.getvalue(), calls
 
@@ -1040,7 +1059,7 @@ class LoginTests(TempRun):
                     self.assertEqual((code, out, err, calls), (3, fb.LOGIN_IN_USE + "\n", "", []))
             attempts: list = []
             with contextlib.redirect_stdout(io.StringIO()) as out:
-                code = fb.login(profile=self.profile, launcher=lambda p: attempts.append(p) or refuse_launch(), sleep=refuse_launch)
+                code = fb.login(profile=self.profile, launcher=lambda p: attempts.append(p) or refuse_launch())
             self.assertEqual((code, out.getvalue(), attempts), (3, fb.LOGIN_IN_USE + "\n", []))
         self.assertEqual(lock_state(self.profile), before, "the lock files keep their bytes, inode and time")
         self.assertEqual(profile_files(self.profile), files, "nothing made, moved or deleted in the profile")
@@ -1086,6 +1105,61 @@ class LoginTests(TempRun):
         self.assertEqual(lock_state(self.profile), before)
         self.assertEqual(profile_files(self.profile), files)
 
+    def bounded_login(self, window: LoginWindow) -> tuple[int, str]:
+        """fb.login in a worker thread with a 10 s bound: a login that keeps waiting after the browser is gone fails here."""
+        import threading
+
+        out, result = io.StringIO(), []
+
+        def go():
+            with fake_camoufox(window), mock.patch.object(fb.time, "sleep", no_plain_sleep), contextlib.redirect_stdout(out):
+                result.append(fb.login(profile=self.profile))
+
+        worker = threading.Thread(target=go, daemon=True)
+        worker.start()
+        worker.join(10)
+        self.assertFalse(worker.is_alive(), "--login kept waiting after the browser was gone")
+        return result[0], out.getvalue()
+
+    def test_it_ends_when_the_browser_quits_without_any_window_close_event(self):
+        """DS-SCANNER-FREE-T1 Amendment A2: the hang seen live on 2026-11-05 (scanner_browser --login, the same loop as this
+        file's): the owner closed the window, the browser quit, no close event reached the script, and a plain sleep loop kept
+        waiting (a real headless control run of this file's old loop was still waiting 33 s after the browser was killed)."""
+
+        class Quits(LoginWindow):
+            def sleep(inner, seconds):
+                super().sleep(seconds)
+                if len(inner.sleeps) >= 3:
+                    inner.gone = True  # the process is gone; the window list was never told
+
+        window = Quits(windows=1, closes_at=())
+        code, out = self.bounded_login(window)
+        self.assertEqual((code, len(window.sleeps), len(window.windows)), (0, 3, 1))
+        self.assertEqual(out.splitlines()[-1], OLD_DONE)
+
+    def test_it_ends_on_the_context_close_event(self):
+        class Closes(LoginWindow):
+            def sleep(inner, seconds):
+                super().sleep(seconds)
+                if len(inner.sleeps) == 2:
+                    inner.handlers["close"](inner)
+
+        window = Closes(windows=1, closes_at=())
+        code, out = self.bounded_login(window)
+        self.assertEqual((code, len(window.sleeps)), (0, 2))
+        self.assertEqual(out.splitlines()[-1], OLD_DONE)
+
+    def test_the_wait_is_shared_with_scanner_browser_and_neither_sleeps_outside_the_browser(self):
+        import scanner_browser as sb
+
+        self.assertNotIn("def wait_until_closed", (SCRIPTS / "scanner_browser.py").read_text(encoding="utf-8"), "one helper, by import")
+        self.assertIn("fb.wait_until_closed(", (SCRIPTS / "scanner_browser.py").read_text(encoding="utf-8"))
+        self.assertEqual((sb.LOGIN_POLL_S, sb.LOGIN_MAX_S, sb.LOGIN_TIME_UP), (fb.LOGIN_POLL_S, fb.LOGIN_MAX_S, fb.LOGIN_TIME_UP))
+        for name in ("fomo_browser.py", "scanner_browser.py"):
+            tree = ast.parse((SCRIPTS / name).read_text(encoding="utf-8"))
+            called = {n.func.attr if isinstance(n.func, ast.Attribute) else getattr(n.func, "id", "") for n in ast.walk(tree) if isinstance(n, ast.Call)}
+            self.assertNotIn("sleep", called, name)
+
     def test_a_missing_profile_folder_is_made_and_a_window_opened_when_none_is(self):
         missing = self.tmp / "new" / "profile"
         window = LoginWindow(windows=0, closes_at=(1,))
@@ -1099,12 +1173,12 @@ class LoginTests(TempRun):
     def test_a_missing_camoufox_or_a_browser_error_prints_one_fixed_line(self):
         out = io.StringIO()
         with mock.patch.dict(sys.modules, {"camoufox": None, "camoufox.sync_api": None}), contextlib.redirect_stdout(out):
-            self.assertEqual(fb.login(profile=self.profile, sleep=refuse_launch), 1)
+            self.assertEqual(fb.login(profile=self.profile), 1)
         self.assertEqual(out.getvalue().splitlines()[-1], "not opened (camoufox not installed in this Python; run it with the holder-tools Python)")
         out = io.StringIO()
         with fake_camoufox(enter_error=RuntimeError(f"goto failed at https://accounts.google.com/o/oauth2?code={FAKE_JWT}")), \
                 contextlib.redirect_stdout(out), contextlib.redirect_stderr(io.StringIO()) as err:
-            self.assertEqual(fb.login(profile=self.profile, sleep=refuse_launch), 1)
+            self.assertEqual(fb.login(profile=self.profile), 1)
         self.assertEqual((out.getvalue().splitlines()[-1], err.getvalue()), (fb.LOGIN_FAILED, ""))
         self.assertNotIn(FAKE_JWT, out.getvalue())
         lock = self.profile / ".parentlock"
@@ -1120,7 +1194,7 @@ class LoginTests(TempRun):
         out = io.StringIO()
         try:
             with contextlib.redirect_stdout(out):
-                code = fb.login(profile=self.profile, launcher=lambda profile: Racing()(profile, 0), sleep=refuse_launch)
+                code = fb.login(profile=self.profile, launcher=lambda profile: Racing()(profile, 0))
         finally:
             state["held"].__exit__(None, None, None)
         self.assertEqual((code, out.getvalue().splitlines()[-1]), (3, fb.LOGIN_IN_USE))

@@ -60,8 +60,11 @@ scan): while another browser or a running scan holds the profile it prints one l
 again, or restart the computer if a crashed browser left it locked; it never suggests deleting a lock) and exits 3, opening
 and deleting nothing. Else it makes the profile folder only when it is missing and opens ONE VISIBLE Camoufox window on the
 profile with the older lp-research-companion login script's options and printed steps (persistent context, humanize,
-WebRTC blocked; https://accounts.google.com/ by default, https://fomo.family/ with --start fomo), stays up until the last
-window is closed and prints "Browser closed. Session stayed in the profile directory." (exit 0). The owner signs in; this
+WebRTC blocked; https://accounts.google.com/ by default, https://fomo.family/ with --start fomo), stays up until the owner
+closes the last window or quits the browser and prints "Browser closed. Session stayed in the profile directory." (exit 0).
+It waits through Playwright (wait_until_closed, shared with scanner_browser.py since DS-SCANNER-FREE-T1 Amendment A2): the
+first version waited with a plain sleep, which never sees the browser quit, and kept running after the browser had closed;
+an hour at most, then the window is closed for the owner. The owner signs in; this
 script never types or clicks, never reads a cookie, storage or the page, and never deletes, moves or edits a lock file (the
 older script deletes them first; it is no longer suggested). Camoufox missing or a browser error: one fixed line, exit 1.
 """
@@ -516,6 +519,7 @@ def check_login(profile: Path | None = None, *, launcher: Callable[[Path, float]
 
 LOGIN_URLS = {"google": "https://accounts.google.com/", "fomo": "https://fomo.family/"}  # --start google (default) or fomo
 LOGIN_POLL_S = 1.0
+LOGIN_MAX_S = 3600.0  # a safety net only: the window is closed for the owner after an hour
 LOGIN_IN_USE = ("the fomo.family profile is in use by another browser (or a running scan): close it and run this again (close every "
                 "Camoufox/Firefox window, or wait for the scan to finish; if a crashed browser left it locked, restart the computer). "
                 "Nothing was opened, deleted or changed.")
@@ -523,6 +527,43 @@ LOGIN_STEPS = ("1) Sign into Google in this window.", "2) After Google is in, go
                "3) Close the browser when both sessions are saved.")
 LOGIN_DONE = "Browser closed. Session stayed in the profile directory."
 LOGIN_FAILED = "browser failed (no detail printed): close every Camoufox/Firefox window and run this again"
+LOGIN_TIME_UP = f"The window was still open after {LOGIN_MAX_S / 60:.0f} minutes, so it was closed. Session stayed in the profile directory."
+
+
+def wait_until_closed(context: Any, *, clock: Callable[[], float] = time.monotonic, limit_s: float = LOGIN_MAX_S) -> str:
+    """Wait until the owner closed the last window or quit the browser: "closed", or "time_limit" after limit_s. The wait is
+    a Playwright call on a live page (page.wait_for_timeout), because the sync API takes in the browser's events (a page
+    closed, the context closed, the browser gone) only during its own calls: a plain time.sleep never sees them, so the old
+    loop kept waiting after the browser had quit (DS-SCANNER-FREE-T1, live 2026-11-05; shared with scanner_browser.py --login, Amendment A2). It also stops on the context's
+    "close" and the browser's "disconnected" events, and when a wait fails (the page or the browser is gone). Read-only: it
+    never types, clicks or reads the page."""
+    gone = {"flag": False}
+
+    def mark(*_args: Any) -> None:
+        gone["flag"] = True
+
+    for target, event in ((context, "close"), (getattr(context, "browser", None), "disconnected")):
+        try:
+            if target is not None:
+                target.on(event, mark)
+        except Exception:  # noqa: BLE001 - an event that cannot be watched is only one of the signals
+            pass
+    dead: set[int] = set()
+    start = clock()
+    while not gone["flag"]:
+        try:
+            live = [p for p in list(context.pages) if id(p) not in dead and not p.is_closed()]
+        except Exception:  # noqa: BLE001 - the context is gone
+            return "closed"
+        if not live:
+            return "closed"
+        if clock() - start >= limit_s:
+            return "time_limit"
+        try:
+            live[0].wait_for_timeout(LOGIN_POLL_S * 1000.0)  # takes in the browser's events while it waits
+        except Exception:  # noqa: BLE001 - this page or the whole browser is gone
+            dead.add(id(live[0]))
+    return "closed"
 
 
 def login_launcher(profile: Path) -> Any:
@@ -531,10 +572,11 @@ def login_launcher(profile: Path) -> Any:
 
 
 def login(start: str = "google", profile: Path | None = None, *, launcher: Callable[[Path], Any] | None = None,
-          sleep: Callable[[float], Any] | None = None) -> int:
+          clock: Callable[[], float] = time.monotonic) -> int:
     """The owner's login window: the lock is tested first (in use: LOGIN_IN_USE, exit 3, nothing opened or deleted); else the
-    profile folder is made only when missing and one visible window opens on the start page, kept until the last window is
-    closed (exit 0). It never types, never reads a cookie, storage or the page, and never touches a lock file."""
+    profile folder is made only when missing and one visible window opens on the start page, kept until the owner closes the
+    last window or quits the browser (exit 0; after LOGIN_MAX_S it is closed for the owner). It never types, never reads a
+    cookie, storage or the page, and never touches a lock file."""
     profile = PROFILE_DIR if profile is None else profile
     if profile_in_use(profile):
         print(LOGIN_IN_USE)
@@ -549,23 +591,25 @@ def login(start: str = "google", profile: Path | None = None, *, launcher: Calla
     print(f"Opening: {url}")
     for step in LOGIN_STEPS:
         print(step)
+    how = None
     try:
         with (launcher or login_launcher)(profile) as context:
             pages = list(context.pages)
             page = pages[0] if pages else context.new_page()
             page.goto(url, wait_until="domcontentloaded")
-            while list(context.pages):  # until the LAST window is closed: Google's sign-in navigates away from the first page
-                (sleep or time.sleep)(LOGIN_POLL_S)
+            how = wait_until_closed(context, clock=clock)  # until the LAST window is closed or the browser quits
     except ModuleNotFoundError:
         print(f"not opened ({REASON_WORDS['camoufox_missing']})")
         return 1
     except Exception:  # noqa: BLE001 - never a traceback (it could carry a sign-in address); a fixed line
-        if profile_in_use(profile):
-            print(LOGIN_IN_USE)  # another browser took the profile while this one started
-            return 3
-        print(LOGIN_FAILED)
-        return 1
-    print(LOGIN_DONE)
+        if how is None:
+            if profile_in_use(profile):
+                print(LOGIN_IN_USE)  # another browser took the profile while this one started
+                return 3
+            print(LOGIN_FAILED)
+            return 1
+        # the window was already closed: an error while the browser shuts down does not undo the login
+    print(LOGIN_TIME_UP if how == "time_limit" else LOGIN_DONE)
     return 0
 
 

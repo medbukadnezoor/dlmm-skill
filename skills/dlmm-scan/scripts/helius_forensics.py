@@ -2071,7 +2071,7 @@ def clean_provider_text(value: Any, cap: int = TEXT_CAP) -> str:
 SOLSCANNER_OWN_REASONS = frozenset({"bundle_groups", "cache_hit", "expired_scan", "http_error", "identity_mismatch", "invalid_mint", "invalid_scan_time",
                                     "malformed_result", "malformed_sse", "missing_bundle_groups", "missing_scan_time", "missing_stale_status", "network_error",
                                     "non_sse_response", "provider_stale", "redirect_disallowed", "response_too_large", "scan_incomplete", "timeout",
-                                    "key_echo_withheld"})
+                                    "not_cached_needs_login", "access_denied", "not_found", "rate_limited", "server_error"})
 
 
 def finding_text(f: dict[str, Any], key: str, cap: int = TEXT_CAP) -> str:
@@ -2201,9 +2201,9 @@ def _solscanner_source(result: dict[str, Any] | None, finding: dict[str, Any] | 
 
 
 def _solscanner_source_line(result: dict[str, Any]) -> list[str]:
-    """DS-SCANNER-API-T1: which endpoint answered (the Scanner API or the legacy keyless SolScanner endpoint), as one
-    display line built from validated codes; only for a result that carries the collector's source facts (an older saved
-    result shows none). Display only: no verdict rule reads it."""
+    """DS-SCANNER-FREE-T1: where the scan was read (the free keyless SolScanner endpoint or the owner's logged-in scanner.net
+    page), as one display line built from validated codes; only for a result that carries the collector's source facts (an
+    older saved result shows none). Display only: no verdict rule reads it."""
     import solscanner_scan as _ss
 
     text = _ss.source_text(result)
@@ -3137,26 +3137,25 @@ def validate_solscanner_result(data: Any) -> dict[str, Any]:
             ok = False
         if not ok:
             raise bad("scanned_at is not an ISO timestamp")
-    # DS-SCANNER-API-T1: the collector's source facts (absent in older saved results). They are printed only through
+    # DS-SCANNER-FREE-T1: the collector's source facts (absent in older saved results). They are printed only through
     # solscanner_scan.source_text, so each one is a fixed value or a short lowercase code.
     if "source" in data and data["source"] is not None and data["source"] not in ss.SOURCES:
-        raise bad("source is not scanner_api or legacy_keyless")
-    for key in ("api_status", "legacy_status"):
-        if data.get(key) is not None and data[key] not in ss.READ_STATUSES:
-            raise bad(f"{key} is not answered, failed or not_sent")
-    for key in ("api_reason", "legacy_reason"):
-        v = data.get(key)
-        if v is not None and (not isinstance(v, str) or not re.fullmatch(r"[a-z_]{1,40}", v)):
-            raise bad(f"{key} is not a short lowercase code")
-    if data.get("api_error_code") is not None and data["api_error_code"] not in ss.API_ERROR_CODES:
-        raise bad("api_error_code is not a documented Scanner code")
-    for key, lo, hi in (("api_http_status", 100, 599), ("scans_spent", 0, 1000), ("key_echo_dropped", 0, ss.MAX_OCCURRENCES + ss.MAX_GROUPS + 1)):
+        raise bad("source is not legacy_keyless or scanner_browser")
+    if data.get("keyless_status") is not None and data["keyless_status"] not in ss.KEYLESS_STATUSES:
+        raise bad("keyless_status is not answered or failed")
+    v = data.get("keyless_reason")
+    if v is not None and (not isinstance(v, str) or not re.fullmatch(r"[a-z_]{1,40}", v)):
+        raise bad("keyless_reason is not a short lowercase code")
+    if data.get("keyless_error_code") is not None and data["keyless_error_code"] not in ss.ERROR_CODES:
+        raise bad("keyless_error_code is not a known Scanner code")
+    for key, lo, hi in (("keyless_http_status", 100, 599), ("scans_spent", 0, 1)):
         v = data.get(key)
         if v is not None and (type(v) is not int or not lo <= v <= hi):
             raise bad(f"{key} is not a whole number from {lo} to {hi}")
-    if data.get("api_cache_hit") is not None and type(data["api_cache_hit"]) is not bool:
-        raise bad("api_cache_hit is not true or false")
-    if data.get("source") == "scanner_api" and data.get("api_status") != "answered" or data.get("source") == "legacy_keyless" and data.get("legacy_status") != "answered":
+    for key in ("cache_hit", "needs_browser"):
+        if data.get(key) is not None and type(data[key]) is not bool:
+            raise bad(f"{key} is not true or false")
+    if data.get("source") == "legacy_keyless" and data.get("keyless_status") != "answered":
         raise bad("source does not match the status of the endpoint it names")
     return data
 
@@ -3177,9 +3176,8 @@ def load_solscanner(args: argparse.Namespace, mint: str) -> dict[str, Any] | Non
         import solscanner_scan
 
         try:
-            # DS-SCANNER-API-T1: the engine reads no Scanner key, so this is the legacy keyless read, labelled like the
-            # collector's file (the same source line); it never sends a request to the Scanner API.
-            return solscanner_scan.collect_scanner(mint, None, key_reason="no_key")
+            # DS-SCANNER-FREE-T1: the same free keyless read as the collector, labelled the same way (the same source line).
+            return solscanner_scan.collect_keyless(mint)
         except Exception:  # noqa: BLE001 - never let a read-only corroboration source stop the run
             return {"provider": "SolScanner", "mint": mint, "status": "unknown", "reason": "network_error", "groups": [], "scanned_at": None, "scan_age_min": None}
     return None

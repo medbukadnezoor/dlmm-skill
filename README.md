@@ -18,7 +18,7 @@ The skill is the folder `skills/dlmm-scan/`. Its instructions for the agent are 
 
 - Python 3.10 or newer runs the scripts (standard library only). The full test suite needs Python 3.11 or newer, because one test starts a child `python -P`.
 - pytest, only for the analysis tests and the execution-rule test (the forensics tests use the standard library).
-- Optional, for the free Bubblemaps web map and the Fomo browser fallback: a separate Python environment with Camoufox 0.5.x and Playwright, pinned in `scripts/holder-tools-requirements.txt`. SKILL.md calls it "the holder-tools Python"; set `HOLDER_PYTHON` to its `python`.
+- Optional, for the free Bubblemaps web map, the Fomo browser fallback and the logged-in Scanner lane: a separate Python environment with Camoufox 0.5.x and Playwright, pinned in `scripts/holder-tools-requirements.txt`. SKILL.md calls it "the holder-tools Python"; set `HOLDER_PYTHON` to its `python`.
 
 ## Keys (names only)
 
@@ -33,7 +33,6 @@ Copy `.env.example` to `.env` in the repository root and fill only the keys you 
 | `FOMOAPI_KEY` | Fomo API theses (and holders, off by default); Fomo API is an independent, unofficial service, not fomo.family | free key with monthly credits | [Fomo API dashboard](https://fomoapi.io/dashboard) | [Fomo API docs](https://fomoapi.io/docs) |
 | `SOLANATRACKER_API_KEY` | Solana Tracker risk numbers | free plan | [Solana Tracker Data API page](https://www.solanatracker.io/account/data-api) | [Solana Tracker docs](https://docs.solanatracker.io/) |
 | `MADEONSOL_API_KEY` | MadeOnSol dev and launch-bundle data | free tier | [MadeOnSol developer page](https://madeonsol.com/developer) | [MadeOnSol API docs](https://madeonsol.com/api-docs) |
-| `SCANNER_NET_API_KEY` | Scanner (formerly SolScanner) token scan, a holder cross-check on every scan | paid plan (API access needs Scale or Enterprise; at most 1 scan per DLMM scan, cached results free; without API access the check uses the legacy keyless endpoint and says so) | [Scanner dashboard, API page](https://www.scanner.net/dashboard/api) | [Scanner API keys](https://www.scanner.net/docs/api/keys) |
 
 No key needed (free sources):
 
@@ -41,7 +40,7 @@ No key needed (free sources):
 - Jupiter datapi (`datapi.jup.ag`): not publicly documented; Jupiter's [developer docs](https://developers.jup.ag/docs) cover its official APIs
 - Dexscreener (`api.dexscreener.com`): [Dexscreener API reference](https://docs.dexscreener.com/api/reference)
 - The public Solana RPC (`api.mainnet-beta.solana.com`): [Solana RPC docs](https://solana.com/docs/rpc)
-- SolScanner, now called Scanner (`api.solscanner.app`): the legacy keyless fallback of the Scanner check, used when `SCANNER_NET_API_KEY` is not set or Scanner's API cannot answer (for example a plan without API access); the report names which endpoint answered; [Scanner docs](https://www.scanner.net/docs)
+- Scanner, formerly SolScanner (`api.solscanner.app`): its free keyless endpoint, read on every scan with no key and no account. When it cannot read a token (one Scanner never scanned before), an optional follow-up lane reads it through your own logged-in scanner.net profile in the browser environment. That needs a free scanner.net account and spends at most 1 of its scans per never-scanned token (the free plan gives 30 scans a month; cached results are free). [Scanner docs](https://www.scanner.net/docs), [plans and the free allowance](https://www.scanner.net/docs/access)
 - GeckoTerminal (`api.geckoterminal.com`, used by the price-outcome tracker): [GeckoTerminal DEX API](https://www.geckoterminal.com/dex-api)
 - Bubblemaps, the free web map read in the browser (`app.bubblemaps.io`): [Bubblemaps](https://app.bubblemaps.io/) and [its docs](https://docs.bubblemaps.io/introduction); the paid Bubblemaps Data API is not used here
 
